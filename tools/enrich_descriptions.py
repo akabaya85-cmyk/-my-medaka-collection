@@ -40,10 +40,13 @@ def factual_profile(text):
     # Only the overview's first sentence, to avoid accidentally including sidebar/related articles.
     first=re.split(r'[。！？]|\.\.\.|…',part,1)[0].strip()
     if not 7<=len(first)<=180:return None
-    color=next((out for needle,out in COLORS if needle in first),'')
+    color_sentence=first.replace('黒色素胞','').replace('黒色素が少ない','')
+    color=next((out for needle,out in COLORS if needle in color_sentence),'')
+    if not color and ('青メダカ' in first or '青系' in first):color='青'
     features=[]
     for tok in FEATURES:
         if tok in first:
+            if tok=='透明鱗' and '半透明鱗' in first:continue
             if tok=='ロングフィン' and 'リアルロングフィン' in first:continue
             if tok=='ヒカリ' and ('ヒカリ体型' in first or 'ヒカリ' not in first):continue
             features.append(tok)
