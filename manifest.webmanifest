@@ -1,1 +1,1 @@
-{"name":"My Medaka Collection","short_name":"Medaka図鑑","start_url":"./index.html","display":"standalone","background_color":"#f3fbff","theme_color":"#e9f8ff","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{"name":"My Medaka Collection","short_name":"メダカ図鑑","start_url":"./","scope":"./","display":"standalone","background_color":"#f5fbff","theme_color":"#d6f3ff","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
