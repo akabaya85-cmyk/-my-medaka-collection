@@ -1,0 +1,31 @@
+name: Index medaka variety articles
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/medaka-catalog.yml'
+      - 'tools/sync_catalog.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install requirements
+        run: python -m pip install requests beautifulsoup4
+      - name: Fetch article index (no article bodies or images)
+        run: python tools/sync_catalog.py
+      - name: Commit catalog index
+        run: |
+          if git diff --quiet -- catalog.json; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog.json
+          git commit -m 'Expand catalog with sourced medaka article names'
+          git push
