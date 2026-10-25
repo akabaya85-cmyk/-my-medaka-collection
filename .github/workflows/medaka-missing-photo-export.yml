@@ -1,0 +1,24 @@
+name: Recover missing authorized medaka article photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/export_missing_medaka_photos.py'
+      - '.github/workflows/medaka-missing-photo-export.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install requests beautifulsoup4 pillow cryptography
+      - run: python tools/export_missing_medaka_photos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: encrypted-missing-medaka-pictures
+          path: private_exports/medaka_missing.encrypted
+          retention-days: 1
+          if-no-files-found: error
