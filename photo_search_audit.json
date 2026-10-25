@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "catalogEntries": 899,
+    "queriesAttempted": 899,
+    "queriesWithCandidates": 3,
+    "varietiesWithExplicitNamedImageLeads": 0,
+    "alreadyLicensedVarieties": 2,
+    "errors": 0,
+    "scannedAt": "2026-10-25",
+    "method": "Openverse Creative Commons license index; conservative exact-name match",
+    "warning": "Results are only candidates. Do not automatically attach them before checking actual species, variety, original hosting rights, creator and license."
+  },
+  "explicitLeads": [],
+  "otherLeads": [
+    {
+      "name": "白メダカ",
+      "matchesReturned": 1,
+      "candidates": [
+        {
+          "title": "メダカ火鉢・白と甕",
+          "creator": "06l2206l",
+          "license": "by",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "imageUrl": "https://live.staticflickr.com/3838/14465650275_7a7cf3d286_b.jpg",
+          "pageUrl": "https://www.flickr.com/photos/94324380@N06/14465650275",
+          "source": "flickr",
+          "tags": "iphonephoto1 drink food vegetable",
+          "nameExplicitlyPresent": false
+        }
+      ],
+      "explicitMatches": 0,
+      "webNo": "0043"
+    },
+    {
+      "name": "青メダカ",
+      "matchesReturned": 8,
+      "candidates": [
+        {
+          "title": "メダカ, 송사리, fut mei dzeung ue, jaapani riisikala, japanese killifish, japanese medaka, japankärpling, japan-reiskärpfling, japansk risfisk, me",
+          "creator": "Lek Khauv",
+          "license": "by",
+          "licenseVersion": "4.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/46220878/original.jpeg",
+          "pageUrl": "https://www.inaturalist.org/photos/46220878",
+          "source": "inaturalist",
+          "tags": "Actinopterygii Adrianichthyidae adrianichthyids, ricefishes Animals Beloniformes Chordata japanese rice fish Oryzias Oryzias latipes Oryziinae Vertebrata",
+          "nameExplicitlyPresent": false
+        },
+        {
+          "title": "メダカ, 송사리, fut mei dzeung ue, jaapani riisikala, japanese killifish, japanese medaka, japankärpling, japan-reiskärpfling, japansk risfisk, me",
+          "creator": "Lek Khauv",
+          "license": "by",
+          "licenseVersion": "4.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/334900039/original.jpeg",
+          "pageUrl": "https://www.inaturalist.org/photos/334900039",
+          "source": "inaturalist",
+          "tags": "Actinopterygii Adrianichthyidae adrianichthyids, ricefishes Animals Beloniformes Chordata japanese rice fish Oryzias Oryzias latipes Oryziinae Vertebrata",
+          "nameExplicitlyPresent": false
+        },
+        {
+          "title": "メダカ, 송사리, fut mei dzeung ue, jaapani riisikala, japanese killifish, japanese medaka, japankärpling, japan-reiskärpfling, japansk risfisk, me",
+          "creator": "Lek Khauv",
+          "license": "by",
+          "licenseVersion": "4.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/46220844/original.jpeg",
+          "pageUrl": "https://www.inaturalist.org/photos/46220844",
+          "source": "inaturalist",
+          "tags": "Actinopterygii Adrianichthyidae adrianichthyids, ricefishes Animals Beloniformes Chordata japanese rice fish Oryzias Oryzias latipes Oryziinae Vertebrata",
+          "nameExplicitlyPresent": false
+        },
+        {
+          "title": "メダカ, 송사리, fut mei dzeung ue, jaapani riisikala, japanese killifish, japanese medaka, japankärpling, japan-reiskärpfling, japansk risfisk, me",
+          "creator": "Junichi　Mandai",
+          "license": "by",
+          "licenseVersion": "4.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/229869891/original.jpg",
+          "pageUrl": "https://www.inaturalist.org/photos/229869891",
+          "source": "inaturalist",
+          "tags": "Actinopterygii Adrianichthyidae adrianichthyids, ricefishes Animals Beloniformes Chordata japanese rice fish Oryzias Oryzias latipes Oryziinae Vertebrata",
+          "nameExplicitlyPresent": false
+        },
+        {
+          "title": "メダカ, 송사리, fut mei dzeung ue, jaapani riisikala, japanese killifish, japanese medaka, japankärpling, japan-reiskärpfling, japansk risfisk, me",
+          "creator": "りなべる",
+          "license": "by",
+          "licenseVersion": "4.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/111699107/original.jpg",
+          "pageUrl": "https://www.inaturalist.org/photos/111699107",
+          "source": "inaturalist",
+          "tags": "Actinopterygii Adrianichthyidae adrianichthyids, ricefishes Animals Beloniformes Chordata japanese rice fish Oryzias Oryzias latipes Oryziinae Vertebrata",
+          "nameExplicitlyPresent": false
+        }
+      ],
+      "explicitMatches": 0,
+      "webNo": "0047"
+    },
+    {
+      "name": "茶メダカ",
+      "matchesReturned": 1,
+      "candidates": [
+        {
+          "title": "メダカ火鉢・茶色",
+          "creator": "06l2206l",
+          "license": "by",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "imageUrl": "https://live.staticflickr.com/2898/14464506584_61911ea8a0_b.jpg",
+          "pageUrl": "https://www.flickr.com/photos/94324380@N06/14464506584",
+          "source": "flickr",
+          "tags": "iphonephoto1 bowl food H2O health healthy leaf nature nutrition vegetable",
+          "nameExplicitlyPresent": false
+        }
+      ],
+      "explicitMatches": 0,
+      "webNo": "0035"
+    }
+  ],
+  "errors": []
+}
