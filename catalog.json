@@ -13216,10 +13216,10 @@
     "name": "鳳凰",
     "aliases": "ほうおう",
     "kind": "流通名",
-    "traits": "",
-    "description": "JASMAの図鑑に掲載される改良メダカ。個別形質の詳細は参照先で確認。",
+    "traits": "黄金・ヒカリ・螺鈿光",
+    "description": "金色の体色とヒカリ体型に由来する背中の光沢が見どころ。虹色に反射する螺鈿光が見える個体もいる。",
     "url": "https://jasma.sc/medaka/houou/",
-    "profile": "",
+    "profile": "黄金色の体とヒカリ体型、背中の螺鈿光が観察ポイント。",
     "sourceCheckedAt": "2026-10-25",
     "reading": "ほうおう",
     "readingBasis": "参考記事による読み・手動確認",
@@ -13230,6 +13230,8 @@
         "url": "https://jasma.sc/medaka/houou/",
         "note": "特徴と系統の参考"
       }
-    ]
+    ],
+    "sourceBreeder": "め組",
+    "sourceYear": "2012"
   }
 ]
