@@ -264,61 +264,66 @@
     "name": "鱗光ヒカリ",
     "traits": "鱗光",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "黄と青の色合いに半透明鱗と体外光が現れるヒカリ体型。背中の輝きと体色を見比べたい。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0910_rinkouhikari/",
     "webNo": "0910",
     "aliases": "りんこうひかり",
     "profile": "体色の特徴は黄・青系。注目したい形質は半透明鱗・体外光・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "王華",
     "traits": "ラメ",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "白・朱赤系の色柄にラメの特徴を持つ。色の配置と鱗の輝きが観察点。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0896_ouka/",
     "webNo": "0896",
     "aliases": "",
     "profile": "体色の特徴は白・朱赤系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "アマテラス",
     "traits": "体外光",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "白・朱赤系の二色をベースに体外光を持つ。色の境界と背中の輝きが見どころ。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0898_amaterasu/",
     "webNo": "0898",
     "aliases": "",
     "profile": "体色の特徴は白・朱赤系。注目したい形質は体外光。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ワカサギ",
     "traits": "青・体外光",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "青系の体色に体外光と体内黒の特徴が見られる。背中の光と体内の暗色部分がポイント。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0902_wakasagi/",
     "webNo": "0902",
     "aliases": "",
     "profile": "体色の特徴は青系。注目したい形質は体外光・体内黒。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "プラチナマリンブルー",
     "traits": "青・体外光",
-    "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "kind": "流通名",
+    "description": "青体外光をベースに黒色素が少なく、腹膜青が見られる系統の愛称。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0901_platinummarineblue/",
     "webNo": "0901",
     "aliases": "",
     "profile": "注目したい形質は体外光。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "琴姫リアルロングフィン",
@@ -331,13 +336,14 @@
     "name": "レーヴサムライヒカリ",
     "traits": "ヒレ変化",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "青系の体色に体外光と複数のヒレ変化が組み合わさる。ヒレライン・サムライ・ロングフィン・モルフォ・フサヒレなどが観察点。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0913_revesamuraihikari/",
     "webNo": "0913",
     "aliases": "",
     "profile": "体色の特徴は青系。注目したい形質はロングフィン・ヒレライン・フサヒレ・体外光・モルフォ・ヒカリ体型・サムライ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "紅薊リアルロングフィン",
@@ -350,49 +356,53 @@
     "name": "黄金スーパーヒカリ",
     "traits": "黄金・ヒカリ",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "黄金系の色合いとヒカリ体型が特徴。上からの色調と尾びれの形に注目。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0905_ougonsuperhikari/",
     "webNo": "0905",
     "aliases": "",
     "profile": "体色の特徴は黄金系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブルーアイ",
     "traits": "目の変化・形質",
     "kind": "形質・分類",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "暗色系の体色で背地反応が乏しく、青みのある目が特徴。体色と虹彩の見え方を比べたい。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0903_blueeye/",
     "webNo": "0903",
     "aliases": "",
     "profile": "体色の特徴は黒系。注目したい形質は背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ジャパンブルー",
     "traits": "黒・体外光",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "黒系の体色に青みのある体外光が見られる。背地反応のある暗色の表現に注目。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0899_japanblue/",
     "webNo": "0899",
     "aliases": "",
     "profile": "体色の特徴は黒系。注目したい形質は体外光。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "アクアマリン",
     "traits": "白・ルビーアイ",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "白系の体色にルビーアイ・体外光・モルフォ・リアルロングフィンの組み合わせが見られる。目とヒレ、背中の光をそれぞれ観察したい。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/1064_aquamarine/",
     "webNo": "1064",
     "aliases": "",
     "profile": "体色の特徴は白系。注目したい形質はリアルロングフィン・体外光・ルビーアイ・モルフォ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "東天光",
@@ -9483,88 +9493,96 @@
     "aliases": "",
     "traits": "ヒレ長",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黒系の体色にスワローとヒレ長を持つヒカリ体型。",
     "url": "https://medakazukan.net/0873_kensinhirenaga/",
     "webNo": "0873",
     "profile": "体色の特徴は黒系。注目したい形質はヒレ長・ヒカリ体型・スワロー。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "禅半月",
     "aliases": "ぜんはんげつ",
     "traits": "",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黒体色に体外光・ヒレ長を備え、ヒカリ体型を持つ。",
     "url": "https://medakazukan.net/0874_zenhangetu/",
     "webNo": "0874",
     "profile": "体色の特徴は黒系。注目したい形質は体外光・ヒレ長・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラック黄金半月",
     "aliases": "",
     "traits": "黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黒・黄金系の体色にヒレ長を持つヒカリ体型。",
     "url": "https://medakazukan.net/0875_blackougonhangetu/",
     "webNo": "0875",
     "profile": "体色の特徴は黄金系。注目したい形質はヒレ長・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "北辻の舞",
     "aliases": "黄斑",
     "traits": "",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黄体色と黒斑にヒレ長・ワイドフィンの特徴が組み合わさる。",
     "url": "https://medakazukan.net/0876_kitatujinomai-kibuti/",
     "webNo": "0876",
     "profile": "体色の特徴は黄系。注目したい形質は斑・ヒレ長。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "白幹之ロングフィン",
     "aliases": "",
     "traits": "ロングフィン、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白系の体色に体外光とロングフィンを備える。",
     "url": "https://medakazukan.net/0877_siromiyukilongfin/",
     "webNo": "0877",
     "profile": "体色の特徴は白系。注目したい形質はロングフィン・体外光。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "深海ヒレ長",
     "aliases": "しんかいひれなが",
     "traits": "ヒレ長",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黒色素の少ない青系に腹膜青が見られる深海系統に、ヒレ長が加わったタイプ。",
     "url": "https://medakazukan.net/0878_sinkaihirenaga/",
     "webNo": "0878",
     "profile": "体色の特徴は青系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "紅白ヒレ長ヒカリ",
     "aliases": "",
     "traits": "ヒレ長、ヒカリ、紅白、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白と朱赤の二色にヒレ長とヒカリ体型を組み合わせたタイプ。",
     "url": "https://medakazukan.net/0879_kouhakuhirenagahikari/",
     "webNo": "0879",
     "profile": "体色の特徴は白・朱赤系。注目したい形質はヒレ長・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "オレンジブラックリムヒレ長",
     "aliases": "",
     "traits": "ブラックリム、ヒレ長、オレンジ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "オレンジ系の体色にブラックリムとヒレ長が組み合わさる。",
     "url": "https://medakazukan.net/0880_orangeblackrimhirenaga/",
     "webNo": "0880",
     "profile": "体色の特徴はオレンジ系。注目したい形質はブラックリム・ヒレ長。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ピンクサファイア",
@@ -9582,198 +9600,216 @@
     "aliases": "",
     "traits": "",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白〜クリーム系の地色に半透明鱗・ラメを備える。",
     "url": "https://medakazukan.net/0882_suzuran/",
     "webNo": "0882",
     "profile": "注目したい形質は半透明鱗・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "黄金ブルーラメ",
     "aliases": "",
     "traits": "ラメ、黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黄金系の体色に青ラメの光沢が見られる。",
     "url": "https://medakazukan.net/0883_ougonbluelame/",
     "webNo": "0883",
     "profile": "体色の特徴は黄金系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "柿色夜桜ブルーラメ",
     "aliases": "",
     "traits": "ラメ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黒とオレンジの二色に半透明鱗と青ラメの特徴を備える。",
     "url": "https://medakazukan.net/0884_kakiiroyozakurabluelame/",
     "webNo": "0884",
     "profile": "注目したい形質は半透明鱗・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラックダイヤサファイア",
     "aliases": "",
     "traits": "サファイア",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "黒系の体色に青系ラメを組み合わせた系統の愛称。",
     "url": "https://medakazukan.net/0885_blackdiasapphire/",
     "webNo": "0885",
     "profile": "体色の特徴は黒系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "令和黒ラメ幹之サファイア系",
     "aliases": "",
     "traits": "ラメ、サファイア、黒",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黒ラメ幹之に半透明鱗やヒレ美の特徴を取り入れた系統。",
     "url": "https://medakazukan.net/0886_reiwakurolamemiyukisapphire/",
     "webNo": "0886",
     "profile": "注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "みかん",
     "aliases": "",
     "traits": "",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "オレンジ系の体色にラメの輝きが現れる。",
     "url": "https://medakazukan.net/0887_mikan/",
     "webNo": "0887",
     "profile": "体色の特徴はオレンジ系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "アイスブレイク",
     "aliases": "",
     "traits": "",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "青とオレンジ系の色合いに半透明鱗・青ラメが見られるヒカリ体型。",
     "url": "https://medakazukan.net/0888_icebreak/",
     "webNo": "0888",
     "profile": "体色の特徴はオレンジ系。注目したい形質は半透明鱗・ラメ・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ホワイトダイヤ",
     "aliases": "",
     "traits": "",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白系の体色にラメを持つ。明るい地色の上で輝く鱗が見どころ。",
     "url": "https://medakazukan.net/0889_whitedia/",
     "webNo": "0889",
     "profile": "体色の特徴は白系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "黄金ラメダルマ",
     "aliases": "",
     "traits": "ラメ、ダルマ、黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黄金系の体色にラメを持つダルマ体型。小柄な体型と鱗の光沢に注目。",
     "url": "https://medakazukan.net/0890_ougonlamedharma/",
     "webNo": "0890",
     "profile": "体色の特徴は黄金系。注目したい形質はラメ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "クリアブラウンラメダルマ",
     "aliases": "",
     "traits": "ラメ、ダルマ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黄系の体色に半透明鱗・ラメ・ブラックリムが見られるダルマ体型。丸い体と鱗の縁取りが特徴。",
     "url": "https://medakazukan.net/0891_clearbrownlamedharma/",
     "webNo": "0891",
     "profile": "体色の特徴は黄系。注目したい形質は半透明鱗・ブラックリム・ラメ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "紅白サファイア",
     "aliases": "",
     "traits": "紅白、サファイア、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白と朱赤の二色に青みの強いラメが加わる。色柄と青ラメを併せて鑑賞できる。",
     "url": "https://medakazukan.net/0892_kouhakusapphire/",
     "webNo": "0892",
     "profile": "体色の特徴は白・朱赤系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ピンク夜桜",
     "aliases": "",
     "traits": "ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黒とピンク系の体色に半透明鱗・ラメの特徴を備える。色むらと鱗の輝きに注目。",
     "url": "https://medakazukan.net/0893_pinkyozakura/",
     "webNo": "0893",
     "profile": "体色の特徴は黒系。注目したい形質は半透明鱗・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "緋牡丹",
     "aliases": "",
     "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "黄系の体色に半透明鱗・アルビノ・ラメの組み合わせがある系統の愛称。",
     "url": "https://medakazukan.net/0895_hibotan/",
     "webNo": "0895",
     "profile": "体色の特徴は黄系。注目したい形質は半透明鱗・ラメ・アルビノ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "錦秋ラメヒレ長",
     "aliases": "",
     "traits": "ラメ、ヒレ長",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "オレンジ系の体色にラメ・黒斑などの要素を備える。個体ごとの色柄の出方を観察したい。",
     "url": "https://medakazukan.net/0897_kinsyuulamehirenaga/",
     "webNo": "0897",
     "profile": "体色の特徴はオレンジ系。注目したい形質はラメ・斑。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブドウ目アルビノプラチナ幹之",
     "aliases": "",
     "traits": "アルビノ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白系の体色にルビーアイと体外光を備える。目の赤みと背中の光が観察点。",
     "url": "https://medakazukan.net/0900_budoumealbinoplatinummiyuki/",
     "webNo": "0900",
     "profile": "体色の特徴は白系。注目したい形質は体外光・ルビーアイ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "紗々",
     "aliases": "さしゃ",
     "traits": "",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白系の体色に透明鱗とブラックリムの特徴を持つ。淡い地色に対して鱗の縁取りが観察点。",
     "url": "https://medakazukan.net/0904_sasya/",
     "webNo": "0904",
     "profile": "体色の特徴は白系。注目したい形質は透明鱗・ブラックリム。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "楊貴妃透明鱗アルビノ",
     "aliases": "",
     "traits": "透明鱗、アルビノ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "朱赤系の体色に透明鱗とアルビノの特徴を併せ持つ。目とえら周辺の見え方が特徴。",
     "url": "https://medakazukan.net/0906_youkihitoumeirinalbino/",
     "webNo": "0906",
     "profile": "体色の特徴は朱赤系。注目したい形質は透明鱗・アルビノ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "楊貴妃シースルーアルビノ",
     "aliases": "",
     "traits": "アルビノ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "朱赤系でアルビノとシースルーの表現が見られる。目と体表の透け方が見分けるポイント。",
     "url": "https://medakazukan.net/0907_youkihiseethroughalbino/",
     "webNo": "0907",
     "profile": "体色の特徴は朱赤系。注目したい形質はシースルー・アルビノ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラックモルフォ",
@@ -9790,34 +9826,37 @@
     "name": "紅薊（べにあざみ）リアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "朱赤系の体色に透明鱗・ブラックリム・リアルロングフィン・ヒカリ体型が組み合わさる系統の愛称。",
     "url": "https://medakazukan.net/0911_beniazamireallongfin/",
     "webNo": "0911",
     "profile": "注目したい形質はリアルロングフィン・透明鱗・ブラックリム・ヒカリ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "三色ラメリアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン、ラメ、三色",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白と朱赤をベースにラメ・黒斑・リアルロングフィンの特徴が加わる。色柄とヒレの長さに注目。",
     "url": "https://medakazukan.net/0912_sansyhokulamereallongfin/",
     "webNo": "0912",
     "profile": "体色の特徴は白・朱赤系。注目したい形質はリアルロングフィン・ラメ・斑。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "琴姫（ことひめ）リアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "琥珀系の色合いに透明鱗・ブラックリム・リアルロングフィン・ヒカリ体型を併せ持つ系統の愛称。",
     "url": "https://medakazukan.net/0914_kotohimereallongfin/",
     "webNo": "0914",
     "profile": "注目したい形質はリアルロングフィン・透明鱗・ブラックリム・ヒカリ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ヒメダカ",
@@ -9854,5 +9893,20 @@
         "caption": "ヒメダカとウィローモスの写真"
       }
     ]
+  },
+  {
+    "name": "クラウドグレーダイヤ",
+    "aliases": "",
+    "traits": "ブラック・ラメ",
+    "kind": "流通名",
+    "description": "透明感のある黒系の体色に、上見と横見の双方で目立つラメが特徴。ブラックダイヤから上見のラメを重視して選抜された系統。",
+    "profile": "黒系の体色。上から見た際にもラメが目立つことが特徴。",
+    "profileBasis": "改良メダカWEB図鑑の記事に基づく概要（2026年10月確認）",
+    "sourceCheckedAt": "2026-10-25",
+    "sourceYear": "2022",
+    "sourceBreeder": "中里良則",
+    "sourceOfficialName": "ブラックラメメダカ",
+    "url": "https://medakazukan.net/cloudgraydia/",
+    "webNo": "0894"
   }
 ]
