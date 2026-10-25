@@ -5,6 +5,7 @@ on:
     - cron: '0 2 * * 1'
   push:
     paths:
+      - 'catalog.json'
       - 'scripts/sync_catalog.py'
       - 'scripts/add_readings.py'
       - 'scripts/sync_secondary_sources.py'
