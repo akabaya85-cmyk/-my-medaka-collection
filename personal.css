@@ -1,0 +1,72 @@
+
+/* Personal album, individual diary and offline photo-based similarity finder. */
+#personalDialog{width:min(96vw,680px);max-height:92dvh;padding:17px;border:0;border-radius:20px}
+#personalDialog h2{font-size:20px;margin:14px 0 7px;line-height:1.35}
+#personalDialog h3{font-size:16px;margin:20px 0 10px}
+#personalDialog input:not([type=checkbox]):not([type=file]),#personalDialog select,#personalDialog textarea{font-size:16px;width:100%;background:#fff;border:1px solid #c7dfeb;border-radius:11px;padding:11px;min-width:0}
+#personalDialog input[type=file]{width:100%;font-size:13px;background:#f0f9fe;border:1px dashed #a9d1e6;border-radius:10px;padding:10px}
+#personalDialog label{font-weight:600;margin:14px 0 6px;display:block;font-size:13px}
+#personalDialog .hint{line-height:1.6}
+#personalDialog p{line-height:1.65}
+.personalTop{display:flex;align-items:center;gap:8px;justify-content:space-between;border-bottom:1px solid #dceaf2;padding:0 0 10px}
+.personalTop button{flex-shrink:0;font-size:12px;padding:8px 10px}
+.personalTop strong{font-size:13px;text-align:center;line-height:1.3}
+.personalWelcome{padding:10px 4px}
+.personalWelcome p,.personalIntro p{font-size:13px;color:#5f8494}
+.personalMenu{display:grid;gap:9px;margin:12px 0}
+.personalMenu button{display:flex;flex-direction:column;align-items:flex-start;gap:5px;text-align:left;padding:16px;background:linear-gradient(125deg,#edfbff,#fff);border:1px solid #c8e4f2}
+.personalMenu b{font-size:16px;color:#21677d}
+.personalMenu small{font-size:12px;line-height:1.55;color:#648598}
+.personalFootNote,.personalCount{background:#f1f9fc;border-radius:12px;padding:12px;color:#58788b;font-size:12px;line-height:1.6}
+.personalCount{margin:10px 0}
+.personalFull{display:block;width:100%;margin:12px 0;min-height:45px}
+.personalCards{display:grid;gap:12px;margin:14px 0}
+.personalCard{display:grid;grid-template-columns:100px minmax(0,1fr);gap:12px;min-height:115px;border-radius:13px;padding:8px;border:1px solid #dfedf4}
+.personalCover img{width:100%;height:100%;max-height:130px;object-fit:cover;border-radius:9px}
+.personalCard strong,.personalAlbumInfo strong{display:block;font-size:15px;margin:5px 0;overflow-wrap:anywhere}
+.personalCard span,.personalCard small,.personalAlbumInfo small{display:block;color:#668795;font-size:12px;line-height:1.5}
+.personalCard button,.personalAlbumInfo button{margin-top:8px;font-size:12px}
+.personalPlaceholder{display:flex;align-items:center;justify-content:center;min-height:110px;background:#e8f7fd;border-radius:10px;font-size:32px}
+.personalPhotoGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}
+.personalPhotoGrid img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:9px;display:block}
+.personalPhotoBig{grid-template-columns:repeat(2,minmax(0,1fr))}
+.personalThumb{position:relative;min-width:0}
+.personalThumb button{position:absolute;top:3px;right:3px;background:#ffffffeb;padding:3px 8px;font-size:13px}
+.personalFields2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0}
+.personalFields2>div{min-width:0;font-size:12px;line-height:1.6;color:#608294}
+.personalFields2 strong{display:block;font-size:13px;color:#2e6177;overflow-wrap:anywhere}
+.personalBar{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}
+.personalBar button{flex:1}
+.personalChecks{display:flex;flex-wrap:wrap;gap:6px;max-height:170px;overflow-y:auto;border:1px solid #dfebf1;padding:8px;border-radius:11px;background:#f7fcff}
+#personalDialog .personalChecks label{display:flex;align-items:center;gap:5px;flex:0 0 auto;margin:0;background:#fff;border:1px solid #e2edf3;border-radius:8px;padding:7px;font-size:12px}
+.personalChecks input[type=checkbox]{accent-color:#168fbc}
+.personalOwned{border-top:1px solid #deedf5;margin:18px 0;padding:12px 0;font-size:13px}
+.personalOwned summary{font-weight:700;cursor:pointer}
+.personalTags{display:flex;gap:5px;flex-wrap:wrap;margin:12px 0}
+.personalTags>*{display:inline-block;border-radius:7px;background:#e8f6fb;padding:6px 9px;font-size:12px;color:#396a7a}
+.personalEmpty{font-size:13px;background:#f2f9fd;padding:16px;border-radius:12px;color:#618494}
+.personalNote{padding:12px;background:#f2f9fb;border-radius:12px;white-space:pre-line;font-size:13px}
+.personalTimeline{border-left:3px solid #9ccfe5;margin:14px 3px;padding:5px 10px 9px 13px;background:#f8fcfe}
+.personalTimeline strong{display:block;margin-top:4px;color:#2b647e}
+.personalTimeline small{font-size:11px}
+.personalTimeline p{white-space:pre-line;font-size:13px;margin:8px 0}
+.personalEventImage{display:block;max-height:280px;width:100%;object-fit:contain;border-radius:10px;background:#eaf5fa;margin:9px 0}
+.personalAlbumGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:15px 0}
+.personalAlbumCard{overflow:hidden;border-radius:13px;border:1px solid #dcebf3;background:#fff;min-width:0}
+.personalAlbumCover{width:100%;aspect-ratio:4/3;object-fit:cover;background:#e9f6fc;display:block}
+.personalAlbumInfo{padding:9px}
+.personalAlbumInfo p{font-size:11px;line-height:1.4;color:#4a819b;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:7px 0}
+.personalAlbumPhotos{display:grid;gap:12px}
+.personalAlbumPhotos img{display:block;width:100%;height:auto;max-height:530px;object-fit:contain;background:#f2f9fc;border-radius:12px}
+.personalFinderImage{position:relative;min-height:28px;margin:12px 0}
+.personalFinderImage img{display:block;width:100%;max-height:360px;object-fit:contain;cursor:crosshair;border-radius:12px;background:#e9f5fb}
+.personalFinderImage small{display:block;margin:6px 0 2px;text-align:center}
+.personalFocus{width:58px;height:38px;border:2px solid #fff;outline:2px solid #167ca7;box-shadow:0 0 0 100vmax transparent;position:absolute;transform:translate(-50%,-50%);pointer-events:none;border-radius:7px}
+.personalTraitChecks{max-height:170px}
+.personalCandidate{display:flex;align-items:center;justify-content:space-between;gap:9px;padding:10px 0;border-bottom:1px solid #deecf3}
+.personalCandidate>div{flex:1;min-width:0}
+.personalCandidate b{font-size:13px;display:block;overflow-wrap:anywhere}
+.personalCandidate small{color:#668795;font-size:11px}
+.personalCandidate button{flex:0 0 auto;font-size:11px;padding:8px}
+#personalFind,#personalHistory,#personalAlbums{border-color:#a4d7ea;background:#eefdff;color:#126c91;font-weight:700}
+@media(max-width:380px){.personalFields2{grid-template-columns:1fr}.personalAlbumGrid{gap:7px}.personalCandidate{gap:6px}}
