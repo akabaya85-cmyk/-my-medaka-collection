@@ -32,7 +32,14 @@ function fileData(blob){return new Promise((ok,no)=>{let r=new FileReader();r.on
 function toBlob(s){let [h,d]=s.split(','),mime=(h.match(/data:(.*?);/)||[])[1]||'image/jpeg',bin=atob(d),a=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)a[i]=bin.charCodeAt(i);return new Blob([a],{type:mime})}
 async function optimize(f){if(!f.type.startsWith('image/'))throw Error('画像ファイルではありません');if(f.size>35*1024*1024)throw Error('画像が大きすぎます');try{let img=await createImageBitmap(f),scale=Math.min(1,1400/Math.max(img.width,img.height)),c=document.createElement('canvas');c.width=Math.max(1,Math.round(img.width*scale));c.height=Math.max(1,Math.round(img.height*scale));c.getContext('2d').drawImage(img,0,0,c.width,c.height);img.close();return await new Promise(ok=>c.toBlob(b=>ok(b||f),'image/jpeg',.82))}catch{return f}}
 const GENERIC_DESC=['詳しい系統や特徴は出典記事をご確認ください。','特徴・作出系統の詳細は出典を確認して追記してください。'];
-const isGenericDescription=s=>!String(s||'').trim()||GENERIC_DESC.includes(String(s).trim());
+const isGenericDescription=s=>{
+  const v=String(s||'').trim();
+  return !v||GENERIC_DESC.includes(v)
+    ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。')
+    ||v.startsWith('専門図鑑で流通名と特徴が紹介される系統。')
+    ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。外見の細部')
+    ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。作出系統');
+};
 function mergeCatalog(catalog){
   if(!Array.isArray(catalog))throw Error('図鑑データの形式が正しくありません');
   const byNo=new Map(entries.filter(x=>x.webNo).map(x=>[String(x.webNo),x]));
