@@ -7,7 +7,7 @@
 (()=>{
 const pd=document.getElementById('personalDialog');
 const body=document.getElementById('personalContent');
-const personalStores=['personalFish','personalFishPhotos','personalEvents','personalEventPhotos','personalAlbums','personalAlbumPhotos'];
+const personalStores=['personalFish','personalFishPhotos','personalEvents','personalEventPhotos','personalAlbums','personalAlbumPhotos','cultureBatches','cultureLogs','culturePhotos'];
 let pdb=null,view='home',urls=[],candidateFile=null,focus={x:.5,y:.5},pickedColor='',pickedTraits=[],candidateResults=[];
 const fesc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','"':'&#39;'}[c]));
 const newid=()=> 'p-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,10);
@@ -129,9 +129,9 @@ button.disabled=false}
 /* ---------- Backup hooks ---------- */
 async function exportData(){await connect();const out={version:1};for(const s of personalStores){const ids=await keys(s),items=[];for(const id of ids){const val=await get(s,id);if(s.endsWith('Photos')){const arr=Array.isArray(val)?val:val?[val]:[];items.push({id,data:await Promise.all(arr.map(fileData))})}else items.push({id,data:val})}out[s]=items}return out}
 async function importData(payload){if(!payload||payload.version!==1)throw Error('個人アルバム・日誌のバックアップ形式が正しくありません');await connect();
-const validated={};for(const s of personalStores){const items=payload[s];if(!Array.isArray(items)||items.length>10000)throw Error('個人記録のバックアップが不完全です: '+s);
+const validated={};for(const s of personalStores){const items=payload[s];if(!Array.isArray(items)){if(s.startsWith('culture'))continue;throw Error('個人記録のバックアップが不完全です: '+s)}if(items.length>10000)throw Error('個人記録が多すぎます: '+s);
 validated[s]=items.map(x=>{if(!x||typeof x.id!=='string'||x.id.length>100)throw Error('不正な個人記録です');if(s.endsWith('Photos')){if(!Array.isArray(x.data)||x.data.length>30||x.data.some(v=>typeof v!=='string'||!v.startsWith('data:image/')))throw Error('画像バックアップが不正です');return {id:x.id,data:x.data.map(toBlob)}}return {id:x.id,data:x.data}})}
-for(const s of personalStores){const existing=await keys(s);for(const id of existing)await del(s,id);for(const x of validated[s])await set(s,x.id,x.data)}
+for(const s of personalStores){if(!validated[s])continue;const existing=await keys(s);for(const id of existing)await del(s,id);for(const x of validated[s])await set(s,x.id,x.data)}
 }
 window.medakaPersonal={open:openPersonal,exportData,importData};
 for(const [id,dest] of [['personalFind','find'],['personalHistory','fish'],['personalAlbums','albums']]){
