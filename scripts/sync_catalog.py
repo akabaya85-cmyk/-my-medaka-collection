@@ -22,6 +22,8 @@ MAX_DETAIL_CHECKS = 65
 HEADERS = {"User-Agent": "MyMedakaPersonalCatalog/1.0 (public metadata only; no image fetching)"}
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
+AUDIT_LINKS = {}
+AUDIT_REJECTED = {}
 FEATURES = (
     "リアルロングフィン", "ヒカリダルマ", "全身体内光", "ブラックリム",
     "ハーフムーン", "半透明鱗", "ワイドフィン", "ロングフィン", "ナローフィン",
@@ -55,9 +57,18 @@ def parse_archive(soup):
         no = NO_RE.search(label)
         if not no:
             continue
+        url = a["href"].split("#", 1)[0]
+        if url.startswith("/"):
+            url = BASE + url
+        if urlparse(url).netloc != "medakazukan.net":
+            continue
+        number = no.group(1).zfill(4)
+        if "/category/" not in url and "/tag/" not in url:
+            AUDIT_LINKS.setdefault(number, {"text": label[:180], "url": url})
         # A category archive may also contain recent-post links in the sidebar.
         name_match = re.search(r"(.+?)とは[\s　]*改良メダカWEB図鑑\s*No[.．]?", label)
         if not name_match:
+            AUDIT_REJECTED.setdefault(number, {"text": label[:180], "url": url})
             continue
         name = re.sub(r"^(?:メダカの品種|白朱赤|ブラック|オレンジ|白|青|黄|黄金)\s+", "", name_match.group(1)).strip()
         url = a["href"].split("#", 1)[0]
@@ -112,6 +123,19 @@ def main():
         raise RuntimeError("Unexpected archive pagination; preserving existing catalog")
     for page in range(2, last + 1):
         all_articles.update(parse_archive(get(ARCHIVE + f"page/{page}/")))
+    catalog_numbers = {str(x.get("webNo", "")).zfill(4) for x in catalog if x.get("webNo")}
+    missing_known = [{"webNo": number, **item} for number, item in sorted(AUDIT_LINKS.items()) if number not in catalog_numbers]
+    rejected_known = [{"webNo": number, **item} for number, item in sorted(AUDIT_REJECTED.items()) if number not in all_articles]
+    audit = {
+        "checkedOn": TODAY, "archivePages": last, "parsedArchiveNumbers": len(all_articles),
+        "allLinksWithArticleNumber": len(AUDIT_LINKS),
+        "unmatchedExisting": missing_known,
+        "rejectedArticleTitles": rejected_known,
+        "note": "This audit includes links such as sidebar recents. Compare actual archive cards before adding."
+    }
+    (CATALOG.parent / ".github" / "catalog-audit.json").write_text(
+        json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     if len(all_articles) < 750:
         raise RuntimeError(f"Only {len(all_articles)} article numbers detected; NOT writing")
 
