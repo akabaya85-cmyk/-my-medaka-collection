@@ -10,7 +10,16 @@
     "aliases": "ようきひ",
     "profile": "掲載記事で確認できる外見の要素：朱赤。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/youkihi/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "ようきひ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "幹之",
@@ -26,20 +35,33 @@
         "license": "CC BY-SA 4.0",
         "caption": "青幹之（ミユキブルー）の参考写真。幹之の一系統で、すべての幹之を代表する写真ではありません。"
       }
-    ]
+    ],
+    "reading": "みゆき",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "オロチ",
-    "traits": "黒",
+    "traits": "黒・背地反応なし・パンダ",
     "kind": "品種・流通名（要照合）",
-    "description": "見分けるときは、体外光・ビッグアイ・水泡眼・青の組み合わせに注目します。",
+    "description": "色の薄い容器でも黒い体色を保ちやすいよう、選抜・累代された黒系統。目の周囲も黒く見えるパンダ目が特徴として紹介されている。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0652_orichi/",
     "webNo": "0652",
     "aliases": "",
-    "profile": "体色の特徴は黒系。注目したい形質はパンダ。",
-    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "profile": "背地反応の少ない全身の黒さと暗色の目が特徴。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceCheckedAt": "2026-10-25",
+    "sourceBreeder": "谷國昌博（飛鳥めだか）",
+    "sourceYear": "2015",
+    "referenceLinks": [
+      {
+        "label": "みんなのメダカ品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/28/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "おろち",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "夜桜",
@@ -52,7 +74,9 @@
     "aliases": "よざくら",
     "profile": "体色の特徴は黄・黒系。注目したい形質は半透明鱗・ラメ。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "よざくら",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "深海",
@@ -65,7 +89,9 @@
     "aliases": "しんかい",
     "profile": "体色の特徴は青系。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "しんかい",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "黄金ラメ",
@@ -78,14 +104,18 @@
     "aliases": "おうごんらめ",
     "profile": "体色の特徴は黄金系。注目したい形質はラメ。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "おうごんらめ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "三色ラメ",
     "traits": "三色・ラメ",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "さんしょくらめ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "紅白ラメ",
@@ -98,7 +128,9 @@
     "aliases": "白朱赤ラメ",
     "profile": "体色の特徴は白・朱赤系。注目したい形質はラメ。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "こうはくらめ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "白メダカ",
@@ -111,7 +143,9 @@
     "aliases": "",
     "profile": "体色の特徴は白系。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
-    "sourceAttemptedAt": "2026-10-25"
+    "sourceAttemptedAt": "2026-10-25",
+    "reading": "しろめだか",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "青メダカ",
@@ -131,7 +165,9 @@
     "traits": "黒",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "くろめだか",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "琥珀",
@@ -151,21 +187,27 @@
     "traits": "白・体外光",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "しろみゆき",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "マリンブルー",
     "traits": "青",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "まりんぶるー",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "流星",
     "traits": "体外光",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "りゅうせい",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "サファイア",
@@ -185,21 +227,27 @@
     "aliases": "せいが",
     "profile": "体色の特徴は青系。注目したい形質はラメ。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "せいが",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "三色",
     "traits": "三色",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "さんしょく",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "紅白",
     "traits": "紅白",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "こうはく",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "ブラック",
@@ -263,20 +311,32 @@
     "sourceCheckedAt": "2026-10-25",
     "sourceOfficialName": "朱赤ダルマメダカ",
     "sourceYear": "2005",
-    "sourceBreeder": "大場幸雄"
+    "sourceBreeder": "大場幸雄",
+    "reading": "はつこい",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "ネプチューン",
     "traits": "青・ラメ・ヒレ光",
     "kind": "流通名",
-    "description": "全身を覆う青色のラメと、とくに頭部の強い輝きが特徴。青や銀色にきらめく鱗と、ヒレの光沢を鑑賞できる。",
+    "description": "2023年に発表された全身の濃密な青ラメが特徴の系統。頭部の青い輝きが強く、ヒレにも光が現れる個体が見られる。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "aliases": "ネプチューンメダカ、Neptune",
-    "profile": "密度の高い青ラメが頭部まで広がる。ヒレの光にも注目。",
-    "profileBasis": "JASMAの品種解説を要約（2026-10-25確認）",
+    "profile": "頭部まで広がる青ラメとヒレ光を観察。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
     "sourceYear": "2023",
     "url": "https://jasma.sc/medaka/nepuchu-n/",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "sourceBreeder": "サバンナ",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種解説",
+        "url": "https://jasma.sc/medaka/nepuchu-n/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "ねぷちゅーん",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "プラチナム",
@@ -312,7 +372,16 @@
     "aliases": "",
     "profile": "体色の特徴は白・朱赤系。注目したい形質はラメ。",
     "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/ohka/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "おうか",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "アマテラス",
@@ -358,7 +427,9 @@
     "traits": "ヒレ変化",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "ことひめりあるろんぐふぃん",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "レーヴサムライヒカリ",
@@ -378,7 +449,9 @@
     "traits": "朱赤・ヒレ変化",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "reading": "べにあざみりあるろんぐふぃん",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "黄金スーパーヒカリ",
@@ -442,7 +515,9 @@
     "webNo": "0002",
     "profile": "注目したい形質はヒカリ体型。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "とうてんこう",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "朱天皇",
@@ -1693,7 +1768,9 @@
     "webNo": "0113",
     "profile": "体色の特徴は黒系。注目したい形質は体外光。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "くろみゆき",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "アルビノ幹之",
@@ -2256,7 +2333,9 @@
     "url": "https://medakazukan.net/0171_unsyusansyoku/",
     "webNo": "0171",
     "profile": "注目したい形質は透明鱗。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "reading": "うんしゅうさんしょく",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "三色体外光",
@@ -2399,7 +2478,14 @@
     "url": "https://medakazukan.net/0185_komariti/",
     "webNo": "0185",
     "profile": "注目したい形質は透明鱗。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/komachi/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "小町ヒレ長",
@@ -2617,7 +2703,9 @@
     "url": "https://medakazukan.net/0206_rinkou/",
     "webNo": "0206",
     "profile": "注目したい形質は体外光。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "reading": "りんこう",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "鱗光ロングフィン",
@@ -3145,7 +3233,14 @@
     "url": "https://medakazukan.net/0254_morpho/",
     "webNo": "0254",
     "profile": "体色の特徴は青系。注目したい形質は体外光・モルフォ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/morpho/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "バタフライ",
@@ -3354,7 +3449,9 @@
     "url": "https://medakazukan.net/0274_ryuunohitomi/",
     "webNo": "0274",
     "profile": "体色の特徴は白系。注目したい形質は体外光・ヒレ長・アルビノ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "reading": "りゅうのひとみ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "五式（ごしき）ヒレ長",
@@ -3388,7 +3485,9 @@
     "webNo": "0277",
     "profile": "体色の特徴は青系。注目したい形質はロングフィン・体外光・ヒレ長。",
     "profileBasis": "改良メダカWEB図鑑No.0277の既存分類をもとに整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "あおちょう",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "青蝶ヒカリ",
@@ -7346,7 +7445,9 @@
     "url": "https://medakazukan.net/0649_ryuusyouhoushi/",
     "webNo": "0649",
     "profile": "注目したい形質は透明鱗・ブラックリム・ヒレ長・ヒカリ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "reading": "りゅうしょうほうし",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "昴",
@@ -8555,13 +8656,25 @@
   {
     "name": "花魁",
     "aliases": "おいらん",
-    "traits": "",
+    "traits": "黄・三色・体外光",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "もとは黄三色体外光と呼ばれた系統を、作出者が選抜・累代して2019年に花魁のハウスネームで発表したもの。",
     "url": "https://medakazukan.net/0769_oiran/",
     "webNo": "0769",
     "profile": "体色の特徴は白系。注目したい形質は体外光・斑。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceBreeder": "川戸博貴",
+    "sourceYear": "2019",
+    "sourceCheckedAt": "2026-10-25",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/oiran/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "おいらん",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "白雪",
@@ -9615,7 +9728,9 @@
     "url": "https://medakazukan.net/0870_boukyakunotubasa/",
     "webNo": "0870",
     "profile": "注目したい形質は半透明鱗・ラメ・ヒレ長。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "reading": "ぼうきゃくのつばさ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "レクリス",
@@ -9745,7 +9860,9 @@
     "webNo": "0881",
     "profile": "体色の特徴はピンク系。注目したい形質は半透明鱗・ラメ。",
     "profileBasis": "改良メダカWEB図鑑No.0881の既存分類を確認（2026-10-25）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "ぴんくさふぁいあ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "スズラン",
@@ -9760,7 +9877,9 @@
     "sourceCheckedAt": "2026-10-25",
     "sourceOfficialName": "白半透明鱗ラメメダカ",
     "sourceYear": "2021",
-    "sourceBreeder": "サバンナ"
+    "sourceBreeder": "サバンナ",
+    "reading": "すずらん",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "黄金ブルーラメ",
@@ -9904,7 +10023,9 @@
     "webNo": "0895",
     "profile": "体色の特徴は黄系。注目したい形質は半透明鱗・ラメ・アルビノ。",
     "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "ひぼたん",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "錦秋ラメヒレ長",
@@ -9916,7 +10037,9 @@
     "webNo": "0897",
     "profile": "体色の特徴はオレンジ系。注目したい形質はラメ・斑。",
     "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "きんしゅうらめひれなが",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "ブドウ目アルビノプラチナ幹之",
@@ -9940,7 +10063,9 @@
     "webNo": "0904",
     "profile": "体色の特徴は白系。注目したい形質は透明鱗・ブラックリム。",
     "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "さしゃ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "楊貴妃透明鱗アルビノ",
@@ -10262,7 +10387,9 @@
     "traits": "",
     "kind": "WEB図鑑掲載名（区分は要確認）",
     "description": "詳しい系統や特徴は出典記事をご確認ください。",
-    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。",
+    "reading": "まりんぶるー",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "アルビノ幹之（みゆき）ダルマ",
@@ -10305,21 +10432,32 @@
     "sourceYear": "2021",
     "sourceBreeder": "カズーメダカ（和歌山）",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/799/",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "らむねぶるー",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "鯖の極み",
-    "aliases": "サバの極み、さばのきわみ",
+    "aliases": "さばのきわみ、サバの極み",
     "traits": "青・透明鱗・体外光・腹膜黒",
     "kind": "流通名",
     "description": "青く見える体外光と、腹部に現れる強い黒みが特徴。緑光系の青幹之透明鱗腹黒から選別され、腹部の黒さや体外光にこだわった系統として流通している。",
-    "profile": "青系の体色に体外光が現れ、腹部の黒みが目立つ。",
-    "profileBasis": "みんなのメダカ品種図鑑・専門店の記載を照合し要約（2026-10-25確認）",
+    "profile": "青系の体外光と腹部の黒さが見どころ。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
     "sourceYear": "2019",
     "sourceBreeder": "メダカ屋 猫飯（静岡）",
     "sourceOfficialName": "緑光系青幹之透明鱗腹黒（販売時の呼称）",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/sabanokiwami",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/saba/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "さばのきわみ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "白アルビノ出目シースルー",
@@ -10436,122 +10574,214 @@
   {
     "name": "アグリアス",
     "aliases": "",
-    "traits": "黒・黄・ラメ",
+    "traits": "黒・黄・青ラメ",
     "kind": "流通名",
-    "description": "黒と黄の色合いに青ラメが密集し、頭部に赤みが出ることがある系統。",
-    "profile": "専門図鑑の掲載形質：黒・黄・ラメ。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
+    "description": "黒と黄の色合いに密度の高い青ラメが加わる。ユリシス由来の系統で、頭部に赤みが出る個体が特徴的。",
+    "profile": "黒と黄の二色に青いラメ。頭部の赤い発色に注目。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
     "sourceBreeder": "メダカファーム泉",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/agriasu/"
+    "url": "https://www.medakalog.shop/agriasu/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/agriasu/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "あぐりあす",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "エンゼル",
     "aliases": "",
     "traits": "ダルマ・ロングフィン・ヒレ光",
     "kind": "流通名",
-    "description": "丸い体型と長いヒレ、特に胸びれの光が見どころ。",
-    "profile": "専門図鑑の掲載形質：ダルマ・ロングフィン・ヒレ光。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
+    "description": "ダルマ体型に長いヒレが組み合わさり、特に光る胸びれが見どころ。羽ばたく天使の羽に似た胸びれの表現が名前の由来。",
+    "profile": "丸いダルマ体型と長く輝く胸びれが観察点。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
     "sourceBreeder": "筑紫めだか",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/angel/"
+    "url": "https://www.medakalog.shop/angel/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/angel/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "えんぜる",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "黒百式",
     "aliases": "",
-    "traits": "",
+    "traits": "全身体内光・黒",
     "kind": "流通名",
-    "description": "専門図鑑で流通名と特徴が紹介される系統。名称だけから形質を確定しない。",
-    "profile": "掲載名・出典を確認済み。形質の詳細は未精査。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
+    "description": "全身に現れる体内光に黒色素が点在する表現が特徴。背景が黒い容器では体内光、白い容器では黒い体色が目立ちやすい。",
+    "profile": "全身体内光に黒い色素が重なる。背景の色で見え方が変わる。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/kurohyakushiki/"
+    "url": "https://www.medakalog.shop/kurohyakushiki/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/kurohyakushiki/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "くろひゃくしき",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "月華",
     "aliases": "",
-    "traits": "",
+    "traits": "朱赤・黒・白・ラメ",
     "kind": "流通名",
-    "description": "専門図鑑に掲載される改良メダカの流通名。外見の細部は出典で確認。",
+    "description": "赤・黒・白を思わせる色柄に、背中の鱗やラメの輝きが重なる。個体ごとの柄と光り方の違いも鑑賞ポイント。",
     "profile": "掲載名・出典を確認済み。形質の詳細は未精査。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/gekka/"
+    "url": "https://www.medakalog.shop/gekka/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/gekka/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "げっか",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "月下美人",
     "aliases": "",
-    "traits": "",
+    "traits": "オレンジ・半透明鱗・ラメ・ヒカリ",
     "kind": "流通名",
-    "description": "専門図鑑に掲載される改良メダカの流通名。外見の細部は出典で確認。",
-    "profile": "掲載名・出典を確認済み。形質の詳細は未精査。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
-    "sourceBreeder": "",
+    "description": "オレンジ系の体色に、オーロラ由来の透明感とラメが組み合わさるヒカリ体型。背びれ・しりびれの対称性と菱形の尾びれも見どころ。",
+    "profile": "オレンジ系のオーロララメ。ヒカリ体型の尾びれを観察。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceBreeder": "舞めだか",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/gekkabizin/"
+    "url": "https://www.medakalog.shop/gekkabizin/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/gekkabizin/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "げっかびじん",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "月神",
     "aliases": "",
-    "traits": "",
+    "traits": "三色・ラメ・半透明鱗",
     "kind": "流通名",
-    "description": "専門図鑑に掲載される改良メダカの流通名。外見の細部は出典で確認。",
+    "description": "舞めだかが天帝・三色ラメ・月弓の系統を用いて作出したと紹介される。複雑な多色模様とラメが鑑賞ポイント。",
     "profile": "掲載名・出典を確認済み。形質の詳細は未精査。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
-    "sourceBreeder": "",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceBreeder": "舞めだか",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/gessin/"
+    "url": "https://www.medakalog.shop/gessin/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/gessin/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "げっしん",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "黒龍",
     "aliases": "",
-    "traits": "黒",
+    "traits": "黒・透明鱗・背地反応なし",
     "kind": "流通名",
-    "description": "黒系メダカの流通名。似た名前の系統と混同しないよう、入手元も確認したい。",
+    "description": "黒い体色と透明鱗の特徴を併せ持ち、背景の色による体色変化が少ない系統を目指して選別された。",
     "profile": "専門図鑑の掲載形質：黒。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
-    "sourceBreeder": "",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceBreeder": "川上富美代",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/kokuryu/"
+    "url": "https://www.medakalog.shop/kokuryu/",
+    "sourceYear": "2014",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/kokuryu/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "こくりゅう",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "五式タイプR",
-    "aliases": "",
-    "traits": "",
+    "aliases": "ごしきたいぷあーる、五式タイプr",
+    "traits": "朱赤・黒・透明鱗",
     "kind": "流通名",
-    "description": "五式系統のタイプRとして流通するメダカ。色模様の違いは出典を参照。",
+    "description": "黒い体色に朱赤のヒレ色が映える。透明鱗の特徴があり、五式系統の中でも赤いヒレの表現が見どころ。",
     "profile": "掲載名・出典を確認済み。形質の詳細は未精査。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
-    "sourceBreeder": "",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceBreeder": "しいらメダカ",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/goshiki/"
+    "url": "https://www.medakalog.shop/goshiki/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/goshiki/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "ごしきたいぷあーる",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "白斑サファイア",
-    "aliases": "",
-    "traits": "ラメ・斑",
+    "aliases": "しろぶちさふぁいあ、白ブチサファイア",
+    "traits": "白・斑・青ラメ",
     "kind": "流通名",
-    "description": "サファイア系統に斑の表現が見られるメダカ。",
+    "description": "白い地色に黒い斑模様と青ラメを併せ持つ。白斑ラメ幹之とサファイアの系統を掛け合わせたものとして紹介される。",
     "profile": "専門図鑑の掲載形質：ラメ・斑。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
-    "sourceBreeder": "",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceBreeder": "静楽庵",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/sirobuchi-sapphire/"
+    "url": "https://www.medakalog.shop/sirobuchi-sapphire/",
+    "sourceYear": "2021",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/sirobuchi-sapphire/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "しろぶちさふぁいあ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "月弓",
     "aliases": "",
-    "traits": "",
+    "traits": "半透明鱗・黄斑・ラメ",
     "kind": "流通名",
-    "description": "専門図鑑に掲載される改良メダカの流通名。作出系統の詳細は出典を参照。",
+    "description": "黒系のオーロラ表現に黄色い斑やラメが現れる普通体型。月下美人の作出過程から選別された別表現として紹介される。",
     "profile": "掲載名・出典を確認済み。形質の詳細は未精査。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
-    "sourceBreeder": "",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceBreeder": "舞めだか",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/tsukuyumi/"
+    "url": "https://www.medakalog.shop/tsukuyumi/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/tsukuyumi/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "つくゆみ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "天界",
@@ -10563,19 +10793,33 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/tenkai/"
+    "url": "https://www.medakalog.shop/tenkai/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/tenkai/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "ドラゴンブルー",
     "aliases": "",
-    "traits": "青",
+    "traits": "青・ヒカリ",
     "kind": "流通名",
-    "description": "青系の見え方を持つ流通名。具体的な形質構成は系統ごとに確認。",
-    "profile": "専門図鑑の掲載形質：青。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
+    "description": "青〜緑系の反射光がヒレに現れるヒカリ体型。背びれとしりびれ、菱形の尾びれに注目。",
+    "profile": "青系の光とヒカリ体型が特徴。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/dragon_blue/"
+    "url": "https://www.medakalog.shop/dragon_blue/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/dragon_blue/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "パンダ",
@@ -10587,7 +10831,14 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/panda-medaka/"
+    "url": "https://www.medakalog.shop/panda-medaka/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/panda-medaka/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "卑弥呼",
@@ -10599,7 +10850,16 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/himiko/"
+    "url": "https://www.medakalog.shop/himiko/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/himiko/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "ひみこ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "紅ほっぺ",
@@ -10611,7 +10871,16 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/benihoppe/"
+    "url": "https://www.medakalog.shop/benihoppe/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/benihoppe/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "べにほっぺ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "墨武",
@@ -10623,7 +10892,16 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/bobu/"
+    "url": "https://www.medakalog.shop/bobu/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/bobu/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "ぼぶ",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "魔王",
@@ -10635,19 +10913,35 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/maou/"
+    "url": "https://www.medakalog.shop/maou/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/maou/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "まおう",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "マリアージュ",
     "aliases": "",
-    "traits": "",
+    "traits": "体外光・ロングフィン・モルフォ・ヒレ光",
     "kind": "流通名",
-    "description": "専門図鑑に掲載される改良メダカの流通名。ヒレの特徴は個別系統で異なる。",
-    "profile": "掲載名・出典を確認済み。形質の詳細は未精査。",
-    "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
-    "sourceBreeder": "",
+    "description": "鱗光ロングフィンとモルフォを掛け合わせた系統。白く伸びるふさふさしたヒレと、背中の体外光を上見・横見で楽しめる。",
+    "profile": "白い長いヒレと背中の光が見どころ。",
+    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "sourceBreeder": "垂水政治",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/mariage/"
+    "url": "https://www.medakalog.shop/mariage/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/mariage/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "宮桜",
@@ -10659,7 +10953,16 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/miyazakura-2/"
+    "url": "https://www.medakalog.shop/miyazakura-2/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/miyazakura-2/",
+        "note": "外観・系統の参考"
+      }
+    ],
+    "reading": "みやざくら",
+    "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
     "name": "ユリシス",
@@ -10671,7 +10974,14 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/yurishisu/"
+    "url": "https://www.medakalog.shop/yurishisu/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/yurishisu/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "夜桜ゴールド",
@@ -10683,7 +10993,14 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/yozakuragold/"
+    "url": "https://www.medakalog.shop/yozakuragold/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/yozakuragold/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "ラディウス",
@@ -10695,7 +11012,14 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/radius/"
+    "url": "https://www.medakalog.shop/radius/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/radius/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "ラメ王",
@@ -10707,7 +11031,14 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/lame-king/"
+    "url": "https://www.medakalog.shop/lame-king/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/lame-king/",
+        "note": "外観・系統の参考"
+      }
+    ]
   },
   {
     "name": "レッドドラゴン",
@@ -10719,6 +11050,13 @@
     "profileBasis": "メダ活のススメ：品種図鑑（2026-10-25確認）。本文の細部は今後検証。",
     "sourceBreeder": "",
     "sourceCheckedAt": "2026-10-25",
-    "url": "https://www.medakalog.shop/reddragon/"
+    "url": "https://www.medakalog.shop/reddragon/",
+    "referenceLinks": [
+      {
+        "label": "メダ活のススメ 品種解説",
+        "url": "https://www.medakalog.shop/reddragon/",
+        "note": "外観・系統の参考"
+      }
+    ]
   }
 ]
