@@ -1,0 +1,28 @@
+name: Encrypted manual transfer for personal photo packing
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/jma-private-transfer.yml'
+      - 'tools/jma_private_transfer.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  transfer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests cryptography
+      - name: Encrypt PDF with external public key (original never published)
+        run: python tools/jma_private_transfer.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: encrypted-jma-manual
+          path: private_source/manual.enc
+          retention-days: 1
+          if-no-files-found: error
