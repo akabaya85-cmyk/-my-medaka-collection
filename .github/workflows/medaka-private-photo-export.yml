@@ -1,0 +1,29 @@
+name: Export authorized medaka photographs for private iPhone use
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/export_authorized_medaka_photos.py'
+      - '.github/workflows/medaka-private-photo-export.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      PHOTO_LIMIT: "30"
+      PHOTO_WORKERS: "2"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install image and encryption dependencies
+        run: python -m pip install requests beautifulsoup4 pillow cryptography
+      - name: Download authorized reference photographs, generate encrypted packs only
+        run: python tools/export_authorized_medaka_photos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: encrypted-personal-medaka-photo-packs
+          path: private_exports/medaka_photo_pack.encrypted
+          retention-days: 1
+          if-no-files-found: error
