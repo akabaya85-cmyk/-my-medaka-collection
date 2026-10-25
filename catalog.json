@@ -14,7 +14,16 @@
     "traits": "体外光",
     "kind": "品種・流通名（要照合）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/"
+    "source": "https://medakazukan.net/varietyofmedaka/",
+    "licensedPhotos": [
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg/250px-20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg",
+        "author": "Werner, Deutschland",
+        "license": "CC BY-SA 4.0",
+        "caption": "青幹之（ミユキブルー）の参考写真。幹之の一系統で、すべての幹之を代表する写真ではありません。"
+      }
+    ]
   },
   {
     "name": "オロチ",
