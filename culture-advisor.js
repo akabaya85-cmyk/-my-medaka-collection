@@ -25,11 +25,16 @@ function assess(batch,logs,asOf){
  const sorted=valid.slice().sort((a,b)=>b.date.localeCompare(a.date)||String(b.created||'').localeCompare(String(a.created||'')));
  const last=sorted.find(l=>l.obs&&Object.values(l.obs).some(v=>v!==''&&v!=null)||LEGACY[l.condition])||null;
  const o=last?.obs||{},legacy=LEGACY[last?.condition]||'',age=last?daysBetween(last.date,today):NaN;
- const density=o.density||'';
+ const count=o.count===''||o.count==null?NaN:Number(o.count);
+ const density=o.density||(count===0?'none':'');
+ const prevCountRecord=sorted.find(l=>l!==last&&l.obs?.count!==''&&l.obs?.count!=null&&Number.isFinite(Number(l.obs.count))&&l.date<=last.date&&daysBetween(l.date,last.date)<=7);
+ const prevCount=prevCountRecord?Number(prevCountRecord.obs.count):NaN;
+ const countTrend=Number.isFinite(count)&&Number.isFinite(prevCount)?(prevCount===0?(count>0?'increasing':'stable'):count>=prevCount*1.5?'increasing':count<=prevCount*.65?'decreasing':'stable'):'';
+ const countComparison=Number.isFinite(count)&&Number.isFinite(prevCount)?'前回'+prevCount+'匹 → 今回'+count+'匹という入力を参考にしています。':'';
  const second=sorted.find(l=>l!==last&&l.obs?.density&&l.obs.density!=='none'&&l.date<=last.date);
  const densityOrder={low:1,medium:2,high:3};
  const derivedTrend=!o.trend&&second&&densityOrder[density]&&densityOrder[second.obs.density]&&daysBetween(second.date,last.date)<=7?(densityOrder[density]>densityOrder[second.obs.density]?'increasing':densityOrder[density]<densityOrder[second.obs.density]?'decreasing':'stable'):'';
- const trend=o.trend||derivedTrend||legacy,water=o.water|| (legacy==='cloudy'?'cloudy':''),odor=o.odor||(legacy==='foul'?'foul':''),feed=o.feed||'';
+ const trend=o.trend||countTrend||derivedTrend||legacy,water=o.water|| (legacy==='cloudy'?'cloudy':''),odor=o.odor||(legacy==='foul'?'foul':''),feed=o.feed||'';
  const temp=o.temp===''||o.temp==null?NaN:Number(o.temp);
  const pressure=o.pressure||'',light=o.light||'',mix=o.mixed||'';
  const recent=(action)=>sorted.find(l=>l.action===action)||null;
@@ -103,7 +108,7 @@ function assess(batch,logs,asOf){
  if(already&&items.some(x=>x.action==='split')&&daysBetween(already.date,today)<2)items=items.filter(x=>x.action!=='split');
  const rank={urgent:0,today:1,soon:2,monitor:3};
  items.sort((a,b)=>rank[a.level]-rank[b.level]||a.when.localeCompare(b.when));
- return {items,latest:last,method:'状態記録からの参考提案',type,source:SOURCE[type]};
+ return {items,latest:last,method:'状態記録からの参考提案',type,source:SOURCE[type],comparison:countComparison};
 }
 window.medakaCultureAdvisor={assess,add,daysBetween};
 })();
