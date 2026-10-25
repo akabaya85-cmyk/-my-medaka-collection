@@ -61,6 +61,26 @@ function request(store,action,key,value){return new Promise((ok,no)=>{const tx=d
 const all=s=>request(s,'all'),get=(s,k)=>request(s,'get',k),set=(s,k,v)=>request(s,'set',k,v),del=(s,k)=>request(s,'del',k);
 function dueTasks(batch){if(batch.status!=='running')return [];const tasks=[];for(const [key,name] of FIELDS){let date=batch.next?.[key];if(!date)continue;tasks.push({key,name,date,overdue:date<today(),now:date<=today()})}return tasks.sort((a,b)=>a.date.localeCompare(b.date))}
 function dueLabel(d){return d<today()?'期限超過':d===today()?'今日':'予定'}
+
+const OBS={
+ trend:[['','未確認'],['increasing','増えている'],['stable','変わらない'],['decreasing','減っている'],['unknown','判断できない']],
+ density:[['','未確認'],['high','多い'],['medium','普通'],['low','少ない'],['none','見当たらない']],
+ water:[['','未確認'],['clear','透明に近い'],['pale','薄い色'],['green','緑色'],['dark','濃い緑色'],['red','赤・紅色'],['brown','紅褐色'],['cloudy','白濁・異常な濁り']],
+ odor:[['','未確認'],['normal','気になる異臭なし'],['foul','腐敗臭・異臭あり']],
+ feed:[['','未確認'],['low','餌の色が薄い'],['empty','餌がほぼない'],['normal','適度な濃さ'],['high','餌の色が濃い・残っている']],
+ pressure:[['','未確認'],['normal','膨張なし'],['swollen','容器が膨張している']],
+ light:[['','未確認'],['bright','明るい'],['dim','暗い'],['direct','直射日光あり']]
+};
+const obsOption=(name,label,group)=>'<label>'+label+'<select id="co'+name+'">'+OBS[group].map(([val,text])=>'<option value="'+val+'">'+text+'</option>').join('')+'</select></label>';
+const labelObs=(field,val)=>OBS[field]?.find(pair=>pair[0]===val)?.[1]||'';
+function advisor(batch,logs){if(!window.medakaCultureAdvisor)return {items:[],latest:null,method:'分析処理を読み込めません'};return window.medakaCultureAdvisor.assess(batch,logs,today())}
+function adviceCards(report,batch,compact=false){
+ const cards=report.items.slice(0,compact?3:7);
+ if(!cards.length)return '<p class="cultureEmpty">現在は提案なし。停止中・終了した容器は自動提案しません。</p>';
+ return cards.map(item=>'<div class="cultureAdvice cultureAdvice-'+item.level+'"><div><small>'+esc(item.when===today()?'今日':item.when)+' · '+(item.level==='urgent'?'要注意':item.level==='monitor'?'観察予定':'おすすめ')+'</small><b>'+esc(item.title)+'</b><p>'+esc(item.reason)+'</p></div><button data-advice-batch="'+esc(batch.id)+'" data-advice-action="'+esc(item.action)+'">記録</button></div>').join('')
+}
+function bindAdvice(node){node.querySelectorAll('[data-advice-batch]').forEach(b=>b.onclick=()=>writeLog(b.dataset.adviceBatch,['feed','split','water','check'].includes(b.dataset.adviceAction)?b.dataset.adviceAction:'check'))}
+
 async function dashboard(){
  view='dashboard';const batches=(await all('cultureBatches')).sort((a,b)=>String(b.updated||b.started||'').localeCompare(String(a.updated||a.started||''))),active=batches.filter(x=>x.status==='running'),due=active.flatMap(b=>dueTasks(b).filter(t=>t.now).map(t=>({...t,b}))).sort((a,b)=>a.date.localeCompare(b.date));
  ui(base('培養の管理')+'<div class="cultureHero"><h2>🧫 培養ノート</h2><p>培養中のもの、次にする作業、作り方をまとめて管理。</p><div><span>培養中 <b>'+active.length+'</b></span><span>今日までに確認 <b>'+due.length+'</b>件</span><span>記録済み <b>'+batches.length+'</b>容器</span></div></div><h3>📅 今日・期限超過の作業</h3><div id="cultureDue"></div><button class="primary cultureFull" id="cultureNew">＋ 新しい培養容器を登録</button><h3>🧪 培養の種類を選んで手順を見る</h3><div class="cultureKinds">'+Object.entries(TYPES).map(([k,v])=>'<button class="cultureKind" data-guide="'+k+'"><span>'+v.icon+'</span><b>'+v.name+'</b><small>'+v.short+'</small></button>').join('')+'</div><h3>🗂️ 培養中・過去の容器</h3><div id="cultureList"></div><p class="hint">この画面を開いたときに予定日を確認します。iPhoneへのプッシュ通知はありません。餌・培養液の量は使う製品の説明に従ってください。</p>');
