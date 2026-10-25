@@ -9809,5 +9809,33 @@
     "webNo": "0914",
     "profile": "注目したい形質はリアルロングフィン・透明鱗・ブラックリム・ヒカリ。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+  },
+  {
+    "name": "ヒメダカ",
+    "aliases": "緋目高、Himedaka",
+    "traits": "黄赤、オレンジ色の体色",
+    "kind": "改良メダカの体色型（ヒメダカ）",
+    "description": "黄からオレンジ色に見える体色が特徴の、古くから親しまれている改良メダカ。野生型とは異なる体色を楽しめる。",
+    "profile": "体色の特徴は黄〜オレンジ系。水槽や屋外で色の見え方が変わることがあります。",
+    "care": "一般的なメダカと同様に、水質や水温の急変を避け、適度な給餌と換水を心がけます。",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%A1%E3%83%80%E3%82%AB",
+    "licensedPhotos": [
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/%E3%83%92%E3%83%A1%E3%83%80%E3%82%AB.jpg/330px-%E3%83%92%E3%83%A1%E3%83%80%E3%82%AB.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%92%E3%83%A1%E3%83%80%E3%82%AB.jpg",
+        "author": "りょうすけ さん",
+        "license": "CC BY 2.1 JP",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.1/jp/",
+        "caption": "ヒメダカの実物写真"
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Killifish_1.jpg/320px-Killifish_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Killifish_1.jpg",
+        "author": "Tam Tam さん（色調補正：Togabi）",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "ヒメダカのペア"
+      }
+    ]
   }
 ]
