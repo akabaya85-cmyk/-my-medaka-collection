@@ -319,4 +319,28 @@ render=async function(){
   }
 };
 
+/* Final image priority: user's photos, then privately imported true variety
+ * photographs, then Wikimedia pictures, then clearly labeled trait examples. */
+let sourceCoverUrls=[];
+const renderWithTraits=render;
+render=async function(){
+  for(const u of sourceCoverUrls)URL.revokeObjectURL(u);
+  sourceCoverUrls=[];
+  await renderWithTraits();
+  if(!sourceNames.size)return;
+  const byId=new Map(entries.map(x=>[x.id,x]));
+  for(const card of document.querySelectorAll('#grid article[data-id]')){
+    const x=byId.get(card.dataset.id);
+    if(!x||!x.webNo||!sourceNames.has(x.webNo))continue;
+    const own=await getPhotos(x.id).catch(()=>[]);
+    if(own.length)continue;
+    const p=await op('sourceGallery','get',x.webNo).catch(()=>null);
+    if(!p?.blob)continue;
+    const cover=card.querySelector('[data-photo]');
+    if(!cover)continue;
+    const u=URL.createObjectURL(p.blob);
+    sourceCoverUrls.push(u);
+    cover.innerHTML='<img class="cover" src="'+u+'" alt="'+esc(x.name)+'の実物写真"><span class="sourcePhotoLabel">'+esc(x.name)+'<small>個人保存の実物写真</small></span>';
+  }
+};
 init();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
