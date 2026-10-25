@@ -72,3 +72,23 @@
 .cultureTimeline button{font-size:10px;padding:6px}
 #cultureOpen{border-color:#9fcbb2;background:#eefbf1;color:#27734a;font-weight:700}
 @media(max-width:380px){.cultureKinds,.cultureSchedule{grid-template-columns:1fr}.cultureActions button{font-size:11px;padding:8px}}
+
+/* Advice generated from logged culture observations (not a lab-grade assay) */
+.cultureAdviceGroup{padding:3px 0 7px}
+.cultureAdviceGroup>small{font-size:12px;color:#578295;font-weight:700}
+.cultureAdvice{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#f1f9fd;border:1px solid #d6e8f1;border-left:4px solid #74b5d3;border-radius:11px;padding:10px 12px;margin:8px 0}
+.cultureAdvice-urgent{border-left-color:#b75351;background:#fff8f5}
+.cultureAdvice-today{border-left-color:#c4903f}
+.cultureAdvice-monitor{border-left-color:#7ab18d}
+.cultureAdvice>div{min-width:0;flex:1}
+.cultureAdvice small,.cultureAdvice b{display:block}
+.cultureAdvice small{font-size:11px;color:#638291}
+.cultureAdvice b{font-size:13px;margin-top:5px;color:#285b72}
+.cultureAdvice p{font-size:12px;line-height:1.6;color:#516d7a;margin:5px 0 0;white-space:normal}
+.cultureAdvice button{flex:0 0 auto;font-size:12px;padding:8px}
+.cultureAdvisorInfo{font-size:12px;line-height:1.7;color:#557586;background:#f3fafc;border:1px solid #e1ecf1;border-radius:9px;padding:10px}
+.cultureObservations{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 10px;background:#f6fbfe;border:1px solid #deebf4;padding:10px;border-radius:12px}
+.cultureObservations label{min-width:0;font-size:12px}
+.cultureManualSchedule{margin:16px 0;background:#f4fafc;border:1px solid #d7e8ef;border-radius:11px;padding:11px}
+.cultureManualSchedule summary{font-size:13px;font-weight:700;color:#28718a;cursor:pointer}
+@media(max-width:390px){.cultureObservations{grid-template-columns:1fr}}
