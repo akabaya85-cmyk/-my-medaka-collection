@@ -108,12 +108,9 @@ def run():
             entry["reading"] = computed
             entry["readingBasis"] = "よみがな検索用（自動推定・要確認）"
             changed += 1
-        elif old != computed:
-            alternatives = entry.get("readings", [])
-            if computed not in alternatives and computed != old:
-                entry["readings"] = (alternatives + [computed])[:10]
-                changed += 1
-        # Existing official readings remain untouched.
+        # A manually checked pronunciation is authoritative for searching.
+        # Do not introduce speculative machine readings as alternate names.
+        # Users can change pronunciations inside the app if sources disagree.
     if changed:
         CATALOG.write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Reading index changed entries: {changed}; total: {len(records)}")
