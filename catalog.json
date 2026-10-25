@@ -12940,5 +12940,296 @@
     ],
     "reading": "れっどどらごん",
     "readingBasis": "よみがな検索用（自動推定・要確認）"
+  },
+  {
+    "name": "オランジェ",
+    "aliases": "おらんじぇ",
+    "kind": "流通名",
+    "traits": "茶黒・オレンジ・ラメ・ロングフィン",
+    "description": "黒〜茶色とオレンジの色合いにラメが乗り、長い房状のヒレを持つ。エメキンとブラックダイヤの系統をもとに作出されたと紹介される。",
+    "url": "https://jasma.sc/medaka/orange/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "sourceBreeder": "垂水政治",
+    "sourceYear": "2024",
+    "reading": "おらんじぇ",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/orange/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "コブラ",
+    "aliases": "こぶら",
+    "kind": "流通名",
+    "traits": "",
+    "description": "JASMAの品種図鑑に掲載される改良メダカ。具体的な形質・系統情報は出典記事と照合してください。",
+    "url": "https://jasma.sc/medaka/cobra/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "こぶら",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/cobra/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "ダイアナ妃",
+    "aliases": "だいあなひ",
+    "kind": "流通名",
+    "traits": "白朱赤・体外光",
+    "description": "紅白系の色柄と鱗光系の体外光を鑑賞する流通名。色柄の出方は個体ごとに異なる。",
+    "url": "https://jasma.sc/medaka/daina/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "sourceBreeder": "道三めだか",
+    "reading": "だいあなひ",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/daina/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "ミッドナイトフリル",
+    "aliases": "みっどないとふりる",
+    "kind": "流通名",
+    "traits": "黒・背地反応なし・ロングフィン・ラメ・体外光",
+    "description": "暗色の体色と長いヒレを基調とし、体外光タイプ・ラメタイプ・漆黒タイプの三系統が紹介されている。",
+    "url": "https://jasma.sc/medaka/midnightflill/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "sourceBreeder": "垂水政治",
+    "sourceYear": "2023",
+    "reading": "みっどないとふりる",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/midnightflill/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "ムラサキ",
+    "aliases": "むらさき、茈",
+    "kind": "流通名",
+    "traits": "",
+    "description": "JASMAの図鑑に茈（むらさき）の名前で掲載されている系統。個別の特徴は出典を参照。",
+    "url": "https://jasma.sc/medaka/murasaki/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "むらさき",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/murasaki/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "レックウザ",
+    "aliases": "れっくうざ",
+    "kind": "流通名",
+    "traits": "黒・メタリック・ラメ",
+    "description": "黒系のメタリックな体色に光沢やラメが重なる。メタリカワイドフィンとネプチューンの交配による系統として紹介される。",
+    "url": "https://jasma.sc/medaka/rekkuuza/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "sourceBreeder": "サバンナ",
+    "sourceYear": "2024",
+    "reading": "れっくうざ",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/rekkuuza/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "三色サファイア",
+    "aliases": "さんしょくさふぁいあ",
+    "kind": "流通名",
+    "traits": "三色・ラメ",
+    "description": "三色の色柄とサファイア系の青ラメを組み合わせた系統として紹介される。",
+    "url": "https://jasma.sc/medaka/asnshokufsaifaia/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "さんしょくさふぁいあ",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/asnshokufsaifaia/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "和墨",
+    "aliases": "わずみ",
+    "kind": "流通名",
+    "traits": "白・黒・斑・背地反応なし",
+    "description": "白地と墨色の斑点のコントラストが特徴。明るい容器でも黒斑が薄くなりにくい系統として知られる。",
+    "url": "https://jasma.sc/medaka/wazumi/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "sourceBreeder": "めだか専門店ぱれっと",
+    "sourceYear": "2019",
+    "reading": "わずみ",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/wazumi/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "和墨三色",
+    "aliases": "わずみさんしょく",
+    "kind": "流通名",
+    "traits": "三色・斑",
+    "description": "和墨系の墨色の斑模様を基調として、三色の色柄を楽しむ系統。",
+    "url": "https://jasma.sc/medaka/sazumisanshoku/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "わずみさんしょく",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/sazumisanshoku/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "曜変天目",
+    "aliases": "ようへんてんもく",
+    "kind": "流通名",
+    "traits": "黒・ロングフィン・ヒレ光",
+    "description": "深い黒色の体に青みがかったヒレと白いフリル状の表現が重なる系統。ミッドナイトフリル系統との関連が紹介される。",
+    "url": "https://jasma.sc/medaka/yohentenmoku/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "sourceBreeder": "垂水政治",
+    "sourceYear": "2024",
+    "reading": "ようへんてんもく",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/yohentenmoku/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "白ブチDW",
+    "aliases": "しろぶちでぃーぷほわいと、白ブチディープホワイト",
+    "kind": "流通名",
+    "traits": "",
+    "description": "「ディープホワイト」の呼び名を含む白斑系統としてJASMAで紹介されている。形質の詳細は参照先で確認。",
+    "url": "https://jasma.sc/medaka/sirobuchidw/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "しろぶちでぃーぷほわいと",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/sirobuchidw/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "金閣",
+    "aliases": "きんかく",
+    "kind": "流通名",
+    "traits": "",
+    "description": "JASMAの品種図鑑に掲載される改良メダカ。外見の特徴は出典記事を参照。",
+    "url": "https://jasma.sc/medaka/kinkaku/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "きんかく",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/kinkaku/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "阿形",
+    "aliases": "あぎょう",
+    "kind": "流通名",
+    "traits": "",
+    "description": "JASMAの品種図鑑に掲載される改良メダカ。特徴と系統は出典記事を参照。",
+    "url": "https://jasma.sc/medaka/agyou/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "あぎょう",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/agyou/",
+        "note": "特徴と系統の参考"
+      }
+    ]
+  },
+  {
+    "name": "鳳凰",
+    "aliases": "ほうおう",
+    "kind": "流通名",
+    "traits": "",
+    "description": "JASMAの図鑑に掲載される改良メダカ。個別形質の詳細は参照先で確認。",
+    "url": "https://jasma.sc/medaka/houou/",
+    "profile": "",
+    "sourceCheckedAt": "2026-10-25",
+    "reading": "ほうおう",
+    "readingBasis": "参考記事による読み・手動確認",
+    "profileBasis": "JASMA品種解説をもとに外観と名称を整理（2026-10-25）",
+    "referenceLinks": [
+      {
+        "label": "JASMA 品種図鑑",
+        "url": "https://jasma.sc/medaka/houou/",
+        "note": "特徴と系統の参考"
+      }
+    ]
   }
 ]
