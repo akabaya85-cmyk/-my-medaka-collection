@@ -67,16 +67,16 @@ async function importAuthorizedPacks(files){
   try{
     for(let fi=0;fi<files.length;fi++){
       const file=files[fi];
-      if(file.size>20000000){errors.push(file.name+': サイズが大きすぎます');continue}
+      if(file.size>100000000){errors.push(file.name+': サイズが大きすぎます');continue}
       if(status)status.textContent='📷 写真パックを確認中 '+(fi+1)+'/'+files.length;
       let pack;
       try{pack=JSON.parse(await file.text())}catch{errors.push(file.name+': 読込エラー');continue}
-      if(pack?.format!=='my-medaka-authorized-photo-pack-v1'||!Array.isArray(pack.photos)||pack.photos.length>80){errors.push(file.name+': 形式が違います');continue}
+      if(pack?.format!=='my-medaka-authorized-photo-pack-v1'||!Array.isArray(pack.photos)||pack.photos.length>1000){errors.push(file.name+': 形式が違います');continue}
       batches++;
       for(let i=0;i<pack.photos.length;i++){
         const p=pack.photos[i],no=String(p.webNo||'').padStart(4,'0');
         const matching=entries.find(x=>x.webNo===no);
-        if(!/^\d{4}$/.test(no)||!matching||String(p.name||'')!==matching.name||typeof p.dataUrl!=='string'||!p.dataUrl.startsWith('data:image/jpeg;base64,')){rejected++;continue}
+        if(!/^\d{4}$/.test(no)||!matching||typeof p.dataUrl!=='string'||!p.dataUrl.startsWith('data:image/jpeg;base64,')){rejected++;continue}
         try{
           const blob=toBlob(p.dataUrl);
           if(blob.size<1200||blob.size>450000){rejected++;continue}
