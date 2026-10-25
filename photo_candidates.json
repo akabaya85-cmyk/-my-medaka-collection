@@ -1,0 +1,90 @@
+{
+  "note": "Not verified; DO NOT automatically assign to a breed. Verify the source page, license and exact cultivar first.",
+  "results": {
+    "楊貴妃": [],
+    "オロチ": [],
+    "夜桜": [],
+    "深海": [],
+    "サファイア": [],
+    "三色ラメ": [],
+    "紅白": [],
+    "初恋": [],
+    "幹之": [
+      {
+        "title": "20240724 Medaka Miyuki Blue 3 male Foto Manuel Werner DSC0808",
+        "pageUrl": "https://commons.wikimedia.org/w/index.php?curid=150750761",
+        "creator": "Werner, Deutschland",
+        "license": "by-sa",
+        "licenseVersion": "4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "thumbnail": "https://api.openverse.org/v1/images/3d116b30-0407-4917-93b5-1b5395be8c5e/thumb/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg",
+        "provider": "wikimedia",
+        "source": "wikimedia"
+      }
+    ],
+    "ヒメダカ": [
+      {
+        "title": "R0013839",
+        "pageUrl": "https://www.flickr.com/photos/60441754@N05/10610858613",
+        "creator": "eitarov",
+        "license": "by",
+        "licenseVersion": "2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "thumbnail": "https://api.openverse.org/v1/images/2a354fb2-72d0-46ba-896c-40dc3b5e9f26/thumb/",
+        "imageUrl": "https://live.staticflickr.com/3697/10610858613_d0e06d64ec_b.jpg",
+        "provider": "flickr",
+        "source": "flickr"
+      },
+      {
+        "title": "R0013843",
+        "pageUrl": "https://www.flickr.com/photos/60441754@N05/10533709616",
+        "creator": "eitarov",
+        "license": "by",
+        "licenseVersion": "2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "thumbnail": "https://api.openverse.org/v1/images/8deed1bd-7322-4dc2-8a1e-0ba736fce39b/thumb/",
+        "imageUrl": "https://live.staticflickr.com/3759/10533709616_e91927a853_b.jpg",
+        "provider": "flickr",
+        "source": "flickr"
+      },
+      {
+        "title": "R0013847",
+        "pageUrl": "https://www.flickr.com/photos/60441754@N05/10533746164",
+        "creator": "eitarov",
+        "license": "by",
+        "licenseVersion": "2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "thumbnail": "https://api.openverse.org/v1/images/c94f251e-0323-45fc-a2b7-756cc2ac9334/thumb/",
+        "imageUrl": "https://live.staticflickr.com/5500/10533746164_7474c1bb43_b.jpg",
+        "provider": "flickr",
+        "source": "flickr"
+      },
+      {
+        "title": "R0013848",
+        "pageUrl": "https://www.flickr.com/photos/60441754@N05/10533744734",
+        "creator": "eitarov",
+        "license": "by",
+        "licenseVersion": "2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "thumbnail": "https://api.openverse.org/v1/images/999ef017-61b9-461f-aaf5-e734c1351aaa/thumb/",
+        "imageUrl": "https://live.staticflickr.com/2877/10533744734_863c740ff2_b.jpg",
+        "provider": "flickr",
+        "source": "flickr"
+      },
+      {
+        "title": "R0013846",
+        "pageUrl": "https://www.flickr.com/photos/60441754@N05/10533752854",
+        "creator": "eitarov",
+        "license": "by",
+        "licenseVersion": "2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "thumbnail": "https://api.openverse.org/v1/images/604ca13e-63d0-4ee8-85bd-ff0281c4ea0f/thumb/",
+        "imageUrl": "https://live.staticflickr.com/7427/10533752854_35bd2cc954_b.jpg",
+        "provider": "flickr",
+        "source": "flickr"
+      }
+    ]
+  },
+  "errors": []
+}
