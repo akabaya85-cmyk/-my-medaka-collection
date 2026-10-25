@@ -1,0 +1,31 @@
+name: Check licensed-for-private-use medaka manual photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/jma-manual-photo-audit.yml'
+      - 'tools/audit_jma_manual.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests pymupdf
+      - name: Inspect only, never publish the PDF or photographs
+        run: python tools/audit_jma_manual.py
+      - name: Save source audit metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add jma_manual_image_audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Audit private-use JMA manual image counts without copying photos'
+          git pull --rebase
+          git push
