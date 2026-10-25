@@ -13294,5 +13294,78 @@
     ],
     "sourceBreeder": "め組",
     "sourceYear": "2012"
+  },
+  {
+    "name": "エメラルダス",
+    "aliases": "えめらるだす,Emeraldas",
+    "reading": "えめらるだす",
+    "readingBasis": "掲載名からの読み",
+    "traits": "緑・ラメ",
+    "kind": "流通名",
+    "description": "「エメラルダス」は水郷めだかによるハウスネームとして紹介されている緑ラメ系メダカ。緑色のラメの美しさが特徴。正確な交配系統は記事内でも未確認で、別名の「エメラルダ」と同一系統である根拠はない。",
+    "profile": "緑色に輝くラメに注目。作出系統の詳細は未確定。",
+    "profileBasis": "日刊めだかの2023年7月30日掲載記事（体験記事・作出者伝聞）。交配系統未確認。",
+    "sourceBreeder": "水郷めだか（記事での紹介）",
+    "sourceCheckedAt": "2026-10-25",
+    "url": "https://nikkan-medaka.com/blog/emeraldas-omukae/",
+    "referenceLinks": [
+      {
+        "label": "日刊めだか：エメラルダスの飼育記事",
+        "url": "https://nikkan-medaka.com/blog/emeraldas-omukae/",
+        "note": "緑ラメ・ハウスネームの記載。系統未確定。"
+      }
+    ]
+  },
+  {
+    "name": "紅ほっぺポニョ",
+    "aliases": "べにほっぺぽにょ、紅ほっぺ・ポニョ、紅ほっぺ出目目前",
+    "reading": "べにほっぺぽにょ",
+    "readingBasis": "名前の表記から読み",
+    "traits": "透明鱗・出目・目前・紅ほっぺ",
+    "kind": "流通名",
+    "description": "紅ほっぺのようにえら付近が赤く透ける特徴と、出目目前系の愛称「ポニョ」を組み合わせた流通上の呼び名。販売店でも「出目目前透明鱗紅ほっぺ ポニョ」として扱われる。単独の固定品種として確立した名称かどうかは未確認。",
+    "profile": "出目・目前の目の形と、えら周辺の赤い頬が特徴。",
+    "profileBasis": "販売店の掲載名に基づく形質の組み合わせ（単独固定品種かどうか未確認）",
+    "sourceCheckedAt": "2026-10-25",
+    "url": "https://gokurakufarm.com/shop/5435",
+    "referenceLinks": [
+      {
+        "label": "極楽ファーム：出目目前透明鱗紅ほっぺポニョ",
+        "url": "https://gokurakufarm.com/shop/5435",
+        "note": "販売名・形質の実例"
+      },
+      {
+        "label": "出目目前透明鱗ポニョ紅ほっぺの販売例",
+        "url": "https://store.shopping.yahoo.co.jp/prospers/medaka-y-s-ponyo1.html",
+        "note": "形質表記の確認"
+      }
+    ]
+  },
+  {
+    "name": "松井ヒレ長",
+    "aliases": "まついひれなが、松井鰭長、天女の舞、ヒレ長",
+    "reading": "まついひれなが",
+    "readingBasis": "正式な形質・通称の読み",
+    "traits": "ヒレ長",
+    "kind": "形質・分類",
+    "description": "2015年に松井勝二郎氏が作出した、各ヒレが大きく伸びる形質。松井ヒレ長は特定の体色ひとつを指す名前ではなく、さまざまな体色・模様の系統に取り入れられている。ヒレの形と長さを鑑賞する。",
+    "profile": "背びれ・しりびれ・尾びれなどのヒレ全体が伸長する。",
+    "profileBasis": "改良メダカWEB図鑑の形質解説と育種資料で照合。単一の体色品種ではなく形質名。",
+    "sourceYear": "2015",
+    "sourceBreeder": "松井勝二郎",
+    "sourceCheckedAt": "2026-10-25",
+    "url": "https://medakazukan.net/%E3%83%92%E3%83%AC%E9%95%B7%E3%80%80%EF%BD%9E%E3%83%A1%E3%83%80%E3%82%AB%E3%81%AE%E3%83%92%E3%83%AC%E5%A4%89%E5%8C%96%E3%81%AE%E7%89%B9%E5%BE%B4%EF%BD%9E%E3%80%80%E3%83%A1%E3%83%80%E3%82%AB%E3%81%AE/",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑：松井ヒレ長の形質",
+        "url": "https://medakazukan.net/%E3%83%92%E3%83%AC%E9%95%B7%E3%80%80%EF%BD%9E%E3%83%A1%E3%83%80%E3%82%AB%E3%81%AE%E3%83%92%E3%83%AC%E5%A4%89%E5%8C%96%E3%81%AE%E7%89%B9%E5%BE%B4%EF%BD%9E%E3%80%80%E3%83%A1%E3%83%80%E3%82%AB%E3%81%AE/",
+        "note": "形質解説"
+      },
+      {
+        "label": "カミハタ：松井ヒレ長の特徴",
+        "url": "https://www.kamihata-online.com/shop/secure/05gf0004syuminomedaka-3collect.aspx",
+        "note": "作出・表現の参考"
+      }
+    ]
   }
 ]
