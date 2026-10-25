@@ -22,3 +22,17 @@
 .referencePhotos figure img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eaf6fa;display:block}
 .referencePhotos figcaption{font-size:12px;padding:8px;line-height:1.5}
 .referencePhotos figcaption span{display:block;font-size:10px;color:#688a9a;margin-top:4px;overflow-wrap:anywhere}
+
+/* One-device personal screenshot inbox; no third-party images are uploaded */
+#photoInboxDialog{width:min(96vw,610px);max-height:92dvh;padding:17px}
+.inboxHeading{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.inboxHeading h2{font-size:20px;margin:6px 0}
+.inboxPreview{display:block;max-width:100%;width:100%;height:min(34dvh,320px);object-fit:contain;background:#e9f6fc;border:1px solid #d9ebf4;border-radius:12px;margin-top:12px}
+#inboxSearch{width:100%;min-height:45px;background:#fff;border:1px solid #bfdfea;border-radius:12px;padding:10px}
+.inboxMatches{display:flex;flex-wrap:wrap;gap:6px;max-height:150px;overflow-y:auto;overflow-x:hidden;border:1px solid #e0edf5;background:#fff;border-radius:12px;padding:8px;margin:8px 0;overscroll-behavior:contain}
+.photoChoice{padding:7px 9px;font-size:12px;text-align:left}
+.photoChoice.selected{border-color:#168fbc;background:#dff5ff;color:#136083;font-weight:700}
+.selectedPhotoTarget{font-size:13px;font-weight:600;color:#136083;background:#ecf8fc;border-radius:10px;padding:10px;margin:8px 0}
+.inboxActions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.inboxActions button{flex-grow:1;min-width:92px}
+@media(max-width:380px){.inboxActions button{font-size:12px;padding:9px 6px}}
