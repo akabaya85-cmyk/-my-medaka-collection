@@ -137,7 +137,7 @@ def main():
     # Spread deeper checks over subsequent runs; never replace curated descriptions.
     candidates = [
         x for x in catalog
-        if x.get("webNo") in all_articles and not x.get("sourceCheckedAt")
+        if x.get("webNo") in all_articles and not x.get("sourceCheckedAt") and not x.get("sourceAttemptedAt")
     ]
     checked = 0
     for entry in candidates[:MAX_DETAIL_CHECKS]:
@@ -146,6 +146,7 @@ def main():
             summary = overview(soup)
             traits = trait_list(summary)
             if not traits:
+                entry["sourceAttemptedAt"] = TODAY
                 continue
             if not entry.get("traits"):
                 entry["traits"] = "・".join(traits)
