@@ -13432,5 +13432,35 @@
         "note": "作出・表現の参考"
       }
     ]
+  },
+  {
+    "name": "プラチナ牡丹",
+    "aliases": "プラチナボタン、ぷらちなぼたん、プラチナ牡丹メダカ",
+    "reading": "ぷらちなぼたん",
+    "readingBasis": "一般的な日本語読み・商品掲載名",
+    "kind": "流通名",
+    "traits": "朱赤・銀色・プラチナ光沢・ヒカリ体型",
+    "description": "朱赤の体色に、背中の銀白色〜プラチナ色の光沢が重なるヒカリ体型のメダカ。頭部の朱赤と胴体のメタリックな色合いのコントラストが鑑賞ポイント。販売元によって外見の表現には個体差があり、似た系統との区別が写真のみでは難しい場合がある。",
+    "profile": "頭部の朱赤と、背中〜胴体の銀白色の輝きを上から観察。ヒカリ体型の背びれ・しりびれ・尾びれも見分けるポイント。",
+    "profileBasis": "大分めだか日和のヒカリメダカ商品説明と、かねだい横浜店・アクア専門店の取り扱い情報を照合（2026-10-25）。作出者・作出年は未確認。",
+    "sourceCheckedAt": "2026-10-25",
+    "url": "https://oitamedakabiyori.com/goods/hikari/post-171.html",
+    "referenceLinks": [
+      {
+        "label": "大分めだか日和：プラチナ牡丹の特徴",
+        "url": "https://oitamedakabiyori.com/goods/hikari/post-171.html",
+        "note": "朱赤・プラチナ色の背中・ヒカリ体型"
+      },
+      {
+        "label": "かねだい横浜店：プラチナ牡丹の入荷紹介",
+        "url": "https://ameblo.jp/kanedaiyokohama/entry-12799930409.html",
+        "note": "銀色の胴体と朱赤の頭部"
+      },
+      {
+        "label": "熱帯魚のmishima：プラチナ牡丹",
+        "url": "https://mishima-aqua.com/blog-takaoka/84602",
+        "note": "ヒカリ体型として掲載"
+      }
+    ]
   }
 ]
