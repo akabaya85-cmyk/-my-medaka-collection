@@ -2,12 +2,15 @@
   {
     "name": "楊貴妃",
     "traits": "朱赤",
-    "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "kind": "流通名",
+    "description": "見分けるときは、朱赤の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0001_yokihi/",
     "webNo": "0001",
-    "aliases": "ようきひ"
+    "aliases": "ようきひ",
+    "profile": "掲載記事で確認できる外見の要素：朱赤。",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "幹之",
@@ -29,49 +32,53 @@
     "name": "オロチ",
     "traits": "黒",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "見分けるときは、体外光・ビッグアイ・水泡眼・青の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0652_orichi/",
     "webNo": "0652",
     "aliases": "",
     "profile": "体色の特徴は黒系。注目したい形質はパンダ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "夜桜",
     "traits": "ラメ",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "見分けるときは、半透明鱗・ラメ・黄の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0153_yozakura/",
     "webNo": "0153",
     "aliases": "よざくら",
     "profile": "体色の特徴は黄・黒系。注目したい形質は半透明鱗・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "深海",
     "traits": "青・腹膜青",
-    "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "kind": "流通名",
+    "description": "見分けるときは、腹膜青・青の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0117_sinkai/",
     "webNo": "0117",
     "aliases": "しんかい",
     "profile": "体色の特徴は青系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "黄金ラメ",
     "traits": "黄金・ラメ",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "見分けるときは、ラメ・黄金・黄の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0135_ougonrame/",
     "webNo": "0135",
     "aliases": "おうごんらめ",
     "profile": "体色の特徴は黄金系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "三色ラメ",
@@ -84,13 +91,14 @@
     "name": "紅白ラメ",
     "traits": "紅白・ラメ",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "見分けるときは、ラメ・朱赤・白の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0181_kouhakurame/",
     "webNo": "0181",
     "aliases": "白朱赤ラメ",
     "profile": "体色の特徴は白・朱赤系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "白メダカ",
@@ -102,7 +110,8 @@
     "webNo": "0043",
     "aliases": "",
     "profile": "体色の特徴は白系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "sourceAttemptedAt": "2026-10-25"
   },
   {
     "name": "青メダカ",
@@ -114,7 +123,8 @@
     "webNo": "0047",
     "aliases": "",
     "profile": "体色の特徴は青系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "sourceAttemptedAt": "2026-10-25"
   },
   {
     "name": "黒メダカ",
@@ -127,13 +137,14 @@
     "name": "琥珀",
     "traits": "琥珀",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "見分けるときは、琥珀・オレンジの組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0011_kohaku/",
     "webNo": "0011",
     "aliases": "琥珀メダカ",
     "profile": "体色の特徴は琥珀系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "白幹之",
@@ -167,13 +178,14 @@
     "name": "星河",
     "traits": "ラメ",
     "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "description": "見分けるときは、ラメ・青の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0128_seiga/",
     "webNo": "0128",
     "aliases": "せいが",
     "profile": "体色の特徴は青系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "三色",
@@ -227,24 +239,28 @@
   {
     "name": "ピュアホワイト",
     "traits": "白",
-    "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "kind": "流通名",
+    "description": "見分けるときは、黄・白の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0007_purewhite/",
     "webNo": "0007",
     "aliases": "白メダカ",
     "profile": "体色の特徴は白系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "初恋",
     "traits": "流通名・要照合",
-    "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
+    "kind": "流通名",
+    "description": "見分けるときは、ダルマ・朱赤の組み合わせに注目します。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "url": "https://medakazukan.net/0003_hatsukoi/",
     "webNo": "0003",
-    "aliases": "朱赤ダルマメダカ"
+    "aliases": "朱赤ダルマメダカ",
+    "profile": "掲載記事で確認できる外見の要素：ダルマ、朱赤。",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ネプチューン",
@@ -407,22 +423,26 @@
   {
     "name": "東天光",
     "aliases": "朱赤ヒカリメダカ",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "traits": "ヒカリ・朱赤",
+    "kind": "流通名",
+    "description": "見分けるときは、ヒカリ・朱赤の組み合わせに注目します。",
     "url": "https://medakazukan.net/0002_totenko/",
     "webNo": "0002",
     "profile": "注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "朱天皇",
     "aliases": "朱赤ヒカリダルマメダカ",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "traits": "ヒカリダルマ・朱赤",
+    "kind": "流通名",
+    "description": "見分けるときは、ヒカリダルマ・朱赤の組み合わせに注目します。",
     "url": "https://medakazukan.net/0004_syutenno/",
-    "webNo": "0004"
+    "webNo": "0004",
+    "profile": "掲載記事で確認できる外見の要素：ヒカリダルマ、朱赤。",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "楊30",
@@ -431,7 +451,8 @@
     "kind": "WEB図鑑掲載名（区分は要確認）",
     "description": "詳しい系統や特徴は出典記事をご確認ください。",
     "url": "https://medakazukan.net/0005_yo30/",
-    "webNo": "0005"
+    "webNo": "0005",
+    "sourceAttemptedAt": "2026-10-25"
   },
   {
     "name": "三角東天光",
@@ -440,524 +461,572 @@
     "kind": "WEB図鑑掲載名（区分は要確認）",
     "description": "詳しい系統や特徴は出典記事をご確認ください。",
     "url": "https://medakazukan.net/0006_misumitotenko/",
-    "webNo": "0006"
+    "webNo": "0006",
+    "sourceAttemptedAt": "2026-10-25"
   },
   {
     "name": "ピュアホワイトヒカリ",
     "aliases": "白ヒカリメダカ",
     "traits": "ヒカリ",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、ヒカリの組み合わせに注目します。",
     "url": "https://medakazukan.net/0008_purewhitehikari/",
     "webNo": "0008",
     "profile": "注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ピュアホワイトダルマ",
     "aliases": "白ヒカリダルマ",
     "traits": "ダルマ",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、ダルマの組み合わせに注目します。",
     "url": "https://medakazukan.net/0009_purewhitedharma/",
     "webNo": "0009",
     "profile": "注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ピュアホワイトヒカリダルマ",
     "aliases": "白ヒカリダルマ",
     "traits": "ダルマ、ヒカリ",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、ヒカリダルマの組み合わせに注目します。",
     "url": "https://medakazukan.net/0010_purewhitehikaridharma/",
     "webNo": "0010",
     "profile": "注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "暁",
     "aliases": "琥珀ヒカリメダカ",
-    "traits": "",
+    "traits": "ヒカリ・琥珀・オレンジ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・琥珀・オレンジの組み合わせに注目します。",
     "url": "https://medakazukan.net/0012_akatsuki/",
     "webNo": "0012",
     "profile": "体色の特徴は琥珀系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "琥珀丸",
     "aliases": "琥珀ダルマメダカ",
     "traits": "琥珀",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・琥珀・オレンジの組み合わせに注目します。",
     "url": "https://medakazukan.net/0013_kohakumaru/",
     "webNo": "0013",
     "profile": "体色の特徴は琥珀系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "琴琥",
     "aliases": "琥珀ヒカリダルマメダカ",
-    "traits": "",
+    "traits": "ヒカリダルマ・琥珀・オレンジ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・琥珀・オレンジの組み合わせに注目します。",
     "url": "https://medakazukan.net/0014_kotoko/",
     "webNo": "0014",
     "profile": "体色の特徴は琥珀系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "安芸黄金",
     "aliases": "黄金メダカ",
     "traits": "黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、黄金・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0015_akiougon/",
     "webNo": "0015",
     "profile": "体色の特徴は黄金系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "秀吉",
     "aliases": "黄金ヒカリメダカ",
-    "traits": "",
+    "traits": "ヒカリ・黄金・黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・黄金・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0016_hideyoshi/",
     "webNo": "0016",
     "profile": "体色の特徴は黄金系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "金鱗丸",
     "aliases": "黄金ダルマメダカ",
-    "traits": "",
+    "traits": "ダルマ・黄金・黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・黄金・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0017_kinrinmaru/",
     "webNo": "0017",
     "profile": "体色の特徴は黄金系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "金皇丸",
     "aliases": "黄金ヒカリダルマメダカ",
-    "traits": "",
+    "traits": "ヒカリダルマ・黄金・黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・黄金・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0018_kinnoumaru/",
     "webNo": "0018",
     "profile": "体色の特徴は黄金系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラックメダカ",
     "aliases": "",
-    "traits": "",
+    "traits": "ブラック",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0019_black/",
     "webNo": "0019",
     "profile": "体色の特徴は黒系。注目したい形質は背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラックヒカリメダカ",
     "aliases": "",
     "traits": "ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0020_blackhikari/",
     "webNo": "0020",
     "profile": "体色の特徴は黒系。注目したい形質はヒカリ体型・背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラックダルマメダカ",
     "aliases": "",
     "traits": "ダルマ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0021_blackdharma/",
     "webNo": "0021",
     "profile": "体色の特徴は黒系。注目したい形質はダルマ・背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラックヒカリダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0022_blackhikaridharma/",
     "webNo": "0022",
     "profile": "体色の特徴は黒系。注目したい形質はヒカリ・ダルマ・背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラック黄金メダカ",
     "aliases": "",
     "traits": "黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ブラック・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0023_blackougon/",
     "webNo": "0023",
     "profile": "体色の特徴は黒系。注目したい形質は背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラック黄金ヒカリメダカ",
     "aliases": "",
     "traits": "ヒカリ、黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・ブラック・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0024_blackougonhikari/",
     "webNo": "0024",
     "profile": "体色の特徴は黒系。注目したい形質はヒカリ体型・背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラック黄金ダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・ブラック・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0025_blackougondharma/",
     "webNo": "0025",
     "profile": "体色の特徴は黒系。注目したい形質はダルマ・背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ブラック黄金ヒカリダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ、黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・ブラック・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0026_blackougonhikaridharma/",
     "webNo": "0026",
     "profile": "体色の特徴は黒系。注目したい形質はヒカリ・ダルマ・背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "オレンジメダカ",
     "aliases": "",
     "traits": "オレンジ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、朱赤・オレンジ・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0027_orange/",
     "webNo": "0027",
     "profile": "体色の特徴はオレンジ系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "舞姫",
     "aliases": "オレンジヒカリメダカ",
-    "traits": "",
+    "traits": "ヒカリ・朱赤・オレンジ・黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・朱赤・オレンジ・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0028_maihime/",
     "webNo": "0028",
     "profile": "体色の特徴はオレンジ系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "オレンジダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、オレンジ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・朱赤・オレンジ・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0029_orangedharma/",
     "webNo": "0029",
     "profile": "体色の特徴はオレンジ系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "オレンジヒカリダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ、オレンジ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・朱赤・オレンジ・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0030_orangehikaridharma/",
     "webNo": "0030",
     "profile": "体色の特徴はオレンジ系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ピンクメダカ",
     "aliases": "",
     "traits": "ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0031_pink/",
     "webNo": "0031",
     "profile": "体色の特徴はピンク系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "秋桜",
     "aliases": "ピンクヒカリメダカ",
-    "traits": "",
+    "traits": "ヒカリ・ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0032_cosmos/",
     "webNo": "0032",
     "profile": "体色の特徴はピンク系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ピンクダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0033_pinkdharma/",
     "webNo": "0033",
     "profile": "体色の特徴はピンク系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "ピンクヒカリダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ、ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0034_pinkhikaridharma/",
     "webNo": "0034",
     "profile": "体色の特徴はピンク系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "茶メダカ",
     "aliases": "",
-    "traits": "",
+    "traits": "茶",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、茶の組み合わせに注目します。",
     "url": "https://medakazukan.net/0035_tya/",
     "webNo": "0035",
     "profile": "体色の特徴は茶系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "茶ヒカリメダカ",
     "aliases": "",
     "traits": "ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・茶の組み合わせに注目します。",
     "url": "https://medakazukan.net/0036_tyahikari/",
     "webNo": "0036",
     "profile": "体色の特徴は茶系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "茶ダルマメダカ",
     "aliases": "",
     "traits": "ダルマ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・茶の組み合わせに注目します。",
     "url": "https://medakazukan.net/0037_tyadharma/",
     "webNo": "0037",
     "profile": "体色の特徴は茶系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "茶ヒカリダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・茶の組み合わせに注目します。",
     "url": "https://medakazukan.net/0038_tyahikaridharma/",
     "webNo": "0038",
     "profile": "体色の特徴は茶系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "黄メダカ",
     "aliases": "",
     "traits": "黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0039_ki/",
     "webNo": "0039",
     "profile": "体色の特徴は黄系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "黄ヒカリメダカ",
     "aliases": "",
     "traits": "ヒカリ、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0040_kihikari/",
     "webNo": "0040",
     "profile": "体色の特徴は黄系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "黄ダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0041_kidharma/",
     "webNo": "0041",
     "profile": "体色の特徴は黄系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "黄ヒカリダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0042_kihikaridharma/",
     "webNo": "0042",
     "profile": "体色の特徴は黄系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "白ヒカリメダカ",
     "aliases": "",
     "traits": "ヒカリ、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0044_siroshikari/",
     "webNo": "0044",
     "profile": "体色の特徴は白系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "白ダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0045_sirodharma/",
     "webNo": "0045",
     "profile": "体色の特徴は白系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "白ヒカリダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0046_sirohikaridharma/",
     "webNo": "0046",
     "profile": "体色の特徴は白系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "青ヒカリメダカ",
     "aliases": "",
     "traits": "ヒカリ、青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0048_aohikari/",
     "webNo": "0048",
     "profile": "体色の特徴は青系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "青ダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0049_aohikaridharma/",
     "webNo": "0049",
     "profile": "体色の特徴は青系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "青ヒカリダルマメダカ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ、青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0050_aohikaridharma/",
     "webNo": "0050",
     "profile": "体色の特徴は青系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "シルキーメダカ",
     "aliases": "白メダカ",
-    "traits": "",
+    "traits": "白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0051_silky/",
     "webNo": "0051",
     "profile": "体色の特徴は白系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "天女",
     "aliases": "シルキーヒカリ｜白ヒカリメダカ",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "traits": "ヒカリ・白",
+    "kind": "流通名",
+    "description": "見分けるときは、ヒカリ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0052_tennyo/",
     "webNo": "0052",
     "profile": "体色の特徴は白系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "シルキーダルマメダカ",
     "aliases": "白ダルマメダカ",
     "traits": "ダルマ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0053_silkydharma/",
     "webNo": "0053",
     "profile": "体色の特徴は白系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "シルキーヒカリダルマメダカ",
     "aliases": "白ヒカリダルマメダカ",
     "traits": "ダルマ、ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0054_silkyhikaridharma/",
     "webNo": "0054",
     "profile": "体色の特徴は白系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "パープルブルーメダカ",
     "aliases": "青メダカ",
-    "traits": "",
+    "traits": "青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0055_purpleblue/",
     "webNo": "0055",
     "profile": "体色の特徴は青系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "パープルブルーヒカリメダカ",
     "aliases": "青ヒカリメダカ",
     "traits": "ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0056_purplebluehikari/",
     "webNo": "0056",
     "profile": "体色の特徴は青系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "パープルブルーダルマメダカ",
     "aliases": "青ダルマメダカ",
     "traits": "ダルマ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ダルマ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0057_purplebluedharma/",
     "webNo": "0057",
     "profile": "体色の特徴は青系。注目したい形質はダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "パープルブルーヒカリダルマメダカ",
@@ -968,18 +1037,20 @@
     "url": "https://medakazukan.net/0058_purplebluehikaridharma/",
     "webNo": "0058",
     "profile": "体色の特徴は青系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "sourceAttemptedAt": "2026-10-25"
   },
   {
     "name": "スカイブルー",
     "aliases": "青メダカ",
-    "traits": "",
+    "traits": "青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0059_skyblue/",
     "webNo": "0059",
     "profile": "体色の特徴は青系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
+    "sourceCheckedAt": "2026-10-25"
   },
   {
     "name": "静香",
@@ -9908,5 +9979,235 @@
     "sourceOfficialName": "ブラックラメメダカ",
     "url": "https://medakazukan.net/cloudgraydia/",
     "webNo": "0894"
+  },
+  {
+    "name": "黄錦モルフォ",
+    "webNo": "0845",
+    "url": "https://medakazukan.net/kinisikimorpho/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "モルフォロングフィン",
+    "webNo": "0813",
+    "url": "https://medakazukan.net/0813morpholongfin/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "ブラックモルフォ亜種リアルロングフィン",
+    "webNo": "0801",
+    "url": "https://medakazukan.net/0801blackmorphoasyureallongfin/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "朱赤 楊貴妃透明鱗パンダ 丹頂（ようきひとうめいりんぱんだ　たんちょう）",
+    "webNo": "0737",
+    "url": "https://medakazukan.net/0735_youkihitoumeirinpandatancho/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "蝶蘭（ちょうらん）",
+    "webNo": "0678",
+    "url": "https://medakazukan.net/0378_chouran/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "白透明鱗目前ヒカリダルマ（しろとうめいりんめまえひかりだるま）",
+    "webNo": "0630",
+    "url": "https://medakazukan.net/0630sirotoumeirinmemaehikaridharma/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "茶スモールアイヒカリ（ちゃすもーるあいひかり）",
+    "webNo": "0455",
+    "url": "https://medakazukan.net/455_tyasmalleyehikari/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "黒流星（くろりゅうせい）",
+    "webNo": "0431",
+    "url": "https://medakazukan.net/0416_kuroryuusei/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "白流星（しろりゅうせい）",
+    "webNo": "0430",
+    "url": "https://medakazukan.net/0415_siroryuusei/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "流星（りゅうせい）",
+    "webNo": "0429",
+    "url": "https://medakazukan.net/0414_ryuusei/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "青サムライダルマ（あおさむらいだるま）",
+    "webNo": "0409",
+    "url": "https://medakazukan.net/0409aosamuraidharma/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "茶出目スワロー（ちゃでめすわろー）",
+    "webNo": "0371",
+    "url": "https://medakazukan.net/0372_tyademeswallow/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "青幹之スワロー（あおみゆきすわろー）",
+    "webNo": "0330",
+    "url": "https://medakazukan.net/0314_aomiyukiswallow/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "ピンク 小春（こはる）",
+    "webNo": "0320",
+    "url": "https://medakazukan.net/%e5%b0%8f%e6%98%a5%ef%bc%88%e3%81%93%e3%81%af%e3%82%8b%ef%bc%89%e3%81%a8%e3%81%af%e3%80%80%e6%94%b9%e8%89%af%e3%83%a1%e3%83%80%e3%82%abweb%e5%9b%b3%e9%91%91no-0320/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "青蝶ダルマ（あおちょうだるま）",
+    "webNo": "0278",
+    "url": "https://medakazukan.net/0268_aocoudharma/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "令和三色ラメ幹之",
+    "webNo": "0257",
+    "url": "https://medakazukan.net/0275_reiwasansyokulamemiyuki/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "ピンク ピンク錦ヒカリ（ぴんくにしきひかり）",
+    "webNo": "0195",
+    "url": "https://medakazukan.net/1095_pinknisikihikari/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "透明鱗三色 丹頂（白朱赤透明鱗斑）",
+    "webNo": "0166",
+    "url": "https://medakazukan.net/0165_toumeirinsansyokutantyou/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "青体内光（あおたいないこう）ヒカリ",
+    "webNo": "0121",
+    "url": "https://medakazukan.net/0212_aotainaikouhikari/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "マリンブルー",
+    "webNo": "0116",
+    "url": "https://medakazukan.net/0016_marineblue/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "アルビノ幹之（みゆき）ダルマ",
+    "webNo": "0115",
+    "url": "https://medakazukan.net/0015_albinomiyukidharma/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "青パンダ幹之（あおぱんだみゆき）",
+    "webNo": "0110",
+    "url": "https://medakazukan.net/0100_aopandamiyuki/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
+  },
+  {
+    "name": "朱赤 福系 紅（朱赤透明鱗ヒカリメダカ）",
+    "webNo": "0099",
+    "url": "https://medakazukan.net/%e7%a6%8f%e7%b3%bb-%e7%b4%85%ef%bc%88%e6%9c%b1%e8%b5%a4%e9%80%8f%e6%98%8e%e9%b1%97%e3%83%92%e3%82%ab%e3%83%aa%e3%83%a1%e3%83%80%e3%82%ab%ef%bc%89%e3%81%a8%e3%81%af%e3%80%80%e6%94%b9%e8%89%af%e3%83%a1/",
+    "aliases": "",
+    "traits": "",
+    "kind": "WEB図鑑掲載名（区分は要確認）",
+    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。"
   }
 ]
