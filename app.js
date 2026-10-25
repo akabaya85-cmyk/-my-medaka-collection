@@ -88,7 +88,7 @@ async function refreshCatalog(){
     if(!r.ok)throw Error('図鑑データが取得できません（HTTP '+r.status+'）');
     const cat=await r.json();
     if(!Array.isArray(cat)||cat.length<100)throw Error('図鑑データが不完全です');
-    const result=mergeCatalog(cat);markPlatinumBotanCurrentOnce();page=0;await render();
+    const result=mergeCatalog(cat);markPlatinumBotanCurrentOnce();applyOwnedScreenshotLinesOnce();page=0;await render();
     alert('図鑑データを更新しました。\\n新規追加：'+result.added+'件\\n照合済み：'+result.refreshed+'件\\n飼育記録と登録写真は保持しています。\\n※元サイトの情報をその場で直接収集する機能ではありません。');
   }catch(err){alert('図鑑の更新に失敗しました：'+err.message+'\\n現在のデータはそのまま残しています。')}
   finally{if(button)button.disabled=false}
@@ -130,6 +130,30 @@ function markPlatinumBotanCurrentOnce(){
   }
   localStorage.setItem(PLATINUM_BOTAN_OWNED_KEY,'done');
 }
+// Screenshot-identified stocks: owner confirms keeping these lines.
+// Egg listings are not counted as current fish; pending arrivals remain unconfirmed.
+const OWNED_SCREENSHOT_KEY='my-medaka-owner-screenshots-20261025-v1';
+const OWNED_SCREENSHOT_LINES=[
+  {name:'松井ヒレ長紅帝初恋',current:true},
+  {name:'楊貴妃出目パンダダルマ',current:true},
+  {name:'ポニョ',current:true},
+  {name:'アルジェントキッシングダルマ',current:false},
+  {name:'漆黒スワローヒカリ体型ブルーアイ',current:false},
+  {name:'ウルティマウェポン',current:false}
+];
+function applyOwnedScreenshotLinesOnce(){
+ if(localStorage.getItem(OWNED_SCREENSHOT_KEY)==='done')return;
+ let count=0,changed=0;
+ for(const target of OWNED_SCREENSHOT_LINES){
+  const item=entries.find(e=>foldName(e.name)===foldName(target.name));
+  if(!item)continue;
+  count++;
+  if(!item.ever){item.ever=true;changed++}
+  if(target.current&&item.status!=='current'){item.status='current';changed++}
+ }
+ if(changed)save();
+ if(count===OWNED_SCREENSHOT_LINES.length)localStorage.setItem(OWNED_SCREENSHOT_KEY,'done');
+}
 async function init(){
   try{db=await openDB()}catch(e){alert('端末の写真保存領域を開けません: '+e.message);return}
   let data;
@@ -142,6 +166,7 @@ async function init(){
   try{const r=await fetch('./catalog.json');if(r.ok){const catalog=await r.json();mergeCatalog(catalog)}}catch(e){if(!data)console.warn('図鑑データ未取得',e)}
   registerConfirmedOwnedOnce();
   markPlatinumBotanCurrentOnce();
+  applyOwnedScreenshotLinesOnce();
   await refreshTraitNames();await refreshSourceNames();bind();render();
 }
 function bind(){for(let id of ['search','category','sort','origin'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=0;render()});$('add').onclick=()=>edit(null);$('backup').onclick=backup;$('restore').onclick=()=>pick('restore','.json,application/json');$('import').onclick=()=>pick('csv','.csv,text/csv');$('batch').onclick=()=>pick('inbox','image/*',true);$('traitPack').onclick=()=>pick('traitpack','.json,application/json');if($('catalogUpdate'))$('catalogUpdate').onclick=refreshCatalog;$('sourcePack').onclick=()=>pick('sourcepack','.json,application/json',true);$('more').onclick=()=>{page++;render()};$('file').onchange=handleFile}
