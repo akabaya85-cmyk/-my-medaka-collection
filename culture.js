@@ -64,7 +64,7 @@ function dueLabel(d){return d<today()?'期限超過':d===today()?'今日':'予�
 async function dashboard(){
  view='dashboard';const batches=(await all('cultureBatches')).sort((a,b)=>String(b.updated||b.started||'').localeCompare(String(a.updated||a.started||''))),active=batches.filter(x=>x.status==='running'),due=active.flatMap(b=>dueTasks(b).filter(t=>t.now).map(t=>({...t,b}))).sort((a,b)=>a.date.localeCompare(b.date));
  ui(base('培養の管理')+'<div class="cultureHero"><h2>🧫 培養ノート</h2><p>培養中のもの、次にする作業、作り方をまとめて管理。</p><div><span>培養中 <b>'+active.length+'</b></span><span>今日までに確認 <b>'+due.length+'</b>件</span><span>記録済み <b>'+batches.length+'</b>容器</span></div></div><h3>📅 今日・期限超過の作業</h3><div id="cultureDue"></div><button class="primary cultureFull" id="cultureNew">＋ 新しい培養容器を登録</button><h3>🧪 培養の種類を選んで手順を見る</h3><div class="cultureKinds">'+Object.entries(TYPES).map(([k,v])=>'<button class="cultureKind" data-guide="'+k+'"><span>'+v.icon+'</span><b>'+v.name+'</b><small>'+v.short+'</small></button>').join('')+'</div><h3>🗂️ 培養中・過去の容器</h3><div id="cultureList"></div><p class="hint">この画面を開いたときに予定日を確認します。iPhoneへのプッシュ通知はありません。餌・培養液の量は使う製品の説明に従ってください。</p>');
- nav(()=>dlg.close());root.querySelector('#cultureNew').onclick=()=>editBatch();root.querySelectorAll('[data-guide]').forEach(b=>b.onclick=()=>guide(b.dataset.guide));
+ updateDueBadge(active,due.length);nav(()=>dlg.close());root.querySelector('#cultureNew').onclick=()=>editBatch();root.querySelectorAll('[data-guide]').forEach(b=>b.onclick=()=>guide(b.dataset.guide));
  const dueArea=root.querySelector('#cultureDue');dueArea.innerHTML=due.length?due.map(t=>'<div class="cultureDue"><div><b>'+esc(t.b.name||TYPES[t.b.type].name)+'</b><small>'+esc(t.name)+' · '+esc(t.date)+' · '+dueLabel(t.date)+'</small></div><button data-log-batch="'+esc(t.b.id)+'" data-log-type="'+t.key+'">記録する</button></div>').join(''):'<p class="cultureEmpty">今日までに予定された作業はないよ。培養の様子は毎日でも確認してね。</p>';
  dueArea.querySelectorAll('[data-log-batch]').forEach(b=>b.onclick=()=>writeLog(b.dataset.logBatch,b.dataset.logType));
  const area=root.querySelector('#cultureList');if(!batches.length)area.innerHTML='<p class="cultureEmpty">まだ培養容器は登録されていないよ。タマミジンコから1つずつ追加してみてね。</p>';
@@ -103,7 +103,17 @@ async function writeLog(batchId,action='check'){
  nav(()=>detail(batchId));root.querySelector('#clAction').value=action;
  root.querySelector('#clSave').onclick=async()=>{const act=root.querySelector('#clAction').value,date=dateOK(root.querySelector('#clDate').value)||today(),condition=root.querySelector('#clCondition').value,note=root.querySelector('#clNote').value.trim();const record={id:id(),batchId,date,action:act,condition,note,created:new Date().toISOString()};try{await set('cultureLogs',record.id,record);if(b.interval?.[act]>0){const candidate=dateAdd(date,Number(b.interval[act]));const existing=b.next?.[act];b.next={...b.next,[act]:candidate};b.updated=new Date().toISOString();await set('cultureBatches',b.id,b)}await detail(batchId)}catch(err){alert('記録できません：'+err.message)}};
 }
+async function updateDueBadge(active=null,dueCount=null){
+ try{
+   const button=document.getElementById('cultureOpen');if(!button)return;
+   if(active===null){if(!database)database=await openDB();active=(await all('cultureBatches')).filter(x=>x.status==='running')}
+   const count=dueCount===null?active.reduce((n,b)=>n+dueTasks(b).filter(t=>t.now).length,0):dueCount;
+   button.textContent=count?'🧫 培養ノート・要確認 '+count+'件':'🧫 培養ノート・次回予定';
+   button.setAttribute('aria-label',count?'培養ノート。今日までに確認する作業'+count+'件':'培養ノートを開く');
+ }catch(err){console.warn('培養予定を表示できません',err)}
+}
 window.medakaCulture={open,types:TYPES};
 const button=document.getElementById('cultureOpen');if(button)button.onclick=()=>open().catch(err=>alert('培養ノートを開けません：'+err.message));
 dlg.addEventListener('close',closeUrls);
+updateDueBadge();
 })();
