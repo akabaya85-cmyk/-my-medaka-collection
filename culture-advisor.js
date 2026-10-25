@@ -25,7 +25,11 @@ function assess(batch,logs,asOf){
  const sorted=valid.slice().sort((a,b)=>b.date.localeCompare(a.date)||String(b.created||'').localeCompare(String(a.created||'')));
  const last=sorted.find(l=>l.obs&&Object.values(l.obs).some(v=>v!==''&&v!=null)||LEGACY[l.condition])||null;
  const o=last?.obs||{},legacy=LEGACY[last?.condition]||'',age=last?daysBetween(last.date,today):NaN;
- const trend=o.trend||legacy,water=o.water|| (legacy==='cloudy'?'cloudy':''),odor=o.odor||(legacy==='foul'?'foul':''),feed=o.feed||'',density=o.density||'';
+ const density=o.density||'';
+ const second=sorted.find(l=>l!==last&&l.obs?.density&&l.obs.density!=='none'&&l.date<=last.date);
+ const densityOrder={low:1,medium:2,high:3};
+ const derivedTrend=!o.trend&&second&&densityOrder[density]&&densityOrder[second.obs.density]&&daysBetween(second.date,last.date)<=7?(densityOrder[density]>densityOrder[second.obs.density]?'increasing':densityOrder[density]<densityOrder[second.obs.density]?'decreasing':'stable'):'';
+ const trend=o.trend||derivedTrend||legacy,water=o.water|| (legacy==='cloudy'?'cloudy':''),odor=o.odor||(legacy==='foul'?'foul':''),feed=o.feed||'';
  const temp=o.temp===''||o.temp==null?NaN:Number(o.temp);
  const pressure=o.pressure||'',light=o.light||'',mix=o.mixed||'';
  const recent=(action)=>sorted.find(l=>l.action===action)||null;
@@ -62,7 +66,9 @@ function assess(batch,logs,asOf){
      if(density==='low')push('soon','backup','今日：別容器への保険を検討','残存個体が少ない記録。元気な個体だけでも清潔な別容器に分けるか検討。');
    } else {
      if(feed==='low'||feed==='empty'){
-       push('today','feed','今日：粉末クロレラなどの少量給餌を検討','餌の色が薄い／なくなったという記録。水が急に濃くならない少量から、使う製品の説明に従ってね。');
+       const fedAfter=sorted.some(l=>l.action==='feed'&&(l.date>last.date||(l.date===last.date&&String(l.created||'')>=String(last.created||''))));
+       if(fedAfter)push('monitor','check','餌を追加した後の状態を確認','同じ観察以降に給餌が記録されています。追加で与える前に、餌の濃さを新しく観察してね。',add(today,1));
+       else push('today','feed','今日：粉末クロレラなどの少量給餌を検討','餌の色が薄い／なくなったという記録。水が急に濃くならない少量から、使う製品の説明に従ってね。');
      }else if(feed==='high')push('today','wait','今日は餌の追加を控え様子を見る','餌の濃さがまだ高いという記録。過剰添加による水質悪化を防ごう。');
      if(density==='high'&&trend==='increasing')push('soon','split','今日〜明日：予備培養への分割を検討','生体が多く増加中。全滅リスクを減らすため、元気なうちに別容器への分割を検討。',add(today,1));
    }
@@ -74,9 +80,10 @@ function assess(batch,logs,asOf){
    }
    if(water==='clear')push('soon','medium','培養液の栄養状態を点検','透明になったとの記録。培地の種類によっては栄養消耗のサインなので、選んだ培養法を確認してね。');
  }else if(type==='euglena'){
-   if(trend==='decreasing'||density==='low'||water==='clear'||water==='pale')push('today','environment','今日：光・温度・専用培地を点検','増殖が弱い／色が薄い記録。ユーグレナの種と培地の条件を確認し、栄養の自己流追加は避けよう。');
+   if(trend==='decreasing'||density==='low'||water==='clear'||water==='pale'||light==='dim')push('today','environment','今日：光・温度・専用培地を点検','増殖が弱い／色が薄い記録。ユーグレナの種と培地の条件を確認し、栄養の自己流追加は避けよう。');
    else if(density==='high'&&trend==='increasing')push('soon','split','増殖を確認後、植え継ぎを検討','濃度が上がっている記録。清潔な別容器と指定培地を準備してね。',add(today,1));
  }else if(type==='psb'){
+   if(light==='dim')push('today','light','今日：光の当たり方を確認','暗い場所と記録されています。使っているPSB製品の培養条件に合う光量か確認してね。');
    if(water==='red'||water==='brown'){
      push('soon','verify','次回：製品説明と成熟状態を照合','紅色・紅褐色の記録。ただし色だけでPSBの純度・完成・水槽使用可否は確定できません。',add(today,CHECK.psb));
    }else{
@@ -84,7 +91,7 @@ function assess(batch,logs,asOf){
    }
  }else if(type==='green'){
    if(water==='dark')push('today','thin','今日：濃過ぎる緑水への対策を検討','非常に濃い緑水との記録。魚に使う場合は夜間の酸素不足を避けるため、薄め方や水量を確認してね。');
-   else if(water==='clear'||water==='pale')push('soon','light','日照・種水・色の変化を確認','緑色が薄い記録。ライト・水温や種水の状況を見直し、日数だけで完成を判断しないでね。');
+   else if(water==='clear'||water==='pale'||light==='dim')push('soon','light','日照・種水・色の変化を確認','緑色が薄い記録。ライト・水温や種水の状況を見直し、日数だけで完成を判断しないでね。');
    else if(water==='green')push('soon','check','緑水の濃さと臭いを維持確認','緑色を維持している記録。毎日濃さが急変しないか確認しよう。');
  }
  if(!items.some(x=>x.action==='check')){
