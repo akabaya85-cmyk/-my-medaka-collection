@@ -1,0 +1,37 @@
+name: メダカ図鑑の掲載データを確認
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * 1'
+  push:
+    paths:
+      - 'scripts/sync_catalog.py'
+      - '.github/workflows/medaka-sync.yml'
+permissions:
+  contents: write
+concurrency:
+  group: medaka-catalog-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Check source catalog safely
+        run: python scripts/sync_catalog.py
+      - name: Publish metadata updates when they exist
+        run: |
+          if git diff --quiet -- catalog.json; then
+            echo "No catalog changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git commit -m "Sync medaka names and independently summarized traits"
+          git push
