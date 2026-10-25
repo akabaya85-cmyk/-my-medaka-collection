@@ -1,0 +1,23 @@
+name: Verify private-file handoff
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/photo-file-bridge.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make noncopyright test file
+        run: |
+          mkdir -p sample
+          echo 'Photo handoff connection test only, no images' > sample/test.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: harmless-test-file
+          path: sample/test.txt
+          retention-days: 1
