@@ -92,3 +92,6 @@
 .cultureManualSchedule{margin:16px 0;background:#f4fafc;border:1px solid #d7e8ef;border-radius:11px;padding:11px}
 .cultureManualSchedule summary{font-size:13px;font-weight:700;color:#28718a;cursor:pointer}
 @media(max-width:390px){.cultureObservations{grid-template-columns:1fr}}
+
+.cultureAdviceSource{display:inline-block;margin:9px 0 2px;font-size:12px;color:#267b9a;text-decoration:underline;text-underline-offset:2px}
+.cultureAdvisorInfo strong{color:#385f73}
