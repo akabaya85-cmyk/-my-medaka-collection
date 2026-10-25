@@ -14,3 +14,11 @@
 .featureGuide dd{margin:0;color:#456b7b}
 
 .photoCredit{display:block;color:#4f7686;font-size:10px;line-height:1.5;text-decoration:underline;text-underline-offset:2px;margin:5px 0}
+
+.referenceGallery{margin:14px 0;padding:12px;background:#f5fbff;border:1px solid #d8edf5;border-radius:14px}
+.referenceGallery h3{font-size:15px;margin:0 0 10px}
+.referencePhotos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.referencePhotos figure{margin:0;background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e0eef5}
+.referencePhotos figure img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eaf6fa;display:block}
+.referencePhotos figcaption{font-size:12px;padding:8px;line-height:1.5}
+.referencePhotos figcaption span{display:block;font-size:10px;color:#688a9a;margin-top:4px;overflow-wrap:anywhere}
