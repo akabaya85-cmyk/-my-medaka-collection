@@ -1400,7 +1400,14 @@
     "url": "https://medakazukan.net/0100_miyukihikari/",
     "webNo": "0100",
     "profile": "体色の特徴は青系。注目したい形質は体外光。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴"
+    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "licensedPhoto": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg/250px-20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg",
+      "author": "Werner, Deutschland",
+      "license": "CC BY-SA 4.0",
+      "caption": "青幹之（Miyuki Blue）のオス・実物写真"
+    }
   },
   {
     "name": "幹之（みゆき）ヒカリメダカ",
