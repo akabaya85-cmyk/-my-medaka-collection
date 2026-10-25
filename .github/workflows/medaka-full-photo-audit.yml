@@ -1,0 +1,33 @@
+name: Audit reusable photo coverage across all medaka varieties
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/medaka-full-photo-audit.yml'
+      - 'tools/audit_all_variety_photos.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Openverse client
+        run: python -m pip install requests
+      - name: Audit medaka photo sources and licenses
+        run: python tools/audit_all_variety_photos.py
+      - name: Save photo search audit (metadata only, no unlicensed images)
+        run: |
+          if ! test -f photo_search_audit.json; then exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add photo_search_audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Report real reusable photo coverage for 899 medaka entries'
+          git pull --rebase
+          git push
