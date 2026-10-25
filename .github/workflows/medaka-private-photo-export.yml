@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
-      PHOTO_LIMIT: "30"
+      PHOTO_LIMIT: "0"
       PHOTO_WORKERS: "2"
     steps:
       - uses: actions/checkout@v4
