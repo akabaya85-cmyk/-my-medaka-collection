@@ -1,0 +1,74 @@
+
+/* Offline culture tracker for Moina, Paramecium, Euglena, PSB and green water. */
+#cultureDialog{width:min(96vw,700px);max-height:92dvh;border:0;border-radius:20px;padding:17px}
+#cultureDialog label{display:block;font-weight:600;font-size:12px;margin:12px 0 5px}
+#cultureDialog input:not([type=checkbox]):not([type=file]),#cultureDialog select,#cultureDialog textarea{display:block;width:100%;font-size:16px;padding:11px;border:1px solid #bedbe9;border-radius:10px;background:#fff;min-width:0}
+#cultureDialog input[type=file]{width:100%;font-size:13px;padding:12px;border:1px dashed #badbeb;background:#f2faff;border-radius:11px}
+#cultureDialog textarea{min-height:75px}
+#cultureDialog h2{font-size:21px;margin:15px 0 8px}
+#cultureDialog h3{font-size:16px;color:#246783;margin:21px 0 10px}
+#cultureDialog small,.cultureGuide p,.cultureHero p{line-height:1.6}
+.cultureBar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-bottom:11px;border-bottom:1px solid #d5e9f2}
+.cultureBar strong{text-align:center;font-size:13px;line-height:1.4}
+.cultureBar button{font-size:12px;padding:9px 10px}
+.cultureHero{background:linear-gradient(130deg,#e8faff,#fff);border:1px solid #d4e9f3;border-radius:15px;padding:12px;margin-top:14px}
+.cultureHero h2{margin:3px 0 5px}
+.cultureHero p{font-size:13px;color:#608498;margin:5px 0 11px}
+.cultureHero>div{display:flex;gap:7px;flex-wrap:wrap}
+.cultureHero>div span{font-size:12px;background:#fff;border-radius:8px;padding:8px}
+.cultureHero>div b{color:#136f90}
+.cultureFull{width:100%;display:block;min-height:45px;margin:12px 0}
+.cultureEmpty{background:#f2f9fc;border:1px solid #e1edf3;border-radius:12px;padding:14px;font-size:12px;color:#628195;line-height:1.6}
+.cultureKinds{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.cultureKind{display:flex;align-items:flex-start;flex-direction:column;gap:5px;min-width:0;text-align:left;border:1px solid #cee4ee;border-radius:13px;padding:13px;background:#f9fdff}
+.cultureKind>span{font-size:26px}
+.cultureKind b{color:#1c6889;font-size:14px}
+.cultureKind small{font-size:11px;color:#6b8995}
+.cultureDue{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid #d9eaf2;border-radius:12px;background:#fff;padding:11px;margin:7px 0}
+.cultureDue b,.cultureDue small{display:block}
+.cultureDue b{font-size:13px}
+.cultureDue small{font-size:11px;color:#698795;margin-top:3px}
+.cultureDue button{flex:0 0 auto;font-size:12px;padding:8px}
+.cultureBatch{border:1px solid #dbeaf1;padding:10px;border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 0}
+.cultureBatch>div{display:flex;align-items:center;gap:9px;min-width:0;flex:1}
+.cultureBatch b,.cultureBatch small{display:block}
+.cultureBatch b{font-size:13px}
+.cultureBatch small{font-size:11px;color:#668694}
+.cultureBatch button{font-size:12px}
+.cultureEmoji{font-size:27px}
+.cultureGuideHead{display:flex;gap:12px;align-items:center;background:#effaff;padding:11px;border-radius:13px;margin-top:13px}
+.cultureGuideHead span{font-size:34px}
+.cultureGuideHead h2{margin:3px 0}
+.cultureGuideHead p{font-size:12px;margin:0;color:#638694}
+.cultureGuide ol{padding-left:25px}
+.cultureGuide li{font-size:13px;line-height:1.7;padding:5px 0}
+.cultureGuide p{font-size:13px;line-height:1.65}
+.cultureGuide details{border-top:1px solid #dfedf4;padding-top:12px;margin:16px 0}
+.cultureGuide summary{font-size:13px;font-weight:700;cursor:pointer}
+.cultureSources{display:flex;gap:9px;flex-direction:column;margin:10px 0;font-size:12px}
+.culture2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.culture2>div{min-width:0}
+.cultureSchedule{display:grid;gap:10px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.cultureSchedule>div{background:#f3fafd;border:1px solid #dcebf3;padding:9px;border-radius:12px;min-width:0}
+.cultureSchedule b{font-size:13px}
+.cultureSchedule label{font-size:11px!important}
+.cultureDetailHead{background:#f1fbfe;padding:11px;border-radius:12px;margin-top:15px}
+.cultureDetailHead h2{margin:2px 0}
+.cultureDetailHead p{font-size:12px;margin:4px 0}
+.cultureDetailHead small{font-size:11px}
+.cultureActions{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.cultureActions button{flex:1;font-size:12px}
+.cultureNotes{background:#f7fcff;border-left:3px solid #8ac6e4;padding:8px 12px;margin:11px 0;font-size:12px}
+.cultureNotes p{line-height:1.5;white-space:pre-wrap}
+.culturePics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:10px 0}
+.culturePics>div{min-width:0}
+.culturePic{width:100%;aspect-ratio:1;object-fit:cover;border-radius:9px;display:block}
+.culturePics button{font-size:10px;padding:5px;margin-top:4px}
+.cultureTimeline section{border-left:3px solid #acd8eb;padding:9px 12px;margin:11px 0;background:#f7fbfd}
+.cultureTimeline span{font-size:11px;color:#658596}
+.cultureTimeline b{display:block;font-size:13px;margin:3px 0}
+.cultureTimeline small{display:block;font-size:11px}
+.cultureTimeline p{font-size:12px;white-space:pre-wrap;line-height:1.6}
+.cultureTimeline button{font-size:10px;padding:6px}
+#cultureOpen{border-color:#9fcbb2;background:#eefbf1;color:#27734a;font-weight:700}
+@media(max-width:380px){.cultureKinds,.cultureSchedule{grid-template-columns:1fr}.cultureActions button{font-size:11px;padding:8px}}
