@@ -1,0 +1,24 @@
+name: Private Yakata Photo Import Pack
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/yakata_personal_import_pack.py'
+      - '.github/workflows/yakata-personal-pack.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install requests beautifulsoup4 pillow
+      - run: python tools/yakata_personal_import_pack.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: private-yakata-photo-import-json
+          path: private_exports/My_Medaka_めだかの館_実物写真.json
+          retention-days: 1
+          if-no-files-found: error
