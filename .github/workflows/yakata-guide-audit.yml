@@ -1,0 +1,18 @@
+name: Yakata illustrated guide layout audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/yakata_illustrated_guide_audit.py'
+      - '.github/workflows/yakata-guide-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install requests beautifulsoup4
+      - run: python tools/yakata_illustrated_guide_audit.py
