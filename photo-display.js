@@ -56,37 +56,39 @@
     }
     return loadPromise;
   }
+  function sourceCandidates(entry) {
+    if (!entry) return [];
+    const found=[];
+    const fromYakata=index.yakata?.[entry.name];
+    if(fromYakata && isAllowedImage(fromYakata.imageUrl,'yakata') &&
+       isAllowedSource(fromYakata.sourceUrl)) {
+      found.push({imageUrl:fromYakata.imageUrl,sourceUrl:fromYakata.sourceUrl,
+                  source:'めだかの館',ambiguous:false});
+    }
+    const external=index.external?.[entry.name];
+    if(external && external.name===entry.name &&
+       isAllowedSupplementalImage(external.imageUrl) &&
+       isAllowedSupplementalSource(external.sourceUrl)) {
+      found.push({imageUrl:external.imageUrl,sourceUrl:external.sourceUrl,
+                  source:external.source||'専門店の品種写真',ambiguous:false});
+    }
+    const web=entry.webNo && index.photos?.[String(entry.webNo).padStart(4,'0')];
+    if(web && isAllowedImage(web.imageUrl,'web') && isAllowedSource(web.sourceUrl)) {
+      found.push({imageUrl:web.imageUrl,sourceUrl:web.sourceUrl,
+                  source:'改良メダカWEB図鑑',ambiguous:!!web.ambiguous});
+    }
+    return [...new Map(found.map(p=>[p.imageUrl,p])).values()];
+  }
   function sourceInfo(entry) {
-    if (!entry) return null;
-    const fromYakata = index.yakata?.[entry.name];
-    if (fromYakata &&
-        isAllowedImage(fromYakata.imageUrl, 'yakata') &&
-        isAllowedSource(fromYakata.sourceUrl)) {
-      return {imageUrl:fromYakata.imageUrl,sourceUrl:fromYakata.sourceUrl,
-              source:'めだかの館',ambiguous:false};
-    }
-    const fromExternal=index.external?.[entry.name];
-    if(fromExternal && fromExternal.name===entry.name &&
-       isAllowedSupplementalImage(fromExternal.imageUrl) &&
-       isAllowedSupplementalSource(fromExternal.sourceUrl)){
-      return {imageUrl:fromExternal.imageUrl,sourceUrl:fromExternal.sourceUrl,
-              source:fromExternal.source||'専門店の品種写真',ambiguous:false};
-    }
-    const fromWeb = entry.webNo && index.photos?.[String(entry.webNo)];
-    // The stable WEB article number remains valid when a saved card is
-    // renamed or uses a trade/alternative name.
-    if (!fromWeb) return null;
-    if (!isAllowedImage(fromWeb.imageUrl, 'web') ||
-        !isAllowedSource(fromWeb.sourceUrl)) return null;
-    return {imageUrl:fromWeb.imageUrl,sourceUrl:fromWeb.sourceUrl,
-            source:'改良メダカWEB図鑑',ambiguous:!!fromWeb.ambiguous};
+    return sourceCandidates(entry).find(p=>!p.ambiguous) ||
+      sourceCandidates(entry).find(p=>p.ambiguous) || null;
   }
   function clearMisleadingTrait(cover, awaitingVerification) {
     cover.innerHTML = '<div class="photoPlaceholder">📷<small>' +
       (awaitingVerification ? '品種写真の照合待ち' : 'この品種の写真は未登録') +
       '</small></div>';
   }
-  function showSourcePhoto(cover, entry, photo) {
+  function showSourcePhoto(cover, entry, photo, tried=[]) {
     const img = document.createElement('img');
     img.className = 'cover';
     img.alt = entry.name + '：' + photo.source + 'に掲載されている写真';
@@ -115,6 +117,13 @@
         attemptedAlternateReferrer=true;
         img.removeAttribute('referrerpolicy');
         img.src = photo.imageUrl + (photo.imageUrl.includes('?')?'&':'?') + 'retry_ref=1';
+        return;
+      }
+      const fallback=sourceCandidates(entry).find(candidate=>
+        !candidate.ambiguous && candidate.imageUrl!==photo.imageUrl &&
+        !tried.includes(candidate.imageUrl));
+      if(fallback){
+        showSourcePhoto(cover,entry,fallback,[...tried,photo.imageUrl]);
         return;
       }
       cover.innerHTML='<div class="photoPlaceholder">📷<small>外部写真を読み込めませんでした</small></div>';
