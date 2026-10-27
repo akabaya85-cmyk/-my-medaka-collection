@@ -97,8 +97,8 @@
       const photo = sourceInfo(entry);
       if ((photo && !photo.ambiguous) ||
           sourceNames.has('yakata:' + entry.name) ||
-          (entry.webNo && sourceNames.has(String(entry.webNo))) ||
-          entry.yakataImageUrl) known.add(entry.id);
+          (entry.webNo && sourceNames.has(String(entry.webNo)) && !photo?.ambiguous) ||
+          (entry.yakataImageUrl && !photo?.ambiguous)) known.add(entry.id);
     }
     for (const span of document.querySelectorAll('#stats span')) {
       if (span.textContent.startsWith('実物写真 ')) {
