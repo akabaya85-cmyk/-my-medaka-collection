@@ -5093,6 +5093,10 @@
     "モルフォ桔梗～紫～": {
       "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/191458716.jpg?cmsp_timestamp=20260415152128",
       "sourceUrl": "https://www.medakanoyakata.jp/?pid=191458716"
+    },
+    "如水～銀白～": {
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/183059688.jpg?cmsp_timestamp=20241014105021",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=183059688"
     }
   },
   "external": {
@@ -5108,5 +5112,6 @@
       "sourceUrl": "https://oitamedakabiyori.com/goods/hikari/post-171.html",
       "source": "ひかりめだか"
     }
-  }
+  },
+  "verifiedAt": "2026-10-28"
 }
