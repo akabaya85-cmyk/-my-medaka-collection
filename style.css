@@ -57,3 +57,5 @@
 #importProgress{margin:8px 0;font-size:12px;font-weight:600;color:#227292;line-height:1.6}
 #importProgress:empty{display:none}
 #sourcePack{border-color:#75b9d6;box-shadow:0 1px 4px #c9e4f4}
+
+.sourcePhotoOrigin{display:inline-block;margin-top:2px;font-weight:500;font-size:10px;color:#fff;text-decoration:underline;text-underline-offset:2px}
