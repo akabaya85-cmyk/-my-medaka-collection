@@ -38,8 +38,8 @@ const isGenericDescription=s=>{
     ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。')
     ||v.startsWith('専門図鑑で流通名と特徴が紹介される系統。')
     ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。外見の細部')
-    ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。作出系統');
-    ||v.startsWith('めだかの館の品種紹介に掲載。')
+    ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。作出系統')
+    ||v.startsWith('めだかの館の品種紹介に掲載。');
 };
 function mergeCatalog(catalog){
   if(!Array.isArray(catalog))throw Error('図鑑データの形式が正しくありません');
