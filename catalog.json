@@ -196,15 +196,6 @@
     "readingBasis": "品種の読み方を個別確認・補正"
   },
   {
-    "name": "マリンブルー",
-    "traits": "青",
-    "kind": "品種・流通名（要照合）",
-    "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
-    "source": "https://medakazukan.net/varietyofmedaka/",
-    "reading": "まりんぶるー",
-    "readingBasis": "品種の読み方を個別確認・補正"
-  },
-  {
     "name": "流星",
     "traits": "体外光",
     "kind": "品種・流通名（要照合）",
@@ -12528,12 +12519,18 @@
     "webNo": "0116",
     "url": "https://medakazukan.net/0016_marineblue/",
     "aliases": "",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
-    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。",
+    "traits": "青、体外光、腹膜青",
+    "kind": "流通名",
+    "description": "黒色素胞が少なく、淡い水色に見える青体外光の改良メダカ。腹膜青の表現も確認ポイントで、白い容器での観察が紹介されています。",
+    "profileBasis": "改良メダカWEB図鑑No.0116の公式記事（2026-10-28照合）",
     "reading": "まりんぶるー",
-    "readingBasis": "品種の読み方を個別確認・補正"
+    "readingBasis": "品種の読み方を個別確認・補正",
+    "sourceOfficialName": "青体外光メダカ",
+    "sourceNickname": "マリンブルー",
+    "sourceYear": "2011",
+    "sourceBreeder": "長岡龍聖",
+    "profile": "淡い青（水色に近い）体色・体外光・腹膜青の特徴があります。",
+    "sourceCheckedAt": "2026-10-28"
   },
   {
     "name": "アルビノ幹之（みゆき）ダルマ",
