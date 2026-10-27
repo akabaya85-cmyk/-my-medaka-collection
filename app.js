@@ -71,6 +71,12 @@ function mergeCatalog(catalog){
         const prev=Array.isArray(old.referenceLinks)?old.referenceLinks:[];
         old.referenceLinks=[...new Map([...prev,...item.referenceLinks].filter(s=>s?.url).map(s=>[s.url,s])).values()].slice(0,12);
       }
+      // Refresh factual photo references without touching local ownership or personal photos.
+      // Catalog entries already present on the iPhone must receive newly matched
+      // retailer images; otherwise old localStorage entries hide these updates.
+      if(item.yakataImageUrl && /^https:\/\/img\d+\.shop-pro\.jp\//i.test(item.yakataImageUrl)){
+        old.yakataImageUrl=String(item.yakataImageUrl);
+      }
       if(item.licensedPhoto)old.licensedPhoto=item.licensedPhoto;
       if(Array.isArray(item.licensedPhotos))old.licensedPhotos=item.licensedPhotos;
       refreshed++;
