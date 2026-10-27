@@ -73,7 +73,9 @@
               source:fromExternal.source||'専門店の品種写真',ambiguous:false};
     }
     const fromWeb = entry.webNo && index.photos?.[String(entry.webNo)];
-    if (!fromWeb || fromWeb.name !== entry.name) return null;
+    // The stable WEB article number remains valid when a saved card is
+    // renamed or uses a trade/alternative name.
+    if (!fromWeb) return null;
     if (!isAllowedImage(fromWeb.imageUrl, 'web') ||
         !isAllowedSource(fromWeb.sourceUrl)) return null;
     return {imageUrl:fromWeb.imageUrl,sourceUrl:fromWeb.sourceUrl,
