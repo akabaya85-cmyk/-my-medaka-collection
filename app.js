@@ -327,8 +327,9 @@ function husbandry(x){
   return tips.join(' ');
 }
 function sourcePhotoLink(x,label='📷 出典の写真を見る ↗'){
-  if(!x.webNo)return '';
-  return `<a class="sourceLink" href="${esc(validUrl(x.url))}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+  if(!x.url || x.url===SOURCE)return '';
+  const actualLabel=x.webNo?label:'🔎 掲載元の品種ページを開く ↗';
+  return `<a class="sourceLink" href="${esc(validUrl(x.url))}" target="_blank" rel="noopener noreferrer">${actualLabel}</a>`;
 }
 
 function validUrl(u){try{let v=new URL(u);return ['http:','https:'].includes(v.protocol)?v.href:SOURCE}catch{return SOURCE}}
