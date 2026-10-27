@@ -252,7 +252,7 @@ async function importAuthorizedPacks(files){
         const p=pack.photos[i],yakata=pack.format==='my-medaka-yakata-name-pack-v1',no=String(p.webNo||'').padStart(4,'0');
         const matching=yakata?entries.find(x=>matchesSourcePhotoName(x,p.name)):entries.find(x=>x.webNo===no&&matchesSourcePhotoName(x,p.name));
         const key=yakata?'yakata:'+matching?.name:no;
-        if(!matching||(!yakata&&!/^\\d{4}$/.test(no))||typeof p.dataUrl!=='string'||!p.dataUrl.startsWith('data:image/jpeg;base64,')){rejected++;continue}
+        if(!matching||(!yakata&&!/^[0-9]{4}$/.test(no))||typeof p.dataUrl!=='string'||!p.dataUrl.startsWith('data:image/jpeg;base64,')){rejected++;continue}
         try{
           const blob=toBlob(p.dataUrl);
           if(blob.size<1200||blob.size>450000){rejected++;continue}
