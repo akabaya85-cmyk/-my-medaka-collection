@@ -5094,5 +5094,19 @@
       "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/191458716.jpg?cmsp_timestamp=20260415152128",
       "sourceUrl": "https://www.medakanoyakata.jp/?pid=191458716"
     }
+  },
+  "external": {
+    "鯖の極み": {
+      "name": "鯖の極み",
+      "imageUrl": "https://ibuki472.com/cdn/shop/files/klf-1000-0021-p.jpg?v=1709120904",
+      "sourceUrl": "https://ibuki472.com/products/klf-1000-0021-adlt-pair",
+      "source": "いぶき（指宿メダカ）"
+    },
+    "プラチナ牡丹": {
+      "name": "プラチナ牡丹",
+      "imageUrl": "https://oitamedakabiyori.com/img_medaka/1259-5.jpg",
+      "sourceUrl": "https://oitamedakabiyori.com/goods/hikari/post-171.html",
+      "source": "ひかりめだか"
+    }
   }
 }
