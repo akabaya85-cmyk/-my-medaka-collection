@@ -1,0 +1,24 @@
+name: Private Medaka no Yakata photo candidate audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/yakata_photo_candidates.py'
+      - '.github/workflows/yakata-photo-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install requests beautifulsoup4 pillow cryptography
+      - run: python tools/yakata_photo_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: encrypted-yakata-photo-candidates
+          path: private_exports/yakata_candidates.encrypted
+          retention-days: 1
+          if-no-files-found: error
