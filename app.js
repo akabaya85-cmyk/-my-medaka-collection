@@ -219,6 +219,21 @@ async function refreshSourceNames(){
   try{sourceNames=new Set(await op('sourceGallery','keys')||[])}
   catch{sourceNames=new Set()}
 }
+/* An exact cultivar name or a recorded alias is required for photo matching.
+   Prefix matching is intentionally forbidden: Morpho Kikyo and its purple
+   variant are not interchangeable photographs. */
+const normalizeExactPhotoName=s=>foldName(s).replace(/[〜～]/g,'~');
+function matchesSourcePhotoName(x,name){
+  const wanted=normalizeExactPhotoName(name);
+  if(!wanted)return false;
+  const variants=[x.name,x.sourceOfficialName,x.sourceNickname,...String(x.aliases||'').split(/[、,，/／]/)];
+  return variants.some(v=>normalizeExactPhotoName(v)===wanted);
+}
+function sourcePhotoMatchesEntry(p,x){
+  if(!p?.blob || !matchesSourcePhotoName(x,p.name))return false;
+  if(p.webNo && x.webNo && String(p.webNo).padStart(4,'0')!==String(x.webNo).padStart(4,'0'))return false;
+  return true;
+}
 async function importAuthorizedPacks(files){
   if(!files?.length)return;
   const status=$('importProgress'),button=$('sourcePack');
@@ -235,9 +250,9 @@ async function importAuthorizedPacks(files){
       batches++;
       for(let i=0;i<pack.photos.length;i++){
         const p=pack.photos[i],yakata=pack.format==='my-medaka-yakata-name-pack-v1',no=String(p.webNo||'').padStart(4,'0');
-        const matching=yakata?entries.find(x=>x.name===p.name):entries.find(x=>x.webNo===no);
-        const key=yakata?'yakata:'+p.name:no;
-        if(!matching||(yakata?false:!/^\d{4}$/.test(no))||typeof p.dataUrl!=='string'||!p.dataUrl.startsWith('data:image/jpeg;base64,')){rejected++;continue}
+        const matching=yakata?entries.find(x=>matchesSourcePhotoName(x,p.name)):entries.find(x=>x.webNo===no&&matchesSourcePhotoName(x,p.name));
+        const key=yakata?'yakata:'+matching?.name:no;
+        if(!matching||(!yakata&&!/^\\d{4}$/.test(no))||typeof p.dataUrl!=='string'||!p.dataUrl.startsWith('data:image/jpeg;base64,')){rejected++;continue}
         try{
           const blob=toBlob(p.dataUrl);
           if(blob.size<1200||blob.size>450000){rejected++;continue}
@@ -441,53 +456,34 @@ async function startPhotoInbox(files){
 function csvRows(t){let a=[],row=[],field='',quoted=false;for(let i=0;i<t.length;i++){let c=t[i];if(c==='"'){if(quoted&&t[i+1]==='"'){field+='"';i++}else quoted=!quoted}else if(c===','&&!quoted){row.push(field);field=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&t[i+1]==='\n')i++;row.push(field);if(row.some(Boolean))a.push(row);row=[];field=''}else field+=c}row.push(field);if(row.some(Boolean))a.push(row);return a}
 async function handleFile(e){let files=[...e.target.files];if(!files.length)return;try{if(fileMode==='restore'){let d=JSON.parse(await files[0].text());if(!Array.isArray(d.entries))throw Error('対応するバックアップではありません');if(!confirm('現在のデータを置き換えます。事前にバックアップを保存しましたか？'))return;let fresh=d.entries.map(norm);for(let x of fresh){let p=d.photos?.[x.id],a=Array.isArray(p)?p:p?[p]:[];if(!a.length){let old=d.entries.find(z=>z.id===x.id)?.photo;if(old?.startsWith('data:'))a=[old]}await putPhotos(x.id,a.filter(s=>typeof s==='string'&&s.startsWith('data:')).map(toBlob))}entries=fresh;save();if(d.personalData&&window.medakaPersonal)await window.medakaPersonal.importData(d.personalData);alert('復元しました。個体履歴・アルバムが含まれていた場合は復元しました。')}else if(fileMode==='sourcepack'){await importAuthorizedPacks(files)}else if(fileMode==='traitpack'){await importTraitPack(files[0])}else if(fileMode==='csv'){let rows=csvRows((await files[0].text()).replace(/^\uFEFF/,'')),head=rows.shift()?.map(s=>s.trim().toLowerCase())||[],n=head.indexOf('name');if(n<0)throw Error('CSVの先頭行に name 列が必要です');let count=0,names=new Set(entries.map(x=>x.name.toLowerCase()));for(let r of rows){let name=(r[n]||'').trim();if(!name||names.has(name.toLowerCase()))continue;let item={name};for(let k of ['aliases','traits','kind','description','care','url']){let idx=head.indexOf(k);if(idx>=0)item[k]=r[idx]||''}entries.push(norm(item));names.add(name.toLowerCase());count++}save();alert(count+'件を追加しました')}else if(fileMode==='inbox'){await startPhotoInbox(files)}else if(fileMode==='single'){const id=singlePhotoId,x=entries.find(e=>e.id===id);if(!x)throw Error('写真を保存する品種が見つかりません');let p=await getPhotos(id);for(const f of files)p.push(await optimize(f));await putPhotos(id,p);x.updated=Date.now();save();alert(x.name+'に写真を'+files.length+'枚登録しました。')}page=0;render()}catch(err){alert('読み込み失敗: '+err.message)}finally{e.target.value=''}}
 
-/* Display trait examples only if neither personal nor cultivar-specific photos exist. */
-let traitCoverUrls=[];
-const originalRender=render;
-render=async function(){
-  traitCoverUrls.forEach(URL.revokeObjectURL);traitCoverUrls=[];
-  await originalRender();
-  if(!traitNames.size)return;
-  const cards=document.querySelectorAll('#grid article[data-id]'),cache=new Map();
-  for(const article of cards){
-    const cover=article.querySelector('[data-photo]');
-    if(!cover||cover.querySelector('img'))continue;
-    const x=entries.find(e=>e.id===article.dataset.id),trait=x&&identifyTrait(x);
-    if(!trait)continue;
-    if(!cache.has(trait)){
-      const photo=await op('traitGallery','get',trait).catch(()=>null);
-      const u=photo?.blob?URL.createObjectURL(photo.blob):null;
-      if(u)traitCoverUrls.push(u);
-      cache.set(trait,u);
-    }
-    const u=cache.get(trait);
-    if(u)cover.innerHTML='<img class="cover" src="'+u+'" alt="'+esc(trait)+'という形質の参考写真"><span class="traitPhotoLabel">形質参考：'+esc(trait)+'<small>この品種の写真ではありません</small></span>';
-  }
-};
+/* Trait-example images are never used as cultivar card photographs.
+   Previously imported reference-image data remains safely stored. */
 
 /* Final image priority: user's photos, then privately imported true variety
- * photographs, then Wikimedia pictures, then clearly labeled trait examples. */
+ * photographs, then catalog-matched external source photographs. */
 let sourceCoverUrls=[];
-const renderWithTraits=render;
+const renderBeforeSource=render;
 render=async function(){
   for(const u of sourceCoverUrls)URL.revokeObjectURL(u);
   sourceCoverUrls=[];
-  await renderWithTraits();
+  await renderBeforeSource();
   if(!sourceNames.size&&!entries.some(x=>x.yakataImageUrl))return;
   const byId=new Map(entries.map(x=>[x.id,x]));
   for(const card of document.querySelectorAll('#grid article[data-id]')){
     const x=byId.get(card.dataset.id);
     if(!x)continue;
     const sourceKey=sourceNames.has('yakata:'+x.name)?'yakata:'+x.name:x.webNo;
-    if((!sourceKey||!sourceNames.has(sourceKey))&&!x.yakataImageUrl)continue;
+    const privateRecord=sourceKey&&sourceNames.has(sourceKey)?await op('sourceGallery','get',sourceKey).catch(()=>null):null;
+    const verifiedPrivate=sourcePhotoMatchesEntry(privateRecord,x)?privateRecord:null;
+    const verifiedYakata=(!verifiedPrivate&&/^https:\/\/img\d+\.shop-pro\.jp\//i.test(x.yakataImageUrl||''))?x.yakataImageUrl:null;
+    if(!verifiedPrivate&&!verifiedYakata)continue;
     const own=await getPhotos(x.id).catch(()=>[]);
     if(own.length)continue;
-    const p=sourceKey&&sourceNames.has(sourceKey)?await op('sourceGallery','get',sourceKey).catch(()=>null):null;
-    if(!p?.blob&&!x.yakataImageUrl)continue;
     const cover=card.querySelector('[data-photo]');
     if(!cover)continue;
-    const u=p?.blob?URL.createObjectURL(p.blob):x.yakataImageUrl;
-    if(p?.blob)sourceCoverUrls.push(u);
+    const u=verifiedPrivate?URL.createObjectURL(verifiedPrivate.blob):verifiedYakata;
+    if(verifiedPrivate)sourceCoverUrls.push(u);
+    cover.innerHTML='<img class="cover" src="'+u+'" alt="'+esc(x.name)+'の実物写真"><span class="sourcePhotoLabel">'+esc(x.name)+'<small>'+(verifiedPrivate?'個人保存の実物写真':'めだかの館 掲載写真')+'</small></span>';
     cover.innerHTML='<img class="cover" src="'+u+'" alt="'+esc(x.name)+'の実物写真"><span class="sourcePhotoLabel">'+esc(x.name)+'<small>'+(p?.blob?'個人保存の実物写真':'めだかの館 掲載写真')+'</small></span>';
   }
 };
