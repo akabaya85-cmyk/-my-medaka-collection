@@ -39,6 +39,7 @@ const isGenericDescription=s=>{
     ||v.startsWith('専門図鑑で流通名と特徴が紹介される系統。')
     ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。外見の細部')
     ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。作出系統');
+    ||v.startsWith('めだかの館の品種紹介に掲載。')
 };
 function mergeCatalog(catalog){
   if(!Array.isArray(catalog))throw Error('図鑑データの形式が正しくありません');
@@ -52,8 +53,7 @@ function mergeCatalog(catalog){
     if(old){
       if(!old.webNo&&no)old.webNo=no;
       if(item.url&&(!old.url||old.url===SOURCE))old.url=item.url;
-      if(!old.traits&&item.traits)old.traits=String(item.traits);
-      if(item.traits&&String(item.sourceCheckedAt||'')&&!String(old.traits||'').trim())old.traits=String(item.traits);
+      if(item.traits&&(!String(old.traits||'').trim()||['要確認','情報照合中'].includes(String(old.traits).trim())))old.traits=String(item.traits);
       if(item.aliases){
         const aliases=String(old.aliases||'').split(/[、,，]/).map(s=>s.trim()).filter(Boolean);
         const present=new Set(aliases.map(foldName));
