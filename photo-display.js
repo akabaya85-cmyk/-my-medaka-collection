@@ -18,6 +18,18 @@
         : /^(www\.)?medakazukan\.net$/i.test(url.hostname);
     } catch (_) { return false; }
   }
+  function isAllowedSupplementalImage(value) {
+    try {
+      const u=new URL(value);
+      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com'].includes(u.hostname);
+    }catch{return false}
+  }
+  function isAllowedSupplementalSource(value) {
+    try {
+      const u=new URL(value);
+      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com'].includes(u.hostname);
+    }catch{return false}
+  }
   function isAllowedSource(value) {
     try {
       const url = new URL(value);
@@ -53,6 +65,13 @@
       return {imageUrl:fromYakata.imageUrl,sourceUrl:fromYakata.sourceUrl,
               source:'めだかの館',ambiguous:false};
     }
+    const fromExternal=index.external?.[entry.name];
+    if(fromExternal && fromExternal.name===entry.name &&
+       isAllowedSupplementalImage(fromExternal.imageUrl) &&
+       isAllowedSupplementalSource(fromExternal.sourceUrl)){
+      return {imageUrl:fromExternal.imageUrl,sourceUrl:fromExternal.sourceUrl,
+              source:fromExternal.source||'専門店の品種写真',ambiguous:false};
+    }
     const fromWeb = entry.webNo && index.photos?.[String(entry.webNo)];
     if (!fromWeb || fromWeb.name !== entry.name) return null;
     if (!isAllowedImage(fromWeb.imageUrl, 'web') ||
@@ -77,6 +96,13 @@
     const sub = document.createElement('small');
     sub.textContent = photo.source + 'の実物写真（外部表示）';
     label.append(sub);
+    const sourceLink=document.createElement('a');
+    sourceLink.href=photo.sourceUrl;
+    sourceLink.target='_blank';
+    sourceLink.rel='noopener noreferrer';
+    sourceLink.className='sourcePhotoOrigin';
+    sourceLink.textContent='出典を見る';
+    label.append(sourceLink);
     cover.replaceChildren(img, label);
     let attemptedAlternateReferrer=false;
     img.onerror = () => {
