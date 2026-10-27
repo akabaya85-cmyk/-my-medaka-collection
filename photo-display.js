@@ -78,15 +78,24 @@
     sub.textContent = photo.source + 'の実物写真（外部表示）';
     label.append(sub);
     cover.replaceChildren(img, label);
+    let attemptedAlternateReferrer=false;
     img.onerror = () => {
       if (!cover.contains(img)) return;
-      clearMisleadingTrait(cover, false);
+      if (!attemptedAlternateReferrer) {
+        // Some image CDNs reject a no-referrer request but accept the
+        // browser's default strict-origin referrer behavior.
+        attemptedAlternateReferrer=true;
+        img.removeAttribute('referrerpolicy');
+        img.src = photo.imageUrl + (photo.imageUrl.includes('?')?'&':'?') + 'retry_ref=1';
+        return;
+      }
+      cover.innerHTML='<div class="photoPlaceholder">📷<small>外部写真を読み込めませんでした</small></div>';
       const note = document.createElement('a');
       note.className = 'sourceLink';
       note.href = photo.sourceUrl;
       note.target = '_blank';
       note.rel = 'noopener noreferrer';
-      note.textContent = '元サイトで写真を見る ↗';
+      note.textContent = '出典サイトの写真を開く ↗';
       cover.append(note);
     };
     img.src = photo.imageUrl;
@@ -126,7 +135,7 @@
         ? await op('sourceGallery','get',importedKey).catch(() => null) : null;
       if (generation !== renderGeneration) return;
       const wrongImport = imported &&
-        (imported.name !== entry.name ||
+        (!sourcePhotoMatchesEntry(imported,entry) ||
          (photo?.ambiguous && imported.source === '改良メダカWEB図鑑'));
       const exactImport = imported && !wrongImport && !!imported.blob;
       if (exactImport) continue; // Already rendered by app.js.
@@ -161,14 +170,19 @@
     await loadIndex();
     const mount = document.getElementById('sourcePhotoMount');
     const trait = document.getElementById('traitPhotoMount');
-    if (trait) trait.innerHTML = ''; // Never label a different fish as the selected variety.
+    // Preserve an explicitly labeled morphology reference inside the
+    // details only; it is never used as a cultivar's cover photograph.
+    if (trait) {
+      const label=trait.querySelector('.traitReference h3');
+      if(label)label.textContent='形質の参考写真（この品種の実物写真ではありません）';
+    }
     if (!mount) return;
     const photo = sourceInfo(entry);
     const importedKey = sourceNames.has('yakata:' + entry.name)
       ? 'yakata:' + entry.name : (entry.webNo || '');
     const imported = importedKey && sourceNames.has(importedKey)
       ? await op('sourceGallery','get',importedKey).catch(() => null) : null;
-    if (imported?.blob && imported.name === entry.name &&
+    if (imported?.blob && sourcePhotoMatchesEntry(imported,entry) &&
         !(photo?.ambiguous && imported.source === '改良メダカWEB図鑑')) return;
     if (photo && !photo.ambiguous) {
       mount.innerHTML = '';
