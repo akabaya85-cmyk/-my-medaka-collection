@@ -12266,13 +12266,17 @@
     "name": "モルフォロングフィン",
     "webNo": "0813",
     "url": "https://medakazukan.net/0813morpholongfin/",
-    "aliases": "",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "aliases": "青モルフォロングフィン",
+    "traits": "青、体外光、モルフォ、ロングフィン",
+    "kind": "流通名",
+    "description": "青体色・体外光・モルフォ・ロングフィンを組み合わせた改良メダカ。ロングフィンは背ビレとしりビレの軟条が伸長し、ヒレ長とは形質の定義が異なります。",
     "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。",
     "reading": "もるふぉろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "profile": "青い体色と背中の体外光、モルフォ由来の独特なヒレ形状に加え、背ビレ・しりビレが長く伸びるロングフィンの特徴を併せ持ちます。",
+    "sourceOfficialName": "青体外光ロングフィンモルフォメダカ",
+    "sourceNickname": "モルフォロングフィン",
+    "sourceCheckedAt": "2026-10-27"
   },
   {
     "name": "ブラックモルフォ亜種リアルロングフィン",
@@ -13715,27 +13719,24 @@
   {
     "name": "モルフォ桔梗",
     "kind": "流通名・系統名（めだかの館掲載）",
-    "traits": "要確認",
-    "description": "めだかの館の品種紹介に掲載。品種固有の形質・作出情報は出典と照合中。",
+    "traits": "青、体外光、モルフォ、ヒレ長、ヒカリ",
+    "description": "水色桔梗にブラックモルフォ亜種のヒカリ体型系統を交配し、体型・ヒレ長・モルフォのヒレ光を選別して生まれた系統です。",
     "source": "めだかの館",
     "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
     "referenceLinks": [
       {
-        "label": "めだかの館：該当品種の商品・写真ページ",
-        "url": "https://www.medakanoyakata.jp/?pid=180176797",
-        "note": "品種名一致。掲載写真は未取得・未照合"
-      },
-      {
-        "label": "めだかの館 ピックアップ品種",
-        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
-        "note": "品種名の掲載を確認。写真はまだ未照合"
+        "label": "改良メダカWEB図鑑：モルフォ桔梗",
+        "url": "https://medakazukan.net/post_lp/モルフォ桔梗/",
+        "note": "特徴・交配経緯を確認"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataProductUrl": "https://www.medakanoyakata.jp/?pid=180176797",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/180176797.jpg?cmsp_timestamp=20240326170212",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "profile": "水色桔梗の整ったヒカリ体型・長いヒレに、モルフォ特有の青く輝くヒレ光を組み合わせた系統。とくに尾ビレの伸長部分に特徴が現れます。",
+    "sourceYear": "2024"
   },
   {
     "name": "ピンクサファイアNEOダルマ",
@@ -13790,19 +13791,30 @@
   {
     "name": "モルフォ桔梗～紫～",
     "kind": "流通名・系統名（めだかの館掲載）",
-    "traits": "要確認",
-    "description": "めだかの館の品種紹介に掲載。品種固有の形質・作出情報は出典と照合中。",
+    "traits": "青（パープルブルー）、体外光、モルフォ、ヒレ長、ヒカリ",
+    "description": "紫桔梗の深いパープルブルー体色と、モルフォ桔梗のヒレ長・ヒレ光を組み合わせて選別された系統です。",
     "source": "めだかの館",
-    "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+    "url": "https://www.medakanoyakata.jp/?pid=191458716",
     "referenceLinks": [
       {
-        "label": "めだかの館 ピックアップ品種",
-        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
-        "note": "品種名の掲載を確認。写真はまだ未照合"
+        "label": "改良メダカWEB図鑑：モルフォ桔梗～紫～",
+        "url": "https://medakazukan.net/post_lp/モルフォ桔梗～紫～/",
+        "note": "作出情報・特徴を確認"
+      },
+      {
+        "label": "めだかの館：商品写真",
+        "url": "https://www.medakanoyakata.jp/?pid=191458716",
+        "note": "品種名と写真を照合"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "profile": "モルフォ桔梗に紫桔梗を交配したパープルブルー体色の系統。ヒカリ体型の長いヒレと、モルフォ特有の輝くヒレ光を併せ持ちます。",
+    "sourceYear": "2026",
+    "sourceBreeder": "和田敏拓",
+    "sourceOfficialName": "青体外光モルフォヒレ長ヒカリ",
+    "yakataProductUrl": "https://www.medakanoyakata.jp/?pid=191458716",
+    "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/191458716.jpg?cmsp_timestamp=20260415152128"
   },
   {
     "name": "菜花NEO",
@@ -14040,20 +14052,24 @@
   {
     "name": "モルフォ桔梗亜種系統",
     "kind": "流通名・系統名（めだかの館掲載）",
-    "traits": "要確認",
-    "description": "めだかの館の品種紹介に掲載。品種固有の形質・作出情報は出典と照合中。",
+    "traits": "青、体外光、ヒレライン、モルフォ、ヒレ長、ヒカリ",
+    "description": "モルフォ桔梗のヒレ光を強め、ヒレライン状の青白い光が発現する個体を選別した系統。元のモルフォ桔梗とは区別して記録します。",
     "source": "めだかの館",
     "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
     "referenceLinks": [
       {
-        "label": "めだかの館 ピックアップ品種",
-        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
-        "note": "品種名の掲載を確認。写真はまだ未照合"
+        "label": "改良メダカWEB図鑑：モルフォ桔梗亜種系統",
+        "url": "https://medakazukan.net/post_lp/モルフォ桔梗亜種系統/",
+        "note": "作出情報・特徴を確認"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/191878364.jpg?cmsp_timestamp=20260519060817",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "profile": "モルフォ桔梗からヒレの軟条に沿う青白い光を選別・累代した系統。尾ビレに亜種表現が強く現れ、ヒレ長の伸長部分まで輝きます。",
+    "sourceYear": "2026",
+    "sourceBreeder": "和田敏拓",
+    "sourceOfficialName": "青体外光ヒレラインモルフォヒレ長ヒカリ"
   }
 ]
