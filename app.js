@@ -230,9 +230,14 @@ function matchesSourcePhotoName(x,name){
   return variants.some(v=>normalizeExactPhotoName(v)===wanted);
 }
 function sourcePhotoMatchesEntry(p,x){
-  if(!p?.blob || !matchesSourcePhotoName(x,p.name))return false;
-  if(p.webNo && x.webNo && String(p.webNo).padStart(4,'0')!==String(x.webNo).padStart(4,'0'))return false;
-  return true;
+  if(!p?.blob)return false;
+  // The official four-digit WEB catalogue number identifies the article
+  // more reliably than changed common/trade names.
+  if(p.webNo && x.webNo){
+    return String(p.webNo).padStart(4,'0')===String(x.webNo).padStart(4,'0');
+  }
+  if(p.webNo || x.webNo && String(p.source||'').includes('改良メダカWEB図鑑'))return false;
+  return matchesSourcePhotoName(x,p.name);
 }
 async function importAuthorizedPacks(files){
   if(!files?.length)return;
@@ -250,7 +255,7 @@ async function importAuthorizedPacks(files){
       batches++;
       for(let i=0;i<pack.photos.length;i++){
         const p=pack.photos[i],yakata=pack.format==='my-medaka-yakata-name-pack-v1',no=String(p.webNo||'').padStart(4,'0');
-        const matching=yakata?entries.find(x=>matchesSourcePhotoName(x,p.name)):entries.find(x=>x.webNo===no&&matchesSourcePhotoName(x,p.name));
+        const matching=yakata?entries.find(x=>matchesSourcePhotoName(x,p.name)):entries.find(x=>String(x.webNo||'').padStart(4,'0')===no);
         const key=yakata?'yakata:'+matching?.name:no;
         if(!matching||(!yakata&&!/^[0-9]{4}$/.test(no))||typeof p.dataUrl!=='string'||!p.dataUrl.startsWith('data:image/jpeg;base64,')){rejected++;continue}
         try{
