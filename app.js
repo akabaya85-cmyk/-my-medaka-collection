@@ -484,7 +484,6 @@ render=async function(){
     const u=verifiedPrivate?URL.createObjectURL(verifiedPrivate.blob):verifiedYakata;
     if(verifiedPrivate)sourceCoverUrls.push(u);
     cover.innerHTML='<img class="cover" src="'+u+'" alt="'+esc(x.name)+'の実物写真"><span class="sourcePhotoLabel">'+esc(x.name)+'<small>'+(verifiedPrivate?'個人保存の実物写真':'めだかの館 掲載写真')+'</small></span>';
-    cover.innerHTML='<img class="cover" src="'+u+'" alt="'+esc(x.name)+'の実物写真"><span class="sourcePhotoLabel">'+esc(x.name)+'<small>'+(p?.blob?'個人保存の実物写真':'めだかの館 掲載写真')+'</small></span>';
   }
 };
 init();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
