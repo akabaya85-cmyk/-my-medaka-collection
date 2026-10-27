@@ -3183,7 +3183,16 @@
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
     "reading": "りんこう",
     "readingBasis": "品種の読み方を個別確認・補正",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-25",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜2023年02月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「鱗光」を確認。商品写真は元サイト参照"
+      }
+    ],
+    "yakataFeaturedMonth": "2023-02",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "鱗光ロングフィン",
@@ -11137,16 +11146,21 @@
   },
   {
     "name": "モルフォ亜種",
-    "aliases": "",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "aliases": "青モルフォ亜種",
+    "traits": "青、体外光、ヒレライン、モルフォ",
+    "kind": "流通名",
+    "description": "青系の体色に体外光・ヒレライン・モルフォの形質が見られます。ヒレの中心の軟条に沿って白い光が伸びるヒレラインが、通常のモルフォとの主な違いです。",
     "url": "https://medakazukan.net/0823_morphoasyu/",
     "webNo": "0823",
-    "profile": "体色の特徴は青系。注目したい形質はヒレライン・体外光・モルフォ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profile": "青体色・体外光に加え、ヒレの軟条に沿う光の線（ヒレライン）と、扇状の尾ビレを持つモルフォ表現が特徴。",
+    "profileBasis": "改良メダカWEB図鑑No.0823の公式記事（2026-10-28確認）",
     "reading": "もるふぉあしゅ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceOfficialName": "青体外光ヒレラインモルフォメダカ",
+    "sourceNickname": "モルフォ亜種",
+    "sourceBreeder": "田中拓也",
+    "sourceYear": "2021",
+    "sourceCheckedAt": "2026-10-28"
   },
   {
     "name": "青出目目前",
@@ -11198,7 +11212,16 @@
     "profile": "体色の特徴は琥珀系。注目したい形質はラメ。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "こはくぶるーらめ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜2023年01月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「琥珀ブルーラメ」を確認。商品写真は元サイト参照"
+      }
+    ],
+    "yakataFeaturedMonth": "2023-01",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "紅白ラメヒカリ",
@@ -11679,7 +11702,16 @@
     "profile": "体色の特徴はピンク系。注目したい形質はラメ・ヒレ長・ヒカリ体型。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "ろぜ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜2023年05月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「ロゼ」を確認。商品写真は元サイト参照"
+      }
+    ],
+    "yakataFeaturedMonth": "2023-05",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "ナローフィン",
@@ -11883,7 +11915,16 @@
     "profileBasis": "改良メダカWEB図鑑No.0881の既存分類を確認（2026-10-25）",
     "sourceCheckedAt": "2026-10-25",
     "reading": "ぴんくさふぁいあ",
-    "readingBasis": "品種の読み方を個別確認・補正"
+    "readingBasis": "品種の読み方を個別確認・補正",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜2023年03月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「ピンクサファイア」を確認。商品写真は元サイト参照"
+      }
+    ],
+    "yakataFeaturedMonth": "2023-03",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "スズラン",
@@ -12270,13 +12311,13 @@
     "traits": "青、体外光、モルフォ、ロングフィン",
     "kind": "流通名",
     "description": "青体色・体外光・モルフォ・ロングフィンを組み合わせた改良メダカ。ロングフィンは背ビレとしりビレの軟条が伸長し、ヒレ長とは形質の定義が異なります。",
-    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。",
+    "profileBasis": "改良メダカWEB図鑑No.0813の公式記事（2026-10-28確認）",
     "reading": "もるふぉろんぐふぃん",
     "readingBasis": "よみがな検索用（自動推定・要確認）",
     "profile": "青い体色と背中の体外光、モルフォ由来の独特なヒレ形状に加え、背ビレ・しりビレが長く伸びるロングフィンの特徴を併せ持ちます。",
     "sourceOfficialName": "青体外光ロングフィンモルフォメダカ",
     "sourceNickname": "モルフォロングフィン",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-28"
   },
   {
     "name": "ブラックモルフォ亜種リアルロングフィン",
@@ -13728,6 +13769,11 @@
         "label": "改良メダカWEB図鑑：モルフォ桔梗",
         "url": "https://medakazukan.net/post_lp/モルフォ桔梗/",
         "note": "特徴・交配経緯を確認"
+      },
+      {
+        "label": "めだかの館｜2024年03月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「モルフォ桔梗」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
@@ -13736,7 +13782,9 @@
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/180176797.jpg?cmsp_timestamp=20240326170212",
     "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
     "profile": "水色桔梗の整ったヒカリ体型・長いヒレに、モルフォ特有の青く輝くヒレ光を組み合わせた系統。とくに尾ビレの伸長部分に特徴が現れます。",
-    "sourceYear": "2024"
+    "sourceYear": "2024",
+    "yakataFeaturedMonth": "2024-03",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "ピンクサファイアNEOダルマ",
@@ -13755,13 +13803,20 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2026年05月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「ピンクサファイアNEOダルマ」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataProductUrl": "https://www.medakanoyakata.jp/?pid=191772543",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/191772543.jpg?cmsp_timestamp=20260509062048",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "yakataFeaturedMonth": "2026-05",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "ミラージュ桔梗",
@@ -13780,13 +13835,20 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2026年05月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「ミラージュ桔梗」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataProductUrl": "https://www.medakanoyakata.jp/?pid=191704362",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/191704362.jpg?cmsp_timestamp=20260502082442",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "yakataFeaturedMonth": "2026-05",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "モルフォ桔梗～紫～",
@@ -13805,6 +13867,11 @@
         "label": "めだかの館：商品写真",
         "url": "https://www.medakanoyakata.jp/?pid=191458716",
         "note": "品種名と写真を照合"
+      },
+      {
+        "label": "めだかの館｜2026年04月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「モルフォ桔梗～紫～」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
@@ -13814,7 +13881,9 @@
     "sourceBreeder": "和田敏拓",
     "sourceOfficialName": "青体外光モルフォヒレ長ヒカリ",
     "yakataProductUrl": "https://www.medakanoyakata.jp/?pid=191458716",
-    "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/191458716.jpg?cmsp_timestamp=20260415152128"
+    "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/191458716.jpg?cmsp_timestamp=20260415152128",
+    "yakataFeaturedMonth": "2026-04",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "菜花NEO",
@@ -13828,12 +13897,19 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2025年11月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「菜花NEO」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/189109021.jpg?cmsp_timestamp=20251026064100",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "yakataFeaturedMonth": "2025-11",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "さくらNEO",
@@ -13847,12 +13923,19 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2025年11月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「さくらNEO」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/189109020.jpg?cmsp_timestamp=20251026063908",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "yakataFeaturedMonth": "2025-11",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "フロストイエロー",
@@ -13866,12 +13949,19 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2025年04月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「フロストイエロー」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/186149752.jpg?cmsp_timestamp=20250417155303",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "yakataFeaturedMonth": "2025-04",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "ピンクサファイアNEO",
@@ -13885,12 +13975,19 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2025年03月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「ピンクサファイアNEO」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/185506437.jpg?cmsp_timestamp=20250319113330",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "yakataFeaturedMonth": "2025-03",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "如水～銀白～",
@@ -13904,10 +14001,17 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2024年10月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「如水～銀白～」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataFeaturedMonth": "2024-10",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "ミラージュグロウ",
@@ -13921,12 +14025,19 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2024年09月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「ミラージュグロウ」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/182671476.jpg?cmsp_timestamp=20240919102551",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "yakataFeaturedMonth": "2024-09",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "フロスト",
@@ -13940,12 +14051,19 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2024年08月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「フロスト」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
     "sourceCheckedAt": "2026-10-27",
     "yakataImageUrl": "https://img14.shop-pro.jp/PA01303/264/product/182332068.jpg?cmsp_timestamp=20240827174506",
-    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）"
+    "yakataPhotoNote": "めだかの館の商品掲載写真（外部サイトから表示・保存不要）",
+    "yakataFeaturedMonth": "2024-08",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "ピュアホワイト透明鱗",
@@ -13959,10 +14077,17 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2024年01月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「ピュアホワイト透明鱗」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataFeaturedMonth": "2024-01",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "ミラージュ",
@@ -13976,10 +14101,17 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2023年11月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「ミラージュ」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataFeaturedMonth": "2023-11",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "如水",
@@ -13993,10 +14125,17 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2023年10月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「如水」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataFeaturedMonth": "2023-10",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "菜花",
@@ -14010,10 +14149,17 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2023年08月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「菜花」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataFeaturedMonth": "2023-08",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "極ラメ星河",
@@ -14027,10 +14173,17 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2023年07月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「極ラメ星河」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataFeaturedMonth": "2023-07",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "さくら",
@@ -14044,10 +14197,17 @@
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
+      },
+      {
+        "label": "めだかの館｜2023年04月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「さくら」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataFeaturedMonth": "2023-04",
+    "yakataListingVerifiedAt": "2026-10-28"
   },
   {
     "name": "モルフォ桔梗亜種系統",
@@ -14061,6 +14221,11 @@
         "label": "改良メダカWEB図鑑：モルフォ桔梗亜種系統",
         "url": "https://medakazukan.net/post_lp/モルフォ桔梗亜種系統/",
         "note": "作出情報・特徴を確認"
+      },
+      {
+        "label": "めだかの館｜2026年05月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「モルフォ桔梗亜種系統」を確認。商品写真は元サイト参照"
       }
     ],
     "photoStatus": "未照合",
@@ -14070,6 +14235,65 @@
     "profile": "モルフォ桔梗からヒレの軟条に沿う青白い光を選別・累代した系統。尾ビレに亜種表現が強く現れ、ヒレ長の伸長部分まで輝きます。",
     "sourceYear": "2026",
     "sourceBreeder": "和田敏拓",
-    "sourceOfficialName": "青体外光ヒレラインモルフォヒレ長ヒカリ"
+    "sourceOfficialName": "青体外光ヒレラインモルフォヒレ長ヒカリ",
+    "yakataFeaturedMonth": "2026-05",
+    "yakataListingVerifiedAt": "2026-10-28"
+  },
+  {
+    "name": "禅半月×青蝶半月",
+    "aliases": "",
+    "traits": "",
+    "kind": "めだかの館掲載の交配表記（分類未確認）",
+    "description": "めだかの館の月別ピックアップに2022年12月掲載。品種名・形質分類および写真の詳細は掲載元で確認してください。",
+    "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+    "profileBasis": "めだかの館 公式月別ピックアップ掲載名を確認。形質情報は未照合。",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜2022年12月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「禅半月×青蝶半月」を確認。商品写真は元サイト参照"
+      }
+    ],
+    "yakataFeaturedMonth": "2022-12",
+    "yakataListingVerifiedAt": "2026-10-28"
+  },
+  {
+    "name": "出目目前メダカ",
+    "aliases": "",
+    "traits": "",
+    "kind": "めだかの館掲載名（分類未確認）",
+    "description": "めだかの館の月別ピックアップに2022年11月掲載。品種名・形質分類および写真の詳細は掲載元で確認してください。",
+    "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+    "profileBasis": "めだかの館 公式月別ピックアップ掲載名を確認。形質情報は未照合。",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜2022年11月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「出目目前メダカ」を確認。商品写真は元サイト参照"
+      }
+    ],
+    "yakataFeaturedMonth": "2022-11",
+    "yakataListingVerifiedAt": "2026-10-28"
+  },
+  {
+    "name": "MLFH×BMA",
+    "aliases": "",
+    "traits": "",
+    "kind": "めだかの館掲載の交配表記（分類未確認）",
+    "description": "めだかの館の月別ピックアップに2022年10月掲載。品種名・形質分類および写真の詳細は掲載元で確認してください。",
+    "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+    "profileBasis": "めだかの館 公式月別ピックアップ掲載名を確認。形質情報は未照合。",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜2022年10月掲載",
+        "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
+        "note": "公式月別ピックアップの掲載名「MLFH×BMA」を確認。商品写真は元サイト参照"
+      }
+    ],
+    "yakataFeaturedMonth": "2022-10",
+    "yakataListingVerifiedAt": "2026-10-28"
   }
 ]
