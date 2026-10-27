@@ -175,7 +175,7 @@ async function init(){
   applyOwnedScreenshotLinesOnce();
   await refreshTraitNames();await refreshSourceNames();bind();render();
 }
-function bind(){for(let id of ['search','category','sort','origin'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=0;render()});$('add').onclick=()=>edit(null);$('backup').onclick=backup;$('restore').onclick=()=>pick('restore','.json,application/json');$('import').onclick=()=>pick('csv','.csv,text/csv');$('batch').onclick=()=>pick('inbox','image/*',true);$('traitPack').onclick=()=>pick('traitpack','.json,application/json');if($('catalogUpdate'))$('catalogUpdate').onclick=refreshCatalog;$('sourcePack').onclick=()=>pick('sourcepack','.json,application/json',true);$('more').onclick=()=>{page++;render()};$('file').onchange=handleFile}
+function bind(){for(let id of ['search','category','sort','origin'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=0;render()});$('add').onclick=()=>edit(null);$('backup').onclick=backup;$('restore').onclick=()=>pick('restore','.json,application/json');$('import').onclick=()=>pick('csv','.csv,text/csv');$('batch').onclick=()=>pick('inbox','image/*',true);if($('traitPack'))$('traitPack').onclick=()=>pick('traitpack','.json,application/json');if($('catalogUpdate'))$('catalogUpdate').onclick=refreshCatalog;$('sourcePack').onclick=()=>pick('sourcepack','.json,application/json',true);$('more').onclick=()=>{page++;render()};$('file').onchange=handleFile}
 function pick(mode,accept,multiple=false){fileMode=mode;let f=$('file');f.accept=accept;f.multiple=multiple;f.value='';f.click()}
 
 /* Local reference photos from a user-imported file. Never published in GitHub. */
