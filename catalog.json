@@ -13721,22 +13721,33 @@
     "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
     "referenceLinks": [
       {
+        "label": "めだかの館：該当品種の商品・写真ページ",
+        "url": "https://www.medakanoyakata.jp/?pid=180176797",
+        "note": "品種名一致。掲載写真は未取得・未照合"
+      },
+      {
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
         "note": "品種名の掲載を確認。写真はまだ未照合"
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataProductUrl": "https://www.medakanoyakata.jp/?pid=180176797"
   },
   {
     "name": "ピンクサファイアNEOダルマ",
     "kind": "流通名・系統名（めだかの館掲載）",
     "traits": "要確認",
-    "description": "めだかの館の品種紹介に掲載。品種固有の形質・作出情報は出典と照合中。",
+    "description": "ピンクサファイアNEOのダルマ体型。淡いピンクの体色と青ラメが特徴。",
     "source": "めだかの館",
     "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
     "referenceLinks": [
+      {
+        "label": "めだかの館：該当品種の商品・写真ページ",
+        "url": "https://www.medakanoyakata.jp/?pid=191772543",
+        "note": "品種名一致。掲載写真は未取得・未照合"
+      },
       {
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
@@ -13744,16 +13755,22 @@
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataProductUrl": "https://www.medakanoyakata.jp/?pid=191772543"
   },
   {
     "name": "ミラージュ桔梗",
     "kind": "流通名・系統名（めだかの館掲載）",
     "traits": "要確認",
-    "description": "めだかの館の品種紹介に掲載。品種固有の形質・作出情報は出典と照合中。",
+    "description": "モルフォ桔梗とミラージュグロウヒレ長の交配系統。眼・体・ヒレの輝きが特徴。",
     "source": "めだかの館",
     "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
     "referenceLinks": [
+      {
+        "label": "めだかの館：該当品種の商品・写真ページ",
+        "url": "https://www.medakanoyakata.jp/?pid=191704362",
+        "note": "品種名一致。掲載写真は未取得・未照合"
+      },
       {
         "label": "めだかの館 ピックアップ品種",
         "url": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate",
@@ -13761,7 +13778,8 @@
       }
     ],
     "photoStatus": "未照合",
-    "sourceCheckedAt": "2026-10-27"
+    "sourceCheckedAt": "2026-10-27",
+    "yakataProductUrl": "https://www.medakanoyakata.jp/?pid=191704362"
   },
   {
     "name": "モルフォ桔梗～紫～",
