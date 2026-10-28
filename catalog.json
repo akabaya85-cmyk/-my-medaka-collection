@@ -189,20 +189,42 @@
   {
     "name": "白幹之",
     "traits": "白・体外光",
-    "kind": "品種・流通名（要照合）",
+    "kind": "通称・省略表記",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "reading": "しろみゆき",
-    "readingBasis": "品種の読み方を個別確認・補正"
+    "readingBasis": "品種の読み方を個別確認・補正",
+    "sourceArticleNo": "0104",
+    "profile": "体色の特徴は白系。注目したい形質は体外光。",
+    "profileBasis": "同一品種の正式掲載名を改良メダカWEB図鑑で照合（2026-10-28）",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑の正式掲載名：白幹之（しろみゆき）メダカ",
+        "url": "https://medakazukan.net/0104_siromiyuki/",
+        "note": "同じ品種の通称・省略表記"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-28"
   },
   {
     "name": "流星",
     "traits": "体外光",
-    "kind": "品種・流通名（要照合）",
+    "kind": "通称・省略表記",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "reading": "りゅうせい",
-    "readingBasis": "品種の読み方を個別確認・補正"
+    "readingBasis": "品種の読み方を個別確認・補正",
+    "sourceArticleNo": "0429",
+    "profile": "背ビレのないマルコ体型により、背中の体外光が途切れにくい。",
+    "profileBasis": "同一品種の正式掲載名を改良メダカWEB図鑑で照合（2026-10-28）",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑の正式掲載名：流星（りゅうせい）",
+        "url": "https://medakazukan.net/0414_ryuusei/",
+        "note": "同じ品種の通称・省略表記"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-28"
   },
   {
     "name": "サファイア",
@@ -444,11 +466,22 @@
   {
     "name": "琴姫リアルロングフィン",
     "traits": "ヒレ変化",
-    "kind": "品種・流通名（要照合）",
+    "kind": "流通名（公式図鑑と同一表記）",
     "description": "特徴・作出系統の詳細は出典を確認して追記してください。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "reading": "ことひめりあるろんぐふぃん",
-    "readingBasis": "品種の読み方を個別確認・補正"
+    "readingBasis": "品種の読み方を個別確認・補正",
+    "sourceArticleNo": "0914",
+    "profile": "琥珀・透明鱗・ブラックリム・ヒカリ体型に大きく伸びるヒレを併せ持つ。",
+    "profileBasis": "同一品種の正式掲載名を改良メダカWEB図鑑で照合（2026-10-28）",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑の正式掲載名：琴姫（ことひめ）リアルロングフィン",
+        "url": "https://medakazukan.net/0914_kotohimereallongfin/",
+        "note": "同じ品種の通称・省略表記"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-28"
   },
   {
     "name": "レーヴサムライヒカリ",
