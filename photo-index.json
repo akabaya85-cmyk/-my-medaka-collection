@@ -2,8 +2,8 @@
   "format": "my-medaka-source-photo-index-v1",
   "source": "改良メダカWEB図鑑",
   "note": "Only exact cultivar-linked remote photo URLs. Previously repeated URLs may be restored for the one matching original filename/id; remaining repeated URLs stay quarantined.",
-  "photoCount": 838,
-  "uniquePhotoCount": 820,
+  "photoCount": 843,
+  "uniquePhotoCount": 825,
   "ambiguousCount": 18,
   "photos": {
     "1064": {
@@ -5047,6 +5047,46 @@
       "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0813_%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%AD%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%B3.jpg",
       "sourceUrl": "https://medakazukan.net/0813morpholongfin/",
       "ambiguous": false
+    },
+    "0116": {
+      "name": "マリンブルー",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/07/0116_%E3%83%9E%E3%83%AA%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC-1-1.jpg",
+      "sourceUrl": "https://medakazukan.net/0016_marineblue/",
+      "ambiguous": false,
+      "verifiedMethod": "human-reviewed-official-article-image",
+      "verifiedAt": "2026-10-28"
+    },
+    "0278": {
+      "name": "青蝶ダルマ（あおちょうだるま）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0278_%E9%9D%92%E5%B9%B9%E4%B9%8B%E3%83%AD%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%B3%E3%83%80%E3%83%AB%E3%83%9E.jpg",
+      "sourceUrl": "https://medakazukan.net/0268_aocoudharma/",
+      "ambiguous": false,
+      "verifiedMethod": "human-reviewed-official-article-image",
+      "verifiedAt": "2026-10-28"
+    },
+    "0429": {
+      "name": "流星（りゅうせい）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0429_%E6%B5%81%E6%98%9F-1.jpg",
+      "sourceUrl": "https://medakazukan.net/0414_ryuusei/",
+      "ambiguous": false,
+      "verifiedMethod": "human-reviewed-official-article-image",
+      "verifiedAt": "2026-10-28"
+    },
+    "0801": {
+      "name": "ブラックモルフォ亜種リアルロングフィン",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0801_%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E4%BA%9C%E7%A8%AE%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%AD%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%B3_%E2%98%85AZUMA.jpg",
+      "sourceUrl": "https://medakazukan.net/0801blackmorphoasyureallongfin/",
+      "ambiguous": false,
+      "verifiedMethod": "human-reviewed-official-article-image",
+      "verifiedAt": "2026-10-28"
+    },
+    "0894": {
+      "name": "クラウドグレーダイヤ",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0894_%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%80%E3%82%A4%E3%83%A4_%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B02023%E8%BF%BD%E5%8A%A0%E5%93%81%E7%A8%AE-scaled.jpg",
+      "sourceUrl": "https://medakazukan.net/cloudgraydia/",
+      "ambiguous": false,
+      "verifiedMethod": "human-reviewed-official-article-image",
+      "verifiedAt": "2026-10-28"
     }
   },
   "yakata": {
@@ -5113,5 +5153,6 @@
       "source": "ひかりめだか"
     }
   },
-  "verifiedAt": "2026-10-28"
+  "verifiedAt": "2026-10-28",
+  "updatedAt": "2026-10-28"
 }
