@@ -326,17 +326,17 @@
   },
   {
     "name": "ネプチューン",
-    "traits": "青・ラメ・ヒレ光",
+    "traits": "青ラメ、ラメ、ヒレ光",
     "kind": "流通名",
-    "description": "2023年に発表された全身の濃密な青ラメが特徴の系統。頭部の青い輝きが強く、ヒレにも光が現れる個体が見られる。",
+    "description": "青系ラメが全身に発現し、とくに頭部の輝きが目立つ系統。角度によって金銀色の反射も見られる。2023年の作出として紹介される。",
     "source": "https://medakazukan.net/varietyofmedaka/",
     "aliases": "ネプチューンメダカ、Neptune",
-    "profile": "頭部まで広がる青ラメとヒレ光を観察。",
-    "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
+    "profile": "頭部を中心とする密度の高い青ラメとヒレ光。",
+    "profileBasis": "JASMA 日本改良メダカの会の品種解説（2026-10-28照合）",
     "sourceYear": "2023",
     "url": "https://jasma.sc/medaka/nepuchu-n/",
-    "sourceCheckedAt": "2026-10-25",
-    "sourceBreeder": "サバンナ",
+    "sourceCheckedAt": "2026-10-28",
+    "sourceBreeder": "メダカ屋サバンナ",
     "referenceLinks": [
       {
         "label": "JASMA 品種解説",
@@ -939,16 +939,25 @@
   {
     "name": "ピンクヒカリダルマメダカ",
     "aliases": "",
-    "traits": "ダルマ、ヒカリ、ピンク",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "見分けるときは、ヒカリダルマ・ピンクの組み合わせに注目します。",
+    "traits": "ピンク、ヒカリダルマ",
+    "kind": "品種名（確認済み）",
+    "description": "朱赤を基礎とした淡いピンク体色に、ヒカリ体型と胴の短いダルマ体型を併せ持つ。ヒレに体色と同系色または朱赤に近い色が残る個体もある。",
     "url": "https://medakazukan.net/0034_pinkhikaridharma/",
     "webNo": "0034",
-    "profile": "体色の特徴はピンク系。注目したい形質はヒカリ・ダルマ。",
-    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25",
+    "profile": "ピンク体色、ヒカリ体型、丸みの強いダルマ体型。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0034の公式記事本文を照合（2026-10-28）",
+    "sourceCheckedAt": "2026-10-28",
     "reading": "ぴんくひかりだるまめだか",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceOfficialName": "ピンクヒカリダルマメダカ",
+    "sourceNickname": "ピンクヒカリダルマメダカ",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0034_pinkhikaridharma/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "茶メダカ",
@@ -1262,15 +1271,26 @@
     "name": "スカイブルー",
     "aliases": "青メダカ",
     "traits": "青",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "見分けるときは、青の組み合わせに注目します。",
+    "kind": "流通名",
+    "description": "青体色（実際には灰色がかった青）のメダカ。2004年にめだかの館で選別されたスカイブルー系統では、当時濃色に寄りがちだったオスにも淡いパールブルーの体色が表現された。",
     "url": "https://medakazukan.net/0059_skyblue/",
     "webNo": "0059",
-    "profile": "体色の特徴は青系。",
-    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
-    "sourceCheckedAt": "2026-10-25",
+    "profile": "オス・メスともに淡いパールブルーの青体色を観賞する系統。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0059の公式記事本文を照合（2026-10-28）",
+    "sourceCheckedAt": "2026-10-28",
     "reading": "すかいぶるー",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceOfficialName": "青メダカ",
+    "sourceNickname": "スカイブルー",
+    "sourceYear": "2004",
+    "sourceBreeder": "大場幸雄",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0059_skyblue/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "静香",
@@ -8393,15 +8413,23 @@
   {
     "name": "白透明鱗アルビノ目前",
     "aliases": "しろとうめいりんあるびのめまえ",
-    "traits": "透明鱗、アルビノ、白",
+    "traits": "白、透明鱗、アルビノ、目前",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "白体色に、エラ付近などが透ける透明鱗、アルビノの赤い眼、眼が前方を向く目前の形質を組み合わせた改良メダカ。",
     "url": "https://medakazukan.net/0599_sirotoumeirinalbinomemae/",
     "webNo": "0599",
-    "profile": "体色の特徴は白系。注目したい形質は透明鱗・アルビノ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profile": "白い体色、透明鱗、アルビノ、前方を向く眼の形。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0599の公式記事本文を照合（2026-10-28）",
     "reading": "しろとうめいりんあるびのめまえ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0599_sirotoumeirinalbinomemae/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "白アルビノ目前",
@@ -9342,15 +9370,23 @@
   {
     "name": "オレンジオーロラブラックリムラメ",
     "aliases": "",
-    "traits": "ブラックリム、ラメ、オーロラ、オレンジ",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "traits": "オレンジ、半透明鱗、ラメ、ブラックリム",
+    "kind": "品種・流通名（要照合）",
+    "description": "オレンジ体色に、半透明鱗による透け感、鱗のラメ、鱗の縁が黒く見えるブラックリムの形質を組み合わせたメダカ。",
     "url": "https://medakazukan.net/0675_orangeaurorablackrimlame/",
     "webNo": "0675",
-    "profile": "体色の特徴はオレンジ系。注目したい形質は半透明鱗・ブラックリム・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profile": "オレンジ系の体色と透明感、鱗のラメ、黒い鱗の縁取り。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0675の公式記事本文を照合（2026-10-28）",
     "reading": "おれんじおーろらぶらっくりむらめ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0675_orangeaurorablackrimlame/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "ピンクオーロラブラックリムラメ",
@@ -9433,15 +9469,25 @@
   {
     "name": "琥珀アルビノ",
     "aliases": "こはくあるびの",
-    "traits": "アルビノ、琥珀",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "traits": "オレンジ、アルビノ",
+    "kind": "流通名",
+    "description": "オレンジ体色で、眼が赤く透けて見えるアルビノ形質を持つメダカ。琥珀アルビノは通称で、公式図鑑ではオレンジアルビノメダカとして整理されている。",
     "url": "https://medakazukan.net/0684_kohakualbino/",
     "webNo": "0684",
-    "profile": "体色の特徴はオレンジ系。注目したい形質はアルビノ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profile": "オレンジ色の体と、アルビノ特有の赤い目。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0684の公式記事本文を照合（2026-10-28）",
     "reading": "こはくあるびの",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceOfficialName": "オレンジアルビノメダカ",
+    "sourceNickname": "琥珀アルビノ",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0684_kohakualbino/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "琥珀アルビノヒカリ",
@@ -9537,15 +9583,23 @@
   {
     "name": "黄アルビノスモールアイ菱尾",
     "aliases": "きあるびのすもーるあいひしお",
-    "traits": "アルビノ、黄",
+    "traits": "黄、アルビノ、スモールアイ、菱尾",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "黄色い体色、赤みのあるアルビノの目、小さな目のスモールアイ形質、菱形に見える尾ビレの菱尾を組み合わせたメダカ。",
     "url": "https://medakazukan.net/0692_kialbinosmalleyehishio/",
     "webNo": "0692",
-    "profile": "体色の特徴は黄系。注目したい形質はアルビノ・スモールアイ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profile": "黄体色にアルビノ・スモールアイと菱形の尾ビレ。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0692の公式記事本文を照合（2026-10-28）",
     "reading": "きあるびのすもーるあいひしお",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0692_kialbinosmalleyehishio/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "青幹之透明鱗",
@@ -12216,16 +12270,27 @@
   {
     "name": "琴姫（ことひめ）リアルロングフィン",
     "aliases": "",
-    "traits": "リアルロングフィン、ロングフィン",
+    "traits": "琥珀、透明鱗、ブラックリム、ヒカリ、リアルロングフィン",
     "kind": "流通名",
-    "description": "琥珀系の色合いに透明鱗・ブラックリム・リアルロングフィン・ヒカリ体型を併せ持つ系統の愛称。",
+    "description": "琥珀透明鱗ブラックリムヒカリ「琴姫」のヒレの美しさに、形を保って長くなるリアルロングフィンを掛け合わせた系統。赤みのある琥珀色、ブラックリムとヒレの発色が観賞ポイント。",
     "url": "https://medakazukan.net/0914_kotohimereallongfin/",
     "webNo": "0914",
-    "profile": "注目したい形質はリアルロングフィン・透明鱗・ブラックリム・ヒカリ。",
-    "profileBasis": "改良メダカWEB図鑑の掲載記事を参照して要点を独自に整理（2026年10月確認）",
-    "sourceCheckedAt": "2026-10-25",
+    "profile": "琥珀・透明鱗・ブラックリム・ヒカリ体型に大きく伸びるヒレを併せ持つ。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0914の公式記事本文を照合（2026-10-28）",
+    "sourceCheckedAt": "2026-10-28",
     "reading": "ことひめりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceOfficialName": "琥珀透明鱗ブラックリムリアルロングフィンメダカ",
+    "sourceNickname": "琴姫リアルロングフィン",
+    "sourceYear": "2023",
+    "sourceBreeder": "和田敏拓",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0914_kotohimereallongfin/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "ヒメダカ",
@@ -12268,19 +12333,27 @@
   {
     "name": "クラウドグレーダイヤ",
     "aliases": "",
-    "traits": "ブラック・ラメ",
+    "traits": "ブラック、ラメ",
     "kind": "流通名",
-    "description": "透明感のある黒系の体色に、上見と横見の双方で目立つラメが特徴。ブラックダイヤから上見のラメを重視して選抜された系統。",
-    "profile": "黒系の体色。上から見た際にもラメが目立つことが特徴。",
-    "profileBasis": "改良メダカWEB図鑑の記事に基づく概要（2026年10月確認）",
-    "sourceCheckedAt": "2026-10-25",
+    "description": "ブラックダイヤの選別系統。ブラック体色の透明感と、上から見ても横から見ても分かる強いラメが特徴で、通常のブラックダイヤと比べて上見のラメの強さに注目する。",
+    "profile": "やや透明感のある黒体色と、上見・横見の両方で目立つラメ。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0894の公式記事本文を照合（2026-10-28）",
+    "sourceCheckedAt": "2026-10-28",
     "sourceYear": "2022",
     "sourceBreeder": "中里良則",
     "sourceOfficialName": "ブラックラメメダカ",
     "url": "https://medakazukan.net/cloudgraydia/",
     "webNo": "0894",
     "reading": "くらうどぐれーだいや",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceNickname": "クラウドグレーダイヤ",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/cloudgraydia/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "黄錦モルフォ",
@@ -12315,12 +12388,23 @@
     "webNo": "0801",
     "url": "https://medakazukan.net/0801blackmorphoasyureallongfin/",
     "aliases": "",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
-    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。",
+    "traits": "ブラック、体外光、ヒレライン、リアルロングフィン、モルフォ",
+    "kind": "流通名",
+    "description": "ブラック体色を基調に、背中の体外光とヒレ軟条に沿うヒレライン、モルフォ由来の扇状の尾ビレ、形を保って大きく伸びるリアルロングフィンを併せ持つ。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0801の公式記事本文を照合（2026-10-28）",
     "reading": "ぶらっくもるふぉあしゅりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "profile": "黒系の体色、体外光、ヒレライン、扇状尾ビレ、リアルロングフィン。",
+    "sourceOfficialName": "ブラック体外光ヒレラインリアルロングフィンモルフォメダカ",
+    "sourceNickname": "ブラックモルフォ亜種リアルロングフィン",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0801blackmorphoasyureallongfin/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "朱赤 楊貴妃透明鱗パンダ 丹頂（ようきひとうめいりんぱんだ　たんちょう）",
@@ -12398,13 +12482,26 @@
     "name": "流星（りゅうせい）",
     "webNo": "0429",
     "url": "https://medakazukan.net/0414_ryuusei/",
-    "aliases": "",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
-    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。",
+    "aliases": "背ビレなし幹之",
+    "traits": "青、体外光、マルコ",
+    "kind": "日本メダカ協会認定名",
+    "description": "青体色で背中に体外光を持ち、背ビレのない「マルコ」形質により光が背中を一筋に通るように見える系統。通称「流星」、別名「背ビレなし幹之」。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0429の公式記事本文を照合（2026-10-28）",
     "reading": "りゅうせい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "profile": "背ビレのないマルコ体型により、背中の体外光が途切れにくい。",
+    "sourceOfficialName": "青体外光マルコメダカ",
+    "sourceNickname": "流星",
+    "sourceYear": "2013",
+    "sourceBreeder": "中里良則",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0414_ryuusei/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "青サムライダルマ（あおさむらいだるま）",
@@ -12459,12 +12556,23 @@
     "webNo": "0278",
     "url": "https://medakazukan.net/0268_aocoudharma/",
     "aliases": "",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
-    "profileBasis": "WEB図鑑の記事番号・名称を確認。詳細な形質は未照合。",
+    "traits": "青、体外光、ヒレ長、ロングフィン、ダルマ",
+    "kind": "流通名",
+    "description": "青体色に体外光、ヒレ長、ロングフィンの形質を併せ持つダルマ体型。ヒレ全体の伸長と背ビレ・尻ビレの軟条の伸び方を横見で見比べる。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0278の公式記事本文を照合（2026-10-28）",
     "reading": "あおちょうだるまあおちょうだるま",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "profile": "青体色と体外光、長く伸びるヒレ、短く丸いダルマ体型が特徴。",
+    "sourceOfficialName": "青体外光ヒレ長ロングフィンダルマメダカ",
+    "sourceNickname": "青蝶ダルマ",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0268_aocoudharma/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "令和三色ラメ幹之",
@@ -12521,16 +12629,23 @@
     "aliases": "",
     "traits": "青、体外光、腹膜青",
     "kind": "流通名",
-    "description": "黒色素胞が少なく、淡い水色に見える青体外光の改良メダカ。腹膜青の表現も確認ポイントで、白い容器での観察が紹介されています。",
-    "profileBasis": "改良メダカWEB図鑑No.0116の公式記事（2026-10-28照合）",
+    "description": "淡い水色の青体色と体外光を持つ幹之系統。腹膜青が見られるのも特徴で、明るい白容器での観賞が紹介されている。",
+    "profileBasis": "改良メダカWEB図鑑 種類No.0116の公式記事本文を照合（2026-10-28）",
     "reading": "まりんぶるー",
     "readingBasis": "品種の読み方を個別確認・補正",
     "sourceOfficialName": "青体外光メダカ",
     "sourceNickname": "マリンブルー",
     "sourceYear": "2011",
     "sourceBreeder": "長岡龍聖",
-    "profile": "淡い青（水色に近い）体色・体外光・腹膜青の特徴があります。",
-    "sourceCheckedAt": "2026-10-28"
+    "profile": "黒色素胞が少なく、水色に見える青体色・体外光・腹膜青。",
+    "sourceCheckedAt": "2026-10-28",
+    "referenceLinks": [
+      {
+        "label": "改良メダカWEB図鑑 公式記事",
+        "url": "https://medakazukan.net/0016_marineblue/",
+        "note": "品種名・通称・特徴を確認"
+      }
+    ]
   },
   {
     "name": "アルビノ幹之（みゆき）ダルマ",
