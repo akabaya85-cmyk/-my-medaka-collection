@@ -229,13 +229,40 @@
       if(label)label.textContent='形質の参考写真（この品種の実物写真ではありません）';
     }
     if (!mount) return;
+    const sourcesForThisVariety=sourceCandidates(entry);
+    function appendSources(){
+      const verified=sourcesForThisVariety.filter(item=>!item.ambiguous);
+      if(!verified.length)return;
+      const section=document.createElement('section');
+      section.className='sourceReference';
+      const h=document.createElement('h3');
+      h.textContent='🔎 元サイトの実物写真を比較';
+      section.append(h);
+      const list=document.createElement('ul');
+      list.className='referenceSources';
+      for(const item of verified){
+        const li=document.createElement('li');
+        const a=document.createElement('a');
+        a.textContent=item.source+'の品種ページを開く';
+        a.href=item.sourceUrl;
+        a.target='_blank';
+        a.rel='noopener noreferrer';
+        li.append(a);
+        list.append(li);
+      }
+      section.append(list);
+      mount.append(section);
+    }
     const photo = sourceInfo(entry);
     const importedKey = sourceNames.has('yakata:' + entry.name)
       ? 'yakata:' + entry.name : (entry.webNo || '');
     const imported = importedKey && sourceNames.has(importedKey)
       ? await op('sourceGallery','get',importedKey).catch(() => null) : null;
     if (imported?.blob && sourcePhotoMatchesEntry(imported,entry) &&
-        !(photo?.ambiguous && imported.source === '改良メダカWEB図鑑')) return;
+        !(photo?.ambiguous && imported.source === '改良メダカWEB図鑑')){
+      appendSources();
+      return;
+    }
     if (photo && !photo.ambiguous) {
       mount.innerHTML = '';
       const section = document.createElement('section');
@@ -255,15 +282,28 @@
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
       link.textContent = '出典の品種ページを見る ↗';
+      let switched=false;
       img.onerror = () => {
+        if(!switched){
+          const alternative=sourcesForThisVariety.find(item=>
+            !item.ambiguous && item.imageUrl!==photo.imageUrl);
+          if(alternative){
+            switched=true;
+            note.textContent='出典：'+alternative.source+'（最初の画像を表示できなかったため切替）';
+            link.href=alternative.sourceUrl;
+            img.src=alternative.imageUrl;
+            return;
+          }
+        }
         img.remove();
-        note.textContent = '外部画像を表示できません。元サイトの掲載写真を確認してください。';
+        note.textContent='外部写真を表示できません。下の元サイトで確認してください。';
       };
       section.append(h3,img,note,link);
       mount.append(section);
     } else {
       mount.innerHTML = '<p class="hint">📷 この品種と一致する実物写真は未確認です。別品種の写真は表示しません。</p>';
     }
+    appendSources();
   };
 
   // Reload with the index so the first screen also gets accurate photos.
