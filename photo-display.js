@@ -187,7 +187,19 @@
         (!sourcePhotoMatchesEntry(imported,entry) ||
          (photo?.ambiguous && imported.source === '改良メダカWEB図鑑'));
       const exactImport = imported && !wrongImport && !!imported.blob;
-      if (exactImport) continue; // Already rendered by app.js.
+      if (exactImport) {
+        if (!cover.querySelector('img')) {
+          const url=URL.createObjectURL(imported.blob);
+          const img=document.createElement('img');
+          img.className='cover';
+          img.alt=entry.name+'：保存済みの実物写真';
+          img.onload=()=>URL.revokeObjectURL(url);
+          img.onerror=()=>URL.revokeObjectURL(url);
+          img.src=url;
+          cover.replaceChildren(img);
+        }
+        continue;
+      }
       if (cover.querySelector('.traitPhotoLabel') || wrongImport ||
           (photo?.ambiguous && cover.querySelector('.sourcePhotoLabel'))) {
         clearMisleadingTrait(cover, !!photo?.ambiguous);
