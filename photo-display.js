@@ -179,7 +179,7 @@
       if (own.length) continue; // Always preserve the user's own photo.
       const photo = sourceInfo(entry);
       const importedKey = sourceNames.has('yakata:' + entry.name)
-        ? 'yakata:' + entry.name : (entry.webNo || '');
+        ? 'yakata:' + entry.name : (entry.webNo || entry.sourceArticleNo || '');
       const imported = importedKey && sourceNames.has(importedKey)
         ? await op('sourceGallery','get',importedKey).catch(() => null) : null;
       if (generation !== renderGeneration) return;
