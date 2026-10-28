@@ -175,7 +175,7 @@ async function init(){
   applyOwnedScreenshotLinesOnce();
   await refreshTraitNames();await refreshSourceNames();bind();render();
 }
-function bind(){for(let id of ['search','category','sort','origin'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=0;render()});$('add').onclick=()=>edit(null);$('backup').onclick=backup;$('restore').onclick=()=>pick('restore','.json,application/json');$('import').onclick=()=>pick('csv','.csv,text/csv');$('batch').onclick=()=>pick('inbox','image/*',true);if($('traitPack'))$('traitPack').onclick=()=>pick('traitpack','.json,application/json');if($('catalogUpdate'))$('catalogUpdate').onclick=refreshCatalog;$('sourcePack').onclick=()=>pick('sourcepack','.json,application/json',true);$('more').onclick=()=>{page++;render()};$('file').onchange=handleFile}
+function bind(){for(let id of ['search','category','sort','origin'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=0;render()});$('add').onclick=()=>edit(null);$('backup').onclick=()=>backup(false);if($('backupFull'))$('backupFull').onclick=()=>backup(true);$('restore').onclick=()=>pick('restore','.json,application/json');$('import').onclick=()=>pick('csv','.csv,text/csv');$('batch').onclick=()=>pick('inbox','image/*',true);if($('traitPack'))$('traitPack').onclick=()=>pick('traitpack','.json,application/json');if($('catalogUpdate'))$('catalogUpdate').onclick=refreshCatalog;$('sourcePack').onclick=()=>pick('sourcepack','.json,application/json',true);$('more').onclick=()=>{page++;render()};$('file').onchange=handleFile}
 function pick(mode,accept,multiple=false){fileMode=mode;let f=$('file');f.accept=accept;f.multiple=multiple;f.value='';f.click()}
 
 /* Local reference photos from a user-imported file. Never published in GitHub. */
@@ -349,7 +349,65 @@ const mount=$('traitPhotoMount');if(mount&&traitDetailURL&&!sourceDetailURL){
   mount.innerHTML='<section class="traitReference"><h3>📷 '+esc(traitReference.trait)+'の参考写真</h3><img src="'+traitDetailURL+'" alt="'+esc(traitReference.trait)+'形質の参考写真"><p><strong>この品種そのものの写真ではありません。</strong></p><p class="hint">'+esc(traitReference.photo.source)+' p.'+Number(traitReference.photo.page)+'。個人利用のみ・公開や再配布は不可。</p></section>';
 }$('dk').value=x.kind;$('ds').value=x.status;let currentPhotos=[...photos];function paint(){detailUrls.forEach(URL.revokeObjectURL);detailUrls=[];$('photoGrid').innerHTML=currentPhotos.map((b,i)=>{let u=URL.createObjectURL(b);detailUrls.push(u);return `<div class="photoTile"><img src="${u}" alt="登録写真"><button data-rm="${i}" title="写真削除">×</button></div>`}).join('')}$('photos').onchange=async e=>{try{for(let f of e.target.files)currentPhotos.push(await optimize(f));paint()}catch(err){alert(err.message)}};$('photoGrid').onclick=e=>{let b=e.target.closest('[data-rm]');if(b){currentPhotos.splice(Number(b.dataset.rm),1);paint()}};$('closeDetail').onclick=()=>$('dialog').close();$('saveDetail').onclick=async()=>{let name=$('dn').value.trim();if(!name){alert('名前を入力してね');return}if(isNew&&entries.some(y=>y.name===name)){alert('同じ名前が登録されています');return}Object.assign(x,{name,reading:$('dyomi').value.trim(),aliases:$('da').value,traits:$('dt').value,kind:$('dk').value,description:$('dd').value,care:$('dc').value,status:$('ds').value,ever:$('de').checked||$('ds').value!=='none',wish:$('dw').checked,favorite:$('df').checked,note:$('dm').value,url:validUrl($('du').value),updated:Date.now()});try{await putPhotos(x.id,currentPhotos);if(isNew)entries.push(x);save();$('dialog').close();page=0;render()}catch(err){alert('保存に失敗しました: '+err.message)}};if(!isNew)$('deleteDetail').onclick=async()=>{if(!confirm('この品種と登録写真を削除しますか？'))return;await putPhotos(x.id,[]);entries=entries.filter(y=>y.id!==x.id);save();$('dialog').close();render()};$('dialog').onclose=()=>{detailUrls.forEach(URL.revokeObjectURL);detailUrls=[];if(traitDetailURL)URL.revokeObjectURL(traitDetailURL);if(sourceDetailURL)URL.revokeObjectURL(sourceDetailURL)};paint();$('dialog').showModal()}
 function download(name,body,type){let u=URL.createObjectURL(new Blob([body],{type})),a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),30000)}
-async function backup(){try{let photos={};for(let x of entries){let a=await getPhotos(x.id);if(a.length)photos[x.id]=await Promise.all(a.map(fileData))}let personalData=window.medakaPersonal?await window.medakaPersonal.exportData():null;let d={format:'my-medaka-release-v1',created:new Date().toISOString(),entries,photos,personalData};download('my-medaka-backup-'+new Date().toISOString().slice(0,10)+'.json',JSON.stringify(d),'application/json');alert('バックアップを書き出しました。「ファイル」アプリに保存できたか確認してください。')}catch(e){alert('バックアップに失敗: '+e.message)}}
+async function exportSavedPhotoPacks(){
+  const packs={version:1,sourceGallery:[],traitGallery:[]};
+  const status=$('importProgress');
+  for(const store of ['sourceGallery','traitGallery']){
+    const keys=await op(store,'keys');
+    for(let i=0;i<keys.length;i++){
+      const key=String(keys[i]);
+      const data=await op(store,'get',keys[i]);
+      if(!data?.blob)continue;
+      const {blob,...meta}=data;
+      packs[store].push({key,dataUrl:await fileData(blob),meta});
+      if(status&&i%40===0)status.textContent='写真のバックアップ中：'+store+' '+(i+1)+'/'+keys.length;
+      if(i%40===0)await new Promise(resolve=>setTimeout(resolve,0));
+    }
+  }
+  return packs;
+}
+async function restoreSavedPhotoPacks(packs){
+  if(!packs)return;
+  if(packs.version!==1)throw Error('写真パックのバックアップ形式が正しくありません');
+  for(const [store,max] of [['sourceGallery',1200],['traitGallery',150]]){
+    const items=packs[store]||[];
+    if(!Array.isArray(items)||items.length>max)throw Error('写真パックの件数が不正です: '+store);
+    for(const item of items){
+      if(typeof item?.key!=='string'||item.key.length>250||
+         typeof item.dataUrl!=='string'||!item.dataUrl.startsWith('data:image/')||
+         item.dataUrl.length>1500000||!item.meta||typeof item.meta!=='object'){
+        throw Error('写真パックの内容が不正です: '+store);
+      }
+    }
+  }
+  for(const store of ['sourceGallery','traitGallery']){
+    for(const item of (packs[store]||[])){
+      await op(store,'put',item.key,{...item.meta,blob:toBlob(item.dataUrl)});
+    }
+  }
+  await refreshSourceNames();
+  await refreshTraitNames();
+}
+async function backup(includePacks=false){
+  const button=includePacks?$('backupFull'):$('backup');
+  const status=$('importProgress');
+  if(button)button.disabled=true;
+  try{
+    let photos={};
+    for(const x of entries){
+      const a=await getPhotos(x.id);
+      if(a.length)photos[x.id]=await Promise.all(a.map(fileData));
+    }
+    const personalData=window.medakaPersonal?await window.medakaPersonal.exportData():null;
+    const d={format:'my-medaka-release-v1',created:new Date().toISOString(),entries,photos,personalData};
+    if(includePacks)d.photoPacks=await exportSavedPhotoPacks();
+    const filename='my-medaka-'+(includePacks?'full-':'')+'backup-'+new Date().toISOString().slice(0,10)+'.json';
+    download(filename,JSON.stringify(d),'application/json');
+    if(status)status.textContent='バックアップの保存先を確認してください';
+    alert('バックアップを作成しました。'+(includePacks?'\n写真パックも含まれます。':'\n写真パックは含まれません。完全バックアップをご利用ください。')+'\n「ファイル」アプリで保存結果を確認してください。');
+  }catch(e){alert('バックアップに失敗: '+e.message)}
+  finally{if(button)button.disabled=false}
+}
 
 /* Personal image library: every screenshot is kept in IndexedDB on this device.
  * It is never posted to GitHub. No third-party content is downloaded automatically.
@@ -468,7 +526,7 @@ async function startPhotoInbox(files){
 }
 
 function csvRows(t){let a=[],row=[],field='',quoted=false;for(let i=0;i<t.length;i++){let c=t[i];if(c==='"'){if(quoted&&t[i+1]==='"'){field+='"';i++}else quoted=!quoted}else if(c===','&&!quoted){row.push(field);field=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&t[i+1]==='\n')i++;row.push(field);if(row.some(Boolean))a.push(row);row=[];field=''}else field+=c}row.push(field);if(row.some(Boolean))a.push(row);return a}
-async function handleFile(e){let files=[...e.target.files];if(!files.length)return;try{if(fileMode==='restore'){let d=JSON.parse(await files[0].text());if(!Array.isArray(d.entries))throw Error('対応するバックアップではありません');if(!confirm('現在のデータを置き換えます。事前にバックアップを保存しましたか？'))return;let fresh=d.entries.map(norm);for(let x of fresh){let p=d.photos?.[x.id],a=Array.isArray(p)?p:p?[p]:[];if(!a.length){let old=d.entries.find(z=>z.id===x.id)?.photo;if(old?.startsWith('data:'))a=[old]}await putPhotos(x.id,a.filter(s=>typeof s==='string'&&s.startsWith('data:')).map(toBlob))}entries=fresh;save();if(d.personalData&&window.medakaPersonal)await window.medakaPersonal.importData(d.personalData);alert('復元しました。個体履歴・アルバムが含まれていた場合は復元しました。')}else if(fileMode==='sourcepack'){await importAuthorizedPacks(files)}else if(fileMode==='traitpack'){await importTraitPack(files[0])}else if(fileMode==='csv'){let rows=csvRows((await files[0].text()).replace(/^\uFEFF/,'')),head=rows.shift()?.map(s=>s.trim().toLowerCase())||[],n=head.indexOf('name');if(n<0)throw Error('CSVの先頭行に name 列が必要です');let count=0,names=new Set(entries.map(x=>x.name.toLowerCase()));for(let r of rows){let name=(r[n]||'').trim();if(!name||names.has(name.toLowerCase()))continue;let item={name};for(let k of ['aliases','traits','kind','description','care','url']){let idx=head.indexOf(k);if(idx>=0)item[k]=r[idx]||''}entries.push(norm(item));names.add(name.toLowerCase());count++}save();alert(count+'件を追加しました')}else if(fileMode==='inbox'){await startPhotoInbox(files)}else if(fileMode==='single'){const id=singlePhotoId,x=entries.find(e=>e.id===id);if(!x)throw Error('写真を保存する品種が見つかりません');let p=await getPhotos(id);for(const f of files)p.push(await optimize(f));await putPhotos(id,p);x.updated=Date.now();save();alert(x.name+'に写真を'+files.length+'枚登録しました。')}page=0;render()}catch(err){alert('読み込み失敗: '+err.message)}finally{e.target.value=''}}
+async function handleFile(e){let files=[...e.target.files];if(!files.length)return;try{if(fileMode==='restore'){let d=JSON.parse(await files[0].text());if(!Array.isArray(d.entries))throw Error('対応するバックアップではありません');if(!confirm('現在のデータを置き換えます。事前にバックアップを保存しましたか？'))return;let fresh=d.entries.map(norm);for(let x of fresh){let p=d.photos?.[x.id],a=Array.isArray(p)?p:p?[p]:[];if(!a.length){let old=d.entries.find(z=>z.id===x.id)?.photo;if(old?.startsWith('data:'))a=[old]}await putPhotos(x.id,a.filter(s=>typeof s==='string'&&s.startsWith('data:')).map(toBlob))}entries=fresh;save();if(d.personalData&&window.medakaPersonal)await window.medakaPersonal.importData(d.personalData);if(d.photoPacks)await restoreSavedPhotoPacks(d.photoPacks);alert('復元しました。個体履歴・アルバム・培養記録'+(d.photoPacks?'・写真パック':'')+'を復元対象にしました。')}else if(fileMode==='sourcepack'){await importAuthorizedPacks(files)}else if(fileMode==='traitpack'){await importTraitPack(files[0])}else if(fileMode==='csv'){let rows=csvRows((await files[0].text()).replace(/^\uFEFF/,'')),head=rows.shift()?.map(s=>s.trim().toLowerCase())||[],n=head.indexOf('name');if(n<0)throw Error('CSVの先頭行に name 列が必要です');let count=0,names=new Set(entries.map(x=>x.name.toLowerCase()));for(let r of rows){let name=(r[n]||'').trim();if(!name||names.has(name.toLowerCase()))continue;let item={name};for(let k of ['aliases','traits','kind','description','care','url']){let idx=head.indexOf(k);if(idx>=0)item[k]=r[idx]||''}entries.push(norm(item));names.add(name.toLowerCase());count++}save();alert(count+'件を追加しました')}else if(fileMode==='inbox'){await startPhotoInbox(files)}else if(fileMode==='single'){const id=singlePhotoId,x=entries.find(e=>e.id===id);if(!x)throw Error('写真を保存する品種が見つかりません');let p=await getPhotos(id);for(const f of files)p.push(await optimize(f));await putPhotos(id,p);x.updated=Date.now();save();alert(x.name+'に写真を'+files.length+'枚登録しました。')}page=0;render()}catch(err){alert('読み込み失敗: '+err.message)}finally{e.target.value=''}}
 
 /* Trait-example images are never used as cultivar card photographs.
    Previously imported reference-image data remains safely stored. */
