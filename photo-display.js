@@ -72,7 +72,8 @@
       found.push({imageUrl:external.imageUrl,sourceUrl:external.sourceUrl,
                   source:external.source||'専門店の品種写真',ambiguous:false});
     }
-    const web=entry.webNo && index.photos?.[String(entry.webNo).padStart(4,'0')];
+    const linkedNo=entry.webNo||entry.sourceArticleNo;
+    const web=linkedNo && index.photos?.[String(linkedNo).padStart(4,'0')];
     if(web && isAllowedImage(web.imageUrl,'web') && isAllowedSource(web.sourceUrl)) {
       found.push({imageUrl:web.imageUrl,sourceUrl:web.sourceUrl,
                   source:'改良メダカWEB図鑑',ambiguous:!!web.ambiguous});
