@@ -83,6 +83,18 @@
     return sourceCandidates(entry).find(p=>!p.ambiguous) ||
       sourceCandidates(entry).find(p=>p.ambiguous) || null;
   }
+  function getStatus(entry) {
+    const photos=sourceCandidates(entry);
+    if(photos.some(p=>!p.ambiguous))return 'available';
+    if(photos.some(p=>p.ambiguous))return 'review';
+    return 'missing';
+  }
+  window.medakaPhotoSources={getStatus,sourceCandidates};
+  const statusFilter=document.getElementById('photoFilter');
+  if(statusFilter)statusFilter.addEventListener('change',()=>{
+    page=0;
+    render().catch(err=>console.warn('写真フィルターを更新できません',err));
+  });
   function clearMisleadingTrait(cover, awaitingVerification) {
     cover.innerHTML = '<div class="photoPlaceholder">📷<small>' +
       (awaitingVerification ? '品種写真の照合待ち' : 'この品種の写真は未登録') +
@@ -138,17 +150,16 @@
     img.src = photo.imageUrl;
   }
   function updatePhotoCount() {
-    const known = new Set();
-    for (const entry of entries) {
-      const photo = sourceInfo(entry);
-      if ((photo && !photo.ambiguous) ||
-          sourceNames.has('yakata:' + entry.name) ||
-          (entry.webNo && sourceNames.has(String(entry.webNo)) && !photo?.ambiguous) ||
-          (entry.yakataImageUrl && !photo?.ambiguous)) known.add(entry.id);
-    }
-    for (const span of document.querySelectorAll('#stats span')) {
-      if (span.textContent.startsWith('実物写真 ')) {
-        span.textContent = '実物写真の参照先 ' + known.size + '種類';
+    const counts={available:0,review:0,missing:0};
+    for(const entry of entries)counts[getStatus(entry)]++;
+    const stats=document.getElementById('stats');
+    if(!stats)return;
+    for(const span of stats.querySelectorAll('span')){
+      if(span.textContent.startsWith('実物写真 ')){
+        span.textContent='出典写真の参照先 '+counts.available+'件';
+      }
+      if(span.textContent.startsWith('分類・情報は随時照合中')){
+        span.textContent='写真未登録 '+counts.missing+'件 / 照合待ち '+counts.review+'件';
       }
     }
   }
@@ -193,7 +204,11 @@
   const renderPrevious = render;
   render = async function (...args) {
     const generation = ++renderGeneration;
+    // Source status filters must not render until their photo index is ready.
+    await loadIndex();
+    if(generation!==renderGeneration)return;
     await renderPrevious(...args);
+    if(generation!==renderGeneration)return;
     await paintCards(generation);
   };
 
