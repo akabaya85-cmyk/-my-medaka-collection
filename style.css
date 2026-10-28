@@ -59,3 +59,8 @@
 #sourcePack{border-color:#75b9d6;box-shadow:0 1px 4px #c9e4f4}
 
 .sourcePhotoOrigin{display:inline-block;margin-top:2px;font-weight:500;font-size:10px;color:#fff;text-decoration:underline;text-underline-offset:2px}
+
+/* Keep four catalogue filters touch-friendly on narrow iPhone screens. */
+.filters{flex-wrap:wrap}
+.filters select{flex:1 1 calc(50% - 6px);width:calc(50% - 6px);min-width:0}
+@media(min-width:700px){.filters select{flex-basis:calc(25% - 9px);width:calc(25% - 9px)}}
