@@ -21,13 +21,13 @@
   function isAllowedSupplementalImage(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com'].includes(u.hostname);
+      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSupplementalSource(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com'].includes(u.hostname);
+      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSource(value) {
