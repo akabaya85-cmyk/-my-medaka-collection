@@ -13,7 +13,7 @@ const ALIAS_CANONICAL={
 '深海':['しんかい'],'夜桜':['よざくら'],'青蝶':['あおちょう']
 };
 function searchText(x){
-  const base=[x.name,x.aliases,x.reading,...(Array.isArray(x.readings)?x.readings:[]),x.traits,x.profile,x.description,x.webNo,x.webNo?'No.'+x.webNo:'',x.sourceOfficialName,x.sourceNickname,x.sourceBreeder,x.note];
+  const base=[x.name,x.aliases,x.reading,...(Array.isArray(x.readings)?x.readings:[]),x.traits,x.profile,x.description,x.webNo,x.webNo?'No.'+x.webNo:'',x.sourceOfficialName,x.sourceNickname,x.sourceBreeder,x.sourceArticleNo,x.yakataFeaturedMonth,x.note];
   for(const [kanji,aliases] of Object.entries(ALIAS_CANONICAL)){
     if([x.name,x.aliases,x.sourceOfficialName].some(v=>String(v||'').includes(kanji)))base.push(...aliases);
     if(aliases.some(v=>foldName(x.name)===foldName(v)))base.push(kanji);
@@ -236,10 +236,11 @@ function sourcePhotoMatchesEntry(p,x){
   if(!p?.blob)return false;
   // The official four-digit WEB catalogue number identifies the article
   // more reliably than changed common/trade names.
-  if(p.webNo && x.webNo){
-    return String(p.webNo).padStart(4,'0')===String(x.webNo).padStart(4,'0');
+  const linkedNo=String(x.webNo||x.sourceArticleNo||'').padStart(4,'0');
+  if(p.webNo && linkedNo && linkedNo!=='0000'){
+    return String(p.webNo).padStart(4,'0')===linkedNo;
   }
-  if(p.webNo || x.webNo && String(p.source||'').includes('改良メダカWEB図鑑'))return false;
+  if(p.webNo || (x.webNo && String(p.source||'').includes('改良メダカWEB図鑑')))return false;
   return matchesSourcePhotoName(x,p.name);
 }
 async function importAuthorizedPacks(files){
@@ -377,7 +378,7 @@ async function restoreSavedPhotoPacks(packs){
     if(!Array.isArray(items)||items.length>max)throw Error('写真パックの件数が不正です: '+store);
     for(const item of items){
       if(typeof item?.key!=='string'||item.key.length>250||
-         typeof item.dataUrl!=='string'||!item.dataUrl.startsWith('data:image/')||
+         typeof item.dataUrl!=='string'||!/^data:image\/(?:jpeg|png|webp);base64,/.test(item.dataUrl)||
          item.dataUrl.length>1500000||!item.meta||typeof item.meta!=='object'){
         throw Error('写真パックの内容が不正です: '+store);
       }
