@@ -22,7 +22,7 @@ function searchText(x){
 }
 function searchMatches(x,query){if(!query)return true;return searchText(x).includes(query)}
 const makeId=()=> 'm-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,9);
-const norm=x=>({reading:String(x.reading||''),readings:Array.isArray(x.readings)?x.readings.map(String).slice(0,12):[],referenceLinks:Array.isArray(x.referenceLinks)?x.referenceLinks.filter(y=>y&&typeof y==='object').slice(0,12):[],sourceYear:String(x.sourceYear||''),sourceBreeder:String(x.sourceBreeder||''),sourceOfficialName:String(x.sourceOfficialName||''),sourceNickname:String(x.sourceNickname||''),sourceCheckedAt:String(x.sourceCheckedAt||''),id:x.id||makeId(),name:String(x.name||'').trim(),aliases:String(x.aliases||''),traits:String(x.traits||''),kind:String(x.kind||'品種・流通名（要照合）'),description:String(x.description||''),care:String(x.care||''),status:['current','past','none'].includes(x.status)?x.status:'none',ever:!!x.ever||x.status==='past'||x.status==='current',wish:!!x.wish,favorite:!!x.favorite,note:String(x.note||''),profile:String(x.profile||''),profileBasis:String(x.profileBasis||''),licensedPhoto:(x.licensedPhoto&&typeof x.licensedPhoto==='object')?x.licensedPhoto:null,licensedPhotos:Array.isArray(x.licensedPhotos)?x.licensedPhotos:[],webNo:String(x.webNo||''),yakataImageUrl:String(x.yakataImageUrl||''),url:String(x.url||x.source||SOURCE),updated:Number(x.updated)||0});
+const norm=x=>({reading:String(x.reading||''),readings:Array.isArray(x.readings)?x.readings.map(String).slice(0,12):[],referenceLinks:Array.isArray(x.referenceLinks)?x.referenceLinks.filter(y=>y&&typeof y==='object').slice(0,12):[],sourceYear:String(x.sourceYear||''),sourceBreeder:String(x.sourceBreeder||''),sourceOfficialName:String(x.sourceOfficialName||''),sourceNickname:String(x.sourceNickname||''),sourceCheckedAt:String(x.sourceCheckedAt||''),id:x.id||makeId(),name:String(x.name||'').trim(),aliases:String(x.aliases||''),traits:String(x.traits||''),kind:String(x.kind||'品種・流通名（要照合）'),description:String(x.description||''),care:String(x.care||''),status:['current','past','none'].includes(x.status)?x.status:'none',ever:!!x.ever||x.status==='past'||x.status==='current',wish:!!x.wish,favorite:!!x.favorite,note:String(x.note||''),profile:String(x.profile||''),profileBasis:String(x.profileBasis||''),licensedPhoto:(x.licensedPhoto&&typeof x.licensedPhoto==='object')?x.licensedPhoto:null,licensedPhotos:Array.isArray(x.licensedPhotos)?x.licensedPhotos:[],webNo:String(x.webNo||''),sourceArticleNo:String(x.sourceArticleNo||''),yakataImageUrl:String(x.yakataImageUrl||''),url:String(x.url||x.source||SOURCE),updated:Number(x.updated)||0});
 function openDB(){return new Promise((ok,no)=>{let r=indexedDB.open(DB,6);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains(STORE))r.result.createObjectStore(STORE);if(!r.result.objectStoreNames.contains('gallery'))r.result.createObjectStore('gallery');if(!r.result.objectStoreNames.contains('traitGallery'))r.result.createObjectStore('traitGallery');if(!r.result.objectStoreNames.contains('sourceGallery'))r.result.createObjectStore('sourceGallery');for(const name of ['personalFish','personalFishPhotos','personalEvents','personalEventPhotos','personalAlbums','personalAlbumPhotos','cultureBatches','cultureLogs','culturePhotos'])if(!r.result.objectStoreNames.contains(name))r.result.createObjectStore(name)};r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error)})}
 function op(store,mode,key,value){return new Promise((ok,no)=>{let t=db.transaction(store,mode==='get'?'readonly':'readwrite'),s=t.objectStore(store),r=mode==='get'?s.get(key):mode==='put'?s.put(value,key):mode==='delete'?s.delete(key):s.getAllKeys();r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error)})}
 const getPhotos=async id=>{let a=await op('gallery','get',id);if(Array.isArray(a)&&a.length)return a;let old=await op(STORE,'get',id);return old?[old]:[]};
@@ -39,7 +39,9 @@ const isGenericDescription=s=>{
     ||v.startsWith('専門図鑑で流通名と特徴が紹介される系統。')
     ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。外見の細部')
     ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。作出系統')
-    ||v.startsWith('めだかの館の品種紹介に掲載。');
+    ||v.startsWith('めだかの館の品種紹介に掲載。')
+    ||v.startsWith('見分けるときは、')
+    ||v.startsWith('専門図鑑の記事では、');
 };
 function mergeCatalog(catalog){
   if(!Array.isArray(catalog))throw Error('図鑑データの形式が正しくありません');
@@ -52,6 +54,7 @@ function mergeCatalog(catalog){
     let old=(no&&byNo.get(no))||byName.get(key);
     if(old){
       if(!old.webNo&&no)old.webNo=no;
+      if(item.sourceArticleNo && !old.webNo && /^[0-9]{4}$/.test(String(item.sourceArticleNo)))old.sourceArticleNo=String(item.sourceArticleNo);
       if(item.url&&(!old.url||old.url===SOURCE))old.url=item.url;
       if(item.traits&&(!String(old.traits||'').trim()||['要確認','情報照合中'].includes(String(old.traits).trim())))old.traits=String(item.traits);
       if(item.aliases){
