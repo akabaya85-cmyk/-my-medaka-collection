@@ -14518,5 +14518,309 @@
         "note": "第32号の名称・読み・作出年・作出者を照合。個別の写真URLは未照合"
       }
     ]
+  },
+  {
+    "name": "金塊",
+    "aliases": "",
+    "traits": "金色のラメ",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "金色のラメが紹介されている改良メダカの系統。交配・系統情報：ラメ王×レクリス。写真と詳細は出典を参照。",
+    "sourceBreeder": "沖縄・直めだか 桑江良直",
+    "sourceYear": "2023",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "ブラックタイド・ゼブラ",
+    "aliases": "",
+    "traits": "黒系・縞模様",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "黒系・縞模様が紹介されている改良メダカの系統。交配・系統情報：ブラックタイドを含む交配系統。写真と詳細は出典を参照。",
+    "sourceBreeder": "福岡・のら猫ギン",
+    "sourceYear": "2022",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "龍鱗",
+    "aliases": "",
+    "traits": "幹之系・鱗状の光",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "幹之系・鱗状の光が紹介されている改良メダカの系統。交配・系統情報：青幹之。写真と詳細は出典を参照。",
+    "sourceBreeder": "福岡・北九州めだかセンター",
+    "sourceYear": "2010",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "彩桜",
+    "aliases": "",
+    "traits": "オーロラ系・淡色・ピンク頭",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "オーロラ系・淡色・ピンク頭が紹介されている改良メダカの系統。交配・系統情報：ミント×夜桜。写真と詳細は出典を参照。",
+    "sourceBreeder": "埼玉・武州メダカ 安藤薫",
+    "sourceYear": "2022",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "ガイア",
+    "aliases": "",
+    "traits": "交配系統",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "交配系統が紹介されている改良メダカの系統。交配・系統情報：オベリスク×琥珀ラメ。写真と詳細は出典を参照。",
+    "sourceBreeder": "山梨・高州めだか",
+    "sourceYear": "2022",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "オベリスク",
+    "aliases": "",
+    "traits": "体軸方向の線状ラメ",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "体軸方向の線状ラメが紹介されている改良メダカの系統。交配・系統情報：（サファイア×夜桜）×ユリシス。写真と詳細は出典を参照。",
+    "sourceBreeder": "山梨・高州めだか",
+    "sourceYear": "2022",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "魅輝",
+    "aliases": "",
+    "traits": "金ラメ・中央の青ラメ",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "金ラメ・中央の青ラメが紹介されている改良メダカの系統。交配・系統情報：オベリスク×忘却の翼。写真と詳細は出典を参照。",
+    "sourceBreeder": "山梨・高州めだか",
+    "sourceYear": "2023",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "黒纏",
+    "aliases": "",
+    "traits": "紅系・黒い模様",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "紅系・黒い模様が紹介されている改良メダカの系統。交配・系統情報：透明鱗三色×紅薊。写真と詳細は出典を参照。",
+    "sourceBreeder": "山梨・河口湖メダカ 坂木洋輔",
+    "sourceYear": "2021",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "銀閣",
+    "aliases": "",
+    "traits": "金閣のシルバータイプ",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "金閣のシルバータイプが紹介されている改良メダカの系統。交配・系統情報：金閣関連系統。写真と詳細は出典を参照。",
+    "sourceBreeder": "静岡・A-sめだか 芥川隼輔",
+    "sourceYear": "2024",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "エヴァ",
+    "aliases": "",
+    "traits": "黒体色・ラメ・ブルーアイ",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "黒体色・ラメ・ブルーアイが紹介されている改良メダカの系統。交配・系統情報：ブラックダイヤ×喪屍。写真と詳細は出典を参照。",
+    "sourceBreeder": "静岡・Fuji Aqua Green 川口和則",
+    "sourceYear": "2023",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "王媛",
+    "aliases": "",
+    "traits": "アルビノ・ワイドフィン／ロングフィン",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "アルビノ・ワイドフィン／ロングフィンが紹介されている改良メダカの系統。交配・系統情報：ラパス系アルビノ。写真と詳細は出典を参照。",
+    "sourceBreeder": "未照合",
+    "sourceYear": "",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://www.hime-medaka.com/medakanohinsyu/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://www.hime-medaka.com/medakanohinsyu/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "エンハンブレ",
+    "aliases": "",
+    "traits": "オーロラ系・多色ラメ",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "オーロラ系・多色ラメが紹介されている改良メダカの系統。写真と詳細は出典を参照。",
+    "sourceBreeder": "未照合",
+    "sourceYear": "",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://www.hime-medaka.com/medakanohinsyu/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://www.hime-medaka.com/medakanohinsyu/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "ラスター",
+    "aliases": "",
+    "traits": "ラパス系・ワイドフィン",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "ラパス系・ワイドフィンが紹介されている改良メダカの系統。写真と詳細は出典を参照。",
+    "sourceBreeder": "未照合",
+    "sourceYear": "",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://www.hime-medaka.com/medakanohinsyu/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://www.hime-medaka.com/medakanohinsyu/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "フェザーライト",
+    "aliases": "",
+    "traits": "ロングフィン・ラメ",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "ロングフィン・ラメが紹介されている改良メダカの系統。交配・系統情報：ネプチューン×フロマージュ。写真と詳細は出典を参照。",
+    "sourceBreeder": "埼玉・メダカ屋サバンナ／群馬・チャーム",
+    "sourceYear": "2025",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "ブリザード",
+    "aliases": "",
+    "traits": "灰色系・白い結晶状のラメ",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "灰色系・白い結晶状のラメが紹介されている改良メダカの系統。交配・系統情報：ミモザ系グレー体色×ホワイトダイヤ。写真と詳細は出典を参照。",
+    "sourceBreeder": "岡山・河めだか",
+    "sourceYear": "2024",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "紫延",
+    "aliases": "",
+    "traits": "紫系・ヒカリ体型・ヒレ長",
+    "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
+    "description": "紫系・ヒカリ体型・ヒレ長が紹介されている改良メダカの系統。交配・系統情報：緑光・幹之。写真と詳細は出典を参照。",
+    "sourceBreeder": "愛知・B型おやじ",
+    "sourceYear": "2023",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "referenceLinks": [
+      {
+        "label": "掲載元の品種図鑑",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
   }
 ]
