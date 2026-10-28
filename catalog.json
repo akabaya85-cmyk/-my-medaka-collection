@@ -14440,5 +14440,45 @@
     ],
     "yakataFeaturedMonth": "2022-10",
     "yakataListingVerifiedAt": "2026-10-28"
+  },
+  {
+    "name": "ピッコロ",
+    "reading": "ぴっころ",
+    "aliases": "",
+    "traits": "黄緑・ラメ・ダルマ・オーロラ系",
+    "kind": "ハウスネーム（作出者・専門図鑑確認）",
+    "description": "黄緑色の体色に強いラメが輝くダルマ体型。普通体型の関連系統は「ゾンクレヘイキ」。",
+    "profile": "黄緑のラメと短いダルマ体型を比較。写真は同品種の掲載写真で、個体差がある。",
+    "sourceBreeder": "岐阜・道三めだか",
+    "sourceYear": "2025年2月発表",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/piccolo",
+    "referenceLinks": [
+      {
+        "label": "みんなのメダカ品種図鑑｜ピッコロ",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/piccolo",
+        "note": "作出者・交配（クレパトシアン×ユリヘイキ）・特徴を照合"
+      }
+    ]
+  },
+  {
+    "name": "ゾンクレヘイキ",
+    "reading": "ぞんくれへいき",
+    "aliases": "",
+    "traits": "黄緑・ラメ・オーロラ系",
+    "kind": "ハウスネーム（作出者・専門図鑑確認）",
+    "description": "黄緑色に強いラメが乗る普通体型の系統。ピッコロはこの系統のダルマ体型として紹介されている。",
+    "profile": "ピッコロと違い普通体型。黄緑色のラメの密度を比較する。",
+    "sourceBreeder": "岐阜・道三めだか",
+    "sourceYear": "2025年2月以前",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/zonkureheiki",
+    "referenceLinks": [
+      {
+        "label": "みんなのメダカ品種図鑑｜ゾンクレヘイキ",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/zonkureheiki",
+        "note": "ピッコロの普通体型と明記"
+      }
+    ]
   }
 ]
