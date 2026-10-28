@@ -14480,5 +14480,43 @@
         "note": "ピッコロの普通体型と明記"
       }
     ]
+  },
+  {
+    "name": "白ラメ幹之ヒカリ",
+    "reading": "しろらめみゆきひかり",
+    "aliases": "白ラメ幹之ヒカリ体型",
+    "traits": "白・ラメ・幹之・ヒカリ体型",
+    "kind": "日本メダカ協会認定新品種（第7号）",
+    "description": "日本メダカ協会の旧認定制度で第7号に登録。旧品種名は「白ラメ幹之ヒカリ体型」。2013年、和田敏拓氏作出。",
+    "sourceBreeder": "和田敏拓",
+    "sourceYear": "2013",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://jma-medaka.com/new-medaka-list/",
+    "referenceLinks": [
+      {
+        "label": "日本メダカ協会｜認定新品種一覧",
+        "url": "https://jma-medaka.com/new-medaka-list/",
+        "note": "第7号の名称・読み・作出年・作出者を照合。個別の写真URLは未照合"
+      }
+    ]
+  },
+  {
+    "name": "蝶蘭",
+    "reading": "ちょうらん",
+    "aliases": "蝶欄",
+    "traits": "ヒレ長・ラメ・ヒカリ体型",
+    "kind": "日本メダカ協会認定新品種（第32号）",
+    "description": "日本メダカ協会の旧認定制度で第32号に登録。旧品種名は「ヒレ長ラメヒカリ」。2018年、佐々木圭氏作出。",
+    "sourceBreeder": "佐々木圭",
+    "sourceYear": "2018",
+    "sourceCheckedAt": "2026-10-29",
+    "url": "https://jma-medaka.com/new-medaka-list/",
+    "referenceLinks": [
+      {
+        "label": "日本メダカ協会｜認定新品種一覧",
+        "url": "https://jma-medaka.com/new-medaka-list/",
+        "note": "第32号の名称・読み・作出年・作出者を照合。個別の写真URLは未照合"
+      }
+    ]
   }
 ]
