@@ -5307,6 +5307,38 @@
       "source": "日刊めだか",
       "verifiedAt": "2026-10-29",
       "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "サファイア": {
+      "name": "サファイア",
+      "imageUrl": "https://medakastory.com/wp-content/uploads/2022/06/safaia1.jpg",
+      "sourceUrl": "https://medakastory.com/variety/",
+      "source": "めだか物語（株式会社KUSUNOKI）",
+      "verifiedAt": "2026-10-29",
+      "note": "同ページの「サファイアめだか」見出しと直下の実魚写真を確認"
+    },
+    "紅ほっぺポニョ": {
+      "name": "紅ほっぺポニョ",
+      "imageUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/d63dc52235c3983fd3a9ee1bb27ed918.jpg?im=Resize%2Cwidth%3D174%2Ctype%3Dnormal&imformat=generic&q=90",
+      "sourceUrl": "https://onlineshop22.thebase.in/items/112258035",
+      "source": "だるまめだか",
+      "verifiedAt": "2026-10-29",
+      "note": "出目目前透明鱗ポニョ紅ほっぺの親個体実魚写真。販売魚そのものではない"
+    },
+    "エヴァ": {
+      "name": "エヴァ",
+      "imageUrl": "https://www.arcus-pond.com/wp/wp-content/uploads/2025/01/IMG_9476-640x480.jpg",
+      "sourceUrl": "https://www.arcus-pond.com/wp/%E3%83%A1%E3%83%80%E3%82%AB%E7%99%BB%E5%A0%B4%E3%83%BB%E3%83%BB%E3%83%BB%EF%BC%9F/",
+      "source": "ARCUS POND",
+      "verifiedAt": "2026-10-29",
+      "note": "同記事でエヴァと明記した親魚（黒いメス・黄色いオス）の飼育個体写真"
+    },
+    "ラムネブルー": {
+      "name": "ラムネブルー",
+      "imageUrl": "https://i0.wp.com/kououmedaka.com/wp-content/uploads/2023/09/0DSC08011.jpg?resize=800%2C600&ssl=1",
+      "sourceUrl": "https://kououmedaka.com/medaka/ramuneblue/",
+      "source": "香桜めだか",
+      "verifiedAt": "2026-10-29",
+      "note": "ラムネブルーと明記の飼育個体写真。LED照明下では青が強く映り、自然光下と色が違う"
     }
   },
   "verifiedAt": "2026-10-28",
