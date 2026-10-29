@@ -5163,8 +5163,152 @@
       "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/09/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2025-09-18-142109-e1758172914887.png",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/zonkureheiki",
       "source": "みんなのメダカ品種図鑑"
+    },
+    "アグリアス": {
+      "name": "アグリアス",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2023/01/R-1-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/agriasu/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "月華": {
+      "name": "月華",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2023/01/1-6.jpg",
+      "sourceUrl": "https://www.medakalog.shop/gekka/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "五式タイプR": {
+      "name": "五式タイプR",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2023/01/R-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/goshiki/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "白斑サファイア": {
+      "name": "白斑サファイア",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/12/%E7%99%BD%E6%96%91-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/sirobuchi-sapphire/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "月弓": {
+      "name": "月弓",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/10/%E6%9C%88%E5%BC%93-1-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/tsukuyumi/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "ドラゴンブルー": {
+      "name": "ドラゴンブルー",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/07/%E3%83%88%E3%82%99%E3%83%A9%E3%82%B3%E3%82%99%E3%83%B3%E3%83%95%E3%82%99%E3%83%AB%E3%83%BC.jpg",
+      "sourceUrl": "https://www.medakalog.shop/dragon_blue/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "紅ほっぺ": {
+      "name": "紅ほっぺ",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/09/%E7%B4%85%E3%81%BB%E3%81%A3%E3%81%B8%E3%82%9A-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/benihoppe/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "墨武": {
+      "name": "墨武",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/10/%E5%A2%A8-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/bobu/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "魔王": {
+      "name": "魔王",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/09/%E9%AD%94%E7%8E%8B%E3%83%A1%E3%82%BF%E3%82%99%E3%82%AB-1-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/maou/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "マリアージュ": {
+      "name": "マリアージュ",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/12/1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/mariage/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "宮桜": {
+      "name": "宮桜",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/11/%E5%AE%AE%E3%82%B6%E3%82%AF%E3%83%A9-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/miyazakura-2/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "ユリシス": {
+      "name": "ユリシス",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2023/04/1-1-2.jpg",
+      "sourceUrl": "https://www.medakalog.shop/yurishisu/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "夜桜ゴールド": {
+      "name": "夜桜ゴールド",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2023/01/1-11.jpg",
+      "sourceUrl": "https://www.medakalog.shop/yozakuragold/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "ラメ王": {
+      "name": "ラメ王",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2023/01/1-9.jpg",
+      "sourceUrl": "https://www.medakalog.shop/lame-king/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "レッドドラゴン": {
+      "name": "レッドドラゴン",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2023/01/1-8.jpg",
+      "sourceUrl": "https://www.medakalog.shop/reddragon/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "パンダ": {
+      "name": "パンダ",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2022/09/%E3%83%8F%E3%82%9A%E3%83%B3%E3%82%BF%E3%82%99%E3%82%81%E3%81%9F%E3%82%99%E3%81%8B-1.jpg",
+      "sourceUrl": "https://www.medakalog.shop/panda-medaka/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "ネプチューン": {
+      "name": "ネプチューン",
+      "imageUrl": "https://inoue-medaka.com/wp_inoue/wp-content/uploads/2025/05/imm039.jpg",
+      "sourceUrl": "https://inoue-medaka.com/imm039/",
+      "source": "めだか湊養魚場",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
+    },
+    "エメラルダス": {
+      "name": "エメラルダス",
+      "imageUrl": "https://nikkan-medaka.com/wp-content/uploads/2023/07/IMG_8611-scaled.jpg",
+      "sourceUrl": "https://nikkan-medaka.com/blog/emeraldas-omukae/",
+      "source": "日刊めだか",
+      "verifiedAt": "2026-10-29",
+      "note": "元記事の品種名・実魚写真を照合。外部URLを表示し画像そのものは複製しない"
     }
   },
   "verifiedAt": "2026-10-28",
-  "updatedAt": "2026-10-28"
+  "updatedAt": "2026-10-29"
 }
