@@ -21,13 +21,13 @@
   function isAllowedSupplementalImage(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com'].includes(u.hostname);
+      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSupplementalSource(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com'].includes(u.hostname);
+      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSource(value) {
