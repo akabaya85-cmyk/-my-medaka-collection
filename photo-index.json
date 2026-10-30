@@ -2,9 +2,9 @@
   "format": "my-medaka-source-photo-index-v1",
   "source": "改良メダカWEB図鑑",
   "note": "Only exact cultivar-linked remote photo URLs. Previously repeated URLs may be restored for the one matching original filename/id; remaining repeated URLs stay quarantined.",
-  "photoCount": 843,
-  "uniquePhotoCount": 825,
-  "ambiguousCount": 18,
+  "photoCount": 860,
+  "uniquePhotoCount": 850,
+  "ambiguousCount": 13,
   "photos": {
     "1064": {
       "name": "アクアマリン",
@@ -45,9 +45,11 @@
     },
     "0006": {
       "name": "三角東天光",
-      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/06/1-2東天光.jpg",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/07/0006_三角東天光-1.jpg",
       "sourceUrl": "https://medakazukan.net/0006_misumitotenko/",
-      "ambiguous": true
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
     },
     "0007": {
       "name": "ピュアホワイト",
@@ -1621,9 +1623,11 @@
     },
     "0283": {
       "name": "小雪ヒレ長",
-      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/07/0122_シルキー体内光メダカ（小雪）-1.jpg",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0283_小雪ヒレ長-1.jpg",
       "sourceUrl": "https://medakazukan.net/0283_koyukihirenaga/",
-      "ambiguous": true
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
     },
     "0284": {
       "name": "ブラックヒレ長",
@@ -4575,9 +4579,11 @@
     },
     "0833": {
       "name": "マリアージュエメラルドフィン",
-      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0832_マリアージュキッシングワイドフィンエメラルドフィンタイプカタログ2023追加品種-scaled.jpg",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0833_マリアージュエメラルドフィンカタログ2023追加品種-scaled.jpg",
       "sourceUrl": "https://medakazukan.net/0833_marriageemeraldfin/",
-      "ambiguous": true
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
     },
     "0834": {
       "name": "レッドクリフダークタイプ",
@@ -4594,15 +4600,19 @@
     },
     "0836": {
       "name": "アルテミス",
-      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0834_レッドクリフダークタイプカタログ2023追加品種.jpg",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0836_アルテミスカタログ2023追加品種.jpg",
       "sourceUrl": "https://medakazukan.net/0836_artemis/",
-      "ambiguous": true
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
     },
     "0837": {
       "name": "アルテミスリアルロングフィン",
-      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0834_レッドクリフダークタイプカタログ2023追加品種.jpg",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0837_アルテミスリアルロングフィンカタログ2023追加品種.jpg",
       "sourceUrl": "https://medakazukan.net/0837_artemisreallomgfin/",
-      "ambiguous": true
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
     },
     "0838": {
       "name": "ブラックモルフォ亜種ヒカリ",
@@ -5087,6 +5097,142 @@
       "ambiguous": false,
       "verifiedMethod": "human-reviewed-official-article-image",
       "verifiedAt": "2026-10-28"
+    },
+    "0845": {
+      "name": "黄錦モルフォ",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0845_黄錦モルフォカタログ2023追加品種-scaled.jpg",
+      "sourceUrl": "https://medakazukan.net/kinisikimorpho/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0630": {
+      "name": "白透明鱗目前ヒカリダルマ（しろとうめいりんめまえひかりだるま）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0630_白目前透明鱗ヒカリダルマ　2014画像-scaled.jpg",
+      "sourceUrl": "https://medakazukan.net/0630sirotoumeirinmemaehikaridharma/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0678": {
+      "name": "蝶蘭（ちょうらん）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0678_蝶蘭_jma32.png",
+      "sourceUrl": "https://medakazukan.net/0378_chouran/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0737": {
+      "name": "朱赤 楊貴妃透明鱗パンダ 丹頂（ようきひとうめいりんぱんだ　たんちょう）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0737_楊貴妃透明鱗パンダ丹頂.jpg",
+      "sourceUrl": "https://medakazukan.net/0735_youkihitoumeirinpandatancho/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0431": {
+      "name": "黒流星（くろりゅうせい）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0431_黒流星-1.jpg",
+      "sourceUrl": "https://medakazukan.net/0416_kuroryuusei/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0455": {
+      "name": "茶スモールアイヒカリ（ちゃすもーるあいひかり）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0455_茶スモールアイヒカリ-scaled.jpg",
+      "sourceUrl": "https://medakazukan.net/455_tyasmalleyehikari/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0330": {
+      "name": "青幹之スワロー（あおみゆきすわろー）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0330_青幹之スワローメダカ-3.jpg",
+      "sourceUrl": "https://medakazukan.net/0314_aomiyukiswallow/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0320": {
+      "name": "ピンク 小春（こはる）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0320_小春-1.jpg",
+      "sourceUrl": "https://medakazukan.net/%e5%b0%8f%e6%98%a5%ef%bc%88%e3%81%93%e3%81%af%e3%82%8b%ef%bc%89%e3%81%a8%e3%81%af%e3%80%80%e6%94%b9%e8%89%af%e3%83%a1%e3%83%80%e3%82%abweb%e5%9b%b3%e9%91%91no-0320/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0371": {
+      "name": "茶出目スワロー（ちゃでめすわろー）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0371_茶出目スワロー.jpg",
+      "sourceUrl": "https://medakazukan.net/0372_tyademeswallow/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0430": {
+      "name": "白流星（しろりゅうせい）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0430_白流星.jpg",
+      "sourceUrl": "https://medakazukan.net/0415_siroryuusei/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0257": {
+      "name": "令和三色ラメ幹之",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/03/0257_令和３色ラメ幹之_★静楽庵さん提供_2022カタログ追加.jpg",
+      "sourceUrl": "https://medakazukan.net/0275_reiwasansyokulamemiyuki/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0195": {
+      "name": "ピンク ピンク錦ヒカリ（ぴんくにしきひかり）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0195_ピンク錦ヒカリ　NEW.jpg",
+      "sourceUrl": "https://medakazukan.net/1095_pinknisikihikari/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0115": {
+      "name": "アルビノ幹之（みゆき）ダルマ",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/07/0115_アルビノ幹之ダルマ-1-scaled.jpg",
+      "sourceUrl": "https://medakazukan.net/0015_albinomiyukidharma/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0121": {
+      "name": "青体内光（あおたいないこう）ヒカリ",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/07/0121_青体内光ヒカリメダカ-scaled.jpg",
+      "sourceUrl": "https://medakazukan.net/0212_aotainaikouhikari/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0099": {
+      "name": "朱赤 福系 紅（朱赤透明鱗ヒカリメダカ）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/07/0099_福系紅-1.jpg",
+      "sourceUrl": "https://medakazukan.net/%e7%a6%8f%e7%b3%bb-%e7%b4%85%ef%bc%88%e6%9c%b1%e8%b5%a4%e9%80%8f%e6%98%8e%e9%b1%97%e3%83%92%e3%82%ab%e3%83%aa%e3%83%a1%e3%83%80%e3%82%ab%ef%bc%89%e3%81%a8%e3%81%af%e3%80%80%e6%94%b9%e8%89%af%e3%83%a1/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0110": {
+      "name": "青パンダ幹之（あおぱんだみゆき）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/07/0110_青パンダ幹之.jpg",
+      "sourceUrl": "https://medakazukan.net/0100_aopandamiyuki/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
+    },
+    "0166": {
+      "name": "透明鱗三色 丹頂（白朱赤透明鱗斑）",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/08/0166_楊貴妃透明鱗錦丹頂メダカ.jpg",
+      "sourceUrl": "https://medakazukan.net/0165_toumeirinsansyokutantyou/",
+      "ambiguous": false,
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "matching-article-gallery-number-and-visual-review"
     }
   },
   "yakata": {
@@ -5385,8 +5531,161 @@
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/feather-light",
       "source": "みんなのメダカ品種図鑑",
       "verifiedAt": "2026-10-30"
+    },
+    "エンゼル": {
+      "name": "エンゼル",
+      "imageUrl": "https://www.medakalog.shop/wp-content/uploads/2023/10/10.jpg",
+      "sourceUrl": "https://www.medakalog.shop/angel/",
+      "source": "メダ活のススメ",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "オランジェ": {
+      "name": "オランジェ",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/D747F93D-59F9-4312-B744-56015350519F.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/orange/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "コブラ": {
+      "name": "コブラ",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2023/03/8E5EACA0-15F5-4B17-804F-9B544152E6FA-scaled.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/cobra/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "ダイアナ妃": {
+      "name": "ダイアナ妃",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/d56b79b0d63e9268919f0f632cbff86c-1.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/daina/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "ミッドナイトフリル": {
+      "name": "ミッドナイトフリル",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/08/c39e74cca96b201e691435f25a1fdede.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/midnightflill/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review",
+      "note": "掲載写真は漆黒系の表現例。ラメ系・体外光系もあり、すべての系統がこの外見になるわけではありません。"
+    },
+    "ムラサキ": {
+      "name": "ムラサキ",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/8573c3a49e145ac19a65c6573971ef17.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/murasaki/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "レックウザ": {
+      "name": "レックウザ",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/i-img1200x791-17320981138676smq9z7167867.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/rekkuuza/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "三色サファイア": {
+      "name": "三色サファイア",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/9ba914aaa015e85c91df667c9064a7c2.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/asnshokufsaifaia/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "和墨": {
+      "name": "和墨",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/wazmi.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/wazumi/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "和墨三色": {
+      "name": "和墨三色",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/2f0b001c97bb16efba17b33a5064d1c7-1.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/sazumisanshoku/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "曜変天目": {
+      "name": "曜変天目",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/i-img1200x950-174126107722917cfxsi41386.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/yohentenmoku/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "白ブチDW": {
+      "name": "白ブチDW",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/11/DW.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/sirobuchidw/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "金閣": {
+      "name": "金閣",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/08/S__216932383_0-1.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/kinkaku/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "阿形": {
+      "name": "阿形",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2025/09/0af00cffae64395422aef022a65f8051.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/agyou/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "鳳凰": {
+      "name": "鳳凰",
+      "imageUrl": "https://jasma.sc/wp-content/uploads/2023/05/S__190652422-scaled.jpg",
+      "sourceUrl": "https://jasma.sc/medaka/houou/",
+      "source": "JASMA 日本改良メダカの会",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "龍鱗（幹之系）": {
+      "name": "龍鱗（幹之系）",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2026/05/スクリーンショット-2026-05-08-101922.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/ryurin",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "龍鱗（カガミ鱗系）": {
+      "name": "龍鱗（カガミ鱗系）",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2026/04/スクリーンショット-2026-04-13-101625-e1784322060802.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/ryu-rin",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-10-30",
+      "verifiedBy": "individual-article-and-visual-review"
+    },
+    "月神": {
+      "name": "月神",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium474g.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1119",
+      "source": "MEDAKARIUM",
+      "verifiedAt": "2026-10-30",
+      "note": "月神として掲載された現物販売個体の写真。色柄には個体差があります。"
+    },
+    "紅薊リアルロングフィン": {
+      "name": "紅薊リアルロングフィン",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2023/04/0910_紅薊リアルロングフィン-1.png",
+      "sourceUrl": "https://medakazukan.net/0911_beniazamireallongfin/",
+      "source": "改良メダカWEB図鑑 No.0911",
+      "verifiedAt": "2026-10-30",
+      "note": "読み仮名を省略した同一名称。No.0911の記事と照合。"
     }
   },
   "verifiedAt": "2026-10-28",
-  "updatedAt": "2026-10-29"
+  "updatedAt": "2026-10-30"
 }

@@ -21,13 +21,13 @@
   function isAllowedSupplementalImage(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com'].includes(u.hostname);
+      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSupplementalSource(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com'].includes(u.hostname);
+      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSource(value) {
@@ -70,7 +70,7 @@
        isAllowedSupplementalImage(external.imageUrl) &&
        isAllowedSupplementalSource(external.sourceUrl)) {
       found.push({imageUrl:external.imageUrl,sourceUrl:external.sourceUrl,
-                  source:external.source||'専門店の品種写真',ambiguous:false});
+                  source:external.source||'専門店の品種写真',note:external.note||'',ambiguous:false});
     }
     const linkedNo=entry.webNo||entry.sourceArticleNo;
     const web=linkedNo && index.photos?.[String(linkedNo).padStart(4,'0')];
@@ -261,6 +261,7 @@
         a.target='_blank';
         a.rel='noopener noreferrer';
         li.append(a);
+        if(item.note){const note=document.createElement('p');note.className='hint';note.textContent=item.note;li.append(note)}
         list.append(li);
       }
       section.append(list);
@@ -289,7 +290,7 @@
       img.src = photo.imageUrl;
       const note = document.createElement('p');
       note.className = 'hint';
-      note.textContent = '出典：' + photo.source + '／写真ファイルはこのサイトに保存していません。';
+      note.textContent = '出典：' + photo.source + '／写真ファイルはこのサイトに保存していません。'+(photo.note?' '+photo.note:'');
       const link = document.createElement('a');
       link.href = photo.sourceUrl;
       link.target = '_blank';
@@ -302,7 +303,7 @@
             !item.ambiguous && item.imageUrl!==photo.imageUrl);
           if(alternative){
             switched=true;
-            note.textContent='出典：'+alternative.source+'（最初の画像を表示できなかったため切替）';
+            note.textContent='出典：'+alternative.source+'（最初の画像を表示できなかったため切替）'+(alternative.note?' '+alternative.note:'');
             link.href=alternative.sourceUrl;
             img.src=alternative.imageUrl;
             return;
