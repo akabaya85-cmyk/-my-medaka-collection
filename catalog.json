@@ -14528,15 +14528,15 @@
     "sourceBreeder": "沖縄・直めだか 桑江良直",
     "sourceYear": "2023",
     "sourceCheckedAt": "2026-10-29",
-    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/kinkai",
     "referenceLinks": [
       {
-        "label": "掲載元の品種図鑑",
-        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
-        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+        "label": "みんなのメダカ品種図鑑｜金塊",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/kinkai",
+        "note": "掲載写真と品種名の一致を確認"
       }
     ],
-    "photoStatus": "未照合"
+    "photoStatus": "出典画像照合済"
   },
   {
     "name": "ブラックタイド・ゼブラ",
@@ -14558,15 +14558,15 @@
     "photoStatus": "未照合"
   },
   {
-    "name": "龍鱗",
-    "aliases": "",
+    "name": "龍鱗（幹之系）",
+    "aliases": "龍鱗",
     "traits": "幹之系・鱗状の光",
     "kind": "専門品種図鑑掲載のハウスネーム（系統名）",
-    "description": "幹之系・鱗状の光が紹介されている改良メダカの系統。交配・系統情報：青幹之。写真と詳細は出典を参照。",
+    "description": "北九州めだかセンター作出。青幹之の光を横方向に広げ、鱗状に表現する系統。同名のカガミ鱗系とは別系統。",
     "sourceBreeder": "福岡・北九州めだかセンター",
     "sourceYear": "2010",
     "sourceCheckedAt": "2026-10-29",
-    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/ryurin",
     "referenceLinks": [
       {
         "label": "掲載元の品種図鑑",
@@ -14775,15 +14775,15 @@
     "sourceBreeder": "埼玉・メダカ屋サバンナ／群馬・チャーム",
     "sourceYear": "2025",
     "sourceCheckedAt": "2026-10-29",
-    "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/feather-light",
     "referenceLinks": [
       {
-        "label": "掲載元の品種図鑑",
-        "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
-        "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+        "label": "みんなのメダカ品種図鑑｜フェザーライト",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/feather-light",
+        "note": "掲載写真と品種名の一致を確認"
       }
     ],
-    "photoStatus": "未照合"
+    "photoStatus": "出典画像照合済"
   },
   {
     "name": "ブリザード",
@@ -14819,6 +14819,25 @@
         "label": "掲載元の品種図鑑",
         "url": "https://hinsyu-zukan.satumano-medakayasan.com/",
         "note": "品種名と公開されている特徴・系統情報を照合。個別記事の写真URLは未確認"
+      }
+    ],
+    "photoStatus": "未照合"
+  },
+  {
+    "name": "龍鱗（カガミ鱗系）",
+    "aliases": "龍鱗",
+    "traits": "フレーミングラメ・カガミ鱗・ロングフィン",
+    "kind": "専門図鑑掲載のハウスネーム（同名別系統）",
+    "description": "沖縄・無限めだか 山城知也氏作出、2025年8月発表。アロワナを思わせるカガミ鱗ロングフィン。幹之系の龍鱗とは別系統。",
+    "sourceBreeder": "沖縄・無限めだか 山城知也",
+    "sourceYear": "2025",
+    "sourceCheckedAt": "2026-10-30",
+    "url": "https://hinsyu-zukan.satumano-medakayasan.com/ryu-rin",
+    "referenceLinks": [
+      {
+        "label": "みんなのメダカ品種図鑑｜龍鱗（カガミ鱗系）",
+        "url": "https://hinsyu-zukan.satumano-medakayasan.com/ryu-rin",
+        "note": "同名別系統。画像未照合"
       }
     ],
     "photoStatus": "未照合"
