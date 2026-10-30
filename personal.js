@@ -14,8 +14,8 @@ const newid=()=> 'p-'+Date.now().toString(36)+'-'+Math.random().toString(36).sli
 const today=()=>{const t=new Date();return [t.getFullYear(),String(t.getMonth()+1).padStart(2,'0'),String(t.getDate()).padStart(2,'0')].join('-')};
 const dateSafe=v=>/^\d{4}-\d{2}-\d{2}$/.test(String(v||''))?v:'';
 const sorted=a=>a.slice().sort((x,y)=>String(y.date||y.updated||'').localeCompare(String(x.date||x.updated||'')));
-const traits=['ラメ','体外光','体内光','ヒレ長','リアルロングフィン','ロングフィン','ダルマ','ヒカリ','出目','目前','パンダ','透明鱗','半透明鱗','ブラックリム','三色','斑','アルビノ','スワロー','モルフォ','腹膜青'];
-const colors=['黒','白','青','緑','黄','黄金','オレンジ','朱赤','ピンク','三色'];
+const traits=['ラメ','体外光','体内光','ヒレ長','リアルロングフィン','ロングフィン','ダルマ','ヒカリ','出目','目前','パンダ','透明鱗','半透明鱗','ブラックリム','三色','斑','アルビノ','スワロー','モルフォ','腹膜青','フサヒレ','アースアイ'];
+const colors=['黒','白','青','緑','黄','黄金','茶','オレンジ','朱赤','ピンク','三色'];
 function cleanup(){urls.forEach(u=>URL.revokeObjectURL(u));urls=[]}
 function makeUrl(blob){if(!(blob instanceof Blob))return '';const url=URL.createObjectURL(blob);urls.push(url);return url}
 function change(html){cleanup();body.innerHTML=html;pd.scrollTop=0}
@@ -89,55 +89,49 @@ if(old)document.getElementById('paDelete').onclick=async()=>{if(!confirm('この
 }
 async function albumDetail(id){await connect();const a=await get('personalAlbums',id);if(!a)return showAlbums();const images=await get('personalAlbumPhotos',id)||[],fish=await all('personalFish');const names=[...(a.tags||[]),...fish.filter(x=>(a.fishIds||[]).includes(x.id)).map(x=>x.name)];change(nav('アルバム',false)+'<h2>🖼️ '+fesc(a.title)+'</h2><p class="hint">'+fesc(a.date||'撮影日未設定')+' · '+images.length+'枚</p><div class="personalAlbumPhotos">'+images.map(b=>photoMarkup(b,a.title)).join('')+'</div><div class="personalTags">'+[...new Set(names)].map(name=>{const match=catalogName(name),individual=fish.find(f=>f.name===name);return match?'<button type="button" data-variety="'+fesc(match.id)+'">'+fesc(name)+'</button>':individual?'<button type="button" data-individual="'+fesc(individual.id)+'">'+fesc(name)+'</button>':'<span>'+fesc(name)+'</span>'}).join('')+'</div>'+(a.note?'<p class="personalNote">'+fesc(a.note)+'</p>':'')+'<button class="primary personalFull" id="paEdit">写真・タグを編集</button><p class="hint">撮影したままの構図で保存。複数匹の写真も切り分けません。</p>');navEvents(()=>showAlbums());document.getElementById('paEdit').onclick=()=>albumForm(id);body.querySelectorAll('[data-variety]').forEach(b=>b.onclick=async()=>{pd.close();await edit(b.dataset.variety)});body.querySelectorAll('[data-individual]').forEach(b=>b.onclick=()=>fishDetail(b.dataset.individual))}
 
-/* ---------- Offline similar-breed search: NO ML inference ---------- */
-async function showFinder(){view='find';await connect();cleanup();candidateFile=null;focus={x:.5,y:.5};pickedColor='';pickedTraits=[];candidateResults=[];change(nav('写真から品種候補')+'<div class="personalIntro"><h2>🔍 写真から似た品種を探す</h2><p>写真を選んで、魚の位置をタップ。色の傾向と自分で選んだ特徴から、図鑑の似た候補を表示します。</p></div><input type="file" id="pcFile" accept="image/*"><div class="personalFinderImage" id="pcPreview"></div><p class="hint">魚が何匹も写っている場合は、調べたい1匹を写真上でタップしてね。背景の色も混ざるため、判定には限界があります。</p><div class="personalFields2"><div><label>体色（自動か手動）</label><select id="pcColor"><option value="">写真から色を推定</option>'+colors.map(c=>'<option>'+c+'</option>').join('')+'</select></div><div><label>特徴（当てはまるものを選択）</label><small>選ばなくても検索できます</small></div></div><div class="personalChecks personalTraitChecks">'+traits.map(t=>'<label><input type="checkbox" value="'+t+'" data-trait> '+t+'</label>').join('')+'</div><button class="primary personalFull" id="pcRun" disabled>写真から候補を探す</button><div id="pcResults"></div>');navEvents();const f=document.getElementById('pcFile');f.onchange=e=>{const picked=e.target.files[0];if(!picked)return;if(!picked.type.startsWith('image/')){alert('画像ファイルを選んでね');return}candidateFile=picked;focus={x:.5,y:.5};renderFinderPhoto();document.getElementById('pcRun').disabled=false};
-document.getElementById('pcRun').onclick=runFinder;
+/* ---------- Offline photo-assisted candidate search ---------- */
+let finderPinned=[],finderOffset=0,finderEvidence=[],finderRevision=0;
+const FINDER_PAGE=30;
+async function showFinder(){
+ view='find';await connect();cleanup();candidateFile=null;focus={x:.5,y:.5};candidateResults=[];finderPinned=[];finderOffset=0;finderEvidence=[];finderRevision++;
+ change(nav('写真から品種候補')+`<div class="personalIntro"><h2>🔍 写真と図鑑を見比べる</h2><p>魚の位置と範囲を選び、体色・ヒレ・目の特徴から候補を探します。気になる品種は名前で追加して、写真を残したまま比較できます。</p></div>
+ <input type="file" id="pcFile" accept="image/*"><div class="personalFinderImage" id="pcPreview"></div>
+ <label for="pcRegion">色を調べる範囲 <output id="pcRegionLabel">12%</output></label><input id="pcRegion" type="range" min="4" max="40" value="12" step="2">
+ <p class="hint">枠を魚の体に合わせてください。背景や照明が入ると色が変わります。写真を選ばず名前だけでも比較できます。</p>
+ <div class="personalFields2"><div><label for="pcColor">体色</label><select id="pcColor"><option value="">写真から複数の色を拾う</option>${colors.map(c=>'<option>'+c+'</option>').join('')}</select></div><div><label for="pcName">候補名で絞る</label><input id="pcName" type="search" placeholder="例：燈、灯、オランジェ、あかり"></div></div>
+ <label>見えている特徴（分からないものは選ばなくてOK）</label><div class="personalChecks personalTraitChecks">${traits.map(t=>'<label><input type="checkbox" value="'+t+'" data-trait> '+t+'</label>').join('')}</div>
+ <button class="primary personalFull" id="pcRun">候補を探す</button>
+ <section class="finderComparePicker"><h3>気になる品種を指定して比較</h3><input id="pcPinName" list="pcVarieties" placeholder="品種名を入力"><datalist id="pcVarieties">${entries.map(e=>'<option value="'+fesc(e.name)+'"></option>').join('')}</datalist><button id="pcPinAdd" type="button">比較に追加</button><button id="pcPair" type="button">燈・灯・オランジェを比較</button><p id="pcPinStatus" class="hint" role="status"></p></section>
+ <div id="pcComparison"></div><div id="pcResults" aria-live="polite"></div>`);
+ navEvents();document.getElementById('pcFile').onchange=e=>{const f=e.target.files[0];if(!f)return;if(!f.type.startsWith('image/')){alert('画像ファイルを選んでね');return}candidateFile=f;focus={x:.5,y:.5};finderRevision++;renderFinderPhoto()};
+ document.getElementById('pcRegion').oninput=()=>{document.getElementById('pcRegionLabel').value=document.getElementById('pcRegion').value+'%';finderRevision++;positionFinderBox()};
+ document.getElementById('pcRun').onclick=runFinder;
+ document.getElementById('pcPinAdd').onclick=()=>{const q=document.getElementById('pcPinName').value.trim(),item=catalogName(q);if(!item){document.getElementById('pcPinStatus').textContent='品種名を選んでください。部分名は「候補名で絞る」で検索できます。';return}pinCandidate(item)};
+ document.getElementById('pcPair').onclick=()=>{finderPinned=entries.filter(e=>['燈','灯','オランジェ'].includes(e.name)).map(e=>e.id);paintFinderComparison()};
+ document.getElementById('pcName').oninput=()=>{finderOffset=0;paintFinderResults()};
 }
-function renderFinderPhoto(){const el=document.getElementById('pcPreview');if(!el)return;cleanup();if(!candidateFile){el.innerHTML='';return}const url=makeUrl(candidateFile);el.innerHTML='<img id="pcImg" src="'+url+'" alt="選んだメダカの写真"><div id="pcFocus" class="personalFocus"></div><small>魚の位置をタップして選択</small>';const img=document.getElementById('pcImg');const box=document.getElementById('pcFocus');const draw=()=>{box.style.left=(focus.x*100)+'%';box.style.top=(focus.y*100)+'%'};draw();img.onclick=e=>{const rect=img.getBoundingClientRect();focus={x:Math.max(.05,Math.min(.95,(e.clientX-rect.left)/rect.width)),y:Math.max(.05,Math.min(.95,(e.clientY-rect.top)/rect.height))};draw()};}
-function pickColorFromCanvas(file,point){return new Promise(async(resolve,reject)=>{
-let img;
-try{
-  img=await createImageBitmap(file);
-  const w=img.width,h=img.height,sw=Math.max(12,Math.floor(w*.24)),sh=Math.max(12,Math.floor(h*.18));
-  const sx=Math.max(0,Math.min(w-sw,Math.floor(point.x*w-sw/2))),sy=Math.max(0,Math.min(h-sh,Math.floor(point.y*h-sh/2)));
-  const canvas=document.createElement('canvas');canvas.width=90;canvas.height=64;
-  const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,sx,sy,sw,sh,0,0,90,64);if(img.close)img.close();
-  const px=ctx.getImageData(0,0,90,64).data, bins={黒:0,白:0,青:0,緑:0,黄:0,黄金:0,オレンジ:0,朱赤:0,ピンク:0};
-  for(let i=0;i<px.length;i+=16){
-    const [r,g,b]=[px[i],px[i+1],px[i+2]].map(x=>x/255),max=Math.max(r,g,b),min=Math.min(r,g,b),dif=max-min,s=max===0?0:dif/max;
-    if(max<.28){bins.黒+=2;continue}
-    if(s<.13&&max>.72){bins.白+=1.6;continue}
-    if(s<.10){bins.黒+=.5;continue}
-    let hue=0;
-    if(dif>0){if(max===r)hue=((g-b)/dif)%6;else if(max===g)hue=(b-r)/dif+2;else hue=(r-g)/dif+4;hue=(hue*60+360)%360}
-    if(hue>190&&hue<270)bins.青+=1.4;
-    else if(hue>=75&&hue<=190)bins.緑+=1.4;
-    else if(hue>=40&&hue<75)bins.黄+=1;
-    else if(hue>=20&&hue<40)bins.オレンジ+=1.2;
-    else if(hue>270&&hue<355&&max>.55)bins.ピンク+=1.2;
-    else if(hue<=20||hue>=355)bins.朱赤+=1.3;
-  }
-  resolve(Object.entries(bins).sort((a,b)=>b[1]-a[1]).slice(0,3));
-}catch(err){if(img?.close)img.close();reject(err)}
-})}
-function findSimilar(color,checks){const pairs=[],empty=!color&&!checks.length;for(const e of entries){const searchable=[e.name,e.traits,e.profile].join(' '),hits=[];let score=0;
-if(color){
- let match=color==='青'?/青|ブルー|マリン|サファイア|深海/.test(searchable):color==='黒'?/黒|ブラック|オロチ/.test(searchable):color==='白'?/白|プラチナ|シルバー/.test(searchable):color==='オレンジ'?/オレンジ|朱赤|橙|楊貴妃/.test(searchable):color==='朱赤'?/朱赤|赤|紅|楊貴妃/.test(searchable):color==='ピンク'?/ピンク|桃/.test(searchable):color==='緑'?/緑|グリーン|エメラルド/.test(searchable):color==='黄'?/黄|黄金|琥珀/.test(searchable):color==='黄金'?/黄金|琥珀|金/.test(searchable):color==='三色'?/三色|錦/.test(searchable):false;
- if(match){score+=3;hits.push('色の表記')}else score-=1;
+function finderRegion(){return Number(document.getElementById('pcRegion')?.value||12)/100}
+function finderImageBounds(img){const r=img.getBoundingClientRect(),scale=Math.min(r.width/img.naturalWidth,r.height/img.naturalHeight),width=img.naturalWidth*scale,height=img.naturalHeight*scale;return {left:r.left+(r.width-width)/2,top:r.top+(r.height-height)/2,width,height}}
+function positionFinderBox(){const img=document.getElementById('pcImg'),box=document.getElementById('pcFocus');if(!img?.naturalWidth||!box)return;const b=finderImageBounds(img),r=img.parentElement.getBoundingClientRect(),region=finderRegion();focus={x:Math.max(region/2,Math.min(1-region/2,focus.x)),y:Math.max(region/2,Math.min(1-region/2,focus.y))};box.style.left=(b.left-r.left+focus.x*b.width)+'px';box.style.top=(b.top-r.top+focus.y*b.height)+'px';box.style.width=(region*b.width)+'px';box.style.height=(region*b.height)+'px'}
+function renderFinderPhoto(){const el=document.getElementById('pcPreview');if(!el||!candidateFile)return;cleanup();el.innerHTML='<div class="personalFishCanvas"><img id="pcImg" src="'+makeUrl(candidateFile)+'" alt="比較する自分のメダカ写真"><div id="pcFocus" class="personalFocus"></div></div><small>調べたい魚の体をタップ。枠の範囲だけ色を拾います。</small>';const img=document.getElementById('pcImg');img.onload=positionFinderBox;img.onclick=e=>{const b=finderImageBounds(img);if(e.clientX<b.left||e.clientX>b.left+b.width||e.clientY<b.top||e.clientY>b.top+b.height)return;const half=finderRegion()/2;focus={x:Math.max(half,Math.min(1-half,(e.clientX-b.left)/b.width)),y:Math.max(half,Math.min(1-half,(e.clientY-b.top)/b.height))};finderRevision++;positionFinderBox()};if(img.complete)positionFinderBox();paintFinderComparison()}
+async function pickColorFromCanvas(file,point,region=.12){
+ let img;try{img=await createImageBitmap(file);const w=img.width,h=img.height,sw=Math.min(w,Math.max(1,w*region)),sh=Math.min(h,Math.max(1,h*region)),sx=Math.max(0,Math.min(w-sw,point.x*w-sw/2)),sy=Math.max(0,Math.min(h-sh,point.y*h-sh/2));
+ const canvas=document.createElement('canvas');canvas.width=90;canvas.height=64;const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,sx,sy,sw,sh,0,0,90,64);const px=ctx.getImageData(0,0,90,64).data,bins={黒:0,白:0,青:0,緑:0,黄:0,オレンジ:0,朱赤:0,ピンク:0};
+ for(let y=0;y<64;y+=2)for(let x=0;x<90;x+=2){const i=(y*90+x)*4;if(px[i+3]<128)continue;const [r,g,b]=[px[i],px[i+1],px[i+2]].map(v=>v/255),max=Math.max(r,g,b),min=Math.min(r,g,b),dif=max-min,s=max===0?0:dif/max,weight=Math.exp(-2*(((x-45)/45)**2+((y-32)/32)**2));let color='';
+ if(max<.22)color='黒';else if(s<.13&&max>.72)color='白';else if(s>=.13){let hue=max===r?((g-b)/dif)%6:max===g?(b-r)/dif+2:(r-g)/dif+4;hue=(hue*60+360)%360;color=hue>=190&&hue<270?'青':hue>=75&&hue<190?'緑':hue>=40&&hue<75?'黄':hue>=20&&hue<40?'オレンジ':hue>=270&&hue<355?'ピンク':'朱赤'}if(color)bins[color]+=weight;
+ }const total=Object.values(bins).reduce((a,b)=>a+b,0);return total?Object.entries(bins).filter(x=>x[1]/total>=.08).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([c,v])=>[c,v/total]):[];
+ }finally{if(img?.close)img.close()}
 }
-for(const t of checks){if(searchable.includes(t)){score+=5;hits.push(t)}}
-if(!empty&&score>0)pairs.push({e,score,hits});
+function pinCandidate(item){if(!finderPinned.includes(item.id)){if(finderPinned.length>=4){document.getElementById('pcPinStatus').textContent='比較は4品種まで。不要な品種を外して追加してください。';return}finderPinned.push(item.id)}document.getElementById('pcPinStatus').textContent=item.name+'を比較に追加しました。検索順位とは関係なく比較できます。';paintFinderComparison()}
+function paintFinderComparison(){const target=document.getElementById('pcComparison');if(!target)return;target.replaceChildren();if(!finderPinned.length)return;const h=document.createElement('h3');h.textContent='選んだ品種を比較（自分の写真は上に残ります）';target.append(h);const ownPhoto=document.getElementById('pcImg');if(ownPhoto){const own=document.createElement('img');own.className='finderOwnComparison';own.src=ownPhoto.src;own.alt='比較中の自分のメダカ写真';target.append(own)}const grid=document.createElement('div');grid.className='finderComparisonGrid';for(const id of finderPinned){const e=entries.find(x=>x.id===id);if(!e)continue;const card=document.createElement('section');card.className='finderCompareCard';const title=document.createElement('h4');title.textContent=e.name;card.append(title);const photo=window.medakaPhotoSources?.sourceCandidates(e).find(x=>!x.ambiguous);if(photo){const img=document.createElement('img');img.src=photo.imageUrl;img.alt=e.name+'の出典写真';img.referrerPolicy='no-referrer';img.onerror=()=>{img.remove();const msg=document.createElement('p');msg.textContent='外部画像を表示できません。出典から確認できます。';card.prepend(msg)};card.append(img);const a=document.createElement('a');a.href=photo.sourceUrl;a.textContent=photo.source+'の掲載写真 ↗';a.target='_blank';a.rel='noopener noreferrer';card.append(a);if(photo.note){const n=document.createElement('p');n.className='hint';n.textContent=photo.note;card.append(n)}}else{const n=document.createElement('p');n.className='hint';n.textContent='この品種の実物写真は未確認です。';card.append(n)}
+ const traitsP=document.createElement('p');traitsP.textContent='特徴：'+(e.traits||'照合中');card.append(traitsP);const desc=document.createElement('p');desc.textContent=e.description||'詳細を確認中です。';card.append(desc);if(e.name==='燈'){const related=entries.find(x=>x.name==='燈 北辻ヒレロング（アースアイヘテロ）');if(related){const btn=document.createElement('button');btn.textContent='別登録の北辻ヒレロングも比較';btn.onclick=()=>pinCandidate(related);card.append(btn)}}const a=document.createElement('a');a.href=validUrl(e.url);a.textContent='品種の出典を開く ↗';a.target='_blank';a.rel='noopener noreferrer';card.append(a);const remove=document.createElement('button');remove.textContent='比較から外す';remove.onclick=()=>{finderPinned=finderPinned.filter(x=>x!==id);paintFinderComparison()};card.append(remove);grid.append(card)}target.append(grid);const note=document.createElement('p');note.className='hint';note.textContent='色だけでなく、横からのヒレ形・体型・ラメ・目を比較してください。「燈」と「灯」は出典を区別して登録しています。写真の外見だけでは血統や流通名を確定できない場合があります。';target.append(note)}
+function paintFinderResults(){const target=document.getElementById('pcResults');if(!target)return;const q=document.getElementById('pcName').value.trim(),filtered=candidateResults.filter(x=>!q||window.medakaFinder.nameMatch(x.e,q));target.innerHTML='';if(!candidateResults.length&&q){candidateResults=window.medakaFinder.rank(entries,[],[]);return paintFinderResults()}if(!candidateResults.length)return;
+ const matched=filtered.filter(x=>x.score>0),other=filtered.filter(x=>x.score<=0),ordered=[...matched,...other],shown=ordered.slice(0,finderOffset+FINDER_PAGE);const h=document.createElement('h3');h.textContent='候補 '+matched.length+'件 ／ 外見の一致未確認 '+other.length+'件';target.append(h);const note=document.createElement('p');note.className='hint';note.textContent=(finderEvidence.length?'比較に使った色：'+finderEvidence.map(x=>x[0]).join('・')+'。':'体色の指定なし。')+'写真の色と選択した特徴を図鑑の記載に照合しています。順位は品種の確率ではありません。一致未確認の品種も省略せず、続きを表示できます。';target.append(note);
+ for(const {e,hits,score} of shown){const row=document.createElement('div');row.className='personalCandidate';const info=document.createElement('div'),b=document.createElement('b'),small=document.createElement('small');b.textContent=e.name;small.textContent=score>0?'一致した記載：'+hits.join('、'):'色・特徴の一致は未確認（候補からの除外ではありません）';info.append(b,small);const compare=document.createElement('button');compare.textContent='比較に追加';compare.onclick=()=>pinCandidate(e);row.append(info,compare);target.append(row)}
+ if(shown.length<ordered.length){const more=document.createElement('button');more.className='personalFull';more.textContent='続きを表示（'+shown.length+' / '+ordered.length+'件）';more.onclick=()=>{finderOffset+=FINDER_PAGE;paintFinderResults()};target.append(more)}if(!ordered.length){const no=document.createElement('p');no.textContent='この名前は見つかりませんでした。別名や読みがなでも検索できます。';target.append(no)}
+ if(candidateFile){const saveButton=document.createElement('button');saveButton.className='primary personalFull';saveButton.textContent='この写真を私のアルバムに保存';saveButton.onclick=async()=>{try{await albumForm(null,[await optimize(candidateFile)])}catch(err){alert(err.message)}};target.append(saveButton)}
 }
-pairs.sort((a,b)=>b.score-a.score||a.e.name.localeCompare(b.e.name,'ja'));return pairs.slice(0,14)}
-async function runFinder(){if(!candidateFile)return;const button=document.getElementById('pcRun');button.disabled=true;let detected=[],selected=document.getElementById('pcColor').value;
-try{if(!selected){detected=await pickColorFromCanvas(candidateFile,focus);selected=detected[0]?.[0]||''}}catch(err){document.getElementById('pcResults').innerHTML='<p class="hint">写真の色解析に失敗しました。体色を手動選択すると探せます。</p>';button.disabled=false;return}
-const selectedTraits=[...document.querySelectorAll('[data-trait]:checked')].map(x=>x.value);
-candidateResults=findSimilar(selected,selectedTraits);const target=document.getElementById('pcResults');
-const rows=candidateResults.length?candidateResults.map(({e,hits},i)=>'<div class="personalCandidate"><div><b>'+fesc(e.name)+'</b><small>一致項目：'+fesc(hits.join('、')||'外見の色')+'</small></div><button type="button" data-candidate="'+fesc(e.id)+'">図鑑で見る</button></div>').join(''):'<p class="hint">該当候補が少ないみたい。体色を手動で変えるか、特徴を選び直してみてね。</p>';
-target.innerHTML='<h3>候補一覧（'+candidateResults.length+'件）</h3><p class="hint">'+(detected.length?'写真の選択位置で多く見えた色：'+detected.map(x=>x[0]).join('・')+'。':'手動で選んだ体色：'+fesc(selected)+'。')+'これはAIによる品種判定ではありません。画像の小さな範囲の色と、選択した形質を図鑑の説明文に照合した参考候補です。色は水草・底床・照明に大きく影響されます。<strong>正解率や確率を意味しません。</strong></p>'+rows+'<button class="primary personalFull" id="pcToAlbum">この写真を私のアルバムに保存</button>';
-target.querySelectorAll('[data-candidate]').forEach(b=>b.onclick=async()=>{pd.close();await edit(b.dataset.candidate)});
-document.getElementById('pcToAlbum').onclick=async()=>{try{await albumForm(null,[await optimize(candidateFile)])}catch(err){alert(err.message)}};
-button.disabled=false}
+async function runFinder(){const button=document.getElementById('pcRun');button.disabled=true;button.textContent='候補を確認中…';const revision=finderRevision;try{const selected=document.getElementById('pcColor').value;let evidence=selected?[[selected,1]]:candidateFile?await pickColorFromCanvas(candidateFile,focus,finderRegion()):[];if(revision!==finderRevision||view!=='find')return;finderEvidence=evidence;const checks=[...document.querySelectorAll('[data-trait]:checked')].map(x=>x.value);candidateResults=window.medakaFinder.rank(entries,evidence,checks);finderOffset=0;paintFinderResults();paintFinderComparison()}catch(err){const p=document.createElement('p');p.className='hint';p.textContent='写真の色を取得できませんでした。体色を手動で指定するか、名前を入れて比較できます。';document.getElementById('pcResults')?.replaceChildren(p)}finally{button.disabled=false;button.textContent='候補を探す'}}
 
 /* ---------- Backup hooks ---------- */
 async function exportData(){await connect();const out={version:1};for(const s of personalStores){const ids=await keys(s),items=[];for(const id of ids){const val=await get(s,id);if(s.endsWith('Photos')){const arr=Array.isArray(val)?val:val?[val]:[];items.push({id,data:await Promise.all(arr.map(fileData))})}else items.push({id,data:val})}out[s]=items}return out}

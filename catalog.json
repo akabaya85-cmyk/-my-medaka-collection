@@ -3733,14 +3733,22 @@
     "aliases": "あかり",
     "traits": "体外光・黄・白",
     "kind": "流通名",
-    "description": "見分けるときは、体外光・黄・白の組み合わせに注目します。",
+    "description": "黄色または黄白の体色に、背中の青白い体外光が重なる幹之系の品種。標準像は黄幹之。黒・灰色・三色や体外光のない個体も生まれるため、色だけでは確定しない。",
     "url": "https://medakazukan.net/0242_akari/",
     "webNo": "0242",
-    "profile": "体色の特徴は白系。注目したい形質は体外光。",
+    "profile": "黄色い体と背中の体外光を確認。ヒレの伸長を必須とする品種ではない。「燈」の別名として自動統合しない。",
     "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-10-25確認）",
     "reading": "あかり",
     "readingBasis": "品種の読み・出典の表記を個別補正",
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-10-30",
+    "sourceBreeder": "阿波めだかの里 森口氏",
+    "sourceYear": "2014年",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜灯の標準と作出経緯",
+        "url": "https://medakanoyakata.shop-pro.jp/?mode=f94"
+      }
+    ]
   },
   {
     "name": "灯ラメ",
@@ -13398,8 +13406,8 @@
     "traits": "茶黒・オレンジ・ラメ・ロングフィン",
     "description": "黒〜茶色とオレンジの色合いにラメが乗り、長い房状のヒレを持つ。エメキンとブラックダイヤの系統をもとに作出されたと紹介される。",
     "url": "https://jasma.sc/medaka/orange/",
-    "profile": "",
-    "sourceCheckedAt": "2026-10-25",
+    "profile": "黒から茶黒にオレンジが入り、ラメと房状に伸びるロングフィンを観察。ヒレの伸び・体色・ラメには個体差がある。",
+    "sourceCheckedAt": "2026-10-30",
     "sourceBreeder": "垂水政治",
     "sourceYear": "2024",
     "reading": "おらんじぇ",
@@ -13410,6 +13418,10 @@
         "label": "JASMA 品種図鑑",
         "url": "https://jasma.sc/medaka/orange/",
         "note": "特徴と系統の参考"
+      },
+      {
+        "label": "根来めだか｜オランジェの実個体・血統表記",
+        "url": "https://www.negoro-medaka.com/items/91003298"
       }
     ]
   },
@@ -14841,5 +14853,44 @@
       }
     ],
     "photoStatus": "未照合"
+  },
+  {
+    "id": "source-saigo-kanji71c8",
+    "name": "燈",
+    "aliases": "燈（西郷めだかの出展名）",
+    "traits": "詳細照合中",
+    "kind": "出展・流通名（外見の詳細照合中）",
+    "description": "西郷めだかの出展品種名として「燈」の表記を確認。体色・ヒレ・目の標準像は今回の出典だけでは確定できていない。「灯（あかり）」とは同一視せず別登録する。写真だけで名称を決めず、購入時の表記・販売者・血統も照合する。",
+    "profile": "外見情報が不足しているため、色だけの検索順位は判定根拠にならない。比較への名前指定に対応。",
+    "url": "https://meito-suien.com/2024/08/802696.html",
+    "sourceCheckedAt": "2026-10-30",
+    "referenceLinks": [
+      {
+        "label": "リミックス｜西郷めだかの出展品種リスト",
+        "url": "https://meito-suien.com/2024/08/802696.html"
+      },
+      {
+        "label": "別登録の関連掲載名：燈 北辻ヒレロング ヘテロ",
+        "url": "https://ibuki472.com/products/acth-1000-2678-adlt-004s",
+        "note": "この派生系統の写真・特徴を燈全体の標準像には流用しない"
+      }
+    ]
+  },
+  {
+    "id": "source-ibuki2678",
+    "name": "燈 北辻ヒレロング（アースアイヘテロ）",
+    "aliases": "燈 北辻ヒレロング ヘテロ",
+    "traits": "北辻ヒレロング・ヒカリ体型・アースアイヘテロ",
+    "kind": "販売系統名（商品表記確認）",
+    "description": "いぶきが「燈 北辻ヒレロング ヘテロ」として掲載した系統。商品説明にアースアイヘテロとヒカリ体型についての記載がある。ヘテロの血統情報は写真だけでは判断できない。掲載個体の色柄を燈全体の標準像として扱わない。",
+    "profile": "同名で掲載された実個体と、横からの体型・ヒレを比較する。",
+    "url": "https://ibuki472.com/products/acth-1000-2678-adlt-004s",
+    "sourceCheckedAt": "2026-10-30",
+    "referenceLinks": [
+      {
+        "label": "いぶき｜燈 北辻ヒレロング ヘテロの現物販売ページ",
+        "url": "https://ibuki472.com/products/acth-1000-2678-adlt-004s"
+      }
+    ]
   }
 ]
