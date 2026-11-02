@@ -5692,8 +5692,106 @@
       "source": "いぶき",
       "verifiedAt": "2026-10-30",
       "note": "燈 北辻ヒレロング（アースアイヘテロ）として掲載された現物。通常の燈の標準写真には流用しない。"
+    },
+    "ブラックタイド・ゼブラ": {
+      "name": "ブラックタイド・ゼブラ",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/black-tide-zebra",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2026/07/スクリーンショット-2026-07-23-114851.png",
+      "verifiedAt": "2026-11-02"
+    },
+    "彩桜": {
+      "name": "彩桜",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/saizakura",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/12/スクリーンショット-2025-12-15-061849.png",
+      "verifiedAt": "2026-11-02"
+    },
+    "ガイア": {
+      "name": "ガイア",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/gaia",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/11/スクリーンショット-2025-11-19-110431.jpg",
+      "verifiedAt": "2026-11-02"
+    },
+    "オベリスク": {
+      "name": "オベリスク",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/obelisk",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/11/スクリーンショット-2025-11-19-102326.png",
+      "verifiedAt": "2026-11-02"
+    },
+    "魅輝": {
+      "name": "魅輝",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/miki",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/11/スクリーンショット-2025-11-19-091954.png",
+      "verifiedAt": "2026-11-02"
+    },
+    "紫延": {
+      "name": "紫延",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/shien",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/09/スクリーンショット-2025-09-20-055822.png",
+      "verifiedAt": "2026-11-02"
+    },
+    "ブリザード": {
+      "name": "ブリザード",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/blizzard",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/09/スクリーンショット-2025-09-19-143056.jpg",
+      "verifiedAt": "2026-11-02"
+    },
+    "黒纏": {
+      "name": "黒纏",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/kuromatoi",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/09/スクリーンショット-2025-09-11-055503.png",
+      "verifiedAt": "2026-11-02"
+    },
+    "銀閣": {
+      "name": "銀閣",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3284/",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/03/2025-03-01-100538.jpg",
+      "verifiedAt": "2026-11-02"
+    },
+    "如水": {
+      "name": "如水",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2601/",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/05/スクリーンショット-2024-05-22-121530.png",
+      "verifiedAt": "2026-11-02"
+    },
+    "卑弥呼": {
+      "name": "卑弥呼",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1357/",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/スクリーンショット-2023-07-22-090629.jpg",
+      "verifiedAt": "2026-11-02"
+    },
+    "月下美人": {
+      "name": "月下美人",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1174/",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/スクリーンショット-2023-07-05-144835.jpg",
+      "verifiedAt": "2026-11-02"
+    },
+    "天界": {
+      "name": "天界",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/372/",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2022/12/スクリーンショット-2024-09-14-102404.png",
+      "verifiedAt": "2026-11-02"
+    },
+    "幹之": {
+      "name": "幹之",
+      "source": "みんなのメダカ品種図鑑",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/miyuki",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2021/05/medaka-miyuki.png",
+      "verifiedAt": "2026-11-02"
     }
   },
   "verifiedAt": "2026-10-28",
-  "updatedAt": "2026-10-30"
+  "updatedAt": "2026-11-02"
 }
