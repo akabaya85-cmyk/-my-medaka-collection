@@ -5798,6 +5798,119 @@
       "source": "根来めだか",
       "verifiedAt": "2026-11-02",
       "note": "西郷めだか直系として掲載された成魚の横見。"
+    },
+    "白ラメ幹之ヒカリ": {
+      "name": "白ラメ幹之ヒカリ",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma07.png",
+      "sourceUrl": "https://jma-medaka.com/new-medaka-list/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "福星": {
+      "name": "福星",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma24.jpg",
+      "sourceUrl": "https://jma-medaka.com/new-medaka-list/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "福星光": {
+      "name": "福星光",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma30-scaled.jpg",
+      "sourceUrl": "https://jma-medaka.com/new-medaka-list/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "蝶蘭": {
+      "name": "蝶蘭",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma32.png",
+      "sourceUrl": "https://jma-medaka.com/new-medaka-list/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "北辻ヒレロング": {
+      "name": "北辻ヒレロング",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma36_1-1024x1024.png",
+      "sourceUrl": "https://jma-medaka.com/new-medaka_036/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "もも": {
+      "name": "もも",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma37_1.png",
+      "sourceUrl": "https://jma-medaka.com/new-medaka_037/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "燕": {
+      "name": "燕",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma38_2.png",
+      "sourceUrl": "https://jma-medaka.com/new-medaka_038/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "kimera": {
+      "name": "kimera",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma39_1.png",
+      "sourceUrl": "https://jma-medaka.com/new-medaka_039/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "デビル": {
+      "name": "デビル",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma40_2.png",
+      "sourceUrl": "https://jma-medaka.com/new-medaka_040/",
+      "source": "日本メダカ協会",
+      "verifiedAt": "2026-11-02"
+    },
+    "王媛": {
+      "name": "王媛",
+      "imageUrl": "https://www.hime-medaka.com/img/%E3%82%A2%E3%83%AB%E3%83%93%E3%83%8E%E3%83%A1%E3%83%80%E3%82%AB%20%286%29%E7%8E%8B%E5%AA%9B%E3%83%AD%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%B3%E3%80%81%E3%82%AD%E3%83%AC%E3%82%A4.jpeg",
+      "sourceUrl": "https://www.hime-medaka.com/medakanohinsyu/ouen.html",
+      "source": "媛めだか",
+      "verifiedAt": "2026-11-02",
+      "note": "作出者掲載のロングフィン個体。"
+    },
+    "ラスター": {
+      "name": "ラスター",
+      "imageUrl": "https://www.hime-medaka.com/img/%E3%83%A1%E3%83%80%E3%82%AB%E3%80%81%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%80%81%E4%B8%8A%E8%A6%8B%20%281%29.jpeg",
+      "sourceUrl": "https://www.hime-medaka.com/medakanohinsyu/rasuta.html",
+      "source": "媛めだか",
+      "verifiedAt": "2026-11-02"
+    },
+    "エンハンブレ": {
+      "name": "エンハンブレ",
+      "imageUrl": "https://www.hime-medaka.com/img/%E3%82%A8%E3%83%B3%E3%83%8F%E3%83%B3%E3%83%96%E3%83%AC%20%285%29.jpeg",
+      "sourceUrl": "https://www.hime-medaka.com/medakanohinsyu/enhan.html",
+      "source": "媛めだか",
+      "verifiedAt": "2026-11-02"
+    },
+    "さくら": {
+      "name": "さくら",
+      "imageUrl": "https://public.muragon.com/jisjomo8/uyhxvu45.jpg",
+      "sourceUrl": "https://medakanoyakata.muragon.com/entry/1337.html",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-02"
+    },
+    "極ラメ星河": {
+      "name": "極ラメ星河",
+      "imageUrl": "https://public.muragon.com/jisjomo8/v9mwilzd.jpg",
+      "sourceUrl": "https://medakanoyakata.muragon.com/entry/1431.html",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-02"
+    },
+    "菜花": {
+      "name": "菜花",
+      "imageUrl": "https://public.muragon.com/jisjomo8/nf4u8gyi.jpg",
+      "sourceUrl": "https://medakanoyakata.muragon.com/entry/1465.html",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-02"
+    },
+    "ミラージュ": {
+      "name": "ミラージュ",
+      "imageUrl": "https://public.muragon.com/jisjomo8/ihjbm5rs.png",
+      "sourceUrl": "https://medakanoyakata.muragon.com/entry/1464.html",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-02"
     }
   },
   "verifiedAt": "2026-10-28",
