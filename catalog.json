@@ -15102,5 +15102,14 @@
     ],
     "reading": "とうきたつじひれろんぐあーすあいへてろ",
     "readingBasis": "よみがな検索用（自動推定・要確認）"
+  },
+  {
+    "name": "橙",
+    "reading": "とう",
+    "kind": "流通名",
+    "traits": "黄金・ヒカリ体型・アースアイ",
+    "description": "西郷めだかの系統。掲載個体では黄金の発色、ヒカリ体型とアースアイが観察点。横見で体型と目を見比べる。",
+    "url": "https://www.negoro-medaka.com/items/97734980",
+    "sourceCheckedAt": "2026-11-02"
   }
 ]
