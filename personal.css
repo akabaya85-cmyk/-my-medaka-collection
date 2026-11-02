@@ -77,3 +77,5 @@
 @media(max-width:360px){.finderComparisonGrid{grid-template-columns:1fr}}
 
 .finderOwnComparison{display:block;width:100%;max-height:220px;object-fit:contain;background:#e9f5fb;border-radius:12px;margin:10px 0}
+
+.finderFrameControls{padding:10px 12px;background:#f0f9fe;border-radius:12px;margin:10px 0}.finderFrameActions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.finderFrameActions button{font-size:13px;min-height:44px}.finderFrameControls output{font-variant-numeric:tabular-nums}#personalDialog .finderFrameControls input[type=range]{height:32px;cursor:pointer}
