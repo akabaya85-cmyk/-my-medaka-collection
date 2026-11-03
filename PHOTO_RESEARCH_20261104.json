@@ -1,0 +1,786 @@
+{
+  "date": "2026-11-04",
+  "scope": 149,
+  "newPhotoEntries": 72,
+  "correctedExistingPhotoEntries": 24,
+  "unresolved": 77,
+  "records": [
+    {
+      "name": "三色",
+      "status": "unresolved_category",
+      "sourceUrl": ""
+    },
+    {
+      "name": "紅白",
+      "status": "unresolved_category",
+      "sourceUrl": ""
+    },
+    {
+      "name": "ブラック",
+      "status": "unresolved_category",
+      "sourceUrl": ""
+    },
+    {
+      "name": "ヒレ長",
+      "status": "unresolved_category",
+      "sourceUrl": ""
+    },
+    {
+      "name": "ダルマ",
+      "status": "unresolved_category",
+      "sourceUrl": ""
+    },
+    {
+      "name": "オーロラ",
+      "status": "unresolved_category",
+      "sourceUrl": ""
+    },
+    {
+      "name": "ピンク",
+      "status": "unresolved_category",
+      "sourceUrl": ""
+    },
+    {
+      "name": "プラチナム",
+      "status": "unresolved",
+      "sourceUrl": ""
+    },
+    {
+      "name": "ブラックヒカリダルマメダカ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0022_blackhikaridharma/"
+    },
+    {
+      "name": "ブラック黄金ヒカリダルマメダカ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0026_blackougonhikaridharma/"
+    },
+    {
+      "name": "ピンクヒカリダルマメダカ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0034_pinkhikaridharma/"
+    },
+    {
+      "name": "パープルブルーヒカリダルマメダカ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0058_purplebluehikaridharma/"
+    },
+    {
+      "name": "スカイブルー",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0059_skyblue/"
+    },
+    {
+      "name": "スカイブルーダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0061_skybluedharma/"
+    },
+    {
+      "name": "スカイブルーヒカリダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0062_skybluehikaridharma/"
+    },
+    {
+      "name": "茶透明鱗ヒカリメダカ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0066_tyatoumeirinhikari/"
+    },
+    {
+      "name": "黄透明鱗ヒカリダルマメダカ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0072_kitoumeirinhikaridharma/"
+    },
+    {
+      "name": "バタフライ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0255_butterfly/"
+    },
+    {
+      "name": "風雅",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0341_fuuga/"
+    },
+    {
+      "name": "風雅（図鑑No.0342）",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0342_fuuga/"
+    },
+    {
+      "name": "白スモールアイ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0462_sirosmalleye/"
+    },
+    {
+      "name": "黄アルビノヒカリダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0572_kialbinohikaridharma/"
+    },
+    {
+      "name": "黄透明鱗アルビノヒカリダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0579_kitoumeirinalbinohikaridharma/"
+    },
+    {
+      "name": "白透明鱗アルビノ目前",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0599_sirotoumeirinalbinomemae/"
+    },
+    {
+      "name": "深海目前",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0641_shinkaimemae/"
+    },
+    {
+      "name": "昴",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0650_subaru/"
+    },
+    {
+      "name": "金鱗スモールアイヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0654_kinrinsmalleyehikari/"
+    },
+    {
+      "name": "金鱗スモールアイダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0655_kinrinsmalleyedharma/"
+    },
+    {
+      "name": "黄パンダ出目ヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0656_kipandademehikari/"
+    },
+    {
+      "name": "黄パンダ出目ヒカリダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0657_kipandademehikaridharma/"
+    },
+    {
+      "name": "黄錦パンダ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0658_kinishikipanda/"
+    },
+    {
+      "name": "茶出目ヒカリダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0659_tyademehikaridharma/"
+    },
+    {
+      "name": "黄出目ヒカリダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0660_kidemehikaridharma/"
+    },
+    {
+      "name": "白目前ヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0661_siromemaehikari/"
+    },
+    {
+      "name": "白透明鱗目前ヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0664_sirotoumeirinmemaehikari/"
+    },
+    {
+      "name": "シルキー出目ビッグアイ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0666_silkydemebigeye/"
+    },
+    {
+      "name": "パープルブルー出目ビッグアイ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0667_purplebluedemebigeye/"
+    },
+    {
+      "name": "白出目ビッグアイ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0668_sirodemebigeye/"
+    },
+    {
+      "name": "青出目ビッグアイ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0669_aodemebigeye/"
+    },
+    {
+      "name": "白目前スワロー",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0674_siromemaeswallow/"
+    },
+    {
+      "name": "オレンジオーロラブラックリムラメ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0675_orangeaurorablackrimlame/"
+    },
+    {
+      "name": "ピンクオーロラブラックリムラメ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0676_pinkaurorablackrimlame/"
+    },
+    {
+      "name": "青透明鱗スモールアイスワロー",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0681_aotoumeirinsmalleyeswallow/"
+    },
+    {
+      "name": "青スモールアイスワローヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0682_aosmalleyeswallowhikari/"
+    },
+    {
+      "name": "琥珀アルビノ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0684_kohakualbino/"
+    },
+    {
+      "name": "琥珀アルビノヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0685_kohakualbinohikari/"
+    },
+    {
+      "name": "琥珀アルビノダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0686_kohakualbinodharma/"
+    },
+    {
+      "name": "白幹之体内光ヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0687_shiromiyukitainaikouhikari/"
+    },
+    {
+      "name": "シルバー菱尾",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0690_silverhisio/"
+    },
+    {
+      "name": "白透明鱗目前菱尾",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0691_sirotoumeirinmemaehishio/"
+    },
+    {
+      "name": "黄アルビノスモールアイ菱尾",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0692_kialbinosmalleyehishio/"
+    },
+    {
+      "name": "白透明鱗目前メラー",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0698_sirotoumeirinmemaemerah/"
+    },
+    {
+      "name": "ブラック出目メラー",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0699_blackdememerah/"
+    },
+    {
+      "name": "黄金錦メラー",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0700_ougonnisikimerha/"
+    },
+    {
+      "name": "楊貴妃透明鱗出目ダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0701_youkihitoumeirindemedharma/"
+    },
+    {
+      "name": "白天河",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0705_sirotenga/"
+    },
+    {
+      "name": "ピュアブラック透明鱗ヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0709_pureblacktoumeirinhikari/"
+    },
+    {
+      "name": "ブラックパンダダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0714_blackpandadharma/"
+    },
+    {
+      "name": "ブラックラメヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0715_blacklamehikari/"
+    },
+    {
+      "name": "風神ヒカリ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0722_fujinhikari/"
+    },
+    {
+      "name": "ピンクメラーダルマ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0723_pinkmerahdharma/"
+    },
+    {
+      "name": "ブラック黄金透明鱗サムライメダカ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0724_blackougontoumeirinsamurai/"
+    },
+    {
+      "name": "シルバー",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0736_silver/"
+    },
+    {
+      "name": "ヒメダカ",
+      "status": "registered",
+      "sourceUrl": "https://www.kamihata-online.com/shop/secure/05gf0004syuminomedaka-3collect.aspx"
+    },
+    {
+      "name": "青サムライダルマ（あおさむらいだるま）",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0409aosamuraidharma/"
+    },
+    {
+      "name": "白アルビノ出目シースルー",
+      "status": "registered",
+      "sourceUrl": "https://jma-medaka.com/new-medaka-list/"
+    },
+    {
+      "name": "黒龍",
+      "status": "registered",
+      "sourceUrl": "https://medakazukan.net/0093_blacktoumeirin/"
+    },
+    {
+      "name": "ラディウス",
+      "status": "unresolved",
+      "sourceUrl": "https://www.medakalog.shop/radius/"
+    },
+    {
+      "name": "松井ヒレ長",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/%E3%83%92%E3%83%AC%E9%95%B7%E3%80%80%EF%BD%9E%E3%83%A1%E3%83%80%E3%82%AB%E3%81%AE%E3%83%92%E3%83%AC%E5%A4%89%E5%8C%96%E3%81%AE%E7%89%B9%E5%BE%B4%EF%BD%9E%E3%80%80%E3%83%A1%E3%83%80%E3%82%AB%E3%81%AE/"
+    },
+    {
+      "name": "赤富士",
+      "status": "registered",
+      "sourceUrl": "https://medakarium.jp/products/detail/453"
+    },
+    {
+      "name": "アルジェントキッシングダルマ",
+      "status": "unresolved",
+      "sourceUrl": ""
+    },
+    {
+      "name": "黒蝶バタフライ",
+      "status": "unresolved_primary",
+      "sourceUrl": "https://medakazukan.net/0255_butterfly/"
+    },
+    {
+      "name": "漆黒スワローヒカリ体型ブルーアイ",
+      "status": "unresolved",
+      "sourceUrl": ""
+    },
+    {
+      "name": "ウルティマウェポン",
+      "status": "unresolved",
+      "sourceUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E6%BC%86%E9%BB%92/2084228610"
+    },
+    {
+      "name": "松井ヒレ長紅帝初恋",
+      "status": "unresolved",
+      "sourceUrl": "https://akimedaka.com/store/products/detail/326"
+    },
+    {
+      "name": "ピュアホワイト透明鱗",
+      "status": "unresolved",
+      "sourceUrl": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate"
+    },
+    {
+      "name": "禅半月×青蝶半月",
+      "status": "unresolved",
+      "sourceUrl": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate"
+    },
+    {
+      "name": "出目目前メダカ",
+      "status": "unresolved",
+      "sourceUrl": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate"
+    },
+    {
+      "name": "MLFH×BMA",
+      "status": "unresolved",
+      "sourceUrl": "https://www.medakanoyakata.jp/?cbid=2838660&csid=0&mode=cate"
+    },
+    {
+      "name": "燈",
+      "status": "unresolved",
+      "sourceUrl": "https://meito-suien.com/2024/08/802696.html"
+    },
+    {
+      "name": "龍鱗（りゅうりん・カガミ鱗系）",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/ryu-rin"
+    },
+    {
+      "name": "ミント",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/mint"
+    },
+    {
+      "name": "滝",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/taki"
+    },
+    {
+      "name": "皁",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3249/"
+    },
+    {
+      "name": "WI-01",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3191/"
+    },
+    {
+      "name": "MS-06",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3199/"
+    },
+    {
+      "name": "LU-04",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3035/"
+    },
+    {
+      "name": "メタリカ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3067/"
+    },
+    {
+      "name": "陽変天目",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/youhen-tenmoku"
+    },
+    {
+      "name": "オーロラ黄ラメ幹之",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2881/"
+    },
+    {
+      "name": "サイシュウヘイキ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2743/"
+    },
+    {
+      "name": "ダイアナ妃リアルロングフィン",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2737/"
+    },
+    {
+      "name": "スペード",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2525/"
+    },
+    {
+      "name": "ダイアナ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1777/"
+    },
+    {
+      "name": "バクシャイナー",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2235/"
+    },
+    {
+      "name": "天山無双",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2103/"
+    },
+    {
+      "name": "赫灼",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1964/"
+    },
+    {
+      "name": "天帝",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1918/"
+    },
+    {
+      "name": "陽炎",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1852/"
+    },
+    {
+      "name": "東雲",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1849/"
+    },
+    {
+      "name": "凛華",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1844/"
+    },
+    {
+      "name": "華蓮",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/karen"
+    },
+    {
+      "name": "美虎",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1648/"
+    },
+    {
+      "name": "炎尾",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/enbi"
+    },
+    {
+      "name": "黄泉",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1634/"
+    },
+    {
+      "name": "フロマージュ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/fromage"
+    },
+    {
+      "name": "蒼煌",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1571/"
+    },
+    {
+      "name": "クムブルー",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1526/"
+    },
+    {
+      "name": "宝鱗無双",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1486/"
+    },
+    {
+      "name": "月虹",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1492/"
+    },
+    {
+      "name": "魔王・改",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1482/"
+    },
+    {
+      "name": "螺鈿光",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1465/"
+    },
+    {
+      "name": "サンセット極龍",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1433/"
+    },
+    {
+      "name": "玄兎",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1371/"
+    },
+    {
+      "name": "喪屍",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1366/"
+    },
+    {
+      "name": "黒蜂",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1347/"
+    },
+    {
+      "name": "シンヘイキ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1289/"
+    },
+    {
+      "name": "ブラックジュエリー",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1259/"
+    },
+    {
+      "name": "エンペラー",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1261/"
+    },
+    {
+      "name": "ゴブリン",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1198/"
+    },
+    {
+      "name": "イカ墨",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1192/"
+    },
+    {
+      "name": "コブラ（フレーミングラメ系）",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1152/"
+    },
+    {
+      "name": "コブラ（モルフォ系）",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1144/"
+    },
+    {
+      "name": "ディーバ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1083/"
+    },
+    {
+      "name": "琉華",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/ryuka"
+    },
+    {
+      "name": "華簪",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1044/"
+    },
+    {
+      "name": "黒槍",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/925/"
+    },
+    {
+      "name": "闇御津羽神",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/916/"
+    },
+    {
+      "name": "朱紅玉",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/905/"
+    },
+    {
+      "name": "朱光菊",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/shukougiku"
+    },
+    {
+      "name": "デーンモルフォ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/882/"
+    },
+    {
+      "name": "群青",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/855/"
+    },
+    {
+      "name": "しずく",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/846/"
+    },
+    {
+      "name": "パーティードレス",
+      "status": "unresolved_category",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/811/"
+    },
+    {
+      "name": "サボテン",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/792/"
+    },
+    {
+      "name": "久遠七星",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/761/"
+    },
+    {
+      "name": "ゼウス",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/742/"
+    },
+    {
+      "name": "妲己",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/631/"
+    },
+    {
+      "name": "明けの明星",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/578/"
+    },
+    {
+      "name": "金色夜叉",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/556/"
+    },
+    {
+      "name": "改志（カイジ）、カイジ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/404/"
+    },
+    {
+      "name": "金華獣",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/kinkajyu"
+    },
+    {
+      "name": "ふ～は～",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/241/"
+    },
+    {
+      "name": "エメキン【マリアージュロングフィンキッシング（エメラルドフィンタイプ）】",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/emekin"
+    },
+    {
+      "name": "天照",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/176/"
+    },
+    {
+      "name": "レッドクリフ",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/redcliff"
+    },
+    {
+      "name": "サバ、サバの極み",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/sabanokiwami"
+    },
+    {
+      "name": "あけぼの",
+      "status": "registered",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/akebono"
+    },
+    {
+      "name": "ホワイトネプチューンダルマ",
+      "status": "registered",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193354009"
+    }
+  ],
+  "correctedNames": [
+    "クロコダイル",
+    "ＧＯＤ",
+    "シャンパンゴールドラメ",
+    "狼牙",
+    "エメラルドフィン",
+    "グリーン",
+    "栗神",
+    "黒衣",
+    "天鵞絨",
+    "ブルースターダスト",
+    "令和黒ラメ幹之",
+    "極龍",
+    "菊銀紅玉",
+    "銀鱗紅玉",
+    "ヒミツヘイキ",
+    "プロメテウス",
+    "悪魔",
+    "紅玉",
+    "黑天幻龍",
+    "緑光",
+    "紅帝",
+    "紅凛",
+    "カブキ",
+    "サファイア（黒ラメ幹之サファイア系）"
+  ],
+  "statusReasons": {
+    "unresolved_category": "広い分類・表現名。特定系統の写真を同一品種と誤認させない表示方法が必要。",
+    "unresolved": "掲載名と実物写真の一致を確認できず。別品種の画像は未使用。",
+    "unresolved_primary": "元記事を再取得。品種名の画像・形質アイコン・別品種の例は当該品種の実物写真として採用せず。",
+    "registered": "品種記事・認定資料・販売商品番号と写真を照合し画像取得を確認。"
+  }
+}

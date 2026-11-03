@@ -12698,7 +12698,15 @@
       }
     ],
     "reading": "ひめだか",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-04",
+    "referenceLinks": [
+      {
+        "label": "品種名と掲載写真を照合した出典",
+        "url": "https://www.kamihata-online.com/shop/secure/05gf0004syuminomedaka-3collect.aspx",
+        "note": "2026-11-04 写真照合"
+      }
+    ]
   },
   {
     "name": "クラウドグレーダイヤ",
@@ -13103,9 +13111,16 @@
     "sourceYear": "2015",
     "sourceBreeder": "水津徹",
     "url": "https://jma-medaka.com/new-medaka-list/",
-    "sourceCheckedAt": "2026-10-25",
+    "sourceCheckedAt": "2026-11-04",
     "reading": "しろあるびのでめしーするー",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "referenceLinks": [
+      {
+        "label": "品種名と掲載写真を照合した出典",
+        "url": "https://jma-medaka.com/new-medaka-list/",
+        "note": "2026-11-04 写真照合"
+      }
+    ]
   },
   {
     "name": "福星",
@@ -13354,7 +13369,7 @@
     "profile": "専門図鑑の掲載形質：黒。",
     "profileBasis": "専門資料の個別品種記事を2026-10-25に確認し、外見・系統を要約",
     "sourceBreeder": "川上富美代",
-    "sourceCheckedAt": "2026-10-25",
+    "sourceCheckedAt": "2026-11-04",
     "url": "https://www.medakalog.shop/kokuryu/",
     "sourceYear": "2014",
     "referenceLinks": [
@@ -13362,6 +13377,11 @@
         "label": "メダ活のススメ 品種解説",
         "url": "https://www.medakalog.shop/kokuryu/",
         "note": "外観・系統の参考"
+      },
+      {
+        "label": "品種名と掲載写真を照合した出典",
+        "url": "https://medakazukan.net/0093_blacktoumeirin/",
+        "note": "2026-11-04 写真照合"
       }
     ],
     "reading": "こくりゅう",
@@ -14148,9 +14168,14 @@
         "label": "赤富士の紅白タイプ飼育例",
         "url": "https://tawarayama-hondanouen.hatenablog.com/entry/2021/03/06/194410",
         "note": "流通名の表現差がある点に注意"
+      },
+      {
+        "label": "品種名と掲載写真を照合した出典",
+        "url": "https://medakarium.jp/products/detail/453",
+        "note": "2026-11-04 写真照合"
       }
     ],
-    "sourceCheckedAt": "2026-10-25"
+    "sourceCheckedAt": "2026-11-04"
   },
   {
     "name": "アルジェントキッシングダルマ",
@@ -15339,7 +15364,7 @@
     "description": "作出者：沖縄・無限めだか 山城 知也 さん。発表：2025年8月。特徴：フレーミングラメの全身カガミ鱗ロングフィンで、アロワナのような迫力のある鱗。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/ryu-rin",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15360,7 +15385,7 @@
     "description": "作出者：埼玉・武州メダカ 安藤観賞魚 安藤薫 さん。発表：2021年。特徴：クリアブラウン 系統の肌色体色をベースに、緑色がかったラメとスワローのヒレ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/mint",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15381,7 +15406,7 @@
     "description": "作出者：茨城・鎖メダカ 杉山 祐太 さん。発表：2023年6月。交配：五式タイプR ワイドフィン× 鯰武。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/taki",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15428,7 +15453,7 @@
     "description": "作出者：岐阜・西郷めだか さん。発表：2023年７月。交配：五式 漆黒リアルロングフィン × チャッキー ( 黒夢 リアル × 黑天幻龍 )。特徴：ヒレに黄色が入った黒体色にリアルロングフィンでブルーアイ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/3249/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15449,7 +15474,7 @@
     "description": "作出者：岡山県・静楽庵 さん。発表：2019年。特徴：三色ラメ幹之体外光。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/3191/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15470,7 +15495,7 @@
     "description": "作出者：岡山県・静楽庵 さん。発表：2024年（厳密には2023年末）。交配：LU-04 × モルフォ 亜種。特徴：三色ラメ体外光に、モルフォ亜種特有である、尾ビレの中心にグアニンの模様が入る。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/3199/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15491,7 +15516,7 @@
     "description": "作出者：岡山県・静楽庵 さん。発表：2022年６月。交配：3色ラメ幹之-体外光タイプ-(WI-01) × 鱗光。特徴：三色柄にラメと体外光が乗る系統に、鱗光が加わることで、体外光が強く、ヒレにまでさらに輝きが増している。 その分、ラメは控えめ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/3035/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15512,7 +15537,7 @@
     "description": "作出者：静岡・めだか屋さくら 中山克大 さん。発表：2022年５月。交配：小寺系全身体内光 × ドラゴンブルー 、 黒衣。特徴：側面光が際立つメタリックな体色。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/3067/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15533,7 +15558,7 @@
     "description": "作出者：愛媛県・垂水政治 さん。発表：2024年10月。特徴：ミッドナイトフリル の漆黒タイプを、さらに色飛びしない黒色素＋ラメ＋ロングフィンを目指し改良。 よりインパクトのある青白くモサモサのフリルのヒレを持つ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/youhen-tenmoku",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15554,7 +15579,7 @@
     "description": "作出者：熊本・サウスめだか さん。発表：2021年9月。特徴：緑光 の変種でヒレ長。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2980/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15601,7 +15626,7 @@
     "description": "作出者：岡山・静楽庵 さん。交配：黒ラメ幹之 × 黄幹之（白タイプ）。特徴：ベースの体色は黒で、頭が黄～朱赤になっていて、多色ラメと体外光が乗り、様々な表現が出現する。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2881/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15621,7 +15646,7 @@
     "description": "作出者：佐賀・チャチャめだか さん。特徴：五式typeR の黒味を、より色褪せしにくくした。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2755/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15641,7 +15666,7 @@
     "description": "作出者：岐阜・稲めだか さん。発表：2023年9月。交配：（さゆり × 令和サファイア）× ヒミツヘイキ。特徴：オーロラ系の多色ラメで、 ヒミツヘイキ をさらにギラギラにした。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2743/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15662,7 +15687,7 @@
     "description": "作出者：岐阜・西郷めだか さん。発表：2022年12月。特徴：「 ダイアナ 」のリアルロングフィン。鱗光のある紅白体外光。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2737/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15708,7 +15733,7 @@
     "description": "作出者：静岡・メダカ屋 猫飯 池谷 雄二 さん。発表：2016年11月以前。交配：琥珀ラメ幹之からの選別累代。特徴：淡い金色の体色に、大粒で独立したラメが乗る。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2542/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15755,7 +15780,7 @@
     "description": "作出者：愛知・小野めだか 小野 久仁雄 さん。発表：2020年7月。交配：シャンパンゴールドラメ からの派生。特徴：シルバー体色にシルバーのラメがびっしりと乗っている。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2544/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15776,7 +15801,7 @@
     "description": "作出者：岡山・夢中めだか さん。発表：2024年3月。交配：龍ノ鬣 × ミッドナイトフリル ラメタイプ。特徴：ラメが乗ったシルバー体色のヒカリ体型で、ロングフィン＋スワロー。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2525/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15797,7 +15822,7 @@
     "description": "作出者：岐阜・道三めだか さん。交配：鱗光 紅白 × エメラルドフィン からのオレンジ体色。特徴：紅白体外光で、鱗光がある。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1777/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15817,7 +15842,7 @@
     "description": "作出者：愛媛・垂水政治 さん。発表：2020年秋。特徴：グリーン （ ブロンズ 系）の進化系。ヒレ全体がエメラルド色に輝く。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2432/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15838,7 +15863,7 @@
     "description": "作出者：愛媛・垂水政治 さん。発表：2020年6月。交配：｟ 黄桜 × 夢ラメ （ 夢光 ）｠× アルビノ光体型。特徴：ブロンズ の緑がかった系統。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2437/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15859,7 +15884,7 @@
     "description": "作出者：広島・日本改良めだか研究所 深川善正 さん。発表：2017年以前。特徴：赤色の濃い三色透明鱗。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2287/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15880,7 +15905,7 @@
     "description": "作出者：静岡・メダカ屋 猫飯 さん。発表：2021年7月。特徴：純血の 幹之 のグアニンを集めて輝きを増している。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2235/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15901,7 +15926,7 @@
     "description": "作出者：埼玉・本間 久徳 さん（別名 北本の太郎さん）。発表：2020年5月。交配：黒百式 ✕ 緑光。特徴：体内から滲み出る黒い体色に、青い体外光が横見で見える。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2148/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15922,7 +15947,7 @@
     "description": "作出者：埼玉・本間 久徳 さん（別名 北本の太郎さん ）。発表：2020年６月。交配：黒百式 × 全身体内光（黒系）。特徴：内から黒い体の側面に体外光。透明鱗だが、頬も赤ではなく黒になる。黒を追求している。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2150/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15943,7 +15968,7 @@
     "description": "作出者：埼玉・桃ちゃんめだか さん。発表：2015年。交配：パールブルーラメメダカ × 青ラメ幹之ヒカリ体型。特徴：青ラメ体外光。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2138/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -15964,7 +15989,7 @@
     "description": "作出者：徳島・徳島めだか養殖場 さん。発表：2020年10月。特徴：天山 の松井ヒレ長。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/2103/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16023,7 +16048,7 @@
     "description": "作出者：熊本・舞めだか さん。発表：2022年4月。交配：月弓 、鬼ラメ、 月神。特徴：燻したような黒っぽい体色に多色ラメ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1964/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16070,7 +16095,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1918/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16089,7 +16114,7 @@
     "description": "作出者：岡山・小寺 義克 さん。発表：2019年。交配：あけぼの × 金色夜叉 ・紅夜叉。特徴：頭が朱赤で、青っぽい体外光を持つ、非透明鱗三色。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1852/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16110,7 +16135,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1849/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16129,7 +16154,7 @@
     "description": "作出者：岡山・小寺 義克 さん、夢中めだか 坂上 学さん。発表：2019年4月。交配：華蓮 × 煌。特徴：頭が朱赤で、ブラックリムの上に体外光。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1844/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16176,7 +16201,7 @@
     "description": "作出者：岡山・小寺 義克 さん。発表：2017年。交配：乙姫 × 灯。特徴：頭が柿色（朱色）、体はブラックリムで黒味が強い。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/karen",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16223,7 +16248,7 @@
     "description": "作出者：岡山・静楽庵 さん。発表：2020年5月。特徴：2017年に発見した「RP-３」という遺伝子により、従来、透明鱗にしか入らなかったヒレの差し色（ヒレ美）が非透明鱗にも入るようになったのを令和に固定。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/reiwa-kurorame-miyuki",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16269,7 +16294,7 @@
     "description": "作出者：埼玉・北辻めだか 山本 健二 さん。発表：2022年2月。交配：黄 サタン × 北辻ヒレロング(琥珀透明鱗) の、ヒレロングになっていない個体を累代。特徴：黄金体色に、色飛びしないブチ模様。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1648/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16290,7 +16315,7 @@
     "description": "作出者：埼玉・北辻めだか 山本 健二 さん。発表：2023年7月。交配：美虎 × ブラックダイヤ。特徴：色飛びしないブチ模様の北辻ヒレロング（ワイドフィン）。 尾びれになるべく墨を入れないことで、尾びれの黄～朱赤色を際立たせている。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/enbi",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16311,7 +16336,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1634/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16330,7 +16355,7 @@
     "description": "作出者：愛媛県・垂水政治 さん。発表：2023年8月。交配：エメキン × ブラックダイヤ。特徴：黄色～オレンジがかった体色に、白く結晶化したようなフサフサのヒレ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/fromage",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16351,7 +16376,7 @@
     "description": "作出者：群馬・上州めだか さん。発表：2021年7月。交配：「 煌 ラメ」から、ラメの青さが強い個体を選抜交配。特徴：頭の方は黄色～柿色、体は青いラメがびっしりとのっている。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1571/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16372,7 +16397,7 @@
     "description": "作出者：香川・ 漆黒めだか 森藤 秀太（シュタム） さん。交配：渚（ピュアブラック × ブラックダイヤ の目に変化が現れたものを累代）× 黒夢（クム 強透明鱗スモールアイ）。特徴：真っ黒の体に、青く輝く目。 スモールアイではなく、普通の眼だが、通常黒目の部分にグアニンがあり、青く輝く。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1526/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16392,7 +16417,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1486/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16411,7 +16436,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1492/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16430,7 +16455,7 @@
     "description": "作出者：広島・め組。さん。発表：2014年頃。交配：魔王 × 宝鱗無双。特徴：魔王の背中の虹色光彩を強く改良。 ヒカリ体型の 螺鈿光 の一種で、紫がかった黒体色にラメ、そして、背中の青や緑や黄色といった虹色光彩が、赤色に瞬時に変化する。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1482/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16451,7 +16476,7 @@
     "description": "作出者：広島・め組。さん。交配：元祖「 螺鈿光 」との異種交配。特徴：元祖「 螺鈿光 」の進化系。 より、貝の螺鈿細工を思わせる表現に仕上げられた。 派生で、いろんなタイプの螺鈿光がいる。 ヒカリ体型が多い。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1465/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16471,7 +16496,7 @@
     "description": "作出者：愛媛・極めだか さん。発表：2012年6月。特徴：黄金鉄仮面幹之 頭部は黄金色で、体色は青色（藍色）、口先まで体外光がのる。 鱗がハッキリ分かるのも特徴。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/kiwamiryu",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16492,7 +16517,7 @@
     "description": "作出者：愛媛・めだかのビーンズ さん。発表：2018年9月。特徴：極龍 の胸ビレにも光が乗る系統。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1433/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16513,7 +16538,7 @@
     "description": "作出者：愛媛・菊間めだか 田中 敬士さん。発表：2021年8月。交配：朱紅玉 × 王妃。特徴：三色体外光。 朱赤が強く、鯉の大正三色のようになる。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1393/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16534,7 +16559,7 @@
     "description": "作出者：愛媛・菊間めだか 田中 敬士さん。発表：2021年7月。交配：菊銀紅玉 × 三色 エメラルドフィン。特徴：三色体外光でヒレ光。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1392/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16581,7 +16606,7 @@
     "description": "作出者：佐賀・チャチャめだか さん。発表：2021年1月以前。交配：五式Type-R God × ブラックキング（松井ヒレ長 黒蜂 ）。特徴：ヒレ長の真っ黒体色に、アクセントでヒレに色が乗る。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1371/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16602,7 +16627,7 @@
     "description": "作出者：群馬・ 猿めだか さん。交配：黑天幻龍 × 玄兎。特徴：真っ黒体色の松井ヒレ長で、ブルーアイ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1366/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16622,7 +16647,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1347/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16641,7 +16666,7 @@
     "description": "作出者：岐阜・道三めだか さん。発表：2022年10月。特徴：ヒミツヘイキ をヒレ長化。ギラギラのラメラメの松井ヒレ長。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1289/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16662,7 +16687,7 @@
     "description": "作出者：岐阜・道三めだか さん。交配：ラメ王 × 忘却の翼。特徴：ラメ王 の、ラメが落ちやすいという欠点を改善したもので、「ラメ王改」とも呼ばれる。 とにかく、ギラギラのラメラメ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1282/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16682,7 +16707,7 @@
     "description": "作出者：岡山・夢中めだか さん。発表：2022年10月。交配：ブラックダイヤ 松井ヒレ長 × 漆黒（黒い松井ヒレ長 五式 ）。特徴：真っ黒体色にラメが乗ったヒレ長。 ※以前は「ピンチャン」と呼ばれていた。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1259/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16703,7 +16728,7 @@
     "description": "作出者：岡山・夢中めだか さん。発表：2022年10月。特徴：紅白の体色に、体外光とヒレ光のロングフィン。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1261/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16724,7 +16749,7 @@
     "description": "作出者：埼玉・メダカ屋サバンナ さん。発表：2022年6月以前。特徴：ヒカリ体型、ラメ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1207/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16771,7 +16796,7 @@
     "description": "作出者：埼玉・メダカ屋サバンナ さん。発表：2023年3月。交配：サボテン × プロメテウス。特徴：シルバーっぽい体色のヒカリ体型で、緑や青に輝く強いラメがのっていて、紫の光も見える。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1198/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16792,7 +16817,7 @@
     "description": "作出者：新潟・River Farm 五十川 さん。発表：2022年9月。交配：ブラックダイヤ × エメキン。特徴：黒体色にキッシングワイドフィン。上見は体外光で、横見はラメ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1192/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16813,7 +16838,7 @@
     "description": "作出者：愛媛・MARIMOYA 藤中 守 さん。発表：2022年7月。交配：（黒揚羽 × 五式typeR ）× ブラックダイヤ × 狼牙。特徴：ラメ（グアニン）が鱗を縁取る。（フレーミングラメ）。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1152/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16834,7 +16859,7 @@
     "description": "作出者：埼玉・花小屋 戸松具視 さん。発表：2022年7月。交配：ブラック モルフォ 亜種 × ダーク エメラルドフィン。特徴：頭が茶色のダーク系三色に体外光が乗っている。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1144/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16855,7 +16880,7 @@
     "description": "作出者：鹿児島・湧水めだか さん。発表：2019年以前。特徴：黒体色でスモールアイ。 目の色（普通種の黒目の部分）を、緑から赤色など、瞬時に多彩に変えることができる。 出目や、違う体色のバージョンもいる。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/medaka-akuma",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16876,7 +16901,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1083/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16895,7 +16920,7 @@
     "description": "作出者：沖縄・めだか造り屋 七海 さん。交配：黒ラメ × 女雛 ラメ のF4。特徴：頭が朱赤で、黒体色にラメ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/ryuka",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16915,7 +16940,7 @@
     "description": "作出者：広島・日本改良めだか研究所 さん。発表：2023年5月。交配：琉華typeR × オーロラ黄ラメ + 紅白ラメ。特徴：三色ラメ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/1044/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16962,7 +16987,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/925/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -16981,7 +17006,7 @@
     "description": "作出者：佐賀・美心めだか さん。発表：2021年秋。交配：五式typeR 、 黒蜂 、 紅薊 、ブラック透明鱗スワロー、 卑弥呼。特徴：頭部が朱赤（「玄」以外）の透明鱗ブラックリム。 松井ヒレ長やスワロータイプなど、４つのバリエーションがある。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/916/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17002,7 +17027,7 @@
     "description": "作出者：愛媛・めだかのビーンズ さん。特徴：三色体外光。「 紅玉 」の赤みをさらに増した。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/905/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17022,7 +17047,7 @@
     "description": "作出者：愛媛・菊間めだか 田中 敬士さん。発表：2022年7月。交配：銀鱗紅玉 × モルフォロングフィン 朱紅玉。特徴：三色体外光のロングフィン。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/shukougiku",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17043,7 +17068,7 @@
     "description": "作出者：福岡・Azuma medaka さん。発表：2022年9月。交配：エメキン 亜種 × 焔（紅白体外光）。特徴：朱赤や紅白の体に、青白い モルフォ のフサフサのヒレ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/882/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17064,7 +17089,7 @@
     "description": "作出者：愛媛・めだかのビーンズ 丹下 学 さん。発表：2018年9月。特徴：赤みを強調した三色体外光。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/874/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17085,7 +17110,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/855/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17104,7 +17129,7 @@
     "description": "作出者：長崎・波羅門めだか さん。発表：2018年12月。交配：「 群青 」を元に、「 マリンブルー 」や「 深海 」を交配。特徴：腹膜が青～緑に輝く。体外光も併せ持つ。黒容器でも青く見える。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/846/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17125,7 +17150,7 @@
     "description": "作出者：群馬・上州愛鷹煌めき会 gao さん。発表：2022年8月。交配：ピュアブラック × 悪魔。特徴：元の名前は「桐生ブラック」。 黒体色に、スモールアイ、ブルーアイ、ホワイトアイ、レッドアイなど、目に色々な変化のある個体が出現する。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/831/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17166,7 +17191,7 @@
     "description": "作出者：埼玉・メダカ屋サバンナ さん。発表：2021年7月。交配：王華 白系 × 緑光 松井ヒレ長 の変わり個体。特徴：深緑色の体色に、深緑色の体外光とラメがびっしりと乗っている。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/792/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17187,7 +17212,7 @@
     "description": "作出者：静岡・神村 孝人 さん、 愛知・凸凹めだか凸凹 彩 さん。発表：2018年以前。特徴：透明鱗性を持つ緑色の体色で、体内光や体外光がある。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/456/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17208,7 +17233,7 @@
     "description": "作出者：熊本・舞めだか さん。発表：2022年4月。特徴：上半身はオレンジ体色のヒカリ体型で、超高密度に多色のラメがのっている。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/761/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17229,7 +17254,7 @@
     "description": "掲載元の品種記事を確認。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/742/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17274,7 +17299,7 @@
     "description": "作出者：徳島・舞風めだか さん。発表：2022年3月。交配：阿形 × 黄泉。特徴：真っ黒な体色に、ヒカリ体型のスワローで、背ビレに黄～橙色のポンポンが付いている。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/631/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17295,7 +17320,7 @@
     "description": "作出者：広島・栗原養魚場 さん。発表：2016年以前。特徴：楊貴妃 よりも更に赤い。別名「栗原楊貴妃」。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/604/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17316,7 +17341,7 @@
     "description": "作出者：岡山・小寺 義克 さん。発表：2018年８月。交配：あけぼの × 煌。特徴：紅色が強く、引き締まってはっきりした柄の三色。 非透明鱗三色の あけぼの に体外光を乗せることを目標に交配したところ、体外光が乗らなくてもはっきりとした三色になったことから人気となり、体外光が無いタイプと有りのタイプとある。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/588/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17337,7 +17362,7 @@
     "description": "作出者：熊本・舞めだか さん。発表：2020年6月。交配：月弓 × 松井鰭長三色ラメ （ 忘却の翼 と同じだが系統を分けている。）。特徴：ラメがびっしりと乗ったオーロラ系三色の松井ヒレ長。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/578/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17358,7 +17383,7 @@
     "description": "作出者：岡山・小寺 義克 さん。発表：2017年。交配：｟黒幹之 × （ 楊貴妃 × 幹之 ｠× 灯。特徴：黄色～黄金系の三色体外光。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/556/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17379,7 +17404,7 @@
     "description": "作出者：奈良・飛鳥めだか 谷國 昌博 さん。発表：2020年4月。特徴：オロチ のヒレに黄色が入る。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/404/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17421,7 +17446,7 @@
     "description": "作出者：広島・日本改良めだか研究所 松浦 亮 さん。発表：2022年6月。交配：華蓮 ヒレ長 × 令和 三色ラメ幹之。特徴：ラメの乗ったヒカリ体型のヒレ長（バタフライ）。 ヒレの色乗りにこだわって累代している。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/kinkajyu",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17442,7 +17467,7 @@
     "description": "作出者：埼玉県・うなとろふぁ～む さん。発表：2021年8月。交配：大和紅帝風雅 × 紅帝 ヒレ長。特徴：朱赤のスワロー。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/241/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17463,7 +17488,7 @@
     "description": "作出者：愛媛・垂水政治 さん。発表：2022年2月。交配：マリアージュ・キッシングワイドフィン ✕ エメラルドフィン モルフォ。特徴：青幹之の体色に、頭は黄色が入っている。 キッシングでフサフサのロングフィン、エメラルドに輝く大きなヒレを持つ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/emekin",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17510,7 +17535,7 @@
     "description": "作出者：愛媛・めだかのビーンズ 丹下 学 さん。発表：2021年10月。交配：鱗光 から生まれた白タイプ（紅白・豆紅）を累代 × 豆紅（ 紅帝 、 紅玉 ）。特徴：朱赤体色に体外光とヒレ光。 特に鱗光の表現が際立つ。 朱赤、紅白、三色、赤斑のタイプがある。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/176/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17531,7 +17556,7 @@
     "description": "作出者：愛媛県・垂水政治 さん。発表：2022年9月。特徴：朱赤～紅白体色に体外光にヒレ光に鱗光でキッシングワイドフィンでフサフサのヒレ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/redcliff",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17571,7 +17596,7 @@
     "description": "作出者：愛知県・ 岡崎葵メダカ 天野雅弘 さん。交配：青幹之ヒカリ × （白幹之体内光から出た白透明鱗）からの緑色がかった個体が元になっている。「カブキ」を名乗れるのは、この個体からの血統だけ。特徴：青黒い体外光に、黄色の色素が入るのが基本。 白タイプや三色タイプなど、いろんなバリエーションもある。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/114/",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17591,7 +17616,7 @@
     "description": "作出者：静岡・メダカ屋 猫飯（ねこまんま）さん。発表：2019年。交配：新緑光（ 緑光 × 幹之 ）からの選抜・累代。特徴：お腹の部分が黒く、青い体外光が乗っている。（緑光系青幹之透明鱗腹黒）。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/sabanokiwami",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17612,7 +17637,7 @@
     "description": "作出者：岡山県・静楽庵 さん。発表：2020年。交配：「黒ラメ幹之」の黄色色素を抜いてラメの色が青く見えるように交配を重ねて固定化。特徴：正式名称「黒ラメ幹之サファイア系」。 黒体色に複雑に見える青ラメ。 背ビレ無し（マルコ）と背ビレ有りの系統がある。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/sapphire",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17633,7 +17658,7 @@
     "description": "作出者：岡山・小寺 義克 さん。発表：2017年。交配：楊貴妃 × 幹之。特徴：非透明鱗の三色。 透明鱗ではないことにより、白地が濃く、３色が際立つ。",
     "source": "https://hinsyu-zukan.satumano-medakayasan.com/",
     "url": "https://hinsyu-zukan.satumano-medakayasan.com/akebono",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "profileBasis": "みんなのメダカ品種図鑑の個別記事に記載された内容。",
     "referenceLinks": [
       {
@@ -17653,12 +17678,17 @@
     "kind": "販売名（めだかの館掲載）",
     "description": "めだかの館の「ダルマフェア」に「ホワイトネプチューンダルマ」の販売名で掲載。ダルマ体型として登録し、色・ラメ・ヒレの表現は販売個体ごとの写真で確認する。",
     "url": "https://www.medakanoyakata.jp/?cbid=2797390&csid=26&mode=cate&sort=n",
-    "sourceCheckedAt": "2026-11-03",
+    "sourceCheckedAt": "2026-11-04",
     "referenceLinks": [
       {
         "label": "めだかの館｜ダルマフェア",
         "url": "https://www.medakanoyakata.jp/?cbid=2797390&csid=26&mode=cate&sort=n",
         "note": "ホワイトネプチューンダルマの販売名を確認"
+      },
+      {
+        "label": "品種名と掲載写真を照合した出典",
+        "url": "https://www.medakanoyakata.jp/?pid=193354009",
+        "note": "2026-11-04 写真照合"
       }
     ],
     "reading": "ほわいとねぷちゅーんだるま",

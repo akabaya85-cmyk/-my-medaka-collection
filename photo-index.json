@@ -5723,6 +5723,14 @@
       "source": "めだかの館",
       "verifiedAt": "2026-11-03",
       "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ホワイトネプチューンダルマ": {
+      "name": "ホワイトネプチューンダルマ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193354009.jpg",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193354009",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-04",
+      "note": "販売名と商品番号193354009を照合した掲載個体写真。販売終了により商品ページは現在閲覧できない場合があります。"
     }
   },
   "external": {
@@ -6361,73 +6369,83 @@
     },
     "クロコダイル": {
       "name": "クロコダイル",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-10-12-084759.png",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-10-12-104100.png",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2980/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "ＧＯＤ": {
       "name": "ＧＯＤ",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-25-144853.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/08/2024-08-03-183012.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2755/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "シャンパンゴールドラメ": {
       "name": "シャンパンゴールドラメ",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/05/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-05-03-031739.png",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/05/2024-05-14-132152.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2542/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "狼牙": {
       "name": "狼牙",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-04-124838.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/05/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-05-03-031739.png",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2544/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "エメラルドフィン": {
       "name": "エメラルドフィン",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2022/11/medaka-emekin.png",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-04-07-122027.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2432/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "グリーン": {
       "name": "グリーン",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-04-07-122027.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-04-07-110417.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2437/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "栗神": {
       "name": "栗神",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2021/05/E3Ps78oUYAI0OtK-e1711327853357.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/03/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-03-18-101348.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2287/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "黒衣": {
       "name": "黒衣",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-01-31-123039.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/02/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-02-02-105211.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2148/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "天鵞絨": {
       "name": "天鵞絨",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/02/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-02-02-105211.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-01-31-123039.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2150/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "ブルースターダスト": {
       "name": "ブルースターダスト",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-01-31-103321.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-01-31-113142.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2138/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "夢ラメ": {
       "name": "夢ラメ",
@@ -6445,87 +6463,99 @@
     },
     "令和黒ラメ幹之": {
       "name": "令和黒ラメ幹之",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2021/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-10-16-110217.png",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-10-16-113029.png",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/reiwa-kurorame-miyuki",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "極龍": {
       "name": "極龍",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-31-161352.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2026-05-08-120359.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/kiwamiryu",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "菊銀紅玉": {
       "name": "菊銀紅玉",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-28-151039.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-30-144438.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1393/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "銀鱗紅玉": {
       "name": "銀鱗紅玉",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-04-23-102458.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-30-152327.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1392/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "ヒミツヘイキ": {
       "name": "ヒミツヘイキ",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-18-030334.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-29-115955.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1282/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "プロメテウス": {
       "name": "プロメテウス",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/-2023-07-08-153053-e1688798309177.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2025-05-01-090347.png",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1207/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "悪魔": {
       "name": "悪魔",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-03-24-114325.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-04-102617.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/medaka-akuma",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "紅玉": {
       "name": "紅玉",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97-6.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97-2.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/874/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "黑天幻龍": {
       "name": "黑天幻龍",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-24-145346.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-03-24-114325.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/831/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "緑光": {
       "name": "緑光",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/04/o1080072014991404961.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/03/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-18-035232.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/456/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "紅帝": {
       "name": "紅帝",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/05/2024-05-03-043005.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-05-03-035515.png",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/604/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "紅凛": {
       "name": "紅凛",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-18-073123.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-11-16-102717.png",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/588/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "百式幹之": {
       "name": "百式幹之",
@@ -6543,17 +6573,19 @@
     },
     "カブキ": {
       "name": "カブキ",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2022/11/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-09-30-071713.jpg",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2021/06/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-09-30-063843.jpg",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/114/",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "サファイア（黒ラメ幹之サファイア系）": {
       "name": "サファイア（黒ラメ幹之サファイア系）",
-      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-10-16-113029.png",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2021/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-10-16-110217.png",
       "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/sapphire",
       "source": "みんなのメダカ品種図鑑",
-      "note": "個別記事に掲載された写真"
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
     },
     "和墨白銀": {
       "name": "和墨白銀",
@@ -6825,8 +6857,576 @@
       "source": "いぶき（指宿メダカ）",
       "verifiedAt": "2026-11-03",
       "note": "同名で販売された個体の参考写真。"
+    },
+    "龍鱗（りゅうりん・カガミ鱗系）": {
+      "name": "龍鱗（りゅうりん・カガミ鱗系）",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2026/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2026-04-13-101625-e1784322060802.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/ryu-rin",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "ミント": {
+      "name": "ミント",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/12/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2025-12-15-071327.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/mint",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "滝": {
+      "name": "滝",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2025/09/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2025-09-12-055355.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/taki",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "皁": {
+      "name": "皁",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/12/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-12-08-114300.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3249/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "WI-01": {
+      "name": "WI-01",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/12/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-12-02-092908.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3191/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "MS-06": {
+      "name": "MS-06",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/11/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-11-14-105946.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3199/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "LU-04": {
+      "name": "LU-04",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/11/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-11-14-101530.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3035/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "メタリカ": {
+      "name": "メタリカ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/10/2024-10-22-125034.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/3067/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "陽変天目": {
+      "name": "陽変天目",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-10-18-075242.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/youhen-tenmoku",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "オーロラ黄ラメ幹之": {
+      "name": "オーロラ黄ラメ幹之",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/09/2024-09-13-083639.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2881/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "サイシュウヘイキ": {
+      "name": "サイシュウヘイキ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/08/2024-08-02-083845.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2743/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "ダイアナ妃リアルロングフィン": {
+      "name": "ダイアナ妃リアルロングフィン",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/08/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-08-02-081145.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2737/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "スペード": {
+      "name": "スペード",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-04-24-094418.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2525/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "ダイアナ": {
+      "name": "ダイアナ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-04-22-094020.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1777/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "バクシャイナー": {
+      "name": "バクシャイナー",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/02/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-02-25-153610.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2235/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "天山無双": {
+      "name": "天山無双",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2024/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-01-26-101113.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/2103/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "赫灼": {
+      "name": "赫灼",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-29-135017.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1964/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "天帝": {
+      "name": "天帝",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-28-122515.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1918/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "陽炎": {
+      "name": "陽炎",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-12-055154.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1852/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "東雲": {
+      "name": "東雲",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-12-054837.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1849/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "凛華": {
+      "name": "凛華",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-18-073123.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1844/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "華蓮": {
+      "name": "華蓮",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-12-142007.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/karen",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "美虎": {
+      "name": "美虎",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/09/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-09-13-150321.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1648/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "炎尾": {
+      "name": "炎尾",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/09/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-09-13-142352.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/enbi",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "黄泉": {
+      "name": "黄泉",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/09/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-09-06-152049.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1634/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "フロマージュ": {
+      "name": "フロマージュ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/08/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-08-24-121023.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/fromage",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "蒼煌": {
+      "name": "蒼煌",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/08/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-08-13-150445.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1571/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "クムブルー": {
+      "name": "クムブルー",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/08/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-08-25-145738.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1526/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "宝鱗無双": {
+      "name": "宝鱗無双",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/08/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-08-05-155653.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1486/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "月虹": {
+      "name": "月虹",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/08/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-08-05-151548.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1492/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "魔王・改": {
+      "name": "魔王・改",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/08/maxresdefault.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1482/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "螺鈿光": {
+      "name": "螺鈿光",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/08/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-08-03-160514.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1465/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "サンセット極龍": {
+      "name": "サンセット極龍",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-31-161352.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1433/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "玄兎": {
+      "name": "玄兎",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-25-144853.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1371/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "喪屍": {
+      "name": "喪屍",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-24-145346.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1366/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "黒蜂": {
+      "name": "黒蜂",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-22-040732.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1347/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "シンヘイキ": {
+      "name": "シンヘイキ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-18-030334.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1289/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "ブラックジュエリー": {
+      "name": "ブラックジュエリー",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-17-081959.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1259/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "エンペラー": {
+      "name": "エンペラー",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/FyLtc6CaMAAD-gT-e1689329890634.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1261/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "ゴブリン": {
+      "name": "ゴブリン",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/-2023-07-08-153053-e1688798309177.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1198/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "イカ墨": {
+      "name": "イカ墨",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-08-151619.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1192/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "コブラ（フレーミングラメ系）": {
+      "name": "コブラ（フレーミングラメ系）",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-04-124838.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1152/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "コブラ（モルフォ系）": {
+      "name": "コブラ（モルフォ系）",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/-2023-07-04-123022-e1688441475295.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1144/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "ディーバ": {
+      "name": "ディーバ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-02-134459.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1083/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "琉華": {
+      "name": "琉華",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-01-110401.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/ryuka",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "華簪": {
+      "name": "華簪",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-01-100046.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/1044/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "黒槍": {
+      "name": "黒槍",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97-9.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/925/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "闇御津羽神": {
+      "name": "闇御津羽神",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-20-153800.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/916/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "朱紅玉": {
+      "name": "朱紅玉",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97-6.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/905/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "朱光菊": {
+      "name": "朱光菊",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-04-23-102458.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/shukougiku",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "デーンモルフォ": {
+      "name": "デーンモルフォ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-09-17-091316.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/882/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "群青": {
+      "name": "群青",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/o0640048014383569743-2.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/855/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "しずく": {
+      "name": "しずく",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/06/o0640048014383569743-1.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/846/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "サボテン": {
+      "name": "サボテン",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/04/o1080072014991404961.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/792/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "久遠七星": {
+      "name": "久遠七星",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/03/o1080108015100472754-e1678412074699.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/761/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "ゼウス": {
+      "name": "ゼウス",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/02/EygWy94VoAQnFfw.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/742/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "妲己": {
+      "name": "妲己",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/01/9-1.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/631/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "明けの明星": {
+      "name": "明けの明星",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-05-133508.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/578/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "金色夜叉": {
+      "name": "金色夜叉",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/01/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-12-061520.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/556/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "改志（カイジ）、カイジ": {
+      "name": "改志（カイジ）、カイジ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2023/01/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/404/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "金華獣": {
+      "name": "金華獣",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2022/11/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97-3.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/kinkajyu",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "ふ～は～": {
+      "name": "ふ～は～",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2022/11/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-07-01-092302.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/241/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "エメキン【マリアージュロングフィンキッシング（エメラルドフィンタイプ）】": {
+      "name": "エメキン【マリアージュロングフィンキッシング（エメラルドフィンタイプ）】",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2022/11/medaka-emekin.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/emekin",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "天照": {
+      "name": "天照",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2022/10/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/176/",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "レッドクリフ": {
+      "name": "レッドクリフ",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2022/09/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97-63b8b5e928c4e.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/redcliff",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "サバ、サバの極み": {
+      "name": "サバ、サバの極み",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2021/05/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-10-10-114759.png",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/sabanokiwami",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "あけぼの": {
+      "name": "あけぼの",
+      "imageUrl": "https://hinsyu-zukan.satumano-medakayasan.com/wp-content/uploads/2021/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-10-12-054313.jpg",
+      "sourceUrl": "https://hinsyu-zukan.satumano-medakayasan.com/akebono",
+      "source": "みんなのメダカ品種図鑑",
+      "verifiedAt": "2026-11-04",
+      "note": "当該品種の記事に設定された代表写真。個体差・系統差があります。"
+    },
+    "白アルビノ出目シースルー": {
+      "name": "白アルビノ出目シースルー",
+      "imageUrl": "https://jma-medaka.com/wp-content/uploads/2024/08/jma10-scaled.jpg",
+      "sourceUrl": "https://jma-medaka.com/new-medaka-list/",
+      "source": "日本メダカ協会",
+      "note": "認定第10号「アルビノシースルー出目」の掲載画像。",
+      "verifiedAt": "2026-11-04"
+    },
+    "赤富士": {
+      "name": "赤富士",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium220g.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/453",
+      "source": "MEDAKARIUM",
+      "note": "赤富士として現物販売された個体。",
+      "verifiedAt": "2026-11-04"
+    },
+    "ヒメダカ": {
+      "name": "ヒメダカ",
+      "imageUrl": "https://www.kamihata-online.com/freepage/05gf/0004syuminomedaka/img/collect_red_img_top.png",
+      "sourceUrl": "https://www.kamihata-online.com/shop/secure/05gf0004syuminomedaka-3collect.aspx",
+      "source": "カミハタ",
+      "note": "緋メダカの紹介写真。",
+      "verifiedAt": "2026-11-04"
+    },
+    "黒龍": {
+      "name": "黒龍",
+      "imageUrl": "https://medakazukan.net/wp-content/uploads/2021/07/0094_%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E9%80%8F%E6%98%8E%E9%B1%97%E3%83%A1%E3%83%80%E3%82%AB.jpg",
+      "sourceUrl": "https://medakazukan.net/0093_blacktoumeirin/",
+      "source": "改良メダカWEB図鑑",
+      "note": "掲載記事で黒龍を呼び名として示すブラック透明鱗メダカの写真。",
+      "verifiedAt": "2026-11-04"
     }
   },
   "verifiedAt": "2026-11-03",
-  "updatedAt": "2026-11-03"
+  "updatedAt": "2026-11-04"
 }
