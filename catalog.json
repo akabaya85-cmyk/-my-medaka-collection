@@ -10579,247 +10579,266 @@
     "aliases": "",
     "traits": "ラメ、サファイア、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ラメ・白・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0748_sironisikimiyukisafaiya/",
     "webNo": "0748",
     "profile": "注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しろにしきらめみゆきさふぁいあけい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "茶出目目前",
     "aliases": "ちゃでめめまえ",
     "traits": "出目",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、出目・目前・茶の組み合わせに注目します。",
     "url": "https://medakazukan.net/0749_chademememae/",
     "webNo": "0749",
     "profile": "体色の特徴は茶系。注目したい形質は出目。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ちゃでめめまえ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "茶透明鱗出目目前",
     "aliases": "ちゃとうめいりんでめめまえ",
     "traits": "透明鱗、出目",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、透明鱗・出目・目前・茶の組み合わせに注目します。",
     "url": "https://medakazukan.net/0750_chatoumeirindemememae/",
     "webNo": "0750",
     "profile": "体色の特徴は茶系。注目したい形質は透明鱗・出目。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ちゃとうめいりんでめめまえ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "茶リアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、リアルロングフィン・茶の組み合わせに注目します。",
     "url": "https://medakazukan.net/0751_chareallongfin/",
     "webNo": "0751",
     "profile": "体色の特徴は茶系。注目したい形質はリアルロングフィン。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ちゃりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ピンクヒレ長ヒカリ",
     "aliases": "",
     "traits": "ヒレ長、ヒカリ、ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒレ長・ヒカリ・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0752_pinkhirenagahikari/",
     "webNo": "0752",
     "profile": "体色の特徴はピンク系。注目したい形質はヒレ長・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぴんくひれながひかり",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ピンクヒレ長ヒカリダルマ",
     "aliases": "",
     "traits": "ヒレ長、ダルマ、ヒカリ、ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・ヒレ長・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0753_pinkhirenagahikaridharma/",
     "webNo": "0753",
     "profile": "体色の特徴はピンク系。注目したい形質はヒレ長・ヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぴんくひれながひかりだるま",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ピンク錦スワローメラー",
     "aliases": "ぴんくにしきすわろーめらー",
     "traits": "スワロー、ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、スワロー・メラー・斑・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0754_pinknisikiswallowmerah/",
     "webNo": "0754",
     "profile": "体色の特徴はピンク系。注目したい形質は斑・スワロー。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぴんくにしきすわろーめらー",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "カイジ",
     "aliases": "",
-    "traits": "",
+    "traits": "パンダ・黄金・ブラック・黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、パンダ・黄金・ブラック・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0755_kaiji/",
     "webNo": "0755",
     "profile": "体色の特徴は黒系。注目したい形質はパンダ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "かいじ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "黒幹之ダルマ",
     "aliases": "くろみゆきだるま",
     "traits": "ダルマ、黒",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ダルマの組み合わせに注目します。",
     "url": "https://medakazukan.net/0756_kuromiyukidharma/",
     "webNo": "0756",
     "profile": "体色の特徴は黒系。注目したい形質は体外光・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "くろみゆきだるま",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ブラックダイヤ体外光",
     "aliases": "",
     "traits": "体外光",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、体外光・ラメ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0757_blackdiataigaikou/",
     "webNo": "0757",
     "profile": "注目したい形質は体外光・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぶらっくだいやたいがいこう",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ブラックモルフォ亜種",
     "aliases": "",
-    "traits": "",
+    "traits": "ヒレライン・体外光・モルフォ・ブラック",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒレライン・体外光・モルフォ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0758_blackmorphoasyu/",
     "webNo": "0758",
     "profile": "体色の特徴は黒系。注目したい形質はヒレライン・体外光・モルフォ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぶらっくもるふぉあしゅ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "水色桔梗",
     "aliases": "みずいろききょう",
-    "traits": "",
+    "traits": "体外光・ヒレ長・ラメ・ヒカリ・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ヒレ長・ラメ・ヒカリ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0759_mizuirokikyou/",
     "webNo": "0759",
     "profile": "体色の特徴は青系。注目したい形質は体外光・ラメ・ヒレ長・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "みずいろききょう",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "蒼穹",
     "aliases": "そうきゅう",
-    "traits": "",
+    "traits": "体外光・ヒレ長・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ヒレ長・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0760_soukyuu/",
     "webNo": "0760",
     "profile": "体色の特徴は青系。注目したい形質は体外光・ヒレ長。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "そうきゅう",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "トロピカルサンセット",
     "aliases": "",
-    "traits": "",
+    "traits": "体外光・体内光・アルビノ・白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・体内光・アルビノ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0762_toropicalsunset/",
     "webNo": "0762",
     "profile": "体色の特徴は白系。注目したい形質は体外光・体内光・アルビノ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "とろぴかるさんせっと",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "彗星（すいせい）Wサムライ",
     "aliases": "",
-    "traits": "",
+    "traits": "体外光・サムライ・ラメ・ヒカリ・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・サムライ・ラメ・ヒカリ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0764_suiseiwsamurai/",
     "webNo": "0764",
     "profile": "体色の特徴は青系。注目したい形質は体外光・ラメ・ヒカリ体型・サムライ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "すいせいwさむらい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "彗星半月（すいせいはんげつ）サムライ",
     "aliases": "",
-    "traits": "",
+    "traits": "体外光・サムライ・ヒレ長・ラメ・ヒカリ・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・サムライ・ヒレ長・ラメ・ヒカリ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0765_suiseihangettusamurai/",
     "webNo": "0765",
     "profile": "体色の特徴は青系。注目したい形質は体外光・ラメ・ヒレ長・ヒカリ体型・サムライ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "すいせいはんげつさむらい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "彗星",
     "aliases": "すいせい",
-    "traits": "",
+    "traits": "体外光・ラメ・ヒカリ・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ラメ・ヒカリ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0766_suisei/",
     "webNo": "0766",
     "profile": "体色の特徴は青系。注目したい形質は体外光・ラメ・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "すいせい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "彗星半月",
     "aliases": "すいせいはんげつ",
-    "traits": "",
+    "traits": "体外光・ヒレ長・ラメ・ヒカリ・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ヒレ長・ラメ・ヒカリ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0767_suiseihangetu/",
     "webNo": "0767",
     "profile": "体色の特徴は青系。注目したい形質は体外光・ラメ・ヒレ長・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "すいせいはんげつ",
-    "readingBasis": "品種の読み・出典の表記を個別補正"
+    "readingBasis": "品種の読み・出典の表記を個別補正",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "清流きりゅう体外光ヒカリダルマ",
     "aliases": "",
     "traits": "体外光、ダルマ、ヒカリ",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、ヒカリダルマ・体外光・透明鱗・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0768_seiryuukiryuutaigaikouhikaridharma/",
     "webNo": "0768",
     "profile": "体色の特徴は青系。注目したい形質は透明鱗・体外光・ヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "せいりゅうきりゅうたいがいこうひかりだるま",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "花魁",
@@ -10849,180 +10868,196 @@
     "aliases": "しらゆき",
     "traits": "白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ラメ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0770_sirayuki/",
     "webNo": "0770",
     "profile": "体色の特徴は白系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しらゆき",
-    "readingBasis": "品種の読み・出典の表記を個別補正"
+    "readingBasis": "品種の読み・出典の表記を個別補正",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "白雪ヒカリ",
     "aliases": "しらゆきひかり",
     "traits": "ヒカリ、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ラメ・ヒカリ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0771_sirayukihikari/",
     "webNo": "0771",
     "profile": "体色の特徴は白系。注目したい形質はラメ・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しらゆきひかり",
-    "readingBasis": "品種の読み・出典の表記を個別補正"
+    "readingBasis": "品種の読み・出典の表記を個別補正",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "三好系ピュアブラックメダカ",
     "aliases": "",
-    "traits": "",
+    "traits": "ブラック",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0773_miyosikeipureblack/",
     "webNo": "0773",
     "reading": "みよしけいぴゅあぶらっくめだか",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "profile": "掲載記事で確認できる外見の要素：ブラック。",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "柿色夜桜",
     "aliases": "かきいろよざくら",
-    "traits": "",
+    "traits": "半透明鱗・ラメ・オレンジ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、半透明鱗・ラメ・オレンジの組み合わせに注目します。",
     "url": "https://medakazukan.net/0774_kakiiroyozakura/",
     "webNo": "0774",
     "profile": "注目したい形質は半透明鱗・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "かきいろよざくら",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "中里系星河",
     "aliases": "なかざとけいせいが",
-    "traits": "",
+    "traits": "体外光・ラメ・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ラメ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0775_nakazatokeiseiga/",
     "webNo": "0775",
     "profile": "体色の特徴は青系。注目したい形質は体外光・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "なかざとけいせいが",
-    "readingBasis": "品種の読み・出典の表記を個別補正"
+    "readingBasis": "品種の読み・出典の表記を個別補正",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "プラチナ星河",
     "aliases": "せいが",
-    "traits": "",
+    "traits": "体外光・ラメ・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ラメ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0776_platinumseiga/",
     "webNo": "0776",
     "profile": "体色の特徴は青系。注目したい形質は体外光・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぷらちなほしかわ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "プラチナ幹之",
     "aliases": "みゆき",
-    "traits": "",
+    "traits": "体外光・青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0777_platinummiyuki/",
     "webNo": "0777",
     "profile": "体色の特徴は青系。注目したい形質は体外光。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぷらちなみゆき",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "白錦スポットラメ",
     "aliases": "",
     "traits": "ラメ、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・斑・ラメ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0778_sironisikispotlame/",
     "webNo": "0778",
     "profile": "体色の特徴は白系。注目したい形質は体外光・ラメ・斑。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しろにしきすぽっとらめ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "紅白スポットラメ",
     "aliases": "",
     "traits": "ラメ、紅白、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ラメ・朱赤・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0779_kouhakuspotlame/",
     "webNo": "0779",
     "profile": "体色の特徴は朱赤系。注目したい形質は体外光・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "こうはくすぽっとらめ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "五式typeR",
     "aliases": "ごしきたいぷあーる",
-    "traits": "",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "traits": "ブラックリム・透明鱗・朱赤・ブラック",
+    "kind": "流通名",
+    "description": "見分けるときは、ブラックリム・透明鱗・朱赤・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0780_gosikityper/",
     "webNo": "0780",
     "profile": "注目したい形質は透明鱗・ブラックリム。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ごしきたいぷあーる",
-    "readingBasis": "品種の読み・出典の表記を個別補正"
+    "readingBasis": "品種の読み・出典の表記を個別補正",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "紅白ラメ体外光",
     "aliases": "白朱赤ラメ体外光",
     "traits": "体外光、ラメ、紅白、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・ラメ・朱赤・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0781_kouhakulametaigaikou/",
     "webNo": "0781",
     "profile": "体色の特徴は白・朱赤系。注目したい形質は体外光・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "こうはくらめたいがいこう",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ホワイトモルフォ",
     "aliases": "",
-    "traits": "",
+    "traits": "体外光・モルフォ・白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、体外光・モルフォ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0782_whitemorpho/",
     "webNo": "0782",
     "profile": "体色の特徴は白系。注目したい形質は体外光・モルフォ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ほわいともるふぉ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "青ラメ体外光リアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン、体外光、ラメ、青",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、リアルロングフィン・体外光・ラメ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0783_aolametaigaikoureallongfin/",
     "webNo": "0783",
     "profile": "体色の特徴は青系。注目したい形質はリアルロングフィン・体外光・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "あおらめたいがいこうりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "モルフォリアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、リアルロングフィン・体外光・モルフォ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0784_morphoreallongfin/",
     "webNo": "0784",
     "profile": "体色の特徴は青系。注目したい形質はリアルロングフィン・体外光・モルフォ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "もるふぉりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "白錦リアルロングフィン",
@@ -11035,176 +11070,190 @@
     "profile": "体色の特徴は白系。注目したい形質はリアルロングフィン・斑。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "しろにしきりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceAttemptedAt": "2026-11-03"
   },
   {
     "name": "ブラック体外光リアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン、体外光",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、リアルロングフィン・体外光・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0786_blacktaigikoureallongfin/",
     "webNo": "0786",
     "profile": "体色の特徴は黒系。注目したい形質はリアルロングフィン・体外光・背地反応なし。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぶらっくたいがいこうりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ピンクヒカリメダカ",
     "aliases": "",
     "traits": "ヒカリ、ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリ・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0787_pinkhikari/",
     "webNo": "0787",
     "profile": "体色の特徴はピンク系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぴんくひかりめだか",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "銀河スモールアイ",
     "aliases": "",
-    "traits": "",
+    "traits": "スモールアイ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、スモールアイの組み合わせに注目します。",
     "url": "https://medakazukan.net/0788_gingasmalleye/",
     "webNo": "0788",
     "profile": "注目したい形質はヒカリ・スモールアイ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぎんがすもーるあい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "禅北辻ヒレロング",
     "aliases": "ぜんきたつじひれろんぐ",
-    "traits": "",
+    "traits": "ワイドフィン・体外光・ヒカリ・ブラック",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ワイドフィン・体外光・ヒカリ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0789_senkitatujihirelong/",
     "webNo": "0789",
     "profile": "体色の特徴は黒系。注目したい形質は体外光・ヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぜんきたつじひれろんぐ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "秋桜北辻ヒレロング",
     "aliases": "こすもすきたつじひれろんぐ",
-    "traits": "",
+    "traits": "ワイドフィン・ヒカリ・ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ワイドフィン・ヒカリ・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0790_cosmoskitatujihirelong/",
     "webNo": "0790",
     "profile": "体色の特徴はピンク系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "こすもすきたつじひれろんぐ",
-    "readingBasis": "品種の読み・出典の表記を個別補正"
+    "readingBasis": "品種の読み・出典の表記を個別補正",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "白ブラックリム透明鱗",
     "aliases": "",
     "traits": "透明鱗、ブラックリム、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ブラックリム・透明鱗・ブラック・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0791_siroblacklimtoumeirin/",
     "webNo": "0791",
     "profile": "体色の特徴は白系。注目したい形質は透明鱗・ブラックリム。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しろぶらっくりむとうめいりん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "五式（ごしき）スワローヒレ長ヒカリ",
     "aliases": "",
     "traits": "ヒレ長、スワロー、ヒカリ",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、ブラックリム・スワロー・ヒレ長・透明鱗・ヒカリ・朱赤・オレンジ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0792_gosikiswallowhirenagahikari/",
     "webNo": "0792",
     "profile": "注目したい形質は透明鱗・ブラックリム・ヒレ長・ヒカリ・スワロー。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ごしきすわろーひれながひかり",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "白ラメ幹之ブルーラメ",
     "aliases": "",
     "traits": "ラメ、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ラメ・白・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0793_sirolamemiyukibluelame/",
     "webNo": "0793",
     "profile": "体色の特徴は白系。注目したい形質はラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しろらめみゆきぶるーらめ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "秀吉スモールアイヒカリ",
     "aliases": "ひでよしすもーるあい",
     "traits": "ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、スモールアイの組み合わせに注目します。",
     "url": "https://medakazukan.net/0794_hideyosismalleye/",
     "webNo": "0794",
     "profile": "体色の特徴は黄金系。注目したい形質はヒカリ体型・スモールアイ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ひでよしすもーるあいひかり",
-    "readingBasis": "品種の読み・出典の表記を個別補正"
+    "readingBasis": "品種の読み・出典の表記を個別補正",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "白錦ヒカリダルマ",
     "aliases": "しろにしきひかりだるま",
     "traits": "ダルマ、ヒカリ、白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0795_sironisikihikaridharma/",
     "webNo": "0795",
     "profile": "体色の特徴は白系。注目したい形質は斑・ヒカリ・ダルマ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しろにしきひかりだるま",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "金鱗丸スモールアイ",
     "aliases": "きんりんまるすもーるあい",
-    "traits": "",
+    "traits": "スモールアイ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、スモールアイの組み合わせに注目します。",
     "url": "https://medakazukan.net/0796_kinrinmarusmalleye/",
     "webNo": "0796",
     "profile": "体色の特徴は黄金系。注目したい形質はダルマ・スモールアイ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "きんりんまるすもーるあい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "楊貴妃アルビノスモールアイスワロー",
     "aliases": "",
     "traits": "スワロー、アルビノ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、スモールアイ・スワロー・アルビノ・朱赤の組み合わせに注目します。",
     "url": "https://medakazukan.net/0797_yokihialbinosmalleyeswallow/",
     "webNo": "0797",
     "profile": "体色の特徴は朱赤系。注目したい形質はアルビノ・スワロー・スモールアイ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ようきひあるびのすもーるあいすわろー",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ピンクメラースワロー",
     "aliases": "",
     "traits": "スワロー、ピンク",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、スワロー・メラー・ピンクの組み合わせに注目します。",
     "url": "https://medakazukan.net/0798_pinkmerahswallow/",
     "webNo": "0798",
     "profile": "体色の特徴はピンク系。注目したい形質はスワロー。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ぴんくめらーすわろー",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "グランブルーリアルロングフィン",
@@ -11217,33 +11266,36 @@
     "profile": "体色の特徴は青系。注目したい形質はリアルロングフィン・ヒレライン・体外光。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "ぐらんぶるーりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceAttemptedAt": "2026-11-03"
   },
   {
     "name": "オーロラ黄ラメ幹之サファイア系",
     "aliases": "",
     "traits": "ラメ、オーロラ、サファイア、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、半透明鱗・ラメ・黄・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0800_aurorakilamemiyukisapphire/",
     "webNo": "0800",
     "profile": "体色の特徴は青系。注目したい形質は半透明鱗・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "おーろらきらめみゆきさふぁいあけい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "オーロララメ幹之サファイア系",
     "aliases": "",
     "traits": "ラメ、オーロラ、サファイア",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、半透明鱗・ラメ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0802_auroralamemiyukisapphire/",
     "webNo": "0802",
     "profile": "体色の特徴は青系。注目したい形質は半透明鱗・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "おーろららめみゆきさふぁいあけい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "三色ラメ幹之サファイア系",
@@ -11256,20 +11308,22 @@
     "profile": "体色の特徴は白・朱赤系。注目したい形質はラメ・斑。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "さんしょくらめみゆきさふぁいあけい",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceAttemptedAt": "2026-11-03"
   },
   {
     "name": "マリアージュキッシングワイドフィン",
     "aliases": "",
     "traits": "ワイドフィン",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ワイドフィン・ロングフィン・体外光・フサヒレ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0804_marriagekissingwidefin/",
     "webNo": "0804",
     "profile": "体色の特徴は青系。注目したい形質はロングフィン・フサヒレ・体外光。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "まりあーじゅきっしんぐわいどふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "ホワイトモルフォ亜種",
@@ -11282,7 +11336,8 @@
     "profile": "体色の特徴は白系。注目したい形質はヒレライン・体外光・モルフォ。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "ほわいともるふぉあしゅ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceAttemptedAt": "2026-11-03"
   },
   {
     "name": "紅白体外光リアルロングフィン",
@@ -11295,7 +11350,8 @@
     "profile": "体色の特徴は白・朱赤系。注目したい形質はリアルロングフィン・体外光。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "こうはくたいがいこうりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceAttemptedAt": "2026-11-03"
   },
   {
     "name": "王妃（おうひ）リアルロングフィン",
@@ -11308,7 +11364,8 @@
     "profile": "注目したい形質はリアルロングフィン・半透明鱗・体外光・アルビノ。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "おうひりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceAttemptedAt": "2026-11-03"
   },
   {
     "name": "グランブルー",
@@ -11321,124 +11378,134 @@
     "profile": "体色の特徴は青系。注目したい形質はロングフィン・ヒレライン・体外光。",
     "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
     "reading": "ぐらんぶるー",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceAttemptedAt": "2026-11-03"
   },
   {
     "name": "オロチヒカリダルマ",
     "aliases": "",
     "traits": "ダルマ、ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリダルマ・パンダ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0809_orochihikaridharma/",
     "webNo": "0809",
     "profile": "体色の特徴は黒系。注目したい形質はヒカリ・ダルマ・パンダ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "おろちひかりだるま",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "シルキー北辻ヒレロング",
     "aliases": "",
-    "traits": "",
+    "traits": "ワイドフィン・白",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ワイドフィン・白の組み合わせに注目します。",
     "url": "https://medakazukan.net/0810_silkykitatujihireling/",
     "webNo": "0810",
     "profile": "体色の特徴は白系。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しるきーきたつじひれろんぐ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "黄金北辻ヒレロングヒカリ",
     "aliases": "",
     "traits": "ヒカリ、黄金、黄",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ワイドフィン・ヒカリ・黄金・黄の組み合わせに注目します。",
     "url": "https://medakazukan.net/0811_ougonkitatujihirelong/",
     "webNo": "0811",
     "profile": "体色の特徴は黄金系。注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "おうごんきたつじひれろんぐひかり",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "朱赤透明鱗北辻ヒレロング",
     "aliases": "",
     "traits": "透明鱗、朱赤",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ワイドフィン・透明鱗・朱赤の組み合わせに注目します。",
     "url": "https://medakazukan.net/0812_syuakatoumeirinkitatujihirelong/",
     "webNo": "0812",
     "profile": "体色の特徴は朱赤系。注目したい形質は透明鱗。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "しゅあかとうめいりんきたつじひれろんぐ",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "青リアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン、青",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、リアルロングフィン・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0814_aoreallongfin/",
     "webNo": "0814",
     "profile": "体色の特徴は青系。注目したい形質はリアルロングフィン。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "あおりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "星河リアルロングフィン",
     "aliases": "",
     "traits": "リアルロングフィン、ロングフィン",
-    "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "kind": "流通名",
+    "description": "見分けるときは、リアルロングフィン・ラメ・青の組み合わせに注目します。",
     "url": "https://medakazukan.net/0815_seigareallongfin/",
     "webNo": "0815",
     "profile": "体色の特徴は青系。注目したい形質はリアルロングフィン・ラメ。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "ほしかわりあるろんぐふぃん",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "エメラルルドフィンヒカリ",
     "aliases": "",
     "traits": "ヒカリ",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、ヒカリの組み合わせに注目します。",
     "url": "https://medakazukan.net/0816_emeraldfinhikari/",
     "webNo": "0816",
     "profile": "注目したい形質はヒカリ体型。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "えめらるるどふぃんひかり",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "女雛スワロー",
     "aliases": "めびなすわろー",
     "traits": "スワロー",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、半透明鱗・スワロー・オレンジの組み合わせに注目します。",
     "url": "https://medakazukan.net/0817_mebinaswallow/",
     "webNo": "0817",
     "profile": "注目したい形質は半透明鱗・スワロー。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "めびなすわろー",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "女雛体外光スワロー",
     "aliases": "めびなたいがいこうすわろー",
     "traits": "体外光、スワロー",
     "kind": "WEB図鑑掲載名（区分は要確認）",
-    "description": "詳しい系統や特徴は出典記事をご確認ください。",
+    "description": "見分けるときは、半透明鱗・体外光・スワロー・オレンジ・ブラックの組み合わせに注目します。",
     "url": "https://medakazukan.net/0818_mebinataigaikouswallow/",
     "webNo": "0818",
     "profile": "注目したい形質は半透明鱗・体外光・スワロー。",
-    "profileBasis": "WEB図鑑の記事概要から抽出した外見上の特徴",
+    "profileBasis": "改良メダカWEB図鑑の記事概要から形質キーワードを整理（2026-11-03確認）",
     "reading": "めびなたいがいこうすわろー",
-    "readingBasis": "よみがな検索用（自動推定・要確認）"
+    "readingBasis": "よみがな検索用（自動推定・要確認）",
+    "sourceCheckedAt": "2026-11-03"
   },
   {
     "name": "五式（ごしき）スワロー",
@@ -18552,7 +18619,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "こうぎょくえぼりゅーしょん",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "ウロボロス漆黒",
@@ -18567,7 +18636,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "うろぼろすしつくろ",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "豆紅エボリューション",
@@ -18582,7 +18653,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "まめくれないえぼりゅーしょん",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "和墨星ラメ三色",
@@ -18597,7 +18670,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "わすみほしらめさんしょく",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "金蒼龍鱗",
@@ -18612,7 +18687,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "きんそうりゅううろこ",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "蒼龍鱗",
@@ -18627,7 +18704,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "そうりゅううろこ",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "ブラックエンゼル",
@@ -18642,7 +18721,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "ぶらっくえんぜる",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "サンセットダイヤ",
@@ -18657,7 +18738,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "さんせっとだいや",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "金華龍",
@@ -18672,7 +18755,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "きんかりゅう",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "鬼神",
@@ -18687,7 +18772,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "きじん",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "桔梗菊ブルー",
@@ -18702,7 +18789,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "ききょうきくぶるー",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "アトラスブループピラ",
@@ -18717,7 +18806,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "あとらすぶるーぷぴら",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "過背金龍",
@@ -18732,7 +18823,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "かせきんりゅう",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "誾千代",
@@ -18747,7 +18840,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "だい",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "桔梗菊ブラック",
@@ -18762,7 +18857,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "ききょうきくぶらっく",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "金箔和墨",
@@ -18777,7 +18874,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "きんぱくわすみ",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "ネメシス",
@@ -18792,7 +18891,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "ねめしす",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "クリスタルブラック",
@@ -18807,7 +18908,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "くりすたるぶらっく",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "アハルテケホワイトゴールド",
@@ -18822,7 +18925,9 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "あはるてけほわいとごーるど",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "トリトン",
@@ -18837,6 +18942,8 @@
         "note": "当該名称の掲載写真を照合"
       }
     ],
-    "sourceCheckedAt": "2026-11-03"
+    "sourceCheckedAt": "2026-11-03",
+    "reading": "とりとん",
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   }
 ]
