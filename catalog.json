@@ -17398,5 +17398,815 @@
         "note": "白銀色・墨模様・グロウボディの参考"
       }
     ]
+  },
+  {
+    "name": "さくら半ダルマ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ・半ダルマ",
+    "description": "めだかの館が「さくら半ダルマ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194303819",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜さくら半ダルマ 【現物】　オス1匹メス1匹　サイズM〜L　EN0315",
+        "url": "https://www.medakanoyakata.jp/?pid=194303819",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "黄和墨",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「黄和墨」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194303817",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜黄和墨 【現物】　オス1匹メス1匹　サイズM〜L　EN0313",
+        "url": "https://www.medakanoyakata.jp/?pid=194303817",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ピンクサファイアNEO半ダルマ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ・半ダルマ",
+    "description": "めだかの館が「ピンクサファイアNEO半ダルマ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194303816",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ピンクサファイアNEO半ダルマ 【現物】　オス1匹メス1匹　サイズM〜L　EN0312",
+        "url": "https://www.medakanoyakata.jp/?pid=194303816",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "モルフォ桔梗〜紫〜",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「モルフォ桔梗〜紫〜」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194303806",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜モルフォ桔梗〜紫〜 【現物】　オス1匹メス1匹　サイズL　EN0302",
+        "url": "https://www.medakanoyakata.jp/?pid=194303806",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "オレンジブチラメ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ラメ",
+    "description": "めだかの館が「オレンジブチラメ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239167",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜オレンジブチラメ 【現物】　オス3匹メス4匹　サイズL　EC3019",
+        "url": "https://www.medakanoyakata.jp/?pid=194239167",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "三色パンダ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「三色パンダ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239166",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜三色パンダ 【現物】　オス2匹メス2匹　サイズM〜L　EC3018",
+        "url": "https://www.medakanoyakata.jp/?pid=194239166",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "青黄金ラメロングフィン",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ラメ・ロングフィン",
+    "description": "めだかの館が「青黄金ラメロングフィン」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239163",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜青黄金ラメロングフィン 【現物】　オス1匹メス2匹　サイズM〜L　EC3016",
+        "url": "https://www.medakanoyakata.jp/?pid=194239163",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "さくらダルマ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ",
+    "description": "めだかの館が「さくらダルマ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239156",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜さくらダルマ 【現物】　オス1匹メス1匹　サイズM〜L　EC3012",
+        "url": "https://www.medakanoyakata.jp/?pid=194239156",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "クム",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「クム」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239152",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜クム 【現物】　オス1匹メス2匹　サイズM〜L　EC3010",
+        "url": "https://www.medakanoyakata.jp/?pid=194239152",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "銀帯紅",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「銀帯紅」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239148",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜銀帯紅 【現物】　オス1匹メス1匹　サイズM〜L　EC3008",
+        "url": "https://www.medakanoyakata.jp/?pid=194239148",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "楊貴妃ラメヒレ長",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ラメ・ヒレ長",
+    "description": "めだかの館が「楊貴妃ラメヒレ長」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239147",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜楊貴妃ラメヒレ長 【現物】　オス2匹メス2匹　サイズL　EC3007",
+        "url": "https://www.medakanoyakata.jp/?pid=194239147",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "レッドネプチューン",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「レッドネプチューン」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239144",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜レッドネプチューン 【現物】　オス2匹メス2匹　サイズM〜L　EC3005",
+        "url": "https://www.medakanoyakata.jp/?pid=194239144",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "桜餅",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「桜餅」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194239140",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜桜餅 【現物】　オス2匹メス2匹　サイズM〜L　EC3002",
+        "url": "https://www.medakanoyakata.jp/?pid=194239140",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "黄金ヒカリ（ショート）",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート・ヒカリ",
+    "description": "めだかの館が「黄金ヒカリ（ショート）」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194222042",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜黄金ヒカリ（ショート） 【現物】　オス2匹メス3匹　サイズM〜L　EC2910",
+        "url": "https://www.medakanoyakata.jp/?pid=194222042",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "レクリス（ショート・半ダルマ）",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ・半ダルマ・ショート",
+    "description": "めだかの館が「レクリス（ショート・半ダルマ）」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194221762",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜レクリス（ショート・半ダルマ） 【現物】　オス3匹メス3匹　サイズM〜L　EC2902",
+        "url": "https://www.medakanoyakata.jp/?pid=194221762",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "黒百式 ショート",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート",
+    "description": "めだかの館が「黒百式 ショート」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194203217",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜黒百式 ショート 【現物】　オス1匹メス2匹　サイズM〜L　EC2815",
+        "url": "https://www.medakanoyakata.jp/?pid=194203217",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "サンシャインカガミ鱗",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "カガミ鱗",
+    "description": "めだかの館が「サンシャインカガミ鱗」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194203157",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜サンシャインカガミ鱗 【現物】　オス2匹メス2匹　サイズL　EC2810",
+        "url": "https://www.medakanoyakata.jp/?pid=194203157",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ブラックレーヴ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「ブラックレーヴ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194203044",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ブラックレーヴ 【現物】　オス1匹メス1匹　サイズM〜L　EC2805",
+        "url": "https://www.medakanoyakata.jp/?pid=194203044",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "レクリスダルマ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ",
+    "description": "めだかの館が「レクリスダルマ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194203036",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜レクリスダルマ 【現物】　オス1匹メス3匹　サイズL　EC2804",
+        "url": "https://www.medakanoyakata.jp/?pid=194203036",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "凛",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「凛」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194203025",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜凛 【現物】　オス1匹メス1匹　サイズL　EC2802",
+        "url": "https://www.medakanoyakata.jp/?pid=194203025",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "晴信ブルーアイ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「晴信ブルーアイ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194203012",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜晴信ブルーアイ 【現物】　オス1匹メス1匹　サイズL　EC2801",
+        "url": "https://www.medakanoyakata.jp/?pid=194203012",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "扇墨",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「扇墨」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194104973",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜扇墨 【現物】　オス2匹メス2匹　サイズL　EC2305",
+        "url": "https://www.medakanoyakata.jp/?pid=194104973",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ホワイトネプチューンショート",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート",
+    "description": "めだかの館が「ホワイトネプチューンショート」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194069411",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ホワイトネプチューンショート 【現物】　オス3匹メス3匹　サイズM〜L　EC2006",
+        "url": "https://www.medakanoyakata.jp/?pid=194069411",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "碧",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「碧」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194069407",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜碧 【現物】　オス3匹メス3匹　サイズM〜L　EC2003",
+        "url": "https://www.medakanoyakata.jp/?pid=194069407",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "みかん系三色ラメ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ラメ",
+    "description": "めだかの館が「みかん系三色ラメ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194051431",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜みかん系三色ラメ 【現物】　オス2匹メス4匹　サイズM〜L　EC1914",
+        "url": "https://www.medakanoyakata.jp/?pid=194051431",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ピュアブラック",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「ピュアブラック」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194050476",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ピュアブラック 【現物】　オス1匹メス1匹　サイズM〜L　EC1904",
+        "url": "https://www.medakanoyakata.jp/?pid=194050476",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "紅白透明鱗",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "透明鱗",
+    "description": "めだかの館が「紅白透明鱗」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194031906",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜紅白透明鱗 【現物】　オス2匹メス2匹　サイズL　EC1810",
+        "url": "https://www.medakanoyakata.jp/?pid=194031906",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "如水〜蒼銀〜",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「如水〜蒼銀〜」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194031841",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜如水〜蒼銀〜 【現物】　オス1匹メス1匹　サイズM〜L　EC0510",
+        "url": "https://www.medakanoyakata.jp/?pid=194031841",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ブドウ目アルビノ幹之",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "アルビノ",
+    "description": "めだかの館が「ブドウ目アルビノ幹之」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194023305",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ブドウ目アルビノ幹之 【現物】　オス2匹メス2匹　サイズM〜L　EC1710",
+        "url": "https://www.medakanoyakata.jp/?pid=194023305",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "オレンジオーロラ半ダルマ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ・半ダルマ",
+    "description": "めだかの館が「オレンジオーロラ半ダルマ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194013741",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜オレンジオーロラ半ダルマ 【現物】　オス2匹メス3匹　サイズL　EC1667",
+        "url": "https://www.medakanoyakata.jp/?pid=194013741",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ホワイトマリアージュ（ショート）",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート",
+    "description": "めだかの館が「ホワイトマリアージュ（ショート）」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194013716",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ホワイトマリアージュ（ショート） 【現物】　オス2匹メス3匹　サイズM〜L　EC1663",
+        "url": "https://www.medakanoyakata.jp/?pid=194013716",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "楊貴妃半ダルマ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ・半ダルマ",
+    "description": "めだかの館が「楊貴妃半ダルマ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=194013648",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜楊貴妃半ダルマ 【現物】　オス2匹メス2匹　サイズM〜L　EC1658",
+        "url": "https://www.medakanoyakata.jp/?pid=194013648",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "フロストイエローワイドフィン",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ワイドフィン",
+    "description": "めだかの館が「フロストイエローワイドフィン」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193994517",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜フロストイエローワイドフィン 【現物】　オス1匹メス1匹　サイズM〜L　EC1631",
+        "url": "https://www.medakanoyakata.jp/?pid=193994517",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "曜変天目スワロー",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "スワロー",
+    "description": "めだかの館が「曜変天目スワロー」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193994514",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜曜変天目スワロー 【現物】　オス1匹メス1匹　サイズM〜L　EC1628",
+        "url": "https://www.medakanoyakata.jp/?pid=193994514",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "マーメイドパール",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「マーメイドパール」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193976118",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜マーメイドパール 【現物】　オス2匹メス2匹　サイズM〜L　EC1502",
+        "url": "https://www.medakanoyakata.jp/?pid=193976118",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "出目楊貴妃ショート",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート・出目",
+    "description": "めだかの館が「出目楊貴妃ショート」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193966678",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜出目楊貴妃ショート 【現物】　オス2匹メス2匹　サイズL　EC1404",
+        "url": "https://www.medakanoyakata.jp/?pid=193966678",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "碧Da",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「碧Da」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193966675",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜碧Da 【現物】　オス2匹メス2匹　サイズM　EC1401",
+        "url": "https://www.medakanoyakata.jp/?pid=193966675",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "黄和墨ヒレ長",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ヒレ長",
+    "description": "めだかの館が「黄和墨ヒレ長」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193947995",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜黄和墨ヒレ長 【現物】　オス2匹メス2匹　サイズL　EC1312",
+        "url": "https://www.medakanoyakata.jp/?pid=193947995",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "イエローマリアージュショート",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート",
+    "description": "めだかの館が「イエローマリアージュショート」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193947989",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜イエローマリアージュショート 【現物】　オス1匹メス1匹　サイズM〜L　EC1306",
+        "url": "https://www.medakanoyakata.jp/?pid=193947989",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ピンクリアルロングフィン",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ロングフィン",
+    "description": "めだかの館が「ピンクリアルロングフィン」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193924980",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ピンクリアルロングフィン 【現物】　オス1匹　サイズL　EC1203",
+        "url": "https://www.medakanoyakata.jp/?pid=193924980",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "レクリス半ダルマ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ・半ダルマ",
+    "description": "めだかの館が「レクリス半ダルマ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193924978",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜レクリス半ダルマ 【現物】　オス1匹メス1匹　サイズL　EC1201",
+        "url": "https://www.medakanoyakata.jp/?pid=193924978",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "黄金透明鱗スモールアイ",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "透明鱗・スモールアイ",
+    "description": "めだかの館が「黄金透明鱗スモールアイ」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193915001",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜黄金透明鱗スモールアイ 【現物】　オス1匹メス1匹　サイズM〜L　EC1009",
+        "url": "https://www.medakanoyakata.jp/?pid=193915001",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "出目楊貴妃パンダ（ショート・半ダルマ）",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ・半ダルマ・ショート・出目",
+    "description": "めだかの館が「出目楊貴妃パンダ（ショート・半ダルマ）」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193914992",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜出目楊貴妃パンダ（ショート・半ダルマ） 【現物】　オス2匹メス2匹　サイズM〜L　EC1001",
+        "url": "https://www.medakanoyakata.jp/?pid=193914992",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ネプチューンショート",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート",
+    "description": "めだかの館が「ネプチューンショート」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193866989",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ネプチューンショート 【現物】　オス2匹メス3匹　サイズM〜L　EC0707",
+        "url": "https://www.medakanoyakata.jp/?pid=193866989",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ローズジュエルキッシングワイドフィン",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ワイドフィン",
+    "description": "めだかの館が「ローズジュエルキッシングワイドフィン」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193866986",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ローズジュエルキッシングワイドフィン 【現物】　オス2匹メス2匹　サイズM〜L　EC0704",
+        "url": "https://www.medakanoyakata.jp/?pid=193866986",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ブラック黄金リアルロングフィン",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ロングフィン",
+    "description": "めだかの館が「ブラック黄金リアルロングフィン」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193855917",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ブラック黄金リアルロングフィン 【現物】　オス1匹メス2匹　サイズM〜L　EC0602",
+        "url": "https://www.medakanoyakata.jp/?pid=193855917",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "ピンクサファイアNEO（ショート）",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート",
+    "description": "めだかの館が「ピンクサファイアNEO（ショート）」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193855913",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜ピンクサファイアNEO（ショート） 【現物】　オス2匹メス2匹　サイズM〜L　EC0649",
+        "url": "https://www.medakanoyakata.jp/?pid=193855913",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "神紅玉錦",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「神紅玉錦」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193799207",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜神紅玉錦 【現物】　オス2匹メス2匹　サイズM　EC0418",
+        "url": "https://www.medakanoyakata.jp/?pid=193799207",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "緑光ナローフィン",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「緑光ナローフィン」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193747539",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜緑光ナローフィン 【現物】　オス2匹メス2匹　サイズM〜L　ES3008",
+        "url": "https://www.medakanoyakata.jp/?pid=193747539",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "楊貴妃半ダルマヒレ長",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ダルマ・半ダルマ・ヒレ長",
+    "description": "めだかの館が「楊貴妃半ダルマヒレ長」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193747537",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜楊貴妃半ダルマヒレ長 【現物】　オス2匹メス2匹　サイズM〜L　ES3006",
+        "url": "https://www.medakanoyakata.jp/?pid=193747537",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "さくら（ショート）",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "ショート",
+    "description": "めだかの館が「さくら（ショート）」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193557412",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜さくら（ショート） 【現物】　オス1匹メス1匹　サイズL　ES1827",
+        "url": "https://www.medakanoyakata.jp/?pid=193557412",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "如水（普通体型）",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「如水（普通体型）」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193487356",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜如水（普通体型） 【現物】　オス1匹メス1匹　サイズM〜L　ES1205",
+        "url": "https://www.medakanoyakata.jp/?pid=193487356",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "令和サファイア",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「令和サファイア」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=193465638",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜令和サファイア 【現物】　オス2匹メス3匹　サイズM〜L　ES1015",
+        "url": "https://www.medakanoyakata.jp/?pid=193465638",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
+  },
+  {
+    "name": "如水〜銀白〜",
+    "kind": "販売掲載名（派生系統・体型名を含む）",
+    "traits": "販売名確認",
+    "description": "めだかの館が「如水〜銀白〜」として掲載した個体・系統。掲載名に対応する実物写真を参照。流通名・体型による区分を含み、独立した認定品種数を示すものではありません。",
+    "url": "https://www.medakanoyakata.jp/?pid=183059688",
+    "sourceCheckedAt": "2026-11-03",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜如水〜銀白〜 オス1匹・メス1匹　サイズM〜L　COZ01",
+        "url": "https://www.medakanoyakata.jp/?pid=183059688",
+        "note": "当該販売名と同じ商品枠の写真を照合"
+      }
+    ]
   }
 ]

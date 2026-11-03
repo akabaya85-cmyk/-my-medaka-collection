@@ -5283,6 +5283,446 @@
     "如水～銀白～": {
       "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/183059688.jpg?cmsp_timestamp=20241014105021",
       "sourceUrl": "https://www.medakanoyakata.jp/?pid=183059688"
+    },
+    "さくら半ダルマ": {
+      "name": "さくら半ダルマ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194303819_th.jpg?cmsp_timestamp=20261103172624",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194303819",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "黄和墨": {
+      "name": "黄和墨",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194303817_th.jpg?cmsp_timestamp=20261103172550",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194303817",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ピンクサファイアNEO半ダルマ": {
+      "name": "ピンクサファイアNEO半ダルマ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194303816_th.jpg?cmsp_timestamp=20261103172534",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194303816",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "黄金透明鱗ヒカリメダカ": {
+      "name": "黄金透明鱗ヒカリメダカ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194303810_th.jpg?cmsp_timestamp=20261103172319",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194303810",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "モルフォ桔梗〜紫〜": {
+      "name": "モルフォ桔梗〜紫〜",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194303806_th.jpg?cmsp_timestamp=20261103172128",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194303806",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "オレンジブチラメ": {
+      "name": "オレンジブチラメ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239167_th.jpg?cmsp_timestamp=20261030164825",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239167",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "三色パンダ": {
+      "name": "三色パンダ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239166_th.jpg?cmsp_timestamp=20261030164811",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239166",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "青黄金ラメロングフィン": {
+      "name": "青黄金ラメロングフィン",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239163_th.jpg?cmsp_timestamp=20261030164730",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239163",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "さくらダルマ": {
+      "name": "さくらダルマ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239156_th.jpg?cmsp_timestamp=20261030164619",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239156",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "クム": {
+      "name": "クム",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239152_th.jpg?cmsp_timestamp=20261030164545",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239152",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "銀帯紅": {
+      "name": "銀帯紅",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239148_th.jpg?cmsp_timestamp=20261030164509",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239148",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "楊貴妃ラメヒレ長": {
+      "name": "楊貴妃ラメヒレ長",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239147_th.jpg?cmsp_timestamp=20261030164454",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239147",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "レッドネプチューン": {
+      "name": "レッドネプチューン",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239144_th.jpg?cmsp_timestamp=20261030164142",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239144",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "桜餅": {
+      "name": "桜餅",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194239140_th.jpg?cmsp_timestamp=20261030164055",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194239140",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "黄金ヒカリ（ショート）": {
+      "name": "黄金ヒカリ（ショート）",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194222042_th.jpg?cmsp_timestamp=20261029174644",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194222042",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "レクリス（ショート・半ダルマ）": {
+      "name": "レクリス（ショート・半ダルマ）",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194221762_th.jpg?cmsp_timestamp=20261029173527",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194221762",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "黒百式 ショート": {
+      "name": "黒百式 ショート",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194203217_th.jpg?cmsp_timestamp=20261028171833",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194203217",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "サンシャインカガミ鱗": {
+      "name": "サンシャインカガミ鱗",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194203157_th.jpg?cmsp_timestamp=20261028171306",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194203157",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ブラックレーヴ": {
+      "name": "ブラックレーヴ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194203044_th.jpg?cmsp_timestamp=20261028170330",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194203044",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "レクリスダルマ": {
+      "name": "レクリスダルマ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194203036_th.jpg?cmsp_timestamp=20261028170224",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194203036",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "凛": {
+      "name": "凛",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194203025_th.jpg?cmsp_timestamp=20261028170020",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194203025",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "晴信ブルーアイ": {
+      "name": "晴信ブルーアイ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194203012_th.jpg?cmsp_timestamp=20261028165851",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194203012",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "扇墨": {
+      "name": "扇墨",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194104973_th.jpg?cmsp_timestamp=20261022173252",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194104973",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ホワイトネプチューンショート": {
+      "name": "ホワイトネプチューンショート",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194069411_th.jpg?cmsp_timestamp=20261020182053",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194069411",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "碧": {
+      "name": "碧",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194069407_th.jpg?cmsp_timestamp=20261020182010",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194069407",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "みかん系三色ラメ": {
+      "name": "みかん系三色ラメ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194051431_th.jpg?cmsp_timestamp=20261019175634",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194051431",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ピュアブラック": {
+      "name": "ピュアブラック",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194050476_th.jpg?cmsp_timestamp=20261019170808",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194050476",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "紅白透明鱗": {
+      "name": "紅白透明鱗",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194031906_th.jpg?cmsp_timestamp=20261018182324",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194031906",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "如水〜蒼銀〜": {
+      "name": "如水〜蒼銀〜",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194031841_th.jpg?cmsp_timestamp=20261018181535",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194031841",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ブドウ目アルビノ幹之": {
+      "name": "ブドウ目アルビノ幹之",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194023305_th.jpg?cmsp_timestamp=20261017165046",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194023305",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "オレンジオーロラ半ダルマ": {
+      "name": "オレンジオーロラ半ダルマ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194013741_th.jpg?cmsp_timestamp=20261016171932",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194013741",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ホワイトマリアージュ（ショート）": {
+      "name": "ホワイトマリアージュ（ショート）",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194013716_th.jpg?cmsp_timestamp=20261016171716",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194013716",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "楊貴妃半ダルマ": {
+      "name": "楊貴妃半ダルマ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/194013648_th.jpg?cmsp_timestamp=20261016171210",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=194013648",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "フロストイエローワイドフィン": {
+      "name": "フロストイエローワイドフィン",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193994517_th.jpg?cmsp_timestamp=20261016043632",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193994517",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "曜変天目スワロー": {
+      "name": "曜変天目スワロー",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193994514_th.jpg?cmsp_timestamp=20261016043623",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193994514",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "マーメイドパール": {
+      "name": "マーメイドパール",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193976118_th.jpg?cmsp_timestamp=20261015115329",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193976118",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "出目楊貴妃ショート": {
+      "name": "出目楊貴妃ショート",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193966678_th.jpg?cmsp_timestamp=20261014155827",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193966678",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "碧Da": {
+      "name": "碧Da",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193966675_th.jpg?cmsp_timestamp=20261014155740",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193966675",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "黄和墨ヒレ長": {
+      "name": "黄和墨ヒレ長",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193947995_th.jpg?cmsp_timestamp=20261013175649",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193947995",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "イエローマリアージュショート": {
+      "name": "イエローマリアージュショート",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193947989_th.jpg?cmsp_timestamp=20261013175511",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193947989",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ピンクリアルロングフィン": {
+      "name": "ピンクリアルロングフィン",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193924980_th.jpg?cmsp_timestamp=20261011233316",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193924980",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "レクリス半ダルマ": {
+      "name": "レクリス半ダルマ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193924978_th.jpg?cmsp_timestamp=20261011233249",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193924978",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "黄金透明鱗スモールアイ": {
+      "name": "黄金透明鱗スモールアイ",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193915001_th.jpg?cmsp_timestamp=20261010182947",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193915001",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "出目楊貴妃パンダ（ショート・半ダルマ）": {
+      "name": "出目楊貴妃パンダ（ショート・半ダルマ）",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193914992_th.jpg?cmsp_timestamp=20261010182724",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193914992",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ネプチューンショート": {
+      "name": "ネプチューンショート",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193866989_th.jpg?cmsp_timestamp=20261007175147",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193866989",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ローズジュエルキッシングワイドフィン": {
+      "name": "ローズジュエルキッシングワイドフィン",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193866986_th.jpg?cmsp_timestamp=20261007175102",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193866986",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ブラック黄金リアルロングフィン": {
+      "name": "ブラック黄金リアルロングフィン",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193855917_th.jpg?cmsp_timestamp=20261006182030",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193855917",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "ピンクサファイアNEO（ショート）": {
+      "name": "ピンクサファイアNEO（ショート）",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193855913_th.jpg?cmsp_timestamp=20261006181918",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193855913",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "神紅玉錦": {
+      "name": "神紅玉錦",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193799207_th.jpg?cmsp_timestamp=20261003080514",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193799207",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "緑光ナローフィン": {
+      "name": "緑光ナローフィン",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193747539_th.jpg?cmsp_timestamp=20260930173153",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193747539",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "楊貴妃半ダルマヒレ長": {
+      "name": "楊貴妃半ダルマヒレ長",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193747537_th.jpg?cmsp_timestamp=20260930172934",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193747537",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "さくら（ショート）": {
+      "name": "さくら（ショート）",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193557412_th.jpg?cmsp_timestamp=20260916202509",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193557412",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "如水（普通体型）": {
+      "name": "如水（普通体型）",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193487356_th.jpg?cmsp_timestamp=20260912165158",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193487356",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "令和サファイア": {
+      "name": "令和サファイア",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/193465638_th.jpg?cmsp_timestamp=20260910172022",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=193465638",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
+    },
+    "如水〜銀白〜": {
+      "name": "如水〜銀白〜",
+      "imageUrl": "https://img14.shop-pro.jp/PA01303/264/product/183059688_th.jpg?cmsp_timestamp=20241014105021",
+      "sourceUrl": "https://www.medakanoyakata.jp/?pid=183059688",
+      "source": "めだかの館",
+      "verifiedAt": "2026-11-03",
+      "note": "現在の商品一覧に掲載された写真。販売名に対応する個体例。"
     }
   },
   "external": {
