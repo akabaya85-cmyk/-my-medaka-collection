@@ -7425,8 +7425,26 @@
       "source": "改良メダカWEB図鑑",
       "note": "掲載記事で黒龍を呼び名として示すブラック透明鱗メダカの写真。",
       "verifiedAt": "2026-11-04"
+    },
+    "ラディウス": {
+      "name": "ラディウス",
+      "imageUrl": "https://stat.ameba.jp/user_images/20220422/22/waterhouseact2/1b/b3/j/o1080081015106784574.jpg?caw=800",
+      "sourceUrl": "https://ameblo.jp/waterhouseact2/entry-12740443255.html",
+      "source": "よこはま金魚本店",
+      "verifiedAt": "2026-11-07",
+      "note": "店舗記事のラディウスSグレード1。色柄・体外光には個体差があります。",
+      "gallery": [
+        {
+          "imageUrl": "https://stat.ameba.jp/user_images/20220422/22/waterhouseact2/af/0d/j/o1080081015106784562.jpg?caw=800",
+          "note": "同記事のラディウスSグレード2。"
+        },
+        {
+          "imageUrl": "https://stat.ameba.jp/user_images/20220422/22/waterhouseact2/45/d3/j/o1080081015106784579.jpg?caw=800",
+          "note": "同記事のラディウスAグレード。"
+        }
+      ]
     }
   },
   "verifiedAt": "2026-11-03",
-  "updatedAt": "2026-11-04"
+  "updatedAt": "2026-11-07"
 }

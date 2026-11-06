@@ -21,13 +21,13 @@
   function isAllowedSupplementalImage(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','shop.r10s.jp','public.muragon.com','www.hime-medaka.com','jma-medaka.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
+      return u.protocol==='https:' && ['stat.ameba.jp','ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','shop.r10s.jp','public.muragon.com','www.hime-medaka.com','jma-medaka.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSupplementalSource(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','item.rakuten.co.jp','medakanoyakata.muragon.com','www.hime-medaka.com','jma-medaka.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
+      return u.protocol==='https:' && ['ameblo.jp','ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','item.rakuten.co.jp','medakanoyakata.muragon.com','www.hime-medaka.com','jma-medaka.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSource(value) {
@@ -71,6 +71,7 @@
        isAllowedSupplementalSource(external.sourceUrl)) {
       found.push({imageUrl:external.imageUrl,sourceUrl:external.sourceUrl,
                   source:external.source||'専門店の品種写真',note:external.note||'',ambiguous:false});
+      for(const extra of (Array.isArray(external.gallery)?external.gallery:[]).slice(0,5)){if(isAllowedSupplementalImage(extra.imageUrl))found.push({imageUrl:extra.imageUrl,sourceUrl:external.sourceUrl,source:external.source||'専門店の品種写真',note:extra.note||'',ambiguous:false})}
     }
     const linkedNo=entry.webNo||entry.sourceArticleNo;
     const web=linkedNo && index.photos?.[String(linkedNo).padStart(4,'0')];
@@ -261,6 +262,7 @@
         a.target='_blank';
         a.rel='noopener noreferrer';
         li.append(a);
+        if(verified.length>1&&item.imageUrl!==photo?.imageUrl){const image=document.createElement('img');image.src=item.imageUrl;image.alt=entry.name+'：'+item.source+'の掲載写真';image.loading='lazy';image.referrerPolicy='no-referrer';image.style.cssText='display:block;max-width:100%;max-height:360px;object-fit:contain;margin:10px auto';li.append(image)}
         if(item.note){const note=document.createElement('p');note.className='hint';note.textContent=item.note;li.append(note)}
         list.append(li);
       }
