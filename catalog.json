@@ -19102,5 +19102,33 @@
         "note": "販売者の公開投稿でヒレの伸長を説明。"
       }
     ]
+  },
+  {
+    "name": "Mamoru",
+    "reading": "まもる",
+    "aliases": "マモル、まもる",
+    "kind": "流通名",
+    "traits": "出目・目前・水泡眼",
+    "description": "めだかの館が2023年に作出した、出目・目前・水泡眼を組み合わせた系統。出目目前透明鱗とHitomiの交配に由来する。左右の目の突出、前を向く角度、水泡の大きさを上見でも確認すると特徴が分かりやすい。",
+    "profile": "見比べるポイントは、両目が出ていること、両目が前を向くこと、左右の水泡の大きさ。公式記事では特徴が揃わない個体をMamoruの兄弟魚として区別しているため、同系統の兄弟魚と完成表現の個体を分けて見る。",
+    "profileBasis": "めだかの館の公式品種紹介（2023年9月14日）と初販売記事（2023年12月10日）を確認し、独自に要約。",
+    "sourceBreeder": "和田敏拓（めだかの館）",
+    "sourceYear": "2023",
+    "sourceNickname": "Mamoru",
+    "url": "https://medakanoyakata.muragon.com/entry/1489.html",
+    "sourceCheckedAt": "2026-11-13",
+    "readingBasis": "公式記事のMamoru（マモル）表記を確認",
+    "referenceLinks": [
+      {
+        "label": "めだかの館｜Mamoruの特徴・交配・選別点",
+        "url": "https://medakanoyakata.muragon.com/entry/1489.html",
+        "note": "横見・上見の実物写真と、兄弟魚との区別を掲載。"
+      },
+      {
+        "label": "めだかの館｜Mamoru初販売",
+        "url": "https://medakanoyakata.muragon.com/entry/1576.html",
+        "note": "2023年12月10日の初販売案内。"
+      }
+    ]
   }
 ]

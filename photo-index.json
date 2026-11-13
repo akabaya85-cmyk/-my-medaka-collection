@@ -7452,6 +7452,23 @@
       "note": "本人が「ティンクのオス」と明記した個体例。由来説明のInstagram動画は別系統シルフのため代用していません。",
       "verifiedAt": "2026-11-13",
       "verifiedBy": "exact-name-caption-and-image-inspection"
+    },
+    "Mamoru": {
+      "name": "Mamoru",
+      "imageUrl": "https://public.muragon.com/jisjomo8/wry9l75i/resize/640x427.jpg",
+      "sourceUrl": "https://medakanoyakata.muragon.com/entry/1489.html",
+      "source": "めだかの館 公式ブログ",
+      "note": "公式記事でMamoruとして紹介された個体例。兄弟魚の販売写真とは区別。",
+      "gallery": [
+        {
+          "imageUrl": "https://public.muragon.com/jisjomo8/5zm0zbn2/resize/640x427.jpg"
+        },
+        {
+          "imageUrl": "https://public.muragon.com/jisjomo8/lxxuzlb2/resize/640x427.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-13",
+      "verifiedBy": "exact-cultivar-article-caption"
     }
   },
   "verifiedAt": "2026-11-03",
