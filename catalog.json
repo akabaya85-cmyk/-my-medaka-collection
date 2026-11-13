@@ -19066,5 +19066,18 @@
     "sourceCheckedAt": "2026-11-03",
     "reading": "とりとん",
     "readingBasis": "よみがな検索用（自動推定・要確認）"
+  },
+  {
+    "name": "ティンク",
+    "reading": "てぃんく",
+    "aliases": "",
+    "kind": "品種・流通名（要照合）",
+    "traits": "情報照合中",
+    "description": "名称のみの仮登録です。作出者・系統・体色・ヒレなどの特徴は未確認です。同名・類似名の別品種との対応は確認できていません。",
+    "profile": "特徴・作出者は未確認。実物写真は品種カードから端末内に追加できます。",
+    "profileBasis": "購入時名称として寄せられた情報をもとに名称のみ登録。外部の品種資料との照合は未完了。",
+    "url": "https://github.com/akabaya85-cmyk/-my-medaka-collection/blob/main/TINK_REFERENCE.md",
+    "readingBasis": "表記「ティンク」に対応する検索用読み仮名",
+    "sourceCheckedAt": "2026-11-13"
   }
 ]
