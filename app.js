@@ -34,7 +34,7 @@ async function optimize(f){if(!f.type.startsWith('image/'))throw Error('画像�
 const GENERIC_DESC=['詳しい系統や特徴は出典記事をご確認ください。','特徴・作出系統の詳細は出典を確認して追記してください。'];
 const isGenericDescription=s=>{
   const v=String(s||'').trim();
-  return !v||GENERIC_DESC.includes(v)
+  return !v||GENERIC_DESC.includes(v)||v.startsWith('名称のみの仮登録です。')
     ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。')
     ||v.startsWith('専門図鑑で流通名と特徴が紹介される系統。')
     ||v.startsWith('専門図鑑に掲載される改良メダカの流通名。外見の細部')
@@ -55,7 +55,7 @@ function mergeCatalog(catalog){
     if(old){
       if(!old.webNo&&no)old.webNo=no;
       if(item.sourceArticleNo && !old.webNo && /^[0-9]{4}$/.test(String(item.sourceArticleNo)))old.sourceArticleNo=String(item.sourceArticleNo);
-      if(item.url&&(!old.url||old.url===SOURCE))old.url=item.url;
+      if(item.url&&(!old.url||old.url===SOURCE||old.url==='https://github.com/akabaya85-cmyk/-my-medaka-collection/blob/main/TINK_REFERENCE.md'))old.url=item.url;
       if(item.traits&&(!String(old.traits||'').trim()||['要確認','情報照合中'].includes(String(old.traits).trim())))old.traits=String(item.traits);
       if(item.aliases){
         const aliases=String(old.aliases||'').split(/[、,，]/).map(s=>s.trim()).filter(Boolean);

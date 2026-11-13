@@ -7443,8 +7443,17 @@
           "note": "同記事のラディウスAグレード。"
         }
       ]
+    },
+    "ティンク": {
+      "name": "ティンク",
+      "imageUrl": "https://pbs.twimg.com/media/GP04gOga0AAOflD?format=webp&name=large",
+      "sourceUrl": "https://x.com/kirin0419/status/1800657556647657859",
+      "source": "みずたまめだか（X公開投稿）",
+      "note": "本人が「ティンクのオス」と明記した個体例。由来説明のInstagram動画は別系統シルフのため代用していません。",
+      "verifiedAt": "2026-11-13",
+      "verifiedBy": "exact-name-caption-and-image-inspection"
     }
   },
   "verifiedAt": "2026-11-03",
-  "updatedAt": "2026-11-07"
+  "updatedAt": "2026-11-13"
 }
