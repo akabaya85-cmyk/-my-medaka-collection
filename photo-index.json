@@ -8233,8 +8233,480 @@
       "note": "同名商品の写真。おすすめ欄など他品種の写真は使っていない。",
       "verifiedAt": "2026-11-13",
       "verifiedBy": "exact-product-page-and-image"
+    },
+    "焔": {
+      "name": "焔",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0234s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1495",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0234s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0234s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "ブガッティ": {
+      "name": "ブガッティ",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0229s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1490",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0229s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0229s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "オーロラ黒幹之": {
+      "name": "オーロラ黒幹之",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0225s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1486",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0225s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0225s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "颯三色": {
+      "name": "颯三色",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0211s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1472",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0211s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0211s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "サファイア系カガミ鱗": {
+      "name": "サファイア系カガミ鱗",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium503g.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1464",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium503g_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium503g_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "カガミ鱗幹之": {
+      "name": "カガミ鱗幹之",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium502g.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1463",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium502g_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium502g_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "来光系カガミ鱗": {
+      "name": "来光系カガミ鱗",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium501g.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1462",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium501g_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium501g_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "琥珀ラメ幹之": {
+      "name": "琥珀ラメ幹之",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0209s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1460",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0209s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0209s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "琥珀ラメ幹之 天女の舞": {
+      "name": "琥珀ラメ幹之 天女の舞",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0208s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1459",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0208s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0208s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "レモンティアラ": {
+      "name": "レモンティアラ",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0207s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1458",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0207s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0207s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "D-BLUE": {
+      "name": "D-BLUE",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0205s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1456",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0205s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0205s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "黒豆": {
+      "name": "黒豆",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0200s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1451",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0200s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0200s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "マリンブルーピンク": {
+      "name": "マリンブルーピンク",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0197s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1448",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0197s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0197s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "豆紅": {
+      "name": "豆紅",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0195s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1446",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0195s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0195s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "緑光 半月": {
+      "name": "緑光 半月",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0170s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1240",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0170s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0170s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "アルビノ紅ほっぺ": {
+      "name": "アルビノ紅ほっぺ",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0192s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1443",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0192s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0192s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "北辻幹之": {
+      "name": "北辻幹之",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0167s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1237",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0167s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0167s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "MDSヒカリの舞": {
+      "name": "MDSヒカリの舞",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0188s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1439",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0188s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0188s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "ルアンモルフォ キッシングワイドフィン": {
+      "name": "ルアンモルフォ キッシングワイドフィン",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0187s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1438",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0187s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0187s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "獅子流し": {
+      "name": "獅子流し",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium482g.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1261",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium482g_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium482g_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "8ビート": {
+      "name": "8ビート",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium481g.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1260",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium481g_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium481g_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "マリリン": {
+      "name": "マリリン",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0183s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1425",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0183s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0183s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "スーパードラゴン": {
+      "name": "スーパードラゴン",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0177s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1247",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0177s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0177s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "夜桜紅白": {
+      "name": "夜桜紅白",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0176s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1246",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0176s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0176s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "琥珀バタフライ": {
+      "name": "琥珀バタフライ",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0168s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1238",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0168s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0168s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "紅帝ラメ光体型": {
+      "name": "紅帝ラメ光体型",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0165s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1235",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0165s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0165s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "ヒレ長パープル": {
+      "name": "ヒレ長パープル",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0162s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1232",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0162s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0162s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "銀化": {
+      "name": "銀化",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0160s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1230",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0160s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0160s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "紅怒黒": {
+      "name": "紅怒黒",
+      "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0152s.jpg",
+      "sourceUrl": "https://medakarium.jp/products/detail/1222",
+      "source": "MEDAKARIUM",
+      "note": "同じ商品名のページに紐付く個体写真。",
+      "gallery": [
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0152s_1.jpg"
+        },
+        {
+          "imageUrl": "https://medakarium.jp/html/upload/save_image/medakarium0152s_2.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "マテリア（ラメ・ヒカリ体型）": {
+      "name": "マテリア（ラメ・ヒカリ体型）",
+      "imageUrl": "https://cdn.jmty.jp/articles/images/6aa4c555b9108d3784e66dfc/slide_file.jpg",
+      "sourceUrl": "https://jmty.jp/kumamoto/sale-fur/article-1re60z",
+      "source": "菊水メダカ（販売投稿）",
+      "note": "マテリアとして掲載された親個体例。血統の確証ではない。翔愛めだか系の写真としては使用しない。",
+      "verifiedAt": "2026-11-14"
     }
   },
   "verifiedAt": "2026-11-03",
-  "updatedAt": "2026-11-13"
+  "updatedAt": "2026-11-14"
 }

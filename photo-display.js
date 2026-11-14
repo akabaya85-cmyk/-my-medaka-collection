@@ -21,13 +21,13 @@
   function isAllowedSupplementalImage(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['unatorofarm.com','ohimedaka.com','pbs.twimg.com','stat.ameba.jp','ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','shop.r10s.jp','public.muragon.com','www.hime-medaka.com','jma-medaka.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
+      return u.protocol==='https:' && ['cdn.jmty.jp','unatorofarm.com','ohimedaka.com','pbs.twimg.com','stat.ameba.jp','ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','shop.r10s.jp','public.muragon.com','www.hime-medaka.com','jma-medaka.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSupplementalSource(value) {
     try {
       const u=new URL(value);
-      return u.protocol==='https:' && ['unatorofarm.com','ohimedaka.com','x.com','ameblo.jp','ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','item.rakuten.co.jp','medakanoyakata.muragon.com','www.hime-medaka.com','jma-medaka.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
+      return u.protocol==='https:' && ['cdn.jmty.jp','unatorofarm.com','ohimedaka.com','x.com','ameblo.jp','ibuki472.com','oitamedakabiyori.com','hinsyu-zukan.satumano-medakayasan.com','www.medakalog.shop','inoue-medaka.com','nikkan-medaka.com','medakastory.com','kououmedaka.com','onlineshop22.thebase.in','www.arcus-pond.com','i0.wp.com','baseec-img-mng.akamaized.net','www.kamihata-online.com','item.rakuten.co.jp','medakanoyakata.muragon.com','www.hime-medaka.com','jma-medaka.com','jasma.sc','medakarium.jp','medakazukan.net'].includes(u.hostname);
     }catch{return false}
   }
   function isAllowedSource(value) {

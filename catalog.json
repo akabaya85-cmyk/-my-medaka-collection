@@ -20243,5 +20243,554 @@
     ],
     "sourceCheckedAt": "2026-11-13",
     "readingBasis": "よみがな検索用（自動推定・要確認）"
+  },
+  {
+    "name": "焔",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "三色・体外光",
+    "description": "販売元の品種解説によると、Azumaめだかが作出。あけぼのと小豆体外光を交配して累代した三色体外光の系統。",
+    "profile": "確認ポイント：三色・体外光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1495",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜焔",
+        "url": "https://medakarium.jp/products/detail/1495"
+      }
+    ]
+  },
+  {
+    "name": "ブガッティ",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "側面光",
+    "description": "販売元の品種解説によると、メダカファーム本陣が作出。五式typeRとボブの交配に由来し、側面光とヒレの色を見比べる。",
+    "profile": "確認ポイント：側面光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1490",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜ブガッティ",
+        "url": "https://medakarium.jp/products/detail/1490"
+      }
+    ]
+  },
+  {
+    "name": "オーロラ黒幹之",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "オーロラ・体外光",
+    "description": "販売元の品種解説によると、猫飯の古龍系統として紹介されている。体外光の色合いとヒレ光が見どころ。",
+    "profile": "確認ポイント：オーロラ・体外光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1486",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜オーロラ黒幹之",
+        "url": "https://medakarium.jp/products/detail/1486"
+      }
+    ]
+  },
+  {
+    "name": "颯三色",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "三色・ラメ",
+    "description": "販売元の品種解説によると、越前めだか作出の颯と和墨などに由来する系統。非透明鱗の墨と淡いラメを見比べる。",
+    "profile": "確認ポイント：三色・ラメ。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1472",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜颯三色",
+        "url": "https://medakarium.jp/products/detail/1472"
+      }
+    ]
+  },
+  {
+    "name": "サファイア系カガミ鱗",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "カガミ鱗",
+    "description": "販売元の品種解説によると、大川めだかが作出した、サファイア系にカガミ鱗の表現を持つ系統。",
+    "profile": "確認ポイント：カガミ鱗。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1464",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜サファイア系カガミ鱗",
+        "url": "https://medakarium.jp/products/detail/1464"
+      }
+    ]
+  },
+  {
+    "name": "カガミ鱗幹之",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "カガミ鱗・体外光",
+    "description": "販売元の品種解説によると、猫飯によるカガミ鱗系統。通常より大きく縦長に光る鱗が見どころ。掲載個体は黒幹之系。",
+    "profile": "確認ポイント：カガミ鱗・体外光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1463",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜カガミ鱗幹之",
+        "url": "https://medakarium.jp/products/detail/1463"
+      }
+    ]
+  },
+  {
+    "name": "来光系カガミ鱗",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "カガミ鱗",
+    "description": "販売元の品種解説によると、猫飯が来光にカガミ鱗の表現を組み込んだ系統として紹介されている。",
+    "profile": "確認ポイント：カガミ鱗。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1462",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜来光系カガミ鱗",
+        "url": "https://medakarium.jp/products/detail/1462"
+      }
+    ]
+  },
+  {
+    "name": "琥珀ラメ幹之",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "琥珀・ラメ",
+    "description": "販売元の品種解説によると、静楽庵由来の琥珀体色とラメを持つ系統。側面のラメやヒレの朱色も確認できる。",
+    "profile": "確認ポイント：琥珀・ラメ。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1460",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜琥珀ラメ幹之",
+        "url": "https://medakarium.jp/products/detail/1460"
+      }
+    ]
+  },
+  {
+    "name": "琥珀ラメ幹之 天女の舞",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "琥珀・ラメ・ヒレ長",
+    "description": "販売元の品種解説によると、静楽庵由来の琥珀ラメにヒレ長の表現を持つ系統。",
+    "profile": "確認ポイント：琥珀・ラメ・ヒレ長。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1459",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜琥珀ラメ幹之 天女の舞",
+        "url": "https://medakarium.jp/products/detail/1459"
+      }
+    ]
+  },
+  {
+    "name": "レモンティアラ",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "黄・ラメ",
+    "description": "販売元の品種解説によると、め組。が作出した、黄色い体とラメを持つ系統。ヒカリ体型の個体も生まれると紹介されている。",
+    "profile": "確認ポイント：黄・ラメ。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1458",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜レモンティアラ",
+        "url": "https://medakarium.jp/products/detail/1458"
+      }
+    ]
+  },
+  {
+    "name": "D-BLUE",
+    "reading": "",
+    "aliases": "ディーブルー、でぃーぶるー",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "青・黒",
+    "description": "販売元の品種解説によると、心めだかが黒百式とサバの極みの交配から追求している系統。青と黒の色合いを上見で確認する。",
+    "profile": "確認ポイント：青・黒。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1456",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜D-BLUE",
+        "url": "https://medakarium.jp/products/detail/1456"
+      }
+    ]
+  },
+  {
+    "name": "黒豆",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "黒",
+    "description": "販売元の品種解説によると、オロチと黒揚羽の交配に由来する黒系統。太い尾筒と安定した黒さが紹介されている。",
+    "profile": "確認ポイント：黒。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1451",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜黒豆",
+        "url": "https://medakarium.jp/products/detail/1451"
+      }
+    ]
+  },
+  {
+    "name": "マリンブルーピンク",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ピンク・体外光",
+    "description": "販売元の品種解説によると、淡いピンクの体色に体外光を持つ系統。ヒレ光も見どころ。",
+    "profile": "確認ポイント：ピンク・体外光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1448",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜マリンブルーピンク",
+        "url": "https://medakarium.jp/products/detail/1448"
+      }
+    ]
+  },
+  {
+    "name": "豆紅",
+    "reading": "",
+    "aliases": "ビーンズレッド",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "紅白・体外光",
+    "description": "販売元の品種解説によると、めだかのビーンズが作出した紅白系体外光。ビーンズレッドとも呼ばれる。",
+    "profile": "確認ポイント：紅白・体外光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1446",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜豆紅",
+        "url": "https://medakarium.jp/products/detail/1446"
+      }
+    ]
+  },
+  {
+    "name": "緑光 半月",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ヒカリ体型・松井ヒレ長",
+    "description": "販売元の品種解説によると、緑光のヒカリ体型・松井ヒレ長タイプ。体の光とヒレの広がりを上見・横見で確認する。",
+    "profile": "確認ポイント：ヒカリ体型・松井ヒレ長。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1240",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜緑光 半月",
+        "url": "https://medakarium.jp/products/detail/1240"
+      }
+    ]
+  },
+  {
+    "name": "アルビノ紅ほっぺ",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "アルビノ・紅ほっぺ",
+    "description": "販売元の品種解説によると、紅ほっぺのアルビノ系統。赤い目と頬を横から確認できる。",
+    "profile": "確認ポイント：アルビノ・紅ほっぺ。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1443",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜アルビノ紅ほっぺ",
+        "url": "https://medakarium.jp/products/detail/1443"
+      }
+    ]
+  },
+  {
+    "name": "北辻幹之",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ヒレロング",
+    "description": "販売元の品種解説によると、北辻ヒレロングの交配系統。背ビレと尻ビレの軟条数やヒレの広がりが紹介されている。",
+    "profile": "確認ポイント：ヒレロング。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1237",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜北辻幹之",
+        "url": "https://medakarium.jp/products/detail/1237"
+      }
+    ]
+  },
+  {
+    "name": "MDSヒカリの舞",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ヒカリ体型・ロングフィン",
+    "description": "販売元の品種解説によると、めだか道楽がMDSに天晴や青蝶を交配した系統。ヒカリ体型とヒレの伸びを持つ。",
+    "profile": "確認ポイント：ヒカリ体型・ロングフィン。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1439",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜MDSヒカリの舞",
+        "url": "https://medakarium.jp/products/detail/1439"
+      }
+    ]
+  },
+  {
+    "name": "ルアンモルフォ キッシングワイドフィン",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ワイドフィン・ロングフィン",
+    "description": "販売元の品種解説によると、Azumaめだか作出。ルアンモルフォにキッシングワイドフィンの体型を持たせた系統。",
+    "profile": "確認ポイント：ワイドフィン・ロングフィン。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1438",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜ルアンモルフォ キッシングワイドフィン",
+        "url": "https://medakarium.jp/products/detail/1438"
+      }
+    ]
+  },
+  {
+    "name": "獅子流し",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "三色・ラメ・松井ヒレ長",
+    "description": "販売元の品種解説によると、チャチャめだか作出の系統。掲載されているのは松井ヒレ長タイプの三色ラメ。",
+    "profile": "確認ポイント：三色・ラメ・松井ヒレ長。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1261",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜獅子流し",
+        "url": "https://medakarium.jp/products/detail/1261"
+      }
+    ]
+  },
+  {
+    "name": "8ビート",
+    "reading": "",
+    "aliases": "エイトビート、えいとびーと",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "丹頂・青ラメ",
+    "description": "販売元の品種解説によると、めだか番長のオリジナル系統。黄色い頭部と青系のラメが特徴として紹介されている。",
+    "profile": "確認ポイント：丹頂・青ラメ。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1260",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜8ビート",
+        "url": "https://medakarium.jp/products/detail/1260"
+      }
+    ]
+  },
+  {
+    "name": "マリリン",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ヒレ光",
+    "description": "販売元の品種解説によると、夢中めだかの血統として紹介され、エメラルドフィン・鱗光・マリアージュに由来する。掲載群は頭部に色味がないタイプ。",
+    "profile": "確認ポイント：ヒレ光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1425",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜マリリン",
+        "url": "https://medakarium.jp/products/detail/1425"
+      }
+    ]
+  },
+  {
+    "name": "スーパードラゴン",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ヒカリ体型・体外光",
+    "description": "販売元の品種解説によると、家メダカが作出したヒカリ体型の系統。背面の表現、体外光、ヒレ光を比較する。",
+    "profile": "確認ポイント：ヒカリ体型・体外光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1247",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜スーパードラゴン",
+        "url": "https://medakarium.jp/products/detail/1247"
+      }
+    ]
+  },
+  {
+    "name": "夜桜紅白",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "紅白・ラメ",
+    "description": "販売元の品種解説によると、夜桜系統の紅白柄タイプ。紅白の配置とラメを上見で確認する。",
+    "profile": "確認ポイント：紅白・ラメ。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1246",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜夜桜紅白",
+        "url": "https://medakarium.jp/products/detail/1246"
+      }
+    ]
+  },
+  {
+    "name": "琥珀バタフライ",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ヒカリ体型・ヒレ長・スワロー",
+    "description": "販売元の品種解説によると、松井ヒレ長と風雅を交配したバタフライの琥珀タイプとして紹介されている。",
+    "profile": "確認ポイント：ヒカリ体型・ヒレ長・スワロー。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1238",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜琥珀バタフライ",
+        "url": "https://medakarium.jp/products/detail/1238"
+      }
+    ]
+  },
+  {
+    "name": "紅帝ラメ光体型",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "朱赤・ラメ・ヒカリ体型",
+    "description": "販売元の品種解説によると、紅帝にラメの表現を加えたヒカリ体型。側面のラメも見どころ。",
+    "profile": "確認ポイント：朱赤・ラメ・ヒカリ体型。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1235",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜紅帝ラメ光体型",
+        "url": "https://medakarium.jp/products/detail/1235"
+      }
+    ]
+  },
+  {
+    "name": "ヒレ長パープル",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ヒレ長・体内光",
+    "description": "販売元の品種解説によると、薄紫色に見える体内光と頭部の体外光、伸びるヒレを持つ系統。光や容器で見え方が変わる。",
+    "profile": "確認ポイント：ヒレ長・体内光。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1232",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜ヒレ長パープル",
+        "url": "https://medakarium.jp/products/detail/1232"
+      }
+    ]
+  },
+  {
+    "name": "銀化",
+    "reading": "",
+    "aliases": "ギンゲ、ぎんげ",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "青ラメ",
+    "description": "販売元の品種解説によると、行田淡水魚がオーロラブラックラメから生まれた青ラメ個体を選抜・固定した系統。読みはギンゲ。",
+    "profile": "確認ポイント：青ラメ。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1230",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜銀化",
+        "url": "https://medakarium.jp/products/detail/1230"
+      }
+    ]
+  },
+  {
+    "name": "紅怒黒",
+    "reading": "",
+    "aliases": "",
+    "kind": "販売掲載名（系統・流通名を含む）",
+    "traits": "ブラックリム・ヒカリ体型",
+    "description": "販売元の品種解説によると、小山メダカセンター作出。ブラックリムの柄とヒカリ体型を持つ系統。",
+    "profile": "確認ポイント：ブラックリム・ヒカリ体型。掲載個体の写真で表現を比較できる。個体差があり、同じ系統のすべての個体で同一の表現を保証するものではない。",
+    "profileBasis": "MEDAKARIUMの個別商品説明を確認し、独自に要約。",
+    "url": "https://medakarium.jp/products/detail/1222",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "MEDAKARIUM｜紅怒黒",
+        "url": "https://medakarium.jp/products/detail/1222"
+      }
+    ]
+  },
+  {
+    "name": "マテリア（ラメ・ヒカリ体型）",
+    "reading": "まてりあ",
+    "aliases": "マテリア、Materia",
+    "kind": "流通名（同名系統に注意）",
+    "traits": "ラメ・ヒカリ体型",
+    "description": "メダカタログでは、ミスリルと紡に由来し、強いラメと頭部周辺の金色の光を持つヒカリ体型として紹介されている。同じ「マテリア」の名前で翔愛めだかの目に特徴を持つ別系統も紹介されているため、名称だけで同一視しない。",
+    "profile": "このカードはラメ・ヒカリ体型として紹介されるマテリアを整理したもの。写真は菊水メダカがマテリアとして掲載した親個体例で、作出者直系・血統の確証ではない。",
+    "profileBasis": "解説図鑑と販売者の同名写真を照合。舞めだか福岡店の同名系統解説との違いを記録。",
+    "url": "https://medakatalog.com/materia/",
+    "sourceCheckedAt": "2026-11-14",
+    "referenceLinks": [
+      {
+        "label": "メダカタログ｜ラメ・ヒカリ体型のマテリア",
+        "url": "https://medakatalog.com/materia/"
+      },
+      {
+        "label": "菊水メダカ｜マテリアの掲載親魚",
+        "url": "https://jmty.jp/kumamoto/sale-fur/article-1re60z"
+      },
+      {
+        "label": "舞めだか福岡店｜翔愛めだか系の同名マテリア",
+        "url": "https://ameblo.jp/maimedaka-fukuoka/entry-12885193128.html",
+        "note": "目に特徴のある別系統。写真や特徴を混ぜない。"
+      }
+    ]
   }
 ]
