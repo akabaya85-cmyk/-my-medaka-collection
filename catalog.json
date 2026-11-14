@@ -20821,5 +20821,50 @@
         "note": "目に特徴のある別系統。写真や特徴を混ぜない。"
       }
     ]
+  },
+  {
+    "name": "蛇墨武-澪",
+    "reading": "じゃすみんみお",
+    "aliases": "蛇墨武 澪、蛇墨武澪、蛇墨武・澪、ジャスミンミオ、ジャスミン・ミオ、澪",
+    "kind": "流通名",
+    "traits": "白・墨模様・ロングフィン・ヒレ光",
+    "description": "蛇墨武のうち、白い地に墨模様を持つ澪（みお）タイプ。伸びるヒレとヒレの光が見どころ。黄色い地のリモーネとは区別して見比べる。模様やヒレの伸びには個体差がある。",
+    "profile": "月陽めだかが蛇墨武-澪として掲載した個体例を写真参照先に登録。作出時の交配や固定率は、確認できた資料だけでは確定できない。",
+    "url": "https://tukihi.base.shop/items/163213591",
+    "referenceLinks": [
+      {
+        "label": "月陽めだか｜蛇墨武-澪の現物写真",
+        "url": "https://tukihi.base.shop/items/163213591"
+      },
+      {
+        "label": "メダカタログ｜澪とリモーネの違い",
+        "url": "https://medakatalog.com/jasmine/"
+      }
+    ],
+    "sourceCheckedAt": "2026-11-14",
+    "profileBasis": "同名の個別販売ページと掲載写真を確認。出典で確認できる特徴だけを記載。"
+  },
+  {
+    "name": "オラフ",
+    "reading": "おらふ",
+    "aliases": "Olaf、OLAF",
+    "kind": "流通名",
+    "traits": "ヒレ光",
+    "description": "オラフとして流通するメダカ。確認した販売投稿では、ヒレが青く光る個体として紹介されている。写真でヒレの光り方や伸び方を見比べる。 ENNMAブリーダーの紹介投稿では、AIZENめだか作出と記載されている。",
+    "profile": "同名の販売個体の写真を掲載。作出者については紹介投稿の記載を出典付きで整理。詳しい交配経緯や固定率は未確認。",
+    "url": "https://jmty.jp/saitama/sale-oth/article-1rbdou",
+    "referenceLinks": [
+      {
+        "label": "オラフ｜同名の現物販売写真",
+        "url": "https://jmty.jp/saitama/sale-oth/article-1rbdou"
+      },
+      {
+        "label": "オラフの紹介投稿",
+        "url": "https://www.instagram.com/reel/DarpWzGg6UJ/"
+      }
+    ],
+    "sourceCheckedAt": "2026-11-14",
+    "profileBasis": "同名の個別販売ページと掲載写真を確認。出典で確認できる特徴だけを記載。",
+    "sourceBreeder": "AIZENめだか（ENNMAブリーダーの紹介投稿による）"
   }
 ]

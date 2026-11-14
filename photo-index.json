@@ -8705,6 +8705,32 @@
       "source": "菊水メダカ（販売投稿）",
       "note": "マテリアとして掲載された親個体例。血統の確証ではない。翔愛めだか系の写真としては使用しない。",
       "verifiedAt": "2026-11-14"
+    },
+    "蛇墨武-澪": {
+      "name": "蛇墨武-澪",
+      "imageUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/005bfffe69090c95ce88a3981d7302e2.jpg?im=Resize,width=640,type=normal&imformat=generic&q=80",
+      "sourceUrl": "https://tukihi.base.shop/items/163213591",
+      "source": "月陽めだか",
+      "note": "同名で掲載された個体例。購入個体の血統まで確定する写真ではない。",
+      "gallery": [
+        {
+          "imageUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/c0034ba9027b5c63df9acae7ef7c837c.jpg?im=Resize,width=640,type=normal&imformat=generic&q=80"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
+    },
+    "オラフ": {
+      "name": "オラフ",
+      "imageUrl": "https://cdn.jmty.jp/articles/images/6a891822b1165f3d2d865d8f/slide_file.jpg",
+      "sourceUrl": "https://jmty.jp/saitama/sale-oth/article-1rbdou",
+      "source": "オラフの販売投稿",
+      "note": "同名で掲載された個体例。購入個体の血統まで確定する写真ではない。",
+      "gallery": [
+        {
+          "imageUrl": "https://cdn.jmty.jp/articles/images/6a8918224fc4c79b36dc9ed4/slide_file.jpg"
+        }
+      ],
+      "verifiedAt": "2026-11-14"
     }
   },
   "verifiedAt": "2026-11-03",
