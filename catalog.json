@@ -20246,7 +20246,7 @@
   },
   {
     "name": "焔",
-    "reading": "",
+    "reading": "ほのお",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "三色・体外光",
@@ -20260,11 +20260,12 @@
         "label": "MEDAKARIUM｜焔",
         "url": "https://medakarium.jp/products/detail/1495"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "ブガッティ",
-    "reading": "",
+    "reading": "ぶがってぃ",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "側面光",
@@ -20278,11 +20279,12 @@
         "label": "MEDAKARIUM｜ブガッティ",
         "url": "https://medakarium.jp/products/detail/1490"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "オーロラ黒幹之",
-    "reading": "",
+    "reading": "おーろらくろみゆき",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "オーロラ・体外光",
@@ -20296,11 +20298,12 @@
         "label": "MEDAKARIUM｜オーロラ黒幹之",
         "url": "https://medakarium.jp/products/detail/1486"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "颯三色",
-    "reading": "",
+    "reading": "さつさんしょく",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "三色・ラメ",
@@ -20314,11 +20317,12 @@
         "label": "MEDAKARIUM｜颯三色",
         "url": "https://medakarium.jp/products/detail/1472"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "サファイア系カガミ鱗",
-    "reading": "",
+    "reading": "さふぁいあけいかがみうろこ",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "カガミ鱗",
@@ -20332,11 +20336,12 @@
         "label": "MEDAKARIUM｜サファイア系カガミ鱗",
         "url": "https://medakarium.jp/products/detail/1464"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "カガミ鱗幹之",
-    "reading": "",
+    "reading": "かがみうろこみゆき",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "カガミ鱗・体外光",
@@ -20350,11 +20355,12 @@
         "label": "MEDAKARIUM｜カガミ鱗幹之",
         "url": "https://medakarium.jp/products/detail/1463"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "来光系カガミ鱗",
-    "reading": "",
+    "reading": "らいこうけいかがみうろこ",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "カガミ鱗",
@@ -20368,11 +20374,12 @@
         "label": "MEDAKARIUM｜来光系カガミ鱗",
         "url": "https://medakarium.jp/products/detail/1462"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "琥珀ラメ幹之",
-    "reading": "",
+    "reading": "こはくらめみゆき",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "琥珀・ラメ",
@@ -20386,11 +20393,12 @@
         "label": "MEDAKARIUM｜琥珀ラメ幹之",
         "url": "https://medakarium.jp/products/detail/1460"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "琥珀ラメ幹之 天女の舞",
-    "reading": "",
+    "reading": "こはくらめみゆきてんにょのまい",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "琥珀・ラメ・ヒレ長",
@@ -20404,11 +20412,12 @@
         "label": "MEDAKARIUM｜琥珀ラメ幹之 天女の舞",
         "url": "https://medakarium.jp/products/detail/1459"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "レモンティアラ",
-    "reading": "",
+    "reading": "れもんてぃあら",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "黄・ラメ",
@@ -20422,11 +20431,12 @@
         "label": "MEDAKARIUM｜レモンティアラ",
         "url": "https://medakarium.jp/products/detail/1458"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "D-BLUE",
-    "reading": "",
+    "reading": "dblue",
     "aliases": "ディーブルー、でぃーぶるー",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "青・黒",
@@ -20440,11 +20450,12 @@
         "label": "MEDAKARIUM｜D-BLUE",
         "url": "https://medakarium.jp/products/detail/1456"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "黒豆",
-    "reading": "",
+    "reading": "くろまめ",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "黒",
@@ -20458,11 +20469,12 @@
         "label": "MEDAKARIUM｜黒豆",
         "url": "https://medakarium.jp/products/detail/1451"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "マリンブルーピンク",
-    "reading": "",
+    "reading": "まりんぶるーぴんく",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ピンク・体外光",
@@ -20476,11 +20488,12 @@
         "label": "MEDAKARIUM｜マリンブルーピンク",
         "url": "https://medakarium.jp/products/detail/1448"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "豆紅",
-    "reading": "",
+    "reading": "まめくれない",
     "aliases": "ビーンズレッド",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "紅白・体外光",
@@ -20494,11 +20507,12 @@
         "label": "MEDAKARIUM｜豆紅",
         "url": "https://medakarium.jp/products/detail/1446"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "緑光 半月",
-    "reading": "",
+    "reading": "りょっこうはんつき",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ヒカリ体型・松井ヒレ長",
@@ -20512,11 +20526,12 @@
         "label": "MEDAKARIUM｜緑光 半月",
         "url": "https://medakarium.jp/products/detail/1240"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "アルビノ紅ほっぺ",
-    "reading": "",
+    "reading": "あるびのべにほっぺ",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "アルビノ・紅ほっぺ",
@@ -20530,11 +20545,12 @@
         "label": "MEDAKARIUM｜アルビノ紅ほっぺ",
         "url": "https://medakarium.jp/products/detail/1443"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "北辻幹之",
-    "reading": "",
+    "reading": "きたつじみゆき",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ヒレロング",
@@ -20548,11 +20564,12 @@
         "label": "MEDAKARIUM｜北辻幹之",
         "url": "https://medakarium.jp/products/detail/1237"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "MDSヒカリの舞",
-    "reading": "",
+    "reading": "mdsひかりのまい",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ヒカリ体型・ロングフィン",
@@ -20566,11 +20583,12 @@
         "label": "MEDAKARIUM｜MDSヒカリの舞",
         "url": "https://medakarium.jp/products/detail/1439"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "ルアンモルフォ キッシングワイドフィン",
-    "reading": "",
+    "reading": "るあんもるふぉきっしんぐわいどふぃん",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ワイドフィン・ロングフィン",
@@ -20584,11 +20602,12 @@
         "label": "MEDAKARIUM｜ルアンモルフォ キッシングワイドフィン",
         "url": "https://medakarium.jp/products/detail/1438"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "獅子流し",
-    "reading": "",
+    "reading": "ししながし",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "三色・ラメ・松井ヒレ長",
@@ -20602,11 +20621,12 @@
         "label": "MEDAKARIUM｜獅子流し",
         "url": "https://medakarium.jp/products/detail/1261"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "8ビート",
-    "reading": "",
+    "reading": "8びーと",
     "aliases": "エイトビート、えいとびーと",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "丹頂・青ラメ",
@@ -20620,11 +20640,12 @@
         "label": "MEDAKARIUM｜8ビート",
         "url": "https://medakarium.jp/products/detail/1260"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "マリリン",
-    "reading": "",
+    "reading": "まりりん",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ヒレ光",
@@ -20638,11 +20659,12 @@
         "label": "MEDAKARIUM｜マリリン",
         "url": "https://medakarium.jp/products/detail/1425"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "スーパードラゴン",
-    "reading": "",
+    "reading": "すーぱーどらごん",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ヒカリ体型・体外光",
@@ -20656,11 +20678,12 @@
         "label": "MEDAKARIUM｜スーパードラゴン",
         "url": "https://medakarium.jp/products/detail/1247"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "夜桜紅白",
-    "reading": "",
+    "reading": "よざくらこうはく",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "紅白・ラメ",
@@ -20674,11 +20697,12 @@
         "label": "MEDAKARIUM｜夜桜紅白",
         "url": "https://medakarium.jp/products/detail/1246"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "琥珀バタフライ",
-    "reading": "",
+    "reading": "こはくばたふらい",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ヒカリ体型・ヒレ長・スワロー",
@@ -20692,11 +20716,12 @@
         "label": "MEDAKARIUM｜琥珀バタフライ",
         "url": "https://medakarium.jp/products/detail/1238"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "紅帝ラメ光体型",
-    "reading": "",
+    "reading": "こうていらめこうたいかた",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "朱赤・ラメ・ヒカリ体型",
@@ -20710,11 +20735,12 @@
         "label": "MEDAKARIUM｜紅帝ラメ光体型",
         "url": "https://medakarium.jp/products/detail/1235"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "ヒレ長パープル",
-    "reading": "",
+    "reading": "ひれながぱーぷる",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ヒレ長・体内光",
@@ -20728,11 +20754,12 @@
         "label": "MEDAKARIUM｜ヒレ長パープル",
         "url": "https://medakarium.jp/products/detail/1232"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "銀化",
-    "reading": "",
+    "reading": "ぎんか",
     "aliases": "ギンゲ、ぎんげ",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "青ラメ",
@@ -20746,11 +20773,12 @@
         "label": "MEDAKARIUM｜銀化",
         "url": "https://medakarium.jp/products/detail/1230"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "紅怒黒",
-    "reading": "",
+    "reading": "くれないおくろ",
     "aliases": "",
     "kind": "販売掲載名（系統・流通名を含む）",
     "traits": "ブラックリム・ヒカリ体型",
@@ -20764,7 +20792,8 @@
         "label": "MEDAKARIUM｜紅怒黒",
         "url": "https://medakarium.jp/products/detail/1222"
       }
-    ]
+    ],
+    "readingBasis": "よみがな検索用（自動推定・要確認）"
   },
   {
     "name": "マテリア（ラメ・ヒカリ体型）",
